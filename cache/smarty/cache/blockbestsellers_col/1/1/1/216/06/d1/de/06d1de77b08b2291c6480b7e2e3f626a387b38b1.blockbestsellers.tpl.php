@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:15832577bf38823ebd8-86156415%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:29519577cf5f3ba5db0-96470295%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,13 +9,20 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '15832577bf38823ebd8-86156415',
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_577bf5197c8896_02924027',
+  'nocache_hash' => '29519577cf5f3ba5db0-96470295',
+  'variables' => 
+  array (
+    'link' => 0,
+    'best_sellers' => 0,
+    'product' => 0,
+    'PS_CATALOG_MODE' => 0,
+  ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_577cf5f3c6d169_92357417',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_577bf5197c8896_02924027')) {function content_577bf5197c8896_02924027($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_577cf5f3c6d169_92357417')) {function content_577cf5f3c6d169_92357417($_smarty_tpl) {?>
 <!-- MODULE Block best sellers -->
 <div id="best-sellers_block_right" class="block products_block">
 	<h4 class="title_block">
@@ -35,7 +42,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     </h5>
                     <p class="product-description">Short sleeved blouse with feminine draped sleeve detail.</p>
                                             <div class="price-box">
-                            <span class="price">32,40 ₴</span>
+                            <span class="price">804,62 ₴</span>
                             
                         </div>
                                     </div>
@@ -52,7 +59,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     </h5>
                     <p class="product-description">100% cotton double printed dress. Black and white striped top and orange...</p>
                                             <div class="price-box">
-                            <span class="price">31,20 ₴</span>
+                            <span class="price">774,82 ₴</span>
                             
                         </div>
                                     </div>
@@ -69,7 +76,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     </h5>
                     <p class="product-description">Faded short sleeve t-shirt with high neckline. Soft and stretchy...</p>
                                             <div class="price-box">
-                            <span class="price">19,81 ₴</span>
+                            <span class="price">492,01 ₴</span>
                             
                         </div>
                                     </div>
@@ -86,7 +93,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     </h5>
                     <p class="product-description">Printed chiffon knee length dress with tank straps. Deep v-neckline.</p>
                                             <div class="price-box">
-                            <span class="price">19,68 ₴</span>
+                            <span class="price">488,76 ₴</span>
                             
                         </div>
                                     </div>
@@ -103,7 +110,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     </h5>
                     <p class="product-description">Sleeveless knee-length chiffon dress. V-neckline with elastic under the...</p>
                                             <div class="price-box">
-                            <span class="price">36,60 ₴</span>
+                            <span class="price">909,00 ₴</span>
                             
                         </div>
                                     </div>
@@ -120,7 +127,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     </h5>
                     <p class="product-description">Long printed dress with thin adjustable straps. V-neckline and wiring...</p>
                                             <div class="price-box">
-                            <span class="price">34,78 ₴</span>
+                            <span class="price">863,66 ₴</span>
                             
                         </div>
                                     </div>

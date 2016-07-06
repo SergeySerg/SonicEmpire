@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:6940577bf388b6a879-47394232%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:13068577cf5f4d19325-22538832%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,13 +9,21 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '6940577bf388b6a879-47394232',
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_577bf519aca1d0_55281591',
+  'nocache_hash' => '13068577cf5f4d19325-22538832',
+  'variables' => 
+  array (
+    'link' => 0,
+    'returnAllowed' => 0,
+    'voucherAllowed' => 0,
+    'HOOK_BLOCK_MY_ACCOUNT' => 0,
+    'is_logged' => 0,
+  ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_577cf5f4de4554_31043163',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_577bf519aca1d0_55281591')) {function content_577bf519aca1d0_55281591($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_577cf5f4de4554_31043163')) {function content_577cf5f4de4554_31043163($_smarty_tpl) {?>
 <!-- Block myaccount module -->
 <section class="footer-block col-xs-12 col-sm-4">
 	<h4><a href="http://sonicempire.loc/my-account" title="Управление моей учетной записью" rel="nofollow">Моя учетная запись</a></h4>

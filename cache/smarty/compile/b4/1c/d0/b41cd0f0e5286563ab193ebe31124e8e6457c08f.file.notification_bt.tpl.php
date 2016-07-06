@@ -1,22 +1,20 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-07-05 21:32:32
+<?php /* Smarty version Smarty-3.1.19, created on 2016-07-06 15:45:51
          compiled from "D:\Webserver\domains\sonicempire.loc\modules\gamification\views\templates\hook\notification_bt.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:27542577be61835cdc8-76058935%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:24099577cfd7fadcb06-65107276%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'b41cd0f0e5286563ab193ebe31124e8e6457c08f' => 
     array (
       0 => 'D:\\Webserver\\domains\\sonicempire.loc\\modules\\gamification\\views\\templates\\hook\\notification_bt.tpl',
-      1 => 1467743547,
+      1 => 1467746317,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '27542577be61835cdc8-76058935',
+  'nocache_hash' => '24099577cfd7fadcb06-65107276',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_577be6184df9a2_63690158',
   'variables' => 
   array (
     'current_id_tab' => 0,
@@ -32,8 +30,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'next_badges' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_577cfd7fc2ca51_93282878',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_577be6184df9a2_63690158')) {function content_577be6184df9a2_63690158($_smarty_tpl) {?><script>
+<?php if ($_valid && !is_callable('content_577cfd7fc2ca51_93282878')) {function content_577cfd7fc2ca51_93282878($_smarty_tpl) {?><script>
 	var current_id_tab = <?php echo intval($_smarty_tpl->tpl_vars['current_id_tab']->value);?>
 ;
 	var current_level_percent = <?php echo intval($_smarty_tpl->tpl_vars['current_level_percent']->value);?>
@@ -70,7 +70,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 </script>
 <li id="gamification_notif" style="background:none" class="dropdown">
-	<!--<a href="javascript:void(0);" class="dropdown-toggle gamification_notif" data-toggle="dropdown">
+	<!--Удаление кубка в админке
+	<a href="javascript:void(0);" class="dropdown-toggle gamification_notif" data-toggle="dropdown">
 		<i class="icon-trophy"></i>
 		<span id="gamification_notif_number_wrapper" class="notifs_badge">
 			<span id="gamification_notif_value"><?php echo intval($_smarty_tpl->tpl_vars['notification']->value);?>

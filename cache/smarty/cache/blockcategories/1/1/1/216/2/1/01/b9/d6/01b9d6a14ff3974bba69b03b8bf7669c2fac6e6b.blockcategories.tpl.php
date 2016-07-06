@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:21809577bf388321500-40502837%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:23260577cf5f3caf7f0-27545449%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -15,13 +15,20 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '21809577bf388321500-40502837',
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_577bf51981a932_34626243',
+  'nocache_hash' => '23260577cf5f3caf7f0-27545449',
+  'variables' => 
+  array (
+    'blockCategTree' => 0,
+    'currentCategory' => 0,
+    'isDhtml' => 0,
+    'child' => 0,
+  ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_577cf5f3d6eea6_34149495',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_577bf51981a932_34626243')) {function content_577bf51981a932_34626243($_smarty_tpl) {?><!-- Block categories module -->
+<?php if ($_valid && !is_callable('content_577cf5f3d6eea6_34149495')) {function content_577cf5f3d6eea6_34149495($_smarty_tpl) {?><!-- Block categories module -->
 <div id="categories_block_left" class="block">
 	<h2 class="title_block">
 					Категории
