@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-07-06 15:44:39
+<?php /* Smarty version Smarty-3.1.19, created on 2016-07-09 23:26:05
          compiled from "D:\Webserver\domains\sonicempire.loc\themes\sonicempire\cms.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:25916577cfd37c2c2f4-11503561%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2735257815ddde4ce62-86774145%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'cfdfea9f09dff171c3fb78b55b5db0af79cdc319' => 
     array (
       0 => 'D:\\Webserver\\domains\\sonicempire.loc\\themes\\sonicempire\\cms.tpl',
-      1 => 1467802522,
+      1 => 1467969394,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '25916577cfd37c2c2f4-11503561',
+  'nocache_hash' => '2735257815ddde4ce62-86774145',
   'function' => 
   array (
   ),
@@ -29,9 +29,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_577cfd37d2e032_02675444',
+  'unifunc' => 'content_57815dddf33615_63745921',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_577cfd37d2e032_02675444')) {function content_577cfd37d2e032_02675444($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_57815dddf33615_63745921')) {function content_57815dddf33615_63745921($_smarty_tpl) {?>
 <?php if (isset($_smarty_tpl->tpl_vars['cms']->value)&&!isset($_smarty_tpl->tpl_vars['cms_category']->value)) {?>
 	<?php if (!$_smarty_tpl->tpl_vars['cms']->value->active) {?>
 		<br />
@@ -51,6 +51,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</div>
 	<?php }?>
 	<div class="rte<?php if ($_smarty_tpl->tpl_vars['content_only']->value) {?> content_only<?php }?>">
+     <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->smartyHook(array('h'=>"displaySlidersPro",'slider'=>"sample"),$_smarty_tpl);?>
+
 		<?php echo $_smarty_tpl->tpl_vars['cms']->value->content;?>
 
 	</div>

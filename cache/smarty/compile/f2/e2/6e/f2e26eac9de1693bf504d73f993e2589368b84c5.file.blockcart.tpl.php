@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-07-06 15:45:53
+<?php /* Smarty version Smarty-3.1.19, created on 2016-07-09 23:36:28
          compiled from "D:\Webserver\domains\sonicempire.loc\themes\sonicempire\modules\blockcart\blockcart.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:14719577cfd81c58107-34122447%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:274945781604c44cba8-47367753%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'f2e26eac9de1693bf504d73f993e2589368b84c5' => 
     array (
       0 => 'D:\\Webserver\\domains\\sonicempire.loc\\themes\\sonicempire\\modules\\blockcart\\blockcart.tpl',
-      1 => 1467738648,
+      1 => 1468014535,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '14719577cfd81c58107-34122447',
+  'nocache_hash' => '274945781604c44cba8-47367753',
   'function' => 
   array (
   ),
@@ -19,16 +19,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   array (
     'blockcart_top' => 0,
     'PS_CATALOG_MODE' => 0,
+    'cart_qties' => 0,
     'order_process' => 0,
     'link' => 0,
-    'cart_qties' => 0,
-    'priceDisplay' => 0,
-    'blockcart_cart_flag' => 0,
-    'cart' => 0,
-    'ajax_allowed' => 0,
     'colapseExpandStatus' => 0,
+    'ajax_allowed' => 0,
     'products' => 0,
     'product' => 0,
+    'priceDisplay' => 0,
     'productId' => 0,
     'productAttributeId' => 0,
     'customizedDatas' => 0,
@@ -39,6 +37,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'discounts' => 0,
     'discount' => 0,
     'errors' => 0,
+    'cart' => 0,
     'page_name' => 0,
     'shipping_cost_float' => 0,
     'free_ship' => 0,
@@ -55,49 +54,25 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_577cfd822ab958_96090625',
+  'unifunc' => 'content_5781604ce301f0_65825907',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_577cfd822ab958_96090625')) {function content_577cfd822ab958_96090625($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'D:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\modifier.replace.php';
+<?php if ($_valid && !is_callable('content_5781604ce301f0_65825907')) {function content_5781604ce301f0_65825907($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'D:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\modifier.replace.php';
 if (!is_callable('smarty_function_counter')) include 'D:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\function.counter.php';
 ?>
-<!-- MODULE Block cart -->
 <?php if (isset($_smarty_tpl->tpl_vars['blockcart_top']->value)&&$_smarty_tpl->tpl_vars['blockcart_top']->value) {?>
-<div class="col-sm-4 clearfix<?php if ($_smarty_tpl->tpl_vars['PS_CATALOG_MODE']->value) {?> header_user_catalog<?php }?>">
+<div class="shopping_cart-my  col-xs-6 col-md-1<?php if ($_smarty_tpl->tpl_vars['PS_CATALOG_MODE']->value) {?> header_user_catalog<?php }?>">
 <?php }?>
-	<div class="shopping_cart">
+        <span class="ajax_cart_quantity<?php if ($_smarty_tpl->tpl_vars['cart_qties']->value==0) {?> unvisible<?php }?>"><?php echo $_smarty_tpl->tpl_vars['cart_qties']->value;?>
+</span>
 		<a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink($_smarty_tpl->tpl_vars['order_process']->value,true), ENT_QUOTES, 'UTF-8', true);?>
 " title="<?php echo smartyTranslate(array('s'=>'View my shopping cart','mod'=>'blockcart'),$_smarty_tpl);?>
-" rel="nofollow">
-			<b><?php echo smartyTranslate(array('s'=>'Cart','mod'=>'blockcart'),$_smarty_tpl);?>
-</b>
-			<span class="ajax_cart_quantity<?php if ($_smarty_tpl->tpl_vars['cart_qties']->value==0) {?> unvisible<?php }?>"><?php echo $_smarty_tpl->tpl_vars['cart_qties']->value;?>
-</span>
-			<span class="ajax_cart_product_txt<?php if ($_smarty_tpl->tpl_vars['cart_qties']->value!=1) {?> unvisible<?php }?>"><?php echo smartyTranslate(array('s'=>'Product','mod'=>'blockcart'),$_smarty_tpl);?>
-</span>
-			<span class="ajax_cart_product_txt_s<?php if ($_smarty_tpl->tpl_vars['cart_qties']->value<2) {?> unvisible<?php }?>"><?php echo smartyTranslate(array('s'=>'Products','mod'=>'blockcart'),$_smarty_tpl);?>
-</span>
-			<span class="ajax_cart_total<?php if ($_smarty_tpl->tpl_vars['cart_qties']->value==0) {?> unvisible<?php }?>">
-				<?php if ($_smarty_tpl->tpl_vars['cart_qties']->value>0) {?>
-					<?php if ($_smarty_tpl->tpl_vars['priceDisplay']->value==1) {?>
-						<?php $_smarty_tpl->tpl_vars['blockcart_cart_flag'] = new Smarty_variable(constant('Cart::BOTH_WITHOUT_SHIPPING'), null, 0);?>
-						<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['convertPrice'][0][0]->convertPrice(array('price'=>$_smarty_tpl->tpl_vars['cart']->value->getOrderTotal(false,$_smarty_tpl->tpl_vars['blockcart_cart_flag']->value)),$_smarty_tpl);?>
+" rel="nofollow"><i class="cart-my"></i>
 
-					<?php } else { ?>
-						<?php $_smarty_tpl->tpl_vars['blockcart_cart_flag'] = new Smarty_variable(constant('Cart::BOTH_WITHOUT_SHIPPING'), null, 0);?>
-						<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['convertPrice'][0][0]->convertPrice(array('price'=>$_smarty_tpl->tpl_vars['cart']->value->getOrderTotal(true,$_smarty_tpl->tpl_vars['blockcart_cart_flag']->value)),$_smarty_tpl);?>
 
-					<?php }?>
-				<?php }?>
-			</span>
-			<span class="ajax_cart_no_product<?php if ($_smarty_tpl->tpl_vars['cart_qties']->value>0) {?> unvisible<?php }?>"><?php echo smartyTranslate(array('s'=>'(empty)','mod'=>'blockcart'),$_smarty_tpl);?>
-</span>
-			<?php if ($_smarty_tpl->tpl_vars['ajax_allowed']->value&&isset($_smarty_tpl->tpl_vars['blockcart_top']->value)&&!$_smarty_tpl->tpl_vars['blockcart_top']->value) {?>
-				<span class="block_cart_expand<?php if (!isset($_smarty_tpl->tpl_vars['colapseExpandStatus']->value)||(isset($_smarty_tpl->tpl_vars['colapseExpandStatus']->value)&&$_smarty_tpl->tpl_vars['colapseExpandStatus']->value=='expanded')) {?> unvisible<?php }?>">&nbsp;</span>
-				<span class="block_cart_collapse<?php if (isset($_smarty_tpl->tpl_vars['colapseExpandStatus']->value)&&$_smarty_tpl->tpl_vars['colapseExpandStatus']->value=='collapsed') {?> unvisible<?php }?>">&nbsp;</span>
-			<?php }?>
+
 		</a>
 		<?php if (!$_smarty_tpl->tpl_vars['PS_CATALOG_MODE']->value) {?>
-			<div class="cart_block block exclusive">
+			<div class="cart_block block exclusive" style="display: none;">
 				<div class="block_content">
 					<!-- block list of products -->
 					<div class="cart_block_list<?php if (isset($_smarty_tpl->tpl_vars['blockcart_top']->value)&&!$_smarty_tpl->tpl_vars['blockcart_top']->value) {?><?php if (isset($_smarty_tpl->tpl_vars['colapseExpandStatus']->value)&&$_smarty_tpl->tpl_vars['colapseExpandStatus']->value=='expanded'||!$_smarty_tpl->tpl_vars['ajax_allowed']->value||!isset($_smarty_tpl->tpl_vars['colapseExpandStatus']->value)) {?> expanded<?php } else { ?> collapsed unvisible<?php }?><?php }?>">
@@ -336,7 +311,7 @@ $_smarty_tpl->tpl_vars['discount']->_loop = true;
 				</div>
 			</div><!-- .cart_block -->
 		<?php }?>
-	</div>
+
 <?php if (isset($_smarty_tpl->tpl_vars['blockcart_top']->value)&&$_smarty_tpl->tpl_vars['blockcart_top']->value) {?>
 </div>
 <?php }?>

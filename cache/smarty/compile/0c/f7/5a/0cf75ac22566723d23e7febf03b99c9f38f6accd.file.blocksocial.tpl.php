@@ -1,48 +1,60 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-07-06 15:45:54
+<?php /* Smarty version Smarty-3.1.19, created on 2016-07-09 23:36:29
          compiled from "D:\Webserver\domains\sonicempire.loc\themes\sonicempire\modules\blocksocial\blocksocial.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:12817577cfd825ad282-10942062%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:325095781604d0da163-74226876%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0cf75ac22566723d23e7febf03b99c9f38f6accd' => 
     array (
       0 => 'D:\\Webserver\\domains\\sonicempire.loc\\themes\\sonicempire\\modules\\blocksocial\\blocksocial.tpl',
-      1 => 1467738648,
+      1 => 1468094997,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '12817577cfd825ad282-10942062',
+  'nocache_hash' => '325095781604d0da163-74226876',
   'function' => 
   array (
   ),
   'variables' => 
   array (
+    'youtube_url' => 0,
     'facebook_url' => 0,
+    'instagram_url' => 0,
     'twitter_url' => 0,
     'rss_url' => 0,
-    'youtube_url' => 0,
     'google_plus_url' => 0,
     'pinterest_url' => 0,
     'vimeo_url' => 0,
-    'instagram_url' => 0,
+    'base_dir' => 0,
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_577cfd826496b5_01394663',
+  'unifunc' => 'content_5781604d1bcaa6_82656180',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_577cfd826496b5_01394663')) {function content_577cfd826496b5_01394663($_smarty_tpl) {?>
-<section id="social_block" class="pull-right">
+<?php if ($_valid && !is_callable('content_5781604d1bcaa6_82656180')) {function content_5781604d1bcaa6_82656180($_smarty_tpl) {?><div id="social_block" class="social col-md-3 clearfix">
 	<ul>
-		<?php if (isset($_smarty_tpl->tpl_vars['facebook_url']->value)&&$_smarty_tpl->tpl_vars['facebook_url']->value!='') {?>
-			<li class="facebook">
-				<a class="_blank" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['facebook_url']->value, ENT_QUOTES, 'UTF-8', true);?>
+        <?php if (isset($_smarty_tpl->tpl_vars['youtube_url']->value)&&$_smarty_tpl->tpl_vars['youtube_url']->value!='') {?>
+            <li>
+                <a class="youtube" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['youtube_url']->value, ENT_QUOTES, 'UTF-8', true);?>
 ">
-					<span><?php echo smartyTranslate(array('s'=>'Facebook','mod'=>'blocksocial'),$_smarty_tpl);?>
-</span>
+                </a>
+            </li>
+        <?php }?>
+		<?php if (isset($_smarty_tpl->tpl_vars['facebook_url']->value)&&$_smarty_tpl->tpl_vars['facebook_url']->value!='') {?>
+			<li>
+				<a class="fb" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['facebook_url']->value, ENT_QUOTES, 'UTF-8', true);?>
+">
 				</a>
 			</li>
 		<?php }?>
-		<?php if (isset($_smarty_tpl->tpl_vars['twitter_url']->value)&&$_smarty_tpl->tpl_vars['twitter_url']->value!='') {?>
+        <?php if (isset($_smarty_tpl->tpl_vars['instagram_url']->value)&&$_smarty_tpl->tpl_vars['instagram_url']->value!='') {?>
+            <li>
+                <a class="instagram" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['instagram_url']->value, ENT_QUOTES, 'UTF-8', true);?>
+">
+                </a>
+            </li>
+        <?php }?>
+		<!--<?php if (isset($_smarty_tpl->tpl_vars['twitter_url']->value)&&$_smarty_tpl->tpl_vars['twitter_url']->value!='') {?>
 			<li class="twitter">
 				<a class="_blank" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['twitter_url']->value, ENT_QUOTES, 'UTF-8', true);?>
 ">
@@ -60,15 +72,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				</a>
 			</li>
 		<?php }?>
-        <?php if (isset($_smarty_tpl->tpl_vars['youtube_url']->value)&&$_smarty_tpl->tpl_vars['youtube_url']->value!='') {?>
-        	<li class="youtube">
-        		<a class="_blank" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['youtube_url']->value, ENT_QUOTES, 'UTF-8', true);?>
-">
-        			<span><?php echo smartyTranslate(array('s'=>'Youtube','mod'=>'blocksocial'),$_smarty_tpl);?>
-</span>
-        		</a>
-        	</li>
-        <?php }?>
+
         <?php if (isset($_smarty_tpl->tpl_vars['google_plus_url']->value)&&$_smarty_tpl->tpl_vars['google_plus_url']->value!='') {?>
         	<li class="google-plus">
         		<a class="_blank" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['google_plus_url']->value, ENT_QUOTES, 'UTF-8', true);?>
@@ -95,19 +99,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 </span>
         		</a>
         	</li>
-        <?php }?>
-        <?php if (isset($_smarty_tpl->tpl_vars['instagram_url']->value)&&$_smarty_tpl->tpl_vars['instagram_url']->value!='') {?>
-        	<li class="instagram">
-        		<a class="_blank" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['instagram_url']->value, ENT_QUOTES, 'UTF-8', true);?>
-">
-        			<span><?php echo smartyTranslate(array('s'=>'Instagram','mod'=>'blocksocial'),$_smarty_tpl);?>
-</span>
-        		</a>
-        	</li>
-        <?php }?>
+        <?php }?>-->
+
 	</ul>
-    <h4><?php echo smartyTranslate(array('s'=>'Follow us','mod'=>'blocksocial'),$_smarty_tpl);?>
-</h4>
-</section>
-<div class="clearfix"></div>
+   <!-- <h4><?php echo smartyTranslate(array('s'=>'Follow us','mod'=>'blocksocial'),$_smarty_tpl);?>
+</h4>-->
+</div>
+<!--Страницы контентк-->
+        <div class="bottom-menu">
+
+            <ul>
+                <li><a href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
+content/6-contact">Контакты</a></li>
+                <li><a href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
+content/4-about-us">О компании</a></li>
+                <li><a href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
+content/2-legal-notice">Политика безопасности</a></li>
+            </ul>
+
+        </div>
+<!--/Страницы контентк-->
 <?php }} ?>

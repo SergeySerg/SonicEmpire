@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-07-06 15:45:54
+<?php /* Smarty version Smarty-3.1.19, created on 2016-07-09 23:36:29
          compiled from "D:\Webserver\domains\sonicempire.loc\themes\sonicempire\footer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:24656577cfd82bc3d71-54337487%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:258365781604d6e8f54-11134316%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0393dfc3165ef645d4b920f0d2d6f1a5e769b042' => 
     array (
       0 => 'D:\\Webserver\\domains\\sonicempire.loc\\themes\\sonicempire\\footer.tpl',
-      1 => 1467808182,
+      1 => 1468096575,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '24656577cfd82bc3d71-54337487',
+  'nocache_hash' => '258365781604d6e8f54-11134316',
   'function' => 
   array (
   ),
@@ -24,31 +24,43 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_577cfd82bf2b89_99584642',
+  'unifunc' => 'content_5781604d717d66_67567496',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_577cfd82bf2b89_99584642')) {function content_577cfd82bf2b89_99584642($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5781604d717d66_67567496')) {function content_5781604d717d66_67567496($_smarty_tpl) {?>
 <?php if (!isset($_smarty_tpl->tpl_vars['content_only']->value)||!$_smarty_tpl->tpl_vars['content_only']->value) {?>
 					</div><!-- #center_column -->
-					<?php if (isset($_smarty_tpl->tpl_vars['right_column_size']->value)&&!empty($_smarty_tpl->tpl_vars['right_column_size']->value)) {?>
+					<!--<?php if (isset($_smarty_tpl->tpl_vars['right_column_size']->value)&&!empty($_smarty_tpl->tpl_vars['right_column_size']->value)) {?>
 						<div id="right_column" class="col-xs-12 col-sm-<?php echo intval($_smarty_tpl->tpl_vars['right_column_size']->value);?>
  column"><?php echo $_smarty_tpl->tpl_vars['HOOK_RIGHT_COLUMN']->value;?>
 </div>
-					<?php }?>
+					<?php }?>-->
 					</div><!-- .row -->
 				</div><!-- #columns -->
 			</div><!-- .columns-container -->
 			<?php if (isset($_smarty_tpl->tpl_vars['HOOK_FOOTER']->value)) {?>
 				<!-- Footer -->
-				<div class="footer-container">
-					<footer id="footer"  class="container">
-						<div class="row"><?php echo $_smarty_tpl->tpl_vars['HOOK_FOOTER']->value;?>
+					<footer id="footer">
+                        <div class="container">
+                            <div class="row"><?php echo $_smarty_tpl->tpl_vars['HOOK_FOOTER']->value;?>
+
+                                <div class="bottom-phone"><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->smartyHook(array('h'=>"displayNav"),$_smarty_tpl);?>
 </div>
+                                <section class="bottom-footer col-xs-12">&copy; Sonic Empire, 2016</section>
+
+                            </div>
+                        </div>
 					</footer>
-				</div><!-- #footer -->
+                <div class="hidden"></div>
+				<!-- #footer -->
 			<?php }?>
 		</div><!-- #page -->
 <?php }?>
 <?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['tpl_dir']->value)."./global.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 	</body>
-</html><?php }} ?>
+</html>
+<!--<footer>
+
+	<div class="container">
+
+		<div class="row">--><?php }} ?>

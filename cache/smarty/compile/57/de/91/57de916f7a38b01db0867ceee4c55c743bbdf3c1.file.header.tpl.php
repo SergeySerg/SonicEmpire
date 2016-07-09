@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-07-06 15:45:54
+<?php /* Smarty version Smarty-3.1.19, created on 2016-07-09 23:36:29
          compiled from "D:\Webserver\domains\sonicempire.loc\themes\sonicempire\header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:19714577cfd8296e269-05185034%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:35775781604d3d7c26-37630280%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '57de916f7a38b01db0867ceee4c55c743bbdf3c1' => 
     array (
       0 => 'D:\\Webserver\\domains\\sonicempire.loc\\themes\\sonicempire\\header.tpl',
-      1 => 1467800042,
+      1 => 1468095742,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '19714577cfd8296e269-05185034',
+  'nocache_hash' => '35775781604d3d7c26-37630280',
   'function' => 
   array (
   ),
@@ -35,6 +35,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'js_def' => 0,
     'js_uri' => 0,
     'HOOK_HEADER' => 0,
+    'img_dir' => 0,
     'page_name' => 0,
     'body_classes' => 0,
     'hide_left_column' => 0,
@@ -50,7 +51,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'logo_url' => 0,
     'logo_image_width' => 0,
     'logo_image_height' => 0,
-    'HOOK_TOP' => 0,
     'left_column_size' => 0,
     'HOOK_LEFT_COLUMN' => 0,
     'right_column_size' => 0,
@@ -58,9 +58,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_577cfd82b4ea54_55548845',
+  'unifunc' => 'content_5781604d60a4a8_72333388',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_577cfd82b4ea54_55548845')) {function content_577cfd82b4ea54_55548845($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'D:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\function.implode.php';
+<?php if ($_valid && !is_callable('content_5781604d60a4a8_72333388')) {function content_5781604d60a4a8_72333388($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'D:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\function.implode.php';
 ?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"<?php if (isset($_smarty_tpl->tpl_vars['language_code']->value)&&$_smarty_tpl->tpl_vars['language_code']->value) {?> lang="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language_code']->value, ENT_QUOTES, 'UTF-8', true);?>
@@ -144,7 +144,8 @@ $_smarty_tpl->tpl_vars['js_uri']->_loop = true;
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 		<![endif]-->
 	</head>
-	<body<?php if (isset($_smarty_tpl->tpl_vars['page_name']->value)) {?> id="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['page_name']->value, ENT_QUOTES, 'UTF-8', true);?>
+	<body style="background-image: url(<?php echo $_smarty_tpl->tpl_vars['img_dir']->value;?>
+/bg.jpg);background-color: #292929;" <?php if (isset($_smarty_tpl->tpl_vars['page_name']->value)) {?> id="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['page_name']->value, ENT_QUOTES, 'UTF-8', true);?>
 "<?php }?> class="<?php if (isset($_smarty_tpl->tpl_vars['page_name']->value)) {?><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['page_name']->value, ENT_QUOTES, 'UTF-8', true);?>
 <?php }?><?php if (isset($_smarty_tpl->tpl_vars['body_classes']->value)&&count($_smarty_tpl->tpl_vars['body_classes']->value)) {?> <?php echo smarty_function_implode(array('value'=>$_smarty_tpl->tpl_vars['body_classes']->value,'separator'=>' '),$_smarty_tpl);?>
 <?php }?><?php if ($_smarty_tpl->tpl_vars['hide_left_column']->value) {?> hide-left-column<?php } else { ?> show-left-column<?php }?><?php if ($_smarty_tpl->tpl_vars['hide_right_column']->value) {?> hide-right-column<?php } else { ?> show-right-column<?php }?><?php if (isset($_smarty_tpl->tpl_vars['content_only']->value)&&$_smarty_tpl->tpl_vars['content_only']->value) {?> content_only<?php }?> lang_<?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
@@ -158,64 +159,57 @@ $_smarty_tpl->tpl_vars['js_uri']->_loop = true;
 			</div>
 		<?php }?>
 		<div id="page">
-			<div class="header-container">
-				<header id="header">
-					<?php $_smarty_tpl->_capture_stack[0][] = array('displayBanner', null, null); ob_start(); ?><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->smartyHook(array('h'=>'displayBanner'),$_smarty_tpl);?>
-<?php list($_capture_buffer, $_capture_assign, $_capture_append) = array_pop($_smarty_tpl->_capture_stack[0]);
-if (!empty($_capture_buffer)) {
- if (isset($_capture_assign)) $_smarty_tpl->assign($_capture_assign, ob_get_contents());
- if (isset( $_capture_append)) $_smarty_tpl->append( $_capture_append, ob_get_contents());
- Smarty::$_smarty_vars['capture'][$_capture_buffer]=ob_get_clean();
-} else $_smarty_tpl->capture_error();?>
-					<?php if (Smarty::$_smarty_vars['capture']['displayBanner']) {?>
-						<div class="banner">
-							<div class="container">
-								<div class="row">
-									<?php echo Smarty::$_smarty_vars['capture']['displayBanner'];?>
 
-								</div>
-							</div>
-						</div>
-					<?php }?>
-					<?php $_smarty_tpl->_capture_stack[0][] = array('displayNav', null, null); ob_start(); ?><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->smartyHook(array('h'=>'displayNav'),$_smarty_tpl);?>
-<?php list($_capture_buffer, $_capture_assign, $_capture_append) = array_pop($_smarty_tpl->_capture_stack[0]);
-if (!empty($_capture_buffer)) {
- if (isset($_capture_assign)) $_smarty_tpl->assign($_capture_assign, ob_get_contents());
- if (isset( $_capture_append)) $_smarty_tpl->append( $_capture_append, ob_get_contents());
- Smarty::$_smarty_vars['capture'][$_capture_buffer]=ob_get_clean();
-} else $_smarty_tpl->capture_error();?>
-					<?php if (Smarty::$_smarty_vars['capture']['displayNav']) {?>
-						<div class="nav">
-							<div class="container">
-								<div class="row">
-									<nav><?php echo Smarty::$_smarty_vars['capture']['displayNav'];?>
-</nav>
-								</div>
-							</div>
-						</div>
-					<?php }?>
-					<div>
-						<div class="container">
-							<div class="row">
-								<div id="header_logo">
-									<a href="<?php if (isset($_smarty_tpl->tpl_vars['force_ssl']->value)&&$_smarty_tpl->tpl_vars['force_ssl']->value) {?><?php echo $_smarty_tpl->tpl_vars['base_dir_ssl']->value;?>
+            <div class="container">
+
+                <div class="row">
+
+                    <header class="clearfix">
+                        <!-- MODULE Block Contact -->
+                        <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->smartyHook(array('h'=>'displayNav'),$_smarty_tpl);?>
+
+                        <!-- /MODULE Block Contact -->
+                        <div id="header_logo-my" class="col-xs-6 col-sm-4 col-md-3">
+                            <a href="<?php if (isset($_smarty_tpl->tpl_vars['force_ssl']->value)&&$_smarty_tpl->tpl_vars['force_ssl']->value) {?><?php echo $_smarty_tpl->tpl_vars['base_dir_ssl']->value;?>
 <?php } else { ?><?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
 <?php }?>" title="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['shop_name']->value, ENT_QUOTES, 'UTF-8', true);?>
 ">
-										<img class="logo img-responsive" src="<?php echo $_smarty_tpl->tpl_vars['logo_url']->value;?>
+                                <img src="<?php echo $_smarty_tpl->tpl_vars['logo_url']->value;?>
 " alt="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['shop_name']->value, ENT_QUOTES, 'UTF-8', true);?>
 "<?php if (isset($_smarty_tpl->tpl_vars['logo_image_width']->value)&&$_smarty_tpl->tpl_vars['logo_image_width']->value) {?> width="<?php echo $_smarty_tpl->tpl_vars['logo_image_width']->value;?>
 "<?php }?><?php if (isset($_smarty_tpl->tpl_vars['logo_image_height']->value)&&$_smarty_tpl->tpl_vars['logo_image_height']->value) {?> height="<?php echo $_smarty_tpl->tpl_vars['logo_image_height']->value;?>
 "<?php }?>/>
-									</a>
-								</div>
-								<?php if (isset($_smarty_tpl->tpl_vars['HOOK_TOP']->value)) {?><?php echo $_smarty_tpl->tpl_vars['HOOK_TOP']->value;?>
-<?php }?>
-							</div>
-						</div>
-					</div>
-				</header>
-			</div>
+                            </a>
+
+                        </div>
+
+                        <div class="top-nav-my col-xs-6 col-sm-4 col-md-5">
+
+                            <ul>
+                                <li><a href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
+content/1-delivery">Доставка и оплата</a></li>
+                                    <li><a href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
+content/6-contact">Контакты</a></li>
+                            </ul>
+
+                        </div>
+                        <!-- Block search module TOP Block cart Manufactory -->
+                        <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->smartyHook(array('h'=>'displayTop'),$_smarty_tpl);?>
+
+                        <!-- /Block search module TOP Block cart Manufactory -->
+
+
+
+                    </header>
+
+                </div>
+
+            </div>
+
+            <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->smartyHook(array('h'=>"displayRightColumn"),$_smarty_tpl);?>
+
+
+
 			<div class="columns-container">
 				<div id="columns" class="container">
 					<?php if ($_smarty_tpl->tpl_vars['page_name']->value!='index'&&$_smarty_tpl->tpl_vars['page_name']->value!='pagenotfound') {?>

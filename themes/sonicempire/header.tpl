@@ -46,7 +46,7 @@
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 		<![endif]-->
 	</head>
-	<body{if isset($page_name)} id="{$page_name|escape:'html':'UTF-8'}"{/if} class="{if isset($page_name)}{$page_name|escape:'html':'UTF-8'}{/if}{if isset($body_classes) && $body_classes|@count} {implode value=$body_classes separator=' '}{/if}{if $hide_left_column} hide-left-column{else} show-left-column{/if}{if $hide_right_column} hide-right-column{else} show-right-column{/if}{if isset($content_only) && $content_only} content_only{/if} lang_{$lang_iso}">
+	<body style="background-image: url({$img_dir}/bg.jpg);background-color: #292929;" {if isset($page_name)} id="{$page_name|escape:'html':'UTF-8'}"{/if} class="{if isset($page_name)}{$page_name|escape:'html':'UTF-8'}{/if}{if isset($body_classes) && $body_classes|@count} {implode value=$body_classes separator=' '}{/if}{if $hide_left_column} hide-left-column{else} show-left-column{/if}{if $hide_right_column} hide-right-column{else} show-right-column{/if}{if isset($content_only) && $content_only} content_only{/if} lang_{$lang_iso}">
 	{if !isset($content_only) || !$content_only}
 		{if isset($restricted_country_mode) && $restricted_country_mode}
 			<div id="restricted-country">
@@ -54,42 +54,45 @@
 			</div>
 		{/if}
 		<div id="page">
-			<div class="header-container">
-				<header id="header">
-					{capture name='displayBanner'}{hook h='displayBanner'}{/capture}
-					{if $smarty.capture.displayBanner}
-						<div class="banner">
-							<div class="container">
-								<div class="row">
-									{$smarty.capture.displayBanner}
-								</div>
-							</div>
-						</div>
-					{/if}
-					{capture name='displayNav'}{hook h='displayNav'}{/capture}
-					{if $smarty.capture.displayNav}
-						<div class="nav">
-							<div class="container">
-								<div class="row">
-									<nav>{$smarty.capture.displayNav}</nav>
-								</div>
-							</div>
-						</div>
-					{/if}
-					<div>
-						<div class="container">
-							<div class="row">
-								<div id="header_logo">
-									<a href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}" title="{$shop_name|escape:'html':'UTF-8'}">
-										<img class="logo img-responsive" src="{$logo_url}" alt="{$shop_name|escape:'html':'UTF-8'}"{if isset($logo_image_width) && $logo_image_width} width="{$logo_image_width}"{/if}{if isset($logo_image_height) && $logo_image_height} height="{$logo_image_height}"{/if}/>
-									</a>
-								</div>
-								{if isset($HOOK_TOP)}{$HOOK_TOP}{/if}
-							</div>
-						</div>
-					</div>
-				</header>
-			</div>
+
+            <div class="container">
+
+                <div class="row">
+
+                    <header class="clearfix">
+                        <!-- MODULE Block Contact -->
+                        {hook h='displayNav'}
+                        <!-- /MODULE Block Contact -->
+                        <div id="header_logo-my" class="col-xs-6 col-sm-4 col-md-3">
+                            <a href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}" title="{$shop_name|escape:'html':'UTF-8'}">
+                                <img src="{$logo_url}" alt="{$shop_name|escape:'html':'UTF-8'}"{if isset($logo_image_width) && $logo_image_width} width="{$logo_image_width}"{/if}{if isset($logo_image_height) && $logo_image_height} height="{$logo_image_height}"{/if}/>
+                            </a>
+
+                        </div>
+
+                        <div class="top-nav-my col-xs-6 col-sm-4 col-md-5">
+
+                            <ul>
+                                <li><a href="{$base_dir}content/1-delivery">Доставка и оплата</a></li>
+                                    <li><a href="{$base_dir}content/6-contact">Контакты</a></li>
+                            </ul>
+
+                        </div>
+                        <!-- Block search module TOP Block cart Manufactory -->
+                        {hook h='displayTop'}
+                        <!-- /Block search module TOP Block cart Manufactory -->
+
+
+
+                    </header>
+
+                </div>
+
+            </div>
+
+            {hook h="displayRightColumn"}
+
+
 			<div class="columns-container">
 				<div id="columns" class="container">
 					{if $page_name !='index' && $page_name !='pagenotfound'}

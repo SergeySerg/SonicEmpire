@@ -37,6 +37,7 @@
 		</div>
 	{/if}
 	<div class="rte{if $content_only} content_only{/if}">
+     {hook h="displaySlidersPro" slider="sample"}
 		{$cms->content}
 	</div>
 {elseif isset($cms_category)}

@@ -125,7 +125,7 @@ class mib extends Module {
             $manufacturer['image'] = $this->context->language->iso_code.'-default';
             if (file_exists(_PS_MANU_IMG_DIR_.$manufacturer['id_manufacturer'].'-'.ImageType::getFormatedName('medium').'.jpg'))
                 $manufacturer['image'] = $manufacturer['id_manufacturer'];
-                $manufacturer['image_url'] = $manufacturer['id_manufacturer'].'-'.ImageType::getFormatedName('medium').'.jpg';
+                $manufacturer['image_url'] = $manufacturer['id_manufacturer'].'.jpg';
         }
         $this->smarty->assign(array(
 		  'manufacturers' => $manufacturers
@@ -226,7 +226,7 @@ class mib extends Module {
         <form target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="margin-top:15px;">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="CRTHNBD2U8KPW">
-        <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+        <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal ï¿½ The safer, easier way to pay online.">
         <img alt="" border="0" src="https://www.paypalobjects.com/pl_PL/i/scr/pixel.gif" width="1" height="1">
         </form> 
         </div>
