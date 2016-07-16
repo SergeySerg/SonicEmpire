@@ -8610,7 +8610,8 @@ ul {
 
 .headers, h1, h2, h3, h4, h5, h6 {
     font-family: "PTSerifRegular", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-    font-weight: normal; }
+    font-weight: normal;
+    margin: 0; }
 
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.375em; }
@@ -8618,11 +8619,11 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 2.25em; }
 
-h2 {
-    font-size: 1.5625em; }
+h4 {
+    font-size: 1.375em; }
 
-h3 {
-    font-size: 1.25em; }
+h5 {
+    font-size: 1.125em; }
 
 b, strong {
     font-family: "OpenSansSemiBold", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
@@ -8710,12 +8711,11 @@ header .search_block_top-my .searchbox-my button {
 header .search_block_top-my .searchbox-my button:hover {
     cursor: pointer;
     background: url("../img/search-hover.png") no-repeat 50% 50%; }
-header .shop_phone{
+header .shop_phone {
     margin-bottom: -15px;
     text-align: right;
     color: #787878;
-    font-size: 18px;
-}
+    font-size: 18px; }
 
 .manuf {
     min-height: 330px;
@@ -8737,27 +8737,91 @@ header .shop_phone{
 .manuf li img {
     vertical-align: middle; }
 
+.more {
+    font-size: 18px;
+    line-height: 28px;
+    color: #CCC; }
+.more:hover {
+    color: #bf6d3b; }
+.more .fa {
+    margin-left: 5px; }
+
+.manuf-light {
+    min-height: 100px;
+    position: relative;
+    overflow-y: hidden;
+    background-size: cover;
+    background-position: top;
+    background: #c9c9c9 url("../img/manuf-bg-big.jpg") no-repeat;
+    -webkit-box-shadow: 0px 0px 33px 0px #000000 inset;
+    box-shadow: 0px 0px 33px 0px #000000 inset; }
+.manuf-light li {
+    display: inline-block;
+    width: 93px;
+    text-align: center;
+    line-height: 100px; }
+.manuf-light li img {
+    width: 90%;
+    vertical-align: middle; }
+.manuf-light .manuf-dropdown {
+    border-top: 1px solid #54504d; }
+.manuf-light .manuf-dropdown .manuf-logo-dropdown {
+    width: 25%;
+    float: left;
+    text-align: center;
+    line-height: 220px; }
+.manuf-light .manuf-dropdown .manuf-logo-dropdown img {
+    vertical-align: middle;
+    width: 80%; }
+.manuf-light .manuf-dropdown .manuf-description-dropdown {
+    padding-top: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #CCC;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.75); }
+
+.breadcrumb {
+    min-height: 50px;
+    border-top: 1px solid #242424;
+    border-bottom: 1px solid #242424;
+    background: #1c1c1c;
+    line-height: 40px; }
+.breadcrumb li {
+    display: inline-block;
+    vertical-align: middle;
+    color: #999;
+    margin-right: 5px; }
+.breadcrumb li:first-child a {
+    color: #fff; }
+.breadcrumb li a {
+    color: #999; }
+.breadcrumb li a:hover {
+    color: #bf6d3b; }
+
 #sidebar {
     width: 25%;
     float: left;
-    padding-top: 45px; }
+    padding-top: 25px;
+    padding-bottom: 50px; }
 #sidebar .catalog li {
     margin-top: 20px;
     position: relative; }
-#sidebar .catalog li a {
+#sidebar .catalog li a, #sidebar .catalog li span {
     display: inline-block;
     position: relative;
     font-size: 18px;
     line-height: 24px;
     font-family: "PTSerifRegular", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
-#sidebar .catalog li a .fa {
+#sidebar .catalog li a:hover, #sidebar .catalog li span:hover {
+    color: #bf6d3b;
+    cursor: pointer; }
+#sidebar .catalog li a .fa, #sidebar .catalog li span .fa {
     position: absolute;
     top: 5px;
     right: -20px; }
-#sidebar .catalog li a:hover .fa-angle-down {
+#sidebar .catalog li a:hover .fa-angle-down, #sidebar .catalog li span:hover .fa-angle-down {
     color: #bf6d3b; }
 #sidebar .catalog .sub_menu {
-    display: none;
     margin-left: 20px; }
 #sidebar .catalog .sub_menu li {
     margin-top: 0; }
@@ -8767,11 +8831,53 @@ header .shop_phone{
     color: #CCC;
     font-size: 16px;
     line-height: 28px; }
+#sidebar .catalog .sub_menu li a:hover {
+    color: #bf6d3b; }
+#sidebar .sort {
+    margin-top: 60px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #CCC; }
+#sidebar .sort h4 {
+    margin-bottom: 13px;
+    line-height: 28px;
+    color: #FFF; }
+#sidebar .sort label {
+    display: block;
+    cursor: pointer;
+    background: url("../img/radio.png") no-repeat 0 50%;
+    padding-left: 20px;
+    margin-top: 10px; }
+#sidebar .sort label:hover {
+    background: url("../img/radio-check.png") no-repeat 0 50%;
+    color: #bf6d3b; }
+#sidebar .sort input {
+    display: none; }
+#sidebar .filter {
+    margin-top: 60px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #CCC; }
+#sidebar .filter h4 {
+    margin-bottom: 13px;
+    line-height: 28px;
+    color: #FFF; }
+#sidebar .filter label {
+    display: block;
+    cursor: pointer;
+    background: url("../img/checkbox.png") no-repeat 0 50%;
+    padding-left: 20px;
+    margin-top: 10px; }
+#sidebar .filter label:hover {
+    background: url("../img/checkbox-check.png") no-repeat 0 50%;
+    color: #bf6d3b; }
+#sidebar .filter input {
+    display: none; }
 
 #content {
     width: 75%;
     float: left;
-    padding-top: 70px;
+    padding-top: 50px;
     padding-bottom: 50px; }
 #content #slider {
     position: relative;
@@ -8814,6 +8920,7 @@ header .shop_phone{
     color: #000;
     cursor: pointer; }
 #content h1 {
+    margin-bottom: 20px;
     font-size: 34px;
     line-height: 24px;
     color: #FFF;
@@ -8822,17 +8929,76 @@ header .shop_phone{
     font-size: 16px;
     line-height: 28px;
     color: #CCC; }
-#content .more {
-    font-size: 18px;
-    line-height: 28px;
-    color: #CCC; }
-#content .more:hover {
+#content .product-item {
+    width: 31.5%;
+    float: left;
+    margin-right: 2.75%;
+    margin-bottom: 60px; }
+#content .product-item:nth-child(3n) {
+    margin-right: 0; }
+#content .product-item:hover .product-item-manufactory {
     color: #bf6d3b; }
-#content .more .fa {
-    margin-left: 5px; }
+#content .product-item:hover .product-item-name {
+    color: #bf6d3b; }
+#content .product-item:hover a.product-item-more {
+    background: #FFF;
+    color: #000; }
+#content .product-item .product-item-img img {
+    width: 100%; }
+#content .product-item-manufactory {
+    line-height: 26px;
+    margin-top: 25px; }
+#content .product-item-name {
+    line-height: 26px;
+    font-size: 18px; }
+#content .product-item-description {
+    display: inline-block;
+    height: 70px;
+    margin: 15px 0;
+    line-height: 24px;
+    font-size: 16px;
+    overflow-y: hidden; }
+#content .product-item-price {
+    line-height: 24px;
+    font-size: 22px;
+    color: #bf6d3b; }
+#content .product-item a.product-item-more {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-top: 25px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 35px;
+    vertical-align: middle; }
+#content .product-item a.product-item-more:hover {
+    background: #FFF;
+    color: #000; }
+#content .pagination-wrap {
+    text-align: center; }
+#content .pagination-wrap .pagination-my {
+    width: auto; }
+#content .pagination-wrap .pagination-my li {
+    display: inline-block;
+    line-height: 24px;
+    font-size: 22px; }
+#content .pagination-wrap .pagination-my .preview a {
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: url("../img/arrow-pagination-left.png") no-repeat 50% 50%; }
+#content .pagination-wrap .pagination-my .preview a:hover {
+    background: url("../img/arrow-pagination-left-hover.png") no-repeat 50% 50%; }
+#content .pagination-wrap .pagination-my .next a {
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: url("../img/arrow-pagination-right.png") no-repeat 50% 50%; }
+#content .pagination-wrap .pagination-my .next a:hover {
+    background: url("../img/arrow-pagination-right-hover.png") no-repeat 50% 50%; }
 
 footer {
-   height: 100px;
+    height: 100px;
     background: #1c1c1c;
     -webkit-box-shadow: 0px 15px 30px -20px #000000 inset;
     box-shadow: 0px 15px 30px -20px #000000 inset; }
@@ -8909,6 +9075,7 @@ footer .bottom-phone {
 /* Small Devices, Tablets */
 /* Medium Devices, Desktops */
 /* Large Devices, Wide Screens */
+
 /*!
  * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=eda6364aa4dfc3947b2b)
  * Config saved to config.json and https://gist.github.com/eda6364aa4dfc3947b2b

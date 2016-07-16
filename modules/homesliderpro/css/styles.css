@@ -7,6 +7,7 @@
   position: relative;
   z-index:1;
   width:100%;
+    margin-bottom: 75px !important;
 }
  
 .SEslider.withControls {
@@ -316,7 +317,7 @@
 
 .SEslider:hover .slide_description{
 	height:auto;
-	padding: 10px 2%;
+	/*padding: 10px 2%;*/
 }
 
 .slide_description {
@@ -667,4 +668,16 @@ box-sizing: content-box;
 
 #header .banner .SEslider {
 	margin-bottom:0;
+}
+span.slide_description{
+    position: absolute;
+    width: 50.2%;
+    height: 98.9%;
+    top: 0;
+    left: 50%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #FFF;
+    padding-top: 70px;
+
 }

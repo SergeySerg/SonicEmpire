@@ -47,43 +47,44 @@
 #categories_block_left li {
   position: relative; }
   #categories_block_left li a {
-    font-weight: bold;
+    /*font-weight: bold;
     color: #333;
     display: block;
     font-size: 13px;
     line-height: 30px;
     padding: 0 30px 0 19px;
-    border-bottom: 1px solid #d6d4d4; }
+    border-bottom: 1px solid #d6d4d4;*/ }
   #categories_block_left li span.grower {
     display: block;
-    background: #f6f6f6;
+    /*background: #f6f6f6;*/
     position: absolute;
-    right: 0;
+    right: 80px;
     top: 0;
     cursor: pointer;
     font-family: "FontAwesome";
-    font-size: 14px; }
+    font-size: 20px; }
     #categories_block_left li span.grower.OPEN:before, #categories_block_left li span.grower.CLOSE:before {
-      content: "\f068";
+      content: "\f106";
       display: block;
       vertical-align: middle;
       width: 30px;
       height: 30px;
-      color: #333;
+      /*color: #333;*/
       line-height: 30px;
       text-align: center; }
     #categories_block_left li span.grower.CLOSE:before {
-      content: "\f067";
-      color: silver; }
+      content: "\f107";
+     /* color: silver;*/ }
   #categories_block_left li span.grower:hover + a,
   #categories_block_left li a:hover,
   #categories_block_left li a.selected {
-    background: #f6f6f6; }
+      color: #bf6d3b;
+   /* background: #f6f6f6;*/ }
   #categories_block_left li li a {
     font-weight: normal;
     color: #777777; }
     #categories_block_left li li a:before {
-      content: "\f105";
+     /* content: "\f105";*/
       font-family: "FontAwesome";
       line-height: 29px;
       padding-right: 8px; }

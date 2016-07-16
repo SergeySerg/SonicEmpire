@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-07-09 23:36:29
+<?php /* Smarty version Smarty-3.1.19, created on 2016-07-16 15:43:25
          compiled from "D:\Webserver\domains\sonicempire.loc\themes\sonicempire\footer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:258365781604d6e8f54-11134316%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:30806578a2bedb10707-62327742%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0393dfc3165ef645d4b920f0d2d6f1a5e769b042' => 
     array (
       0 => 'D:\\Webserver\\domains\\sonicempire.loc\\themes\\sonicempire\\footer.tpl',
-      1 => 1468096575,
+      1 => 1468614789,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '258365781604d6e8f54-11134316',
+  'nocache_hash' => '30806578a2bedb10707-62327742',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5781604d717d66_67567496',
+  'unifunc' => 'content_578a2bedb3f507_85258272',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5781604d717d66_67567496')) {function content_5781604d717d66_67567496($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_578a2bedb3f507_85258272')) {function content_578a2bedb3f507_85258272($_smarty_tpl) {?>
 <?php if (!isset($_smarty_tpl->tpl_vars['content_only']->value)||!$_smarty_tpl->tpl_vars['content_only']->value) {?>
 					</div><!-- #center_column -->
 					<!--<?php if (isset($_smarty_tpl->tpl_vars['right_column_size']->value)&&!empty($_smarty_tpl->tpl_vars['right_column_size']->value)) {?>
@@ -34,9 +34,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
  column"><?php echo $_smarty_tpl->tpl_vars['HOOK_RIGHT_COLUMN']->value;?>
 </div>
 					<?php }?>-->
+
 					</div><!-- .row -->
-				</div><!-- #columns -->
-			</div><!-- .columns-container -->
+				</div><!--Контейнер страницы--><!-- #columns -->
+    <!--</div> .columns-container -->
 			<?php if (isset($_smarty_tpl->tpl_vars['HOOK_FOOTER']->value)) {?>
 				<!-- Footer -->
 					<footer id="footer">
@@ -59,8 +60,4 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 	</body>
 </html>
-<!--<footer>
-
-	<div class="container">
-
-		<div class="row">--><?php }} ?>
+<?php }} ?>

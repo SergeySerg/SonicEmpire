@@ -1,55 +1,61 @@
-<?php /*%%SmartyHeaderCode:8104577f9ecebe0407-55776434%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1625557891196551a92-36912793%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0cf75ac22566723d23e7febf03b99c9f38f6accd' => 
     array (
       0 => 'D:\\Webserver\\domains\\sonicempire.loc\\themes\\sonicempire\\modules\\blocksocial\\blocksocial.tpl',
-      1 => 1467738648,
+      1 => 1468596483,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '8104577f9ecebe0407-55776434',
+  'nocache_hash' => '1625557891196551a92-36912793',
   'variables' => 
   array (
+    'youtube_url' => 0,
     'facebook_url' => 0,
+    'instagram_url' => 0,
     'twitter_url' => 0,
     'rss_url' => 0,
-    'youtube_url' => 0,
     'google_plus_url' => 0,
     'pinterest_url' => 0,
     'vimeo_url' => 0,
-    'instagram_url' => 0,
+    'base_dir' => 0,
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_577f9ecec883b7_98436874',
+  'unifunc' => 'content_57891196be1713_98982098',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_577f9ecec883b7_98436874')) {function content_577f9ecec883b7_98436874($_smarty_tpl) {?><section id="social_block" class="pull-right">
+<?php if ($_valid && !is_callable('content_57891196be1713_98982098')) {function content_57891196be1713_98982098($_smarty_tpl) {?><div id="social_block" class="social col-md-3 clearfix">
 	<ul>
-					<li class="facebook">
-				<a class="_blank" href="http://www.facebook.com/prestashop">
-					<span>Facebook</span>
+                    <li>
+                <a class="youtube" href="https://www.youtube.com/">
+                </a>
+            </li>
+        					<li>
+				<a class="fb" href="http://www.facebook.com/">
 				</a>
 			</li>
-							<li class="twitter">
-				<a class="_blank" href="http://www.twitter.com/prestashop">
-					<span>Twitter</span>
-				</a>
-			</li>
-							<li class="rss">
-				<a class="_blank" href="http://www.prestashop.com/blog/en/">
-					<span>RSS</span>
-				</a>
-			</li>
-		                        	<li class="google-plus">
-        		<a class="_blank" href="https://www.google.com/+prestashop" rel="publisher">
-        			<span>Google+</span>
-        		</a>
-        	</li>
-                                	</ul>
-    <h4>Подпишитесь на наши обновления</h4>
-</section>
-<div class="clearfix"></div>
+		                    <li>
+                <a class="instagram" href="https://www.instagram.com/">
+                </a>
+            </li>
+        		<!--		
+                        -->
+
+	</ul>
+   <!-- <h4>Подпишитесь на наши обновления</h4>-->
+</div>
+<!--Страницы контента-->
+        <div class="bottom-menu">
+
+            <ul>
+                <li><a href="http://sonicempire.loc/content/6-contact">Контакты</a></li>
+                <li><a href="http://sonicempire.loc/content/4-about-us">О компании</a></li>
+                <li><a href="http://sonicempire.loc/content/2-legal-notice">Политика безопасности</a></li>
+            </ul>
+
+        </div>
+<!--/Страницы контента-->
 <?php }} ?>

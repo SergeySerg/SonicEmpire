@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-07-09 23:36:29
+<?php /* Smarty version Smarty-3.1.19, created on 2016-07-16 15:43:11
          compiled from "D:\Webserver\domains\sonicempire.loc\themes\sonicempire\modules\blocksocial\blocksocial.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:325095781604d0da163-74226876%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:25411578a2bdf066978-87720277%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0cf75ac22566723d23e7febf03b99c9f38f6accd' => 
     array (
       0 => 'D:\\Webserver\\domains\\sonicempire.loc\\themes\\sonicempire\\modules\\blocksocial\\blocksocial.tpl',
-      1 => 1468094997,
+      1 => 1468596483,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '325095781604d0da163-74226876',
+  'nocache_hash' => '25411578a2bdf066978-87720277',
   'function' => 
   array (
   ),
@@ -29,9 +29,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5781604d1bcaa6_82656180',
+  'unifunc' => 'content_578a2bdf0fef15_31704028',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5781604d1bcaa6_82656180')) {function content_5781604d1bcaa6_82656180($_smarty_tpl) {?><div id="social_block" class="social col-md-3 clearfix">
+<?php if ($_valid && !is_callable('content_578a2bdf0fef15_31704028')) {function content_578a2bdf0fef15_31704028($_smarty_tpl) {?><div id="social_block" class="social col-md-3 clearfix">
 	<ul>
         <?php if (isset($_smarty_tpl->tpl_vars['youtube_url']->value)&&$_smarty_tpl->tpl_vars['youtube_url']->value!='') {?>
             <li>
@@ -105,7 +105,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
    <!-- <h4><?php echo smartyTranslate(array('s'=>'Follow us','mod'=>'blocksocial'),$_smarty_tpl);?>
 </h4>-->
 </div>
-<!--Страницы контентк-->
+<!--Страницы контента-->
         <div class="bottom-menu">
 
             <ul>
@@ -118,5 +118,5 @@ content/2-legal-notice">Политика безопасности</a></li>
             </ul>
 
         </div>
-<!--/Страницы контентк-->
+<!--/Страницы контента-->
 <?php }} ?>
