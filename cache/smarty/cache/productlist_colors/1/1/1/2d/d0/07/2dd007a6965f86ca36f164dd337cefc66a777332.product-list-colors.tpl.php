@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:24062578929127aea41-55472883%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:30008578d38670b75e0-65099764%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,22 +9,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '24062578929127aea41-55472883',
-  'variables' => 
-  array (
-    'colors_list' => 0,
-    'col_img_dir' => 0,
-    'color' => 0,
-    'link' => 0,
-    'img_color_exists' => 0,
-    'img_col_dir' => 0,
-  ),
-  'has_nocache_code' => false,
+  'nocache_hash' => '30008578d38670b75e0-65099764',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_578929129e12d8_09469926',
+  'unifunc' => 'content_578d386722a7b6_26991670',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_578929129e12d8_09469926')) {function content_578929129e12d8_09469926($_smarty_tpl) {?><ul class="color_to_pick_list clearfix">
+<?php if ($_valid && !is_callable('content_578d386722a7b6_26991670')) {function content_578d386722a7b6_26991670($_smarty_tpl) {?><ul class="color_to_pick_list clearfix">
 									<li>
 				<a href="http://sonicempire.loc/tshirts/1-faded-short-sleeve-tshirts.html#/1-size-s/13-color-orange" id="color_1" class="color_pick" style="background:#F39C11;">
 									</a>

@@ -23,11 +23,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="global.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="global.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/sonicempire/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8922" column="24" selection-start="226256" selection-end="226256" vertical-scroll-proportion="0.0" vertical-offset="151480" max-vertical-offset="154564">
+            <state line="9093" column="0" selection-start="242606" selection-end="242606" vertical-scroll-proportion="1.4419264" vertical-offset="154072" max-vertical-offset="154683">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manufacturer.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/sonicempire/manufacturer.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="11" selection-start="484" selection-end="484" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="391">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manufacturer.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/default-bootstrap/manufacturer.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="54" selection-start="1397" selection-end="1431" vertical-scroll-proportion="-7.8461537" vertical-offset="408" max-vertical-offset="1428">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product-list.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/sonicempire/product-list.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="11" selection-start="2525" selection-end="2525" vertical-scroll-proportion="-0.4716981" vertical-offset="434" max-vertical-offset="2533">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="category.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/sonicempire/category.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="337" selection-start="435" selection-end="435" vertical-scroll-proportion="-1.6037736" vertical-offset="0" max-vertical-offset="476">
+              <folding>
+                <marker date="1468865307512" expanded="true" signature="60:859" placeholder="..." />
+                <marker date="1468865307512" expanded="true" signature="102:844" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,74 +74,7 @@
       <file leaf-file-name="header.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/sonicempire/header.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="24" selection-start="5933" selection-end="5933" vertical-scroll-proportion="-13.961538" vertical-offset="1320" max-vertical-offset="1853">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="smartblog_latest_news.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/smartbloghomelatestnews/views/templates/front/smartblog_latest_news.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="68" selection-start="204" selection-end="204" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="561">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/homesliderpro/css/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="319" column="25" selection-start="4940" selection-end="4940" vertical-scroll-proportion="-4.2222223" vertical-offset="5309" max-vertical-offset="11696">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homesliderpro.tpl" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modules/homesliderpro/views/templates/hook/homesliderpro.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="32" selection-start="3742" selection-end="3742" vertical-scroll-proportion="2.1299093" vertical-offset="859" max-vertical-offset="2822">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slidereverywhere.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/homesliderpro/js/slidereverywhere.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="19" selection-start="567" selection-end="573" vertical-scroll-proportion="-4.0740743" vertical-offset="281" max-vertical-offset="24973">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../poligon.loc1/themes/denfish/header.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="331" column="75" selection-start="12665" selection-end="12711" vertical-scroll-proportion="-162.61539" vertical-offset="1399" max-vertical-offset="8296">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="smartbloghomelatestnews.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/smartbloghomelatestnews/smartbloghomelatestnews.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="84.11539" vertical-offset="2187" max-vertical-offset="2720">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SmartBlogPost.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/smartblog/classes/SmartBlogPost.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="26" selection-start="2318" selection-end="2335" vertical-scroll-proportion="-4.1698112" vertical-offset="561" max-vertical-offset="12053">
+            <state line="100" column="110" selection-start="6194" selection-end="6194" vertical-scroll-proportion="-15.230769" vertical-offset="1304" max-vertical-offset="1853">
               <folding />
             </state>
           </provider>
@@ -123,7 +95,6 @@
         <option value="$PROJECT_DIR$/admin9377xbaxo/themes/default/template/header.tpl" />
         <option value="$PROJECT_DIR$/admin9377xbaxo/themes/default/template/footer.tpl" />
         <option value="$PROJECT_DIR$/modules/gamification/views/templates/hook/notification_bt.tpl" />
-        <option value="$PROJECT_DIR$/themes/sonicempire/cms.tpl" />
         <option value="$PROJECT_DIR$/../stalker.loc/themes/stalker/css/global.css" />
         <option value="$PROJECT_DIR$/themes/sonicempire/modules/blockcontact/blockcontact.tpl" />
         <option value="$PROJECT_DIR$/../stalker.loc/themes/stalker/header.tpl" />
@@ -134,18 +105,28 @@
         <option value="$PROJECT_DIR$/modules/mib/mib.php" />
         <option value="$PROJECT_DIR$/modules/mib/mib.css" />
         <option value="$PROJECT_DIR$/themes/sonicempire/modules/blockcontact/nav.tpl" />
-        <option value="$PROJECT_DIR$/modules/mib/views/templates/hook/mib.tpl" />
         <option value="$PROJECT_DIR$/themes/sonicempire/modules/blocksocial/blocksocial.tpl" />
-        <option value="$PROJECT_DIR$/themes/sonicempire/index.tpl" />
-        <option value="$PROJECT_DIR$/themes/sonicempire/header.tpl" />
         <option value="$PROJECT_DIR$/themes/sonicempire/footer.tpl" />
         <option value="$PROJECT_DIR$/themes/sonicempire/css/modules/blockcategories/blockcategories.css" />
-        <option value="$PROJECT_DIR$/themes/sonicempire/modules/blockcategories/category-tree-branch.tpl" />
         <option value="$PROJECT_DIR$/themes/sonicempire/modules/blockcategories/blockcategories.tpl" />
         <option value="$PROJECT_DIR$/modules/homesliderpro/views/templates/hook/homesliderpro.tpl" />
-        <option value="$PROJECT_DIR$/themes/sonicempire/css/global.css" />
         <option value="$PROJECT_DIR$/modules/smartbloghomelatestnews/views/templates/front/smartblog_latest_news.tpl" />
         <option value="$PROJECT_DIR$/modules/homesliderpro/css/styles.css" />
+        <option value="$PROJECT_DIR$/themes/sonicempire/cms.tpl" />
+        <option value="$PROJECT_DIR$/modules/mib/views/templates/hook/mib.tpl" />
+        <option value="$PROJECT_DIR$/../stalker.loc/themes/stalker/breadcrumb.tpl" />
+        <option value="$PROJECT_DIR$/classes/controller/FrontController.php" />
+        <option value="$PROJECT_DIR$/themes/sonicempire/header.tpl" />
+        <option value="$PROJECT_DIR$/themes/sonicempire/manufacturer-list.tpl" />
+        <option value="$PROJECT_DIR$/themes/sonicempire/index.tpl" />
+        <option value="$PROJECT_DIR$/themes/sonicempire/manufacturer.tpl" />
+        <option value="$PROJECT_DIR$/themes/sonicempire/breadcrumb.tpl" />
+        <option value="$PROJECT_DIR$/../poligon.loc1/themes/denfish/product-list.tpl" />
+        <option value="$PROJECT_DIR$/themes/sonicempire/category.tpl" />
+        <option value="$PROJECT_DIR$/themes/sonicempire/css/product_list.css" />
+        <option value="$PROJECT_DIR$/themes/sonicempire/product-list.tpl" />
+        <option value="$PROJECT_DIR$/themes/sonicempire/css/global.css" />
+        <option value="$PROJECT_DIR$/themes/sonicempire/modules/blockcategories/category-tree-branch.tpl" />
       </list>
     </option>
   </component>
@@ -182,6 +163,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -264,17 +246,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
+              <option name="myItemId" value="themes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sonicempire.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonicempire.loc" />
+              <option name="myItemId" value="sonicempire" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -282,179 +258,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="smartbloghomelatestnews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonicempire.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonicempire.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smartblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonicempire.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonicempire.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smartblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonicempire.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonicempire.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smartblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonicempire.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonicempire.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smartblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonicempire.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonicempire.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="homesliderpro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonicempire.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonicempire.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="homesliderpro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonicempire.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonicempire.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="homesliderpro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="blockcategories" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../poligon.loc1/themes/denfish/header.tpl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../poligon.loc1/themes/denfish/product-list.tpl" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
@@ -535,24 +348,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32554257" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31869918" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32520324" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27190334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28700906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Get Gist" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31869918" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -575,91 +388,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin9377xbaxo/themes/default/css/admin-theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="528176" selection-end="528176" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="578" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin9377xbaxo/themes/default/template/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="23" selection-start="6023" selection-end="6023" vertical-scroll-proportion="0.0" vertical-offset="1994" max-vertical-offset="6613" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/gamification/views/templates/hook/notification_bt.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="11" selection-start="1343" selection-end="1343" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="1734" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin9377xbaxo/themes/default/template/footer.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="2006" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/homeslider/homeslider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.8830769" vertical-offset="612" max-vertical-offset="18037" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin9377xbaxo/themes/default/template/footer.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.5648415" vertical-offset="280" max-vertical-offset="2006" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/gamification/views/templates/hook/notification_bt.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="974" selection-end="974" vertical-scroll-proportion="0.44668588" vertical-offset="304" max-vertical-offset="1751" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin9377xbaxo/themes/default/template/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="23" selection-start="6023" selection-end="6023" vertical-scroll-proportion="0.3775216" vertical-offset="1994" max-vertical-offset="6613" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin9377xbaxo/themes/default/css/admin-theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="528176" selection-end="528176" vertical-scroll-proportion="1.2680966" vertical-offset="3" max-vertical-offset="578" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/homesliderpro/HomeSlidePro.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="64.53846" vertical-offset="1678" max-vertical-offset="2227" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/homesliderpro/homesliderpro.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="196.15384" vertical-offset="5100" max-vertical-offset="23256" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sonicempire/cms.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="8" selection-start="1574" selection-end="1574" vertical-scroll-proportion="0.28233153" vertical-offset="508" max-vertical-offset="1513" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin9377xbaxo/themes/default/template/controllers/login/content.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="0" selection-start="5067" selection-end="5067" vertical-scroll-proportion="0.9380692" vertical-offset="1814" max-vertical-offset="2431" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default-bootstrap/modules/blockcontact/blockcontact.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="9" selection-start="0" selection-end="1594" vertical-scroll-proportion="0.3148148" vertical-offset="306" max-vertical-offset="850" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sonicempire/modules/blockcontact/blockcontact.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="6" selection-start="1717" selection-end="1717" vertical-scroll-proportion="0.8111111" vertical-offset="310" max-vertical-offset="850" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default-bootstrap/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.25925925" vertical-offset="140" max-vertical-offset="680" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../stalker.loc/themes/stalker/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9233" column="0" selection-start="233690" selection-end="233690" vertical-scroll-proportion="0.0" vertical-offset="145540" max-vertical-offset="157097" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/prosearch/prosearch_instant.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258" />
@@ -705,26 +433,14 @@
         <state line="0" column="53" selection-start="53" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="550" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mib/views/templates/hook/mib.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="171" selection-start="589" selection-end="589" vertical-scroll-proportion="0.23287672" vertical-offset="0" max-vertical-offset="511" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/sonicempire/modules/blocksocial/blocksocial.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="21" selection-start="1946" selection-end="1946" vertical-scroll-proportion="1.9465649" vertical-offset="0" max-vertical-offset="1309" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mib/mib.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="77" selection-start="5670" selection-end="5670" vertical-scroll-proportion="-0.6378987" vertical-offset="2414" max-vertical-offset="4505" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/mib/css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/prosearch/prosearch_top.tpl">
@@ -737,139 +453,239 @@
         <state line="167" column="24" selection-start="10463" selection-end="10463" vertical-scroll-proportion="0.0" vertical-offset="2839" max-vertical-offset="5389" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sonicempire/modules/blockcategories/blockcategories.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="524">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/sonicempire/footer.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="26" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.10176125" vertical-offset="373" max-vertical-offset="986">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sonicempire/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="20" selection-start="1312" selection-end="1312" vertical-scroll-proportion="0.77290076" vertical-offset="156" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sonicempire/css/modules/blockcategories/blockcategories.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="12" selection-start="1879" selection-end="1879" vertical-scroll-proportion="0.35664335" vertical-offset="816" max-vertical-offset="1666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sonicempire/modules/blockcategories/category-tree-branch.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="391">
-          <folding />
-        </state>
+        <state line="25" column="26" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.10176125" vertical-offset="373" max-vertical-offset="986" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/homesliderpro/views/templates/hook/header.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.0274725" vertical-offset="561" max-vertical-offset="1615">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.0274725" vertical-offset="561" max-vertical-offset="1615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/homesliderpro/views/templates/admin/controllers/se_admin.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/homesliderpro/views/templates/admin/controllers/admin.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/smartbloghomelatestnews/views/templates/front/install_required.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="559">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="559" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/smartblog/smartblog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-7.9843445" vertical-offset="4080" max-vertical-offset="19040">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-7.9843445" vertical-offset="4080" max-vertical-offset="19040" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/smartbloghomelatestnews/smartbloghomelatestnews.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.6982923" vertical-offset="1422" max-vertical-offset="2720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/homesliderpro/js/slidereverywhere.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="23" selection-start="577" selection-end="577" vertical-scroll-proportion="0.198915" vertical-offset="145" max-vertical-offset="24837" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/smartblog/classes/SmartBlogPost.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="26" selection-start="2318" selection-end="2335" vertical-scroll-proportion="-4.1698112" vertical-offset="561" max-vertical-offset="12053">
+        <state line="46" column="26" selection-start="2318" selection-end="2335" vertical-scroll-proportion="0.41935483" vertical-offset="561" max-vertical-offset="12053" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/homesliderpro/views/templates/hook/homesliderpro.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="32" selection-start="3742" selection-end="3742" vertical-scroll-proportion="-0.123861566" vertical-offset="1632" max-vertical-offset="2822" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/homesliderpro/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="319" column="25" selection-start="4940" selection-end="4940" vertical-scroll-proportion="0.19387755" vertical-offset="5309" max-vertical-offset="11696" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/smartbloghomelatestnews/views/templates/front/smartblog_latest_news.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="68" selection-start="204" selection-end="204" vertical-scroll-proportion="0.10200364" vertical-offset="12" max-vertical-offset="561" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sonicempire/cms.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="7" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.43715847" vertical-offset="406" max-vertical-offset="1513" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mib/mib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="77" selection-start="5670" selection-end="5670" vertical-scroll-proportion="45.76923" vertical-offset="3264" max-vertical-offset="4505" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mib/views/templates/hook/mib.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="4" selection-start="2042" selection-end="2042" vertical-scroll-proportion="0.27868852" vertical-offset="510" max-vertical-offset="1088" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/controller/FrontController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="396" column="116" selection-start="15984" selection-end="15984" vertical-scroll-proportion="0.366" vertical-offset="6158" max-vertical-offset="28390" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default-bootstrap/breadcrumb.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.48387095" vertical-offset="255" max-vertical-offset="935" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/homesliderpro/translations/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="5" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.3462963" vertical-offset="0" max-vertical-offset="540">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../poligon.loc1/themes/denfish/header.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="331" column="75" selection-start="12665" selection-end="12711" vertical-scroll-proportion="-162.61539" vertical-offset="1399" max-vertical-offset="8296">
+        <state line="313" column="134" selection-start="11713" selection-end="11793" vertical-scroll-proportion="0.3776091" vertical-offset="5122" max-vertical-offset="8296">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/smartbloghomelatestnews/smartbloghomelatestnews.php">
+    <entry file="file://$PROJECT_DIR$/themes/sonicempire/manufacturer-list.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="84.11539" vertical-offset="2187" max-vertical-offset="2720">
+        <state line="0" column="0" selection-start="0" selection-end="969" vertical-scroll-proportion="-0.67741936" vertical-offset="357" max-vertical-offset="2805">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sonicempire/pagination.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-5.774194" vertical-offset="3043" max-vertical-offset="3621">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stalker.loc/themes/stalker/breadcrumb.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="68" selection-start="689" selection-end="734" vertical-scroll-proportion="0.2580645" vertical-offset="51" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sonicempire/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="22" selection-start="345" selection-end="345" vertical-scroll-proportion="0.28333333" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sonicempire/breadcrumb.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="17" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.33206832" vertical-offset="63" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default-bootstrap/manufacturer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="54" selection-start="1397" selection-end="1431" vertical-scroll-proportion="-7.8461537" vertical-offset="408" max-vertical-offset="1428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-11.32258" vertical-offset="5967" max-vertical-offset="104210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default-bootstrap/product.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="182" column="0" selection-start="9126" selection-end="9126" vertical-scroll-proportion="4.48" vertical-offset="854" max-vertical-offset="13311">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sonicempire/manufacturer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="11" selection-start="484" selection-end="484" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sonicempire/category-count.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.37777779" vertical-offset="204" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sonicempire/category.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="337" selection-start="435" selection-end="435" vertical-scroll-proportion="-1.6037736" vertical-offset="0" max-vertical-offset="476">
+          <folding>
+            <marker date="1468865307512" expanded="true" signature="60:859" placeholder="..." />
+            <marker date="1468865307512" expanded="true" signature="102:844" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sonicempire/css/product_list.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="156" column="25" selection-start="5834" selection-end="5834" vertical-scroll-proportion="0.6455696" vertical-offset="2295" max-vertical-offset="6834">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sonicempire/product-list.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="11" selection-start="2525" selection-end="2525" vertical-scroll-proportion="-0.4716981" vertical-offset="434" max-vertical-offset="2533">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sonicempire/modules/blockcategories/category-tree-branch.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="149" selection-start="210" selection-end="210" vertical-scroll-proportion="0.06732673" vertical-offset="0" max-vertical-offset="505">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sonicempire/css/modules/blockcategories/blockcategories.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="6" selection-start="2514" selection-end="2529" vertical-scroll-proportion="0.53125" vertical-offset="1071" max-vertical-offset="1666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../poligon.loc1/themes/denfish/product-list.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="41" selection-start="5760" selection-end="5760" vertical-scroll-proportion="0.9354839" vertical-offset="799" max-vertical-offset="3060">
+          <folding>
+            <element signature="e#10508#10702#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/sonicempire/header.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="24" selection-start="5933" selection-end="5933" vertical-scroll-proportion="-13.961538" vertical-offset="1320" max-vertical-offset="1853">
+        <state line="100" column="110" selection-start="6194" selection-end="6194" vertical-scroll-proportion="-15.230769" vertical-offset="1304" max-vertical-offset="1853">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/homesliderpro/js/slidereverywhere.js">
+    <entry file="file://$PROJECT_DIR$/themes/sonicempire/modules/blockcategories/blockcategories.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="19" selection-start="567" selection-end="573" vertical-scroll-proportion="-4.0740743" vertical-offset="281" max-vertical-offset="24973">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/sonicempire/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8922" column="24" selection-start="226256" selection-end="226256" vertical-scroll-proportion="0.0" vertical-offset="151480" max-vertical-offset="154564">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/smartbloghomelatestnews/views/templates/front/smartblog_latest_news.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="68" selection-start="204" selection-end="204" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="561">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/homesliderpro/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="319" column="25" selection-start="4940" selection-end="4940" vertical-scroll-proportion="-4.2222223" vertical-offset="5309" max-vertical-offset="11696">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/homesliderpro/views/templates/hook/homesliderpro.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="32" selection-start="3742" selection-end="3742" vertical-scroll-proportion="2.1299093" vertical-offset="859" max-vertical-offset="2822">
+        <state line="9093" column="0" selection-start="242606" selection-end="242606" vertical-scroll-proportion="1.4419264" vertical-offset="154072" max-vertical-offset="154683">
           <folding />
         </state>
       </provider>

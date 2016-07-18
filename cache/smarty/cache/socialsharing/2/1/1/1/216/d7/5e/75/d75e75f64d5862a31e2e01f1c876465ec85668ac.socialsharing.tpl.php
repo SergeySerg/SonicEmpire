@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:20407578916f95ed6d0-76753389%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:16735578d3acb3d44e0-04538330%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,22 +9,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '20407578916f95ed6d0-76753389',
-  'variables' => 
-  array (
-    'PS_SC_TWITTER' => 0,
-    'PS_SC_FACEBOOK' => 0,
-    'PS_SC_GOOGLE' => 0,
-    'PS_SC_PINTEREST' => 0,
-    'module_dir' => 0,
-    'link' => 0,
-  ),
-  'has_nocache_code' => false,
+  'nocache_hash' => '16735578d3acb3d44e0-04538330',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_578916f965eb79_96823585',
+  'unifunc' => 'content_578d3b12ab2745_46658134',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_578916f965eb79_96823585')) {function content_578916f965eb79_96823585($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_578d3b12ab2745_46658134')) {function content_578d3b12ab2745_46658134($_smarty_tpl) {?>
 	<p class="socialsharing_product list-inline no-print">
 					<button data-type="twitter" type="button" class="btn btn-default btn-twitter social-sharing">
 				<i class="icon-twitter"></i> Tweet

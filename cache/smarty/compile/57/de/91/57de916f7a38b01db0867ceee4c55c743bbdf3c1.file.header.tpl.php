@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-07-16 15:43:25
+<?php /* Smarty version Smarty-3.1.19, created on 2016-07-18 23:13:15
          compiled from "D:\Webserver\domains\sonicempire.loc\themes\sonicempire\header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:10264578a2bed839d57-86845926%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:23504578d385b89c3d9-68645872%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '57de916f7a38b01db0867ceee4c55c743bbdf3c1' => 
     array (
       0 => 'D:\\Webserver\\domains\\sonicempire.loc\\themes\\sonicempire\\header.tpl',
-      1 => 1468614620,
+      1 => 1468846477,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '10264578a2bed839d57-86845926',
+  'nocache_hash' => '23504578d385b89c3d9-68645872',
   'function' => 
   array (
   ),
@@ -58,9 +58,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_578a2beda41656_07787941',
+  'unifunc' => 'content_578d385baf5d66_76434368',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_578a2beda41656_07787941')) {function content_578a2beda41656_07787941($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'D:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\function.implode.php';
+<?php if ($_valid && !is_callable('content_578d385baf5d66_76434368')) {function content_578d385baf5d66_76434368($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'D:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\function.implode.php';
 ?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"<?php if (isset($_smarty_tpl->tpl_vars['language_code']->value)&&$_smarty_tpl->tpl_vars['language_code']->value) {?> lang="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language_code']->value, ENT_QUOTES, 'UTF-8', true);?>

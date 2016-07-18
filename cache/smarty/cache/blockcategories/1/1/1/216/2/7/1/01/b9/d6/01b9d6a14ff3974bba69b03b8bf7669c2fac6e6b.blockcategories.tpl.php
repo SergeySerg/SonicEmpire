@@ -1,63 +1,59 @@
-<?php /*%%SmartyHeaderCode:2096357891195c566a5-98175981%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:26358578d385aabeec4-82492575%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '01b9d6a14ff3974bba69b03b8bf7669c2fac6e6b' => 
     array (
       0 => 'D:\\Webserver\\domains\\sonicempire.loc\\themes\\sonicempire\\modules\\blockcategories\\blockcategories.tpl',
-      1 => 1467738648,
+      1 => 1468655830,
       2 => 'file',
     ),
     '50ab33a3f41fc392b1b6a9fe10acb876ec79cfdd' => 
     array (
       0 => 'D:\\Webserver\\domains\\sonicempire.loc\\themes\\sonicempire\\modules\\blockcategories\\category-tree-branch.tpl',
-      1 => 1467738648,
+      1 => 1468655830,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2096357891195c566a5-98175981',
+  'nocache_hash' => '26358578d385aabeec4-82492575',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_578916f939f8d8_26395293',
+  'unifunc' => 'content_578d3b129b4897_00734159',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_578916f939f8d8_26395293')) {function content_578916f939f8d8_26395293($_smarty_tpl) {?><!-- Block categories module -->
-<div id="categories_block_left" class="block">
-	<h2 class="title_block">
+<?php if ($_valid && !is_callable('content_578d3b129b4897_00734159')) {function content_578d3b129b4897_00734159($_smarty_tpl) {?><!-- Block categories module -->
+<div id="categories_block_left">
+	<!--<h2 class="title_block">
 					Blouses
-			</h2>
-	<div class="block_content">
-		<ul class="tree dhtml">
-												
-<li class="last">
+			</h2>-->
+
+		<ul id="menu" class="catalog tree dhtml">
+												<li >
 	<a 
-	href="http://sonicempire.loc/3-women" title="You will find here all woman fashion collections.  
+	href="http://sonicempire.loc/3-women" <!--title="You will find here all woman fashion collections.  
  This category includes all the basics of your wardrobe and much more: 
- shoes, accessories, printed t-shirts, feminine dresses, women&#039;s jeans!">
+ shoes, accessories, printed t-shirts, feminine dresses, women&#039;s jeans!-->">
 		Women
 	</a>
-			<ul>
-												
-<li >
+			<ul class="sub_menu">
+												<li >
 	<a 
-	href="http://sonicempire.loc/4-tops" title="Choose from t-shirts, tops, blouses, short sleeves, long sleeves, tank tops, 3/4 sleeves and more. 
- Find the cut that suits you the best!">
+	href="http://sonicempire.loc/4-tops" <!--title="Choose from t-shirts, tops, blouses, short sleeves, long sleeves, tank tops, 3/4 sleeves and more. 
+ Find the cut that suits you the best!-->">
 		Tops
 	</a>
-			<ul>
-												
-<li >
+			<ul class="sub_menu">
+												<li >
 	<a 
-	href="http://sonicempire.loc/5-tshirts" title="The must have of your wardrobe, take a look at our different colors, 
- shapes and style of our collection!">
+	href="http://sonicempire.loc/5-tshirts" <!--title="The must have of your wardrobe, take a look at our different colors, 
+ shapes and style of our collection!-->">
 		T-shirts
 	</a>
 	</li>
 
-																
-<li class="last">
+																<li class="last">
 	<a 
-	href="http://sonicempire.loc/7-blouses" class="selected" title="Match your favorites blouses with the right accessories for the perfect look.">
+	href="http://sonicempire.loc/7-blouses" class="selected" <!--title="Match your favorites blouses with the right accessories for the perfect look.-->">
 		Blouses
 	</a>
 	</li>
@@ -65,35 +61,31 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 									</ul>
 	</li>
 
-																
-<li class="last">
+																<li class="last">
 	<a 
-	href="http://sonicempire.loc/8-dresses" title="Find your favorites dresses from our wide choice of evening, casual or summer dresses! 
- We offer dresses for every day, every style and every occasion.">
+	href="http://sonicempire.loc/8-dresses" <!--title="Find your favorites dresses from our wide choice of evening, casual or summer dresses! 
+ We offer dresses for every day, every style and every occasion.-->">
 		Dresses
 	</a>
-			<ul>
-												
-<li >
+			<ul class="sub_menu">
+												<li >
 	<a 
-	href="http://sonicempire.loc/9-casual-dresses" title="You are looking for a dress for every day? Take a look at 
- our selection of dresses to find one that suits you.">
+	href="http://sonicempire.loc/9-casual-dresses" <!--title="You are looking for a dress for every day? Take a look at 
+ our selection of dresses to find one that suits you.-->">
 		Casual Dresses
 	</a>
 	</li>
 
-																
-<li >
+																<li >
 	<a 
-	href="http://sonicempire.loc/10-evening-dresses" title="Browse our different dresses to choose the perfect dress for an unforgettable evening!">
+	href="http://sonicempire.loc/10-evening-dresses" <!--title="Browse our different dresses to choose the perfect dress for an unforgettable evening!-->">
 		Evening Dresses
 	</a>
 	</li>
 
-																
-<li class="last">
+																<li class="last">
 	<a 
-	href="http://sonicempire.loc/11-summer-dresses" title="Short dress, long dress, silk dress, printed dress, you will find the perfect dress for summer.">
+	href="http://sonicempire.loc/11-summer-dresses" <!--title="Short dress, long dress, silk dress, printed dress, you will find the perfect dress for summer.-->">
 		Summer Dresses
 	</a>
 	</li>
@@ -104,8 +96,31 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 									</ul>
 	</li>
 
+																<li >
+	<a 
+	href="http://sonicempire.loc/13-akustika" <!--title="-->">
+		Акустика
+	</a>
+			<ul class="sub_menu">
+												<li class="last">
+	<a 
+	href="http://sonicempire.loc/14-napolnaya" <!--title="-->">
+		Напольная
+	</a>
+	</li>
+
 									</ul>
-	</div>
+	</li>
+
+																<li class="last">
+	<a 
+	href="http://sonicempire.loc/12-komplekty-akustiki" <!--title="-->">
+		Комплекты акустики
+	</a>
+	</li>
+
+									</ul>
+
 </div>
 <!-- /Block categories module -->
 <?php }} ?>

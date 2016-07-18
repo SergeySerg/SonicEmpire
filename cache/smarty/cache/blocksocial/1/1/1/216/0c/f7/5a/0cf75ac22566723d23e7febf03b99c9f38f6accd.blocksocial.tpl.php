@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:1625557891196551a92-36912793%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:19812578d385b0109d9-82812244%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,7 +9,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1625557891196551a92-36912793',
+  'nocache_hash' => '19812578d385b0109d9-82812244',
   'variables' => 
   array (
     'youtube_url' => 0,
@@ -24,10 +24,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57891196be1713_98982098',
+  'unifunc' => 'content_578d385b106b80_64026863',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57891196be1713_98982098')) {function content_57891196be1713_98982098($_smarty_tpl) {?><div id="social_block" class="social col-md-3 clearfix">
+<?php if ($_valid && !is_callable('content_578d385b106b80_64026863')) {function content_578d385b106b80_64026863($_smarty_tpl) {?><div id="social_block" class="social col-md-3 clearfix">
 	<ul>
                     <li>
                 <a class="youtube" href="https://www.youtube.com/">

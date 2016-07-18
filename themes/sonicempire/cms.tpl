@@ -36,7 +36,7 @@
 			<p id="admin-action-result"></p>
 		</div>
 	{/if}
-	<div class="rte{if $content_only} content_only{/if}">
+	<div id="content" class="rte{if $content_only} content_only{/if}">
      {hook h="displaySlidersPro" slider="sample"}
 		{$cms->content}
 	</div>

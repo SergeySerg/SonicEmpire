@@ -1,92 +1,41 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-07-15 21:23:14
+<?php /* Smarty version Smarty-3.1.19, created on 2016-07-18 23:13:27
          compiled from "D:\Webserver\domains\sonicempire.loc\themes\sonicempire\manufacturer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1710157892a12c35782-48372305%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:10513578d38673c8916-14493330%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '55ee73db8d93b46e5a9c97f9fdf6e4731d50e0b9' => 
     array (
       0 => 'D:\\Webserver\\domains\\sonicempire.loc\\themes\\sonicempire\\manufacturer.tpl',
-      1 => 1467738648,
+      1 => 1468848851,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1710157892a12c35782-48372305',
+  'nocache_hash' => '10513578d38673c8916-14493330',
   'function' => 
   array (
   ),
   'variables' => 
   array (
     'errors' => 0,
-    'manufacturer' => 0,
     'products' => 0,
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57892a12cd1ba3_05631017',
+  'unifunc' => 'content_578d38674032a7_63527238',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57892a12cd1ba3_05631017')) {function content_57892a12cd1ba3_05631017($_smarty_tpl) {?>
-
-
-<?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['tpl_dir']->value)."./errors.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+<?php if ($_valid && !is_callable('content_578d38674032a7_63527238')) {function content_578d38674032a7_63527238($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['tpl_dir']->value)."./errors.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 
 <?php if (!isset($_smarty_tpl->tpl_vars['errors']->value)||!sizeof($_smarty_tpl->tpl_vars['errors']->value)) {?>
-	<h1 class="page-heading product-listing">
-		<?php echo smartyTranslate(array('s'=>'List of products by manufacturer'),$_smarty_tpl);?>
-&nbsp;<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['manufacturer']->value->name, ENT_QUOTES, 'UTF-8', true);?>
-
-	</h1>
-	<?php if (!empty($_smarty_tpl->tpl_vars['manufacturer']->value->description)||!empty($_smarty_tpl->tpl_vars['manufacturer']->value->short_description)) {?>
-		<div class="description_box rte">
-			<?php if (!empty($_smarty_tpl->tpl_vars['manufacturer']->value->short_description)) {?>
-				<div class="short_desc">
-					<?php echo $_smarty_tpl->tpl_vars['manufacturer']->value->short_description;?>
-
-				</div>
-				<div class="hide_desc">
-					<?php echo $_smarty_tpl->tpl_vars['manufacturer']->value->description;?>
-
-				</div>
-				<?php if (!empty($_smarty_tpl->tpl_vars['manufacturer']->value->description)) {?>
-					<a href="#" class="lnk_more" onclick="$(this).prev().slideDown('slow'); $(this).hide();$(this).prev().prev().hide(); return false;">
-						<?php echo smartyTranslate(array('s'=>'More'),$_smarty_tpl);?>
-
-					</a>
-				<?php }?>
-			<?php } else { ?>
-				<div>
-					<?php echo $_smarty_tpl->tpl_vars['manufacturer']->value->description;?>
-
-				</div>
-			<?php }?>
-		</div>
-	<?php }?>
-
 	<?php if ($_smarty_tpl->tpl_vars['products']->value) {?>
-		<div class="content_sortPagiBar">
-	    	<div class="sortPagiBar clearfix">
-				<?php echo $_smarty_tpl->getSubTemplate ("./product-sort.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
-
-				<?php echo $_smarty_tpl->getSubTemplate ("./nbr-product-page.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
-
-			</div>
-	    	<div class="top-pagination-content clearfix">
-	        	<?php echo $_smarty_tpl->getSubTemplate ("./product-compare.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
-
-	            <?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['tpl_dir']->value)."./pagination.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('no_follow'=>1), 0);?>
-
-	        </div>
-		</div>
-
+        <div id="content">
 		<?php echo $_smarty_tpl->getSubTemplate ("./product-list.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('products'=>$_smarty_tpl->tpl_vars['products']->value), 0);?>
 
 
 		<div class="content_sortPagiBar">
 	        <div class="bottom-pagination-content clearfix">
-	        	<?php echo $_smarty_tpl->getSubTemplate ("./product-compare.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
-
-				<?php echo $_smarty_tpl->getSubTemplate ("./pagination.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('no_follow'=>1,'paginationId'=>'bottom'), 0);?>
+	        	<?php echo $_smarty_tpl->getSubTemplate ("./pagination.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('no_follow'=>1,'paginationId'=>'bottom'), 0);?>
 
 	        </div>
 		</div>
@@ -94,5 +43,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<p class="alert alert-warning"><?php echo smartyTranslate(array('s'=>'No products for this manufacturer.'),$_smarty_tpl);?>
 </p>
 	<?php }?>
+        </div>
 <?php }?>
 <?php }} ?>

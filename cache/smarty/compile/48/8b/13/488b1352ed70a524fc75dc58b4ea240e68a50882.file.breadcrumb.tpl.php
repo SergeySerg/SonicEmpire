@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-07-16 00:48:48
+<?php /* Smarty version Smarty-3.1.19, created on 2016-07-18 23:13:27
          compiled from "D:\Webserver\domains\sonicempire.loc\themes\sonicempire\breadcrumb.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1060157895a402adbc4-57098417%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:17741578d3867d427d7-63192924%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '488b1352ed70a524fc75dc58b4ea240e68a50882' => 
     array (
       0 => 'D:\\Webserver\\domains\\sonicempire.loc\\themes\\sonicempire\\breadcrumb.tpl',
-      1 => 1467738648,
+      1 => 1468851314,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1060157895a402adbc4-57098417',
+  'nocache_hash' => '17741578d3867d427d7-63192924',
   'function' => 
   array (
   ),
@@ -22,34 +22,36 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'base_dir' => 0,
     'path' => 0,
     'category' => 0,
-    'navigationPipe' => 0,
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57895a403b3784_72894894',
+  'unifunc' => 'content_578d3867e05cf0_84815570',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57895a403b3784_72894894')) {function content_57895a403b3784_72894894($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'D:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\modifier.replace.php';
+<?php if ($_valid && !is_callable('content_578d3867e05cf0_84815570')) {function content_578d3867e05cf0_84815570($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'D:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\modifier.replace.php';
 if (!is_callable('smarty_modifier_regex_replace')) include 'D:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\modifier.regex_replace.php';
 ?>
-
 <!-- Breadcrumb -->
 <?php if (isset(Smarty::$_smarty_vars['capture']['path'])) {?><?php $_smarty_tpl->tpl_vars['path'] = new Smarty_variable(Smarty::$_smarty_vars['capture']['path'], null, 0);?><?php }?>
-<div class="breadcrumb clearfix">
-	<a class="home" href="<?php if (isset($_smarty_tpl->tpl_vars['force_ssl']->value)&&$_smarty_tpl->tpl_vars['force_ssl']->value) {?><?php echo $_smarty_tpl->tpl_vars['base_dir_ssl']->value;?>
+<div class="breadcrumb">
+    <div class="container">
+        <div class="row">
+            <a href="<?php if (isset($_smarty_tpl->tpl_vars['force_ssl']->value)&&$_smarty_tpl->tpl_vars['force_ssl']->value) {?><?php echo $_smarty_tpl->tpl_vars['base_dir_ssl']->value;?>
 <?php } else { ?><?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
 <?php }?>" title="<?php echo smartyTranslate(array('s'=>'Return to Home'),$_smarty_tpl);?>
-"><i class="icon-home"></i></a>
-	<?php if (isset($_smarty_tpl->tpl_vars['path']->value)&&$_smarty_tpl->tpl_vars['path']->value) {?>
-		<span class="navigation-pipe"<?php if (isset($_smarty_tpl->tpl_vars['category']->value)&&isset($_smarty_tpl->tpl_vars['category']->value->id_category)&&$_smarty_tpl->tpl_vars['category']->value->id_category==(int)Configuration::get('PS_ROOT_CATEGORY')) {?> style="display:none;"<?php }?>><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['navigationPipe']->value, ENT_QUOTES, 'UTF-8', true);?>
+"><?php echo smartyTranslate(array('s'=>'Home'),$_smarty_tpl);?>
+</a>
+            <?php if (isset($_smarty_tpl->tpl_vars['path']->value)&&$_smarty_tpl->tpl_vars['path']->value) {?>
+                <span class="navigation-pipe"<?php if (isset($_smarty_tpl->tpl_vars['category']->value)&&isset($_smarty_tpl->tpl_vars['category']->value->id_category)&&$_smarty_tpl->tpl_vars['category']->value->id_category==(int)Configuration::get('PS_ROOT_CATEGORY')) {?> style="display:none;"<?php }?>>&nbsp<i class="fa fa-angle-right"></i>&nbsp</span>
+                <?php if (strpos($_smarty_tpl->tpl_vars['path']->value,'span')!==false) {?>
+                    <span class="navigation_page"><?php echo smarty_modifier_replace(smarty_modifier_replace(smarty_modifier_replace($_smarty_tpl->tpl_vars['path']->value,'<a ','<span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" '),'data-gg="">','><span itemprop="title">'),'</a>','&nbsp</span>&nbsp</a></span>');?>
 </span>
-		<?php if (strpos($_smarty_tpl->tpl_vars['path']->value,'span')!==false) {?>
-			<span class="navigation_page"><?php echo smarty_modifier_replace(smarty_modifier_replace(smarty_modifier_replace($_smarty_tpl->tpl_vars['path']->value,'<a ','<span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" '),'data-gg="">','><span itemprop="title">'),'</a>','</span></a></span>');?>
-</span>
-		<?php } else { ?>
-			<?php echo $_smarty_tpl->tpl_vars['path']->value;?>
+                <?php } else { ?>
+                    <?php echo $_smarty_tpl->tpl_vars['path']->value;?>
 
-		<?php }?>
-	<?php }?>
+                <?php }?>
+            <?php }?>
+        </div>
+    </div>
 </div>
 <?php if (isset($_GET['search_query'])&&isset($_GET['results'])&&$_GET['results']>1&&isset($_SERVER['HTTP_REFERER'])) {?>
 <div class="pull-right">
@@ -71,4 +73,14 @@ if (!empty($_capture_buffer)) {
 </div>
 <?php }?>
 <!-- /Breadcrumb -->
-<?php }} ?>
+<!--<div class="breadcrumb">
+	<div class="container">
+		<div class="row">
+			<ul>
+				<li><a href="#">Главная</a></li>
+				<li><i class="fa fa-angle-right"></i></li>
+				<li><a href="#">Marshall</a></li>
+			</ul>
+		</div>
+	</div>
+</div>--><?php }} ?>
