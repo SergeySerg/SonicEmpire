@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-07-18 23:28:06
+<?php /* Smarty version Smarty-3.1.19, created on 2016-07-20 16:09:07
          compiled from "D:\Webserver\domains\sonicempire.loc\themes\sonicempire\modules\blocklayered\blocklayered.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:5271578d3bd688c777-66772831%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:15998578f77f30bc428-95121856%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'fffa190b66bb9f2a7ce144e95e058fedd6f3ed3e' => 
     array (
       0 => 'D:\\Webserver\\domains\\sonicempire.loc\\themes\\sonicempire\\modules\\blocklayered\\blocklayered.tpl',
-      1 => 1467738648,
+      1 => 1468963422,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '5271578d3bd688c777-66772831',
+  'nocache_hash' => '15998578f77f30bc428-95121856',
   'function' => 
   array (
   ),
@@ -38,19 +38,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_578d3bd6e494c3_77927824',
+  'unifunc' => 'content_578f77f356f742_36680416',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_578d3bd6e494c3_77927824')) {function content_578d3bd6e494c3_77927824($_smarty_tpl) {?>
-
-<?php if ($_smarty_tpl->tpl_vars['nbr_filterBlocks']->value!=0) {?>
+<?php if ($_valid && !is_callable('content_578f77f356f742_36680416')) {function content_578f77f356f742_36680416($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['nbr_filterBlocks']->value!=0) {?>
 <div id="layered_block_left" class="block">
-	<p class="title_block"><?php echo smartyTranslate(array('s'=>'Catalog','mod'=>'blocklayered'),$_smarty_tpl);?>
-</p>
+    <h4><?php echo smartyTranslate(array('s'=>'Catalog','mod'=>'blocklayered'),$_smarty_tpl);?>
+</h4>
 	<div class="block_content">
 		<form action="#" id="layered_form">
 			<div>
 				<?php if (isset($_smarty_tpl->tpl_vars['selected_filters']->value)&&$_smarty_tpl->tpl_vars['n_filters']->value>0) {?>
-				<div id="enabled_filters">
+				<div id="enabled_filters" style="display: none;">
 					<span class="layered_subtitle" style="float: none;">
 						<?php echo smartyTranslate(array('s'=>'Enabled filters:','mod'=>'blocklayered'),$_smarty_tpl);?>
 
@@ -88,8 +86,8 @@ _slider" title="<?php echo smartyTranslate(array('s'=>'Cancel','mod'=>'blocklaye
 "></a>
 													<?php if ($_smarty_tpl->tpl_vars['filter']->value['format']==1) {?>
 														<?php ob_start();?><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['displayPrice'][0][0]->displayPriceSmarty(array('price'=>$_smarty_tpl->tpl_vars['filter']->value['values'][0]),$_smarty_tpl);?>
-<?php $_tmp1=ob_get_clean();?><?php ob_start();?><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['displayPrice'][0][0]->displayPriceSmarty(array('price'=>$_smarty_tpl->tpl_vars['filter']->value['values'][1]),$_smarty_tpl);?>
-<?php $_tmp2=ob_get_clean();?><?php echo smartyTranslate(array('s'=>htmlspecialchars(sprintf('%1$s: %2$s - %3$s',$_smarty_tpl->tpl_vars['filter']->value['name'],$_tmp1,$_tmp2), ENT_QUOTES, 'UTF-8', true),'mod'=>'blocklayered'),$_smarty_tpl);?>
+<?php $_tmp7=ob_get_clean();?><?php ob_start();?><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['displayPrice'][0][0]->displayPriceSmarty(array('price'=>$_smarty_tpl->tpl_vars['filter']->value['values'][1]),$_smarty_tpl);?>
+<?php $_tmp8=ob_get_clean();?><?php echo smartyTranslate(array('s'=>htmlspecialchars(sprintf('%1$s: %2$s - %3$s',$_smarty_tpl->tpl_vars['filter']->value['name'],$_tmp7,$_tmp8), ENT_QUOTES, 'UTF-8', true),'mod'=>'blocklayered'),$_smarty_tpl);?>
 
 													<?php } else { ?>
 														<?php echo smartyTranslate(array('s'=>htmlspecialchars(sprintf('%1$s: %2$s %4$s - %3$s %4$s',$_smarty_tpl->tpl_vars['filter']->value['name'],$_smarty_tpl->tpl_vars['filter']->value['values'][0],$_smarty_tpl->tpl_vars['filter']->value['values'][1],$_smarty_tpl->tpl_vars['filter']->value['unit']), ENT_QUOTES, 'UTF-8', true),'mod'=>'blocklayered'),$_smarty_tpl);?>
@@ -136,7 +134,7 @@ $_smarty_tpl->tpl_vars['filter']->_loop = true;
 						<?php } else { ?>
 							<div class="layered_filter">
 						<?php }?>
-                        <div class="layered_subtitle_heading">
+                        <div class="layered_subtitle_heading" style="display: none;">
                             <span class="layered_subtitle"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['filter']->value['name'], ENT_QUOTES, 'UTF-8', true);?>
 </span>
                             <!--<span class="layered_close">

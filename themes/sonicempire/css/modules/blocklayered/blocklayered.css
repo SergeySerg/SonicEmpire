@@ -95,7 +95,8 @@
   -moz-opacity: 0.5; }
 
 #layered_block_left .nomargin a {
-  display: inline; }
+  display: inline;
+  color: #CCC;}
 
 #layered_form .select {
   width: 165px; }
@@ -161,14 +162,14 @@
   overflow-x: auto; }
 
 .layered_filter {
-  border-bottom: 1px solid #eee; }
+  /*border-bottom: 1px solid #eee;*/ }
   .layered_filter label {
     font-weight: normal; }
   .layered_filter layered_subtitle {
     font-size: 1.2 em; }
 
 #layered_block_left ul li {
-  min-width: 50%;
+ min-width: 51%;
   width: auto; }
 
 /*# sourceMappingURL=blocklayered.css.map */

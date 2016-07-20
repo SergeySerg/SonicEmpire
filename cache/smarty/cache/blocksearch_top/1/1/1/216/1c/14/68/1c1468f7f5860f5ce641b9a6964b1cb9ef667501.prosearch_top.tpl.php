@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:21454578d18ec7e8197-65198274%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:17725578f77f28ab672-61642513%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -15,13 +15,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '21454578d18ec7e8197-65198274',
+  'nocache_hash' => '17725578f77f28ab672-61642513',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_578d38596b37b1_75495726',
+  'unifunc' => 'content_578f77f426a323_54688577',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_578d38596b37b1_75495726')) {function content_578d38596b37b1_75495726($_smarty_tpl) {?><div id="search_block_top" class="search_block_top-my col-xs-6 col-sm-2 col-md-3" >
+<?php if ($_valid && !is_callable('content_578f77f426a323_54688577')) {function content_578f77f426a323_54688577($_smarty_tpl) {?><div id="search_block_top" class="search_block_top-my col-xs-6 col-sm-2 col-md-3" >
 	<form id="searchbox" class="searchbox-my" method="get" action="http://sonicempire.loc/search" >
 		<input type="hidden" name="controller" value="search" />
 		<input type="hidden" name="orderby" value="position" />

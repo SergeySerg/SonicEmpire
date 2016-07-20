@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:30008578d38670b75e0-65099764%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:12255578f77f36176e8-30894565%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,20 +9,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '30008578d38670b75e0-65099764',
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_578d386722a7b6_26991670',
-  'has_nocache_code' => false,
+  'nocache_hash' => '12255578f77f36176e8-30894565',
   'cache_lifetime' => 31536000,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_578f77f949dd88_79963008',
+  'has_nocache_code' => false,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_578d386722a7b6_26991670')) {function content_578d386722a7b6_26991670($_smarty_tpl) {?><ul class="color_to_pick_list clearfix">
-									<li>
-				<a href="http://sonicempire.loc/tshirts/1-faded-short-sleeve-tshirts.html#/1-size-s/13-color-orange" id="color_1" class="color_pick" style="background:#F39C11;">
-									</a>
-			</li>
-											<li>
-				<a href="http://sonicempire.loc/tshirts/1-faded-short-sleeve-tshirts.html#/1-size-s/14-color-blue" id="color_2" class="color_pick" style="background:#5D9CEC;">
-									</a>
-			</li>
-			</ul>
-<?php }} ?>
+<?php if ($_valid && !is_callable('content_578f77f949dd88_79963008')) {function content_578f77f949dd88_79963008($_smarty_tpl) {?><?php }} ?>

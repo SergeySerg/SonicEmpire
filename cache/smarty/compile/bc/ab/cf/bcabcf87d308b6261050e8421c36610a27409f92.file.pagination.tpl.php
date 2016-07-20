@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-07-18 23:13:27
+<?php /* Smarty version Smarty-3.1.19, created on 2016-07-20 16:09:07
          compiled from "D:\Webserver\domains\sonicempire.loc\themes\sonicempire\pagination.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:11492578d38679141d6-73142574%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:14104578f77f3c458d3-55333633%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'bcabcf87d308b6261050e8421c36610a27409f92' => 
     array (
       0 => 'D:\\Webserver\\domains\\sonicempire.loc\\themes\\sonicempire\\pagination.tpl',
-      1 => 1467738649,
+      1 => 1469013979,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '11492578d38679141d6-73142574',
+  'nocache_hash' => '14104578f77f3c458d3-55333633',
   'function' => 
   array (
   ),
@@ -45,11 +45,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_578d3867c4c618_18589089',
+  'unifunc' => 'content_578f77f3ef5183_96773450',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_578d3867c4c618_18589089')) {function content_578d3867c4c618_18589089($_smarty_tpl) {?>
-
-<?php if (isset($_smarty_tpl->tpl_vars['no_follow']->value)&&$_smarty_tpl->tpl_vars['no_follow']->value) {?>
+<?php if ($_valid && !is_callable('content_578f77f3ef5183_96773450')) {function content_578f77f3ef5183_96773450($_smarty_tpl) {?><?php if (isset($_smarty_tpl->tpl_vars['no_follow']->value)&&$_smarty_tpl->tpl_vars['no_follow']->value) {?>
 	<?php $_smarty_tpl->tpl_vars['no_follow_text'] = new Smarty_variable(' rel="nofollow"', null, 0);?>
 <?php } else { ?>
 	<?php $_smarty_tpl->tpl_vars['no_follow_text'] = new Smarty_variable('', null, 0);?>
@@ -80,7 +78,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	<!-- Pagination -->
 	<div id="pagination<?php if (isset($_smarty_tpl->tpl_vars['paginationId']->value)) {?>_<?php echo $_smarty_tpl->tpl_vars['paginationId']->value;?>
 <?php }?>" class="pagination clearfix">
-	    <?php if ($_smarty_tpl->tpl_vars['nb_products']->value>$_smarty_tpl->tpl_vars['products_per_page']->value&&$_smarty_tpl->tpl_vars['start']->value!=$_smarty_tpl->tpl_vars['stop']->value) {?>
+	    <!--<?php if ($_smarty_tpl->tpl_vars['nb_products']->value>$_smarty_tpl->tpl_vars['products_per_page']->value&&$_smarty_tpl->tpl_vars['start']->value!=$_smarty_tpl->tpl_vars['stop']->value) {?>
 			<form class="showall" action="<?php if (!is_array($_smarty_tpl->tpl_vars['requestNb']->value)) {?><?php echo $_smarty_tpl->tpl_vars['requestNb']->value;?>
 <?php } else { ?><?php echo $_smarty_tpl->tpl_vars['requestNb']->value['requestUrl'];?>
 <?php }?>" method="get">
@@ -116,9 +114,9 @@ $_smarty_tpl->tpl_vars['requestValue']->_loop = true;
 " />
 				</div>
 			</form>
-		<?php }?>
+		<?php }?>-->
 		<?php if ($_smarty_tpl->tpl_vars['start']->value!=$_smarty_tpl->tpl_vars['stop']->value) {?>
-			<ul class="pagination">
+			<ul class=" pagination-my pagination">
 				<?php if ($_smarty_tpl->tpl_vars['p']->value!=1) {?>
 					<?php $_smarty_tpl->tpl_vars['p_previous'] = new Smarty_variable($_smarty_tpl->tpl_vars['p']->value-1, null, 0);?>
 					<li id="pagination_previous<?php if (isset($_smarty_tpl->tpl_vars['paginationId']->value)) {?>_<?php echo $_smarty_tpl->tpl_vars['paginationId']->value;?>
@@ -126,16 +124,14 @@ $_smarty_tpl->tpl_vars['requestValue']->_loop = true;
 						<a<?php echo $_smarty_tpl->tpl_vars['no_follow_text']->value;?>
  href="<?php echo $_smarty_tpl->tpl_vars['link']->value->goPage($_smarty_tpl->tpl_vars['requestPage']->value,$_smarty_tpl->tpl_vars['p_previous']->value);?>
 " rel="prev">
-							<i class="icon-chevron-left"></i> <b><?php echo smartyTranslate(array('s'=>'Previous'),$_smarty_tpl);?>
-</b>
+							<i class="icon-chevron-left"></i>
 						</a>
 					</li>
 				<?php } else { ?>
 					<li id="pagination_previous<?php if (isset($_smarty_tpl->tpl_vars['paginationId']->value)) {?>_<?php echo $_smarty_tpl->tpl_vars['paginationId']->value;?>
 <?php }?>" class="disabled pagination_previous">
 						<span>
-							<i class="icon-chevron-left"></i> <b><?php echo smartyTranslate(array('s'=>'Previous'),$_smarty_tpl);?>
-</b>
+							<i class="icon-chevron-left"></i>
 						</span>
 					</li>
 				<?php }?>
@@ -274,23 +270,22 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['pagination']['last']       =
 						<a<?php echo $_smarty_tpl->tpl_vars['no_follow_text']->value;?>
  href="<?php echo $_smarty_tpl->tpl_vars['link']->value->goPage($_smarty_tpl->tpl_vars['requestPage']->value,$_smarty_tpl->tpl_vars['p_next']->value);?>
 " rel="next">
-							<b><?php echo smartyTranslate(array('s'=>'Next'),$_smarty_tpl);?>
-</b> <i class="icon-chevron-right"></i>
+							 <i class="icon-chevron-right"></i>
 						</a>
 					</li>
 				<?php } else { ?>
 					<li id="pagination_next<?php if (isset($_smarty_tpl->tpl_vars['paginationId']->value)) {?>_<?php echo $_smarty_tpl->tpl_vars['paginationId']->value;?>
 <?php }?>" class="disabled pagination_next">
 						<span>
-							<b><?php echo smartyTranslate(array('s'=>'Next'),$_smarty_tpl);?>
-</b> <i class="icon-chevron-right"></i>
+							 <i class="icon-chevron-right"></i>
 						</span>
 					</li>
 				<?php }?>
 			</ul>
 		<?php }?>
 	</div>
-    <div class="product-count">
+    <!--Количество товаров-->
+   <!-- <div class="product-count">
     	<?php if (($_smarty_tpl->tpl_vars['n']->value*$_smarty_tpl->tpl_vars['p']->value)<$_smarty_tpl->tpl_vars['nb_products']->value) {?>
     		<?php $_smarty_tpl->tpl_vars['productShowing'] = new Smarty_variable($_smarty_tpl->tpl_vars['n']->value*$_smarty_tpl->tpl_vars['p']->value, null, 0);?>
         <?php } else { ?>
@@ -308,7 +303,7 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['pagination']['last']       =
         	<?php echo smartyTranslate(array('s'=>'Showing %1$d - %2$d of 1 item','sprintf'=>array($_smarty_tpl->tpl_vars['productShowingStart']->value,$_smarty_tpl->tpl_vars['productShowing']->value)),$_smarty_tpl);?>
 
        	<?php }?>
-    </div>
+    </div>-->
 	<!-- /Pagination -->
 <?php }?>
 <?php }} ?>
