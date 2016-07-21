@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:12255578f77f36176e8-30894565%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:202125791417453f379-54095927%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,10 +9,20 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '12255578f77f36176e8-30894565',
-  'cache_lifetime' => 31536000,
+  'nocache_hash' => '202125791417453f379-54095927',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_578f7907524654_09465043',
+  'unifunc' => 'content_57914178a45571_39369218',
   'has_nocache_code' => false,
+  'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_578f7907524654_09465043')) {function content_578f7907524654_09465043($_smarty_tpl) {?><?php }} ?>
+<?php if ($_valid && !is_callable('content_57914178a45571_39369218')) {function content_57914178a45571_39369218($_smarty_tpl) {?><ul class="color_to_pick_list clearfix">
+									<li>
+				<a href="http://sonicempire.loc/summer-dresses/9-printed-chiffon-dress.html#/15-color-green" id="color_54" class="color_pick" style="background:#A0D468;">
+									</a>
+			</li>
+											<li>
+				<a href="http://sonicempire.loc/summer-dresses/9-printed-chiffon-dress.html#/16-color-yellow" id="color_52" class="color_pick" style="background:#F1C40F;">
+									</a>
+			</li>
+			</ul>
+<?php }} ?>

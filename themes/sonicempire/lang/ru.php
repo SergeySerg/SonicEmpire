@@ -17,6 +17,7 @@ $_LANG['product-list_69d08bd5f8cf4e228930935c3f13e42f'] = 'В наличии';
 $_LANG['product-list_b55197a49e8c4cd8c314bc2aa39d6feb'] = 'Под заказ';
 $_LANG['product-list_d3da97e2d9aee5c8fbe03156ad051c99'] = 'Подробнее';
 $_LANG['product-sort_fcebe56087b9373f15514831184fa572'] = 'В наличии';
+$_LANG['product_2d0f6b8300be19cf35e89e66f0677f95'] = 'В корзину';
 $_LANG['search_13348442cc6a27032d2b4aa28b75a5d3'] = 'Поиск';
 $_LANG['shopping-cart-product-line_69d08bd5f8cf4e228930935c3f13e42f'] = 'В наличии';
 $_LANG['stores_13348442cc6a27032d2b4aa28b75a5d3'] = 'Поиск';

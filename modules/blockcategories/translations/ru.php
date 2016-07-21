@@ -2,7 +2,6 @@
 
 global $_MODULE;
 $_MODULE = array();
-
 $_MODULE['<{blockcategories}prestashop>blockcategories_8f0ed7c57fca428f7e3f8e64d2f00918'] = 'Блок категорий';
 $_MODULE['<{blockcategories}prestashop>blockcategories_15a6f5841d9e4d7e62bec3319b4b7036'] = 'Блок, управляющий категориями товаров.';
 $_MODULE['<{blockcategories}prestashop>blockcategories_23e0d4ecc25de9b2777fdaca3e2f3193'] = 'Максимальная глубина: Неверный номер.';
@@ -32,7 +31,3 @@ $_MODULE['<{blockcategories}prestashop>blockcategories_af1b98adf7f686b84cd0b443e
 $_MODULE['<{blockcategories}prestashop>blockcategories_footer_af1b98adf7f686b84cd0b443e022b7a0'] = 'Категории';
 $_MODULE['<{blockcategories}prestashop>blockcategories_admin_63239117f39d923b2e407620fc1fa5b5'] = 'В стандартном шаблоне эти изображения отображаются в верхнем горизонтальном меню, но только если эта категория относится первому уровню (подробную информацию смотрите в модуле \'Верхнее горизонтальное меню\').';
 $_MODULE['<{blockcategories}prestashop>blockcategories_admin_eea317348d82718d49f9a79189dc0f93'] = 'Миниатюры меню';
-$_MODULE['<{blockcategories}prestashop>blockcategories_admin_5bc1667deb2b522c0cac00de5f15ffbc'] = 'Рекомендуемые размеры (для стандартного шаблона): %1spx x %2spx';
-
-
-return $_MODULE;
