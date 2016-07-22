@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-07-22 00:31:00
+<?php /* Smarty version Smarty-3.1.19, created on 2016-07-22 23:44:55
          compiled from "D:\Webserver\domains\sonicempire.loc\themes\sonicempire\modules\sendtoafriend\sendtoafriend-extra.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1769957913f14183017-94953969%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:28479579285c79e6772-38222000%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1769957913f14183017-94953969',
+  'nocache_hash' => '28479579285c79e6772-38222000',
   'function' => 
   array (
   ),
@@ -25,9 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57913f141e8936_34149007',
+  'unifunc' => 'content_579285c7a48211_71695339',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57913f141e8936_34149007')) {function content_57913f141e8936_34149007($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_579285c7a48211_71695339')) {function content_579285c7a48211_71695339($_smarty_tpl) {?>
 <li class="sendtofriend">
 	<a id="send_friend_button" href="#send_friend_form">
 		<?php echo smartyTranslate(array('s'=>'Send to a friend','mod'=>'sendtoafriend'),$_smarty_tpl);?>

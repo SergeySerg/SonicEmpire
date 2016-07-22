@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:73935791416c846d16-90018746%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:45025792863a014f43-30908733%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,7 +9,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '73935791416c846d16-90018746',
+  'nocache_hash' => '45025792863a014f43-30908733',
   'variables' => 
   array (
     'view_data' => 0,
@@ -18,10 +18,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5791416c8e6fb6_47550704',
+  'unifunc' => 'content_5792863a0f7879_32351671',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5791416c8e6fb6_47550704')) {function content_5791416c8e6fb6_47550704($_smarty_tpl) {?><!--Скрипт выпидающего текста-->
+<?php if ($_valid && !is_callable('content_5792863a0f7879_32351671')) {function content_5792863a0f7879_32351671($_smarty_tpl) {?><!--Скрипт выпидающего текста-->
 <script type="text/javascript">
     $(document).ready(function(){
         $('.more').click(function(){

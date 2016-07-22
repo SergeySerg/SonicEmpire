@@ -9042,7 +9042,7 @@ header .shop_phone {
     color: #CCC; }
 #content .item-block .right-block .shopping-block-price {
     float: left;
-    margin-top: 35px; }
+    margin-top: 75px; }
 #content .item-block .right-block .shopping-block button {
     float: right;
     width: 180px;
@@ -9062,7 +9062,7 @@ header .shop_phone {
 #content .item-block .right-block .properties h4 {
     line-height: 24px; }
 #content .item-block .right-block .properties table {
-    width: 480px;
+   /* width: 480px;*/
     margin-top: 25px;
     color: #CCC;
     font-size: 16px;
@@ -9082,7 +9082,7 @@ header .shop_phone {
 #content .accompaying-goods {
     margin-top: 60px; }
 #content .accompaying-goods .product-item {
-    margin-right: 2.75%; }
+    margin-right: 1.83%; }
 #content .accompaying-goods .product-item:nth-child(4n) {
     margin-right: 0; }
 #content .my-cart-wrap .my-cart {
@@ -9373,4 +9373,17 @@ div#views_block.clearfix{
 }
 div#image-block{
     position: relative;
+}
+div#attributes > fieldset{
+    width: 170px;
+}
+div#attributes{
+    height: 0px;
+}
+p#reduction_percent,p#reduction_amount{
+    font-size:24px;
+    color:red;
+}
+div.hook-reviews{
+    margin-top: -24px;
 }

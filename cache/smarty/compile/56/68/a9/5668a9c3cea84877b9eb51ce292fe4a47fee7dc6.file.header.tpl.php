@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-07-22 00:30:59
+<?php /* Smarty version Smarty-3.1.19, created on 2016-07-22 23:44:55
          compiled from "D:\Webserver\domains\sonicempire.loc\modules\homesliderpro\views\templates\hook\header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1577757913f137b8b72-93486450%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:6045579285c7012b27-08839493%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1577757913f137b8b72-93486450',
+  'nocache_hash' => '6045579285c7012b27-08839493',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57913f138c6436_51675716',
+  'unifunc' => 'content_579285c71186e8_56885689',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57913f138c6436_51675716')) {function content_57913f138c6436_51675716($_smarty_tpl) {?><style type="text/css" class="slidersEverywhereStyle">
+<?php if ($_valid && !is_callable('content_579285c71186e8_56885689')) {function content_579285c71186e8_56885689($_smarty_tpl) {?><style type="text/css" class="slidersEverywhereStyle">
 
 
 <?php  $_smarty_tpl->tpl_vars['conf'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['conf']->_loop = false;

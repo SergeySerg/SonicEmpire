@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:1085157914174a8ac38-79445663%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:258485792864d685d39-23991778%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,16 +9,23 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1085157914174a8ac38-79445663',
-  'variables' => 
-  array (
-    'nbComments' => 0,
-    'averageTotal' => 0,
-    'ratings' => 0,
-  ),
-  'has_nocache_code' => false,
+  'nocache_hash' => '258485792864d685d39-23991778',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57914174b137d7_09261819',
+  'unifunc' => 'content_5792864d72dcd3_34590157',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57914174b137d7_09261819')) {function content_57914174b137d7_09261819($_smarty_tpl) {?><?php }} ?>
+<?php if ($_valid && !is_callable('content_5792864d72dcd3_34590157')) {function content_5792864d72dcd3_34590157($_smarty_tpl) {?>	<div class="comments_note" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+		<div class="star_content clearfix">
+												<div class="star star_on"></div>
+																<div class="star star_on"></div>
+																<div class="star star_on"></div>
+																<div class="star star_on"></div>
+																<div class="star"></div>
+							            <meta itemprop="worstRating" content = "0" />
+            <meta itemprop="ratingValue" content = "4" />
+            <meta itemprop="bestRating" content = "5" />
+		</div>
+		<span class="nb-comments"><span itemprop="reviewCount">1</span> Отзыв (а)</span>
+	</div>
+<?php }} ?>

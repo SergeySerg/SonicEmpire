@@ -79,7 +79,7 @@ $_MODULE['<{productcomments}sonicempire>productcomments_70397c4b252a5168c5ec0039
 $_MODULE['<{productcomments}sonicempire>productcomments_94966d90747b97d1f0f206c98a8b1ac3'] = 'Отправить';
 $_MODULE['<{productcomments}sonicempire>productcomments_e81c4e4f2b7b93b481e13a8553c2ae1b'] = 'или';
 $_MODULE['<{productcomments}sonicempire>productcomments_ea4788705e6873b424c65e91c2846b19'] = 'Отмена';
-$_MODULE['<{productcomments}sonicempire>productcomments_reviews_e32b7983d3bf98a65e3e96c393867dfa'] = 'Отзыв (ов)';
+$_MODULE['<{productcomments}sonicempire>productcomments_reviews_e32b7983d3bf98a65e3e96c393867dfa'] = 'Отзыв (а)';
 $_MODULE['<{productcomments}sonicempire>tab_8413c683b4b27cc3f4dbd4c90329d8ba'] = 'Отзывы';
 $_MODULE['<{productcomments}sonicempire>productcomments-extra_dda9c06f33071c9b6fc237ee164109d8'] = 'Рейтинг';
 $_MODULE['<{productcomments}sonicempire>productcomments-extra_899139b5174d8d7a6e38a0360008a695'] = 'Читать отзывы';
@@ -94,5 +94,5 @@ $_MODULE['<{productcomments}sonicempire>productcomments_240f3031f25601fa128bd4e1
 $_MODULE['<{productcomments}sonicempire>productcomments_a2ed44743411cf8b80e397448fce104c'] = 'Ваше имя:';
 $_MODULE['<{productcomments}sonicempire>productcomments_a4d3b161ce1309df1c4e25df28694b7b'] = 'Отправить';
 $_MODULE['<{productcomments}sonicempire>productcomments_4e3ee0f5bd8f527715fb0776741b9754'] = 'Ваш отзыв добавлен и будет доступен после его утверждения администратором.';
-$_MODULE['<{productcomments}sonicempire>productcomments_reviews_d844ad9202d0de8442498775ba6ef819'] = 'Отзыв (ов)';
+$_MODULE['<{productcomments}sonicempire>productcomments_reviews_d844ad9202d0de8442498775ba6ef819'] = 'Отзыв (а)';
 $_MODULE['<{productcomments}sonicempire>tab_34e80a799d144cfe4af46815e103f017'] = 'Отзывы';

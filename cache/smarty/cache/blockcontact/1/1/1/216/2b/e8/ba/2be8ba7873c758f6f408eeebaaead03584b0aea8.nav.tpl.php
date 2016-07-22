@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:2520657913f15796013-40623246%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:9666579285c9147c15-68807304%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,13 +9,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2520657913f15796013-40623246',
+  'nocache_hash' => '9666579285c9147c15-68807304',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57913f159e7ca0_79065006',
+  'unifunc' => 'content_579285c93e3c30_26060628',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57913f159e7ca0_79065006')) {function content_57913f159e7ca0_79065006($_smarty_tpl) {?><div id="contact-link" >
+<?php if ($_valid && !is_callable('content_579285c93e3c30_26060628')) {function content_579285c93e3c30_26060628($_smarty_tpl) {?><div id="contact-link" >
 </div>
     <div class="col-md-12 shop_phone">+38 (044) 123-54-76</div>
 

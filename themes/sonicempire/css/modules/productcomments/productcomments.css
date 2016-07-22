@@ -1,10 +1,11 @@
 #product_comments_block_extra {
-  padding: 8px 10px 10px;
-  font-weight: bold;
-  line-height: 18px;
-  border: 1px solid #d6d4d4;
-  background: #fbfbfb;
-  margin: 39px 0 22px; }
+    padding: 8px 10px 10px;
+    /* font-weight: bold; */
+    line-height: 18px;
+    border: 1px solid #d6d4d4;
+    background: #fbfbfb;
+    margin: 25px 0 22px;
+    width: 28%;}
   #product_comments_block_extra .comments_note {
     margin-bottom: 5px; }
   #product_comments_block_extra .comments_note span,

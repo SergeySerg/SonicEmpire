@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:1690457913f1349fb42-93707797%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:5748579285c6c341f0-79737504%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,13 +9,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1690457913f1349fb42-93707797',
+  'nocache_hash' => '5748579285c6c341f0-79737504',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57913f92a1b286_96365639',
+  'unifunc' => 'content_5792862f936798_64173346',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57913f92a1b286_96365639')) {function content_57913f92a1b286_96365639($_smarty_tpl) {?><meta property="og:type" content="product" />
+<?php if ($_valid && !is_callable('content_5792862f936798_64173346')) {function content_5792862f936798_64173346($_smarty_tpl) {?><meta property="og:type" content="product" />
 <meta property="og:url" content="http://sonicempire.loc/tshirts/1-faded-short-sleeve-tshirts.html" />
 <meta property="og:title" content="Faded Short Sleeve T-shirts - Sonic Empire" />
 <meta property="og:site_name" content="Sonic Empire" />
@@ -24,8 +24,8 @@ Faded short sleeve t-shirt with high neckline. Soft and stretchy material for a 
 
 " />
 <meta property="og:image" content="http://sonicempire.loc/1-large_default/faded-short-sleeve-tshirts.jpg" />
-<meta property="product:pretax_price:amount" content="410" />
+<meta property="product:pretax_price:amount" content="24805" />
 <meta property="product:pretax_price:currency" content="UAH" />
-<meta property="product:price:amount" content="491" />
+<meta property="product:price:amount" content="24805" />
 <meta property="product:price:currency" content="UAH" />
 <?php }} ?>

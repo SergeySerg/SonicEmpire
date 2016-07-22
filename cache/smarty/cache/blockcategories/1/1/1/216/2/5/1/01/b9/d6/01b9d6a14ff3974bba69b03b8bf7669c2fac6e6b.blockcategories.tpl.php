@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:482957913f1400bfc1-06901076%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:4249579285c787b2a2-52105897%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -15,20 +15,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '482957913f1400bfc1-06901076',
-  'variables' => 
-  array (
-    'blockCategTree' => 0,
-    'currentCategory' => 0,
-    'isDhtml' => 0,
-    'child' => 0,
-  ),
-  'has_nocache_code' => false,
+  'nocache_hash' => '4249579285c787b2a2-52105897',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57913f140d71f4_72525041',
+  'unifunc' => 'content_5792864ca9c894_72756964',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57913f140d71f4_72525041')) {function content_57913f140d71f4_72525041($_smarty_tpl) {?><!-- Block categories module -->
+<?php if ($_valid && !is_callable('content_5792864ca9c894_72756964')) {function content_5792864ca9c894_72756964($_smarty_tpl) {?><!-- Block categories module -->
 <div id="categories_block_left">
 	<!--<h2 class="title_block">
 					T-shirts

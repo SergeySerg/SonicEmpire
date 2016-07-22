@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:202125791417453f379-54095927%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:249175792864d12aa78-07020107%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,20 +9,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '202125791417453f379-54095927',
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57914178962c37_63761140',
-  'has_nocache_code' => false,
+  'nocache_hash' => '249175792864d12aa78-07020107',
   'cache_lifetime' => 31536000,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5792867fa36a50_11567655',
+  'has_nocache_code' => false,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57914178962c37_63761140')) {function content_57914178962c37_63761140($_smarty_tpl) {?><ul class="color_to_pick_list clearfix">
-									<li>
-				<a href="http://sonicempire.loc/evening-dresses/4-printed-dress.html#/7-color-beige" id="color_16" class="color_pick" style="background:#f5f5dc;">
-									</a>
-			</li>
-											<li>
-				<a href="http://sonicempire.loc/evening-dresses/4-printed-dress.html#/24-color-pink" id="color_43" class="color_pick" style="background:#FCCACD;">
-									</a>
-			</li>
-			</ul>
-<?php }} ?>
+<?php if ($_valid && !is_callable('content_5792867fa36a50_11567655')) {function content_5792867fa36a50_11567655($_smarty_tpl) {?><?php }} ?>
