@@ -24,8 +24,8 @@
 *}
 
 {capture name=path}{l s='Order confirmation'}{/capture}
-
-<h1 class="page-heading">{l s='Order confirmation'}</h1>
+<div id="content">
+<h1 class="page-heading">{l s='Ваш заказ успешно завершен'}</h1>
 
 {assign var='current_step' value='payment'}
 {include file="$tpl_dir./order-steps.tpl"}
@@ -36,11 +36,12 @@
 {$HOOK_PAYMENT_RETURN}
 {if $is_guest}
 	<p>{l s='Your order ID is:'} <span class="bold">{$id_order_formatted}</span> . {l s='Your order ID has been sent via email.'}</p>
-    <p class="cart_navigation exclusive">
+   <!-- <p class="cart_navigation exclusive">
 	<a class="button-exclusive btn btn-default" href="{$link->getPageLink('guest-tracking', true, NULL, "id_order={$reference_order|urlencode}&email={$email|urlencode}")|escape:'html':'UTF-8'}" title="{l s='Follow my order'}"><i class="icon-chevron-left"></i>{l s='Follow my order'}</a>
-    </p>
+    </p>-->
 {else}
 <p class="cart_navigation exclusive">
 	<a class="button-exclusive btn btn-default" href="{$link->getPageLink('history', true)|escape:'html':'UTF-8'}" title="{l s='Go to your order history page'}"><i class="icon-chevron-left"></i>{l s='View your order history'}</a>
 </p>
 {/if}
+    </div>

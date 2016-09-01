@@ -33,7 +33,7 @@ class BlockCategories extends Module
 	{
 		$this->name = 'blockcategories';
 		$this->tab = 'front_office_features';
-		$this->version = '2.9.3';
+		$this->version = '2.9.4';
 		$this->author = 'PrestaShop';
 
 		$this->bootstrap = true;
@@ -41,7 +41,7 @@ class BlockCategories extends Module
 
 		$this->displayName = $this->l('Categories block');
 		$this->description = $this->l('Adds a block featuring product categories.');
-		$this->ps_versions_compliancy = array('min' => '1.6', 'max' => _PS_VERSION_);
+		$this->ps_versions_compliancy = array('min' => '1.6', 'max' => '1.6.99.99');
 	}
 
 	public function install()
@@ -127,23 +127,26 @@ class BlockCategories extends Module
 	{
 		if (is_null($id_category))
 			$id_category = $this->context->shop->getCategory();
+
 		$children = array();
 		if (isset($resultParents[$id_category]) && count($resultParents[$id_category]) && ($maxDepth == 0 || $currentDepth < $maxDepth))
 			foreach ($resultParents[$id_category] as $subcat)
 				$children[] = $this->getTree($resultParents, $resultIds, $maxDepth, $subcat['id_category'], $currentDepth + 1);
-		if (isset($resultIds[$id_category])) 
+		if (isset($resultIds[$id_category]))
 		{
 			$link = $this->context->link->getCategoryLink($id_category, $resultIds[$id_category]['link_rewrite']);
 			$name = $resultIds[$id_category]['name'];
 			$desc = $resultIds[$id_category]['description'];
+			$expand = $resultIds[$id_category]['expand'];
 		}
 		else
 			$link = $name = $desc = '';
-			
+
 		$return = array(
 			'id' => $id_category,
 			'link' => $link,
 			'name' => $name,
+			'expand' => $expand,
 			'desc'=> $desc,
 			'children' => $children
 		);
@@ -215,7 +218,7 @@ class BlockCategories extends Module
 			$resultIds = array();
 			$resultParents = array();
 			$result = Db::getInstance(_PS_USE_SQL_SLAVE_)->executeS('
-			SELECT c.id_parent, c.id_category, cl.name, cl.description, cl.link_rewrite
+			SELECT c.id_parent, c.id_category, c.expand, cl.name, cl.description, cl.link_rewrite
 			FROM `'._DB_PREFIX_.'category` c
 			INNER JOIN `'._DB_PREFIX_.'category_lang` cl ON (c.`id_category` = cl.`id_category` AND cl.`id_lang` = '.(int)$this->context->language->id.Shop::addSqlRestrictionOnLang('cl').')
 			INNER JOIN `'._DB_PREFIX_.'category_shop` cs ON (cs.`id_category` = c.`id_category` AND cs.`id_shop` = '.(int)$this->context->shop->id.')

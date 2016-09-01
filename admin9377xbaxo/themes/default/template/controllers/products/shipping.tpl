@@ -22,7 +22,7 @@
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 *}
-<div id="product-shipping" class="panel product-tab">
+<div id="product-shipping" class="panel product-tab" style="display: none">
 	<input type="hidden" name="submitted_tabs[]" value="Shipping" />
 	<h3>{l s='Shipping'}</h3>
 

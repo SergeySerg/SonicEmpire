@@ -3,6 +3,7 @@
 {if !isset($errors) OR !sizeof($errors)}
 	{if $products}
         <div id="content">
+        {include file="./product-sort.tpl"}
 		{include file="./product-list.tpl" products=$products}
         <div class="pagination-wrap">
 	    {include file="./pagination.tpl" no_follow=1 paginationId='bottom'}

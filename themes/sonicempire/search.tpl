@@ -62,27 +62,13 @@ class="page-heading {if !isset($instant_search) || (isset($instant_search) && !$
             {if $nbProducts == 1}{l s='%d result has been found.' sprintf=$nbProducts|intval}{else}{l s='%d results have been found.' sprintf=$nbProducts|intval}{/if}
         </p>
     {/if}
-    <div class="content_sortPagiBar">
-        <div class="sortPagiBar clearfix {if isset($instant_search) && $instant_search} instant_search{/if}">
-            {include file="$tpl_dir./product-sort.tpl"}
-            {if !isset($instant_search) || (isset($instant_search) && !$instant_search)}
-                {include file="./nbr-product-page.tpl"}
-            {/if}
-        </div>
-    	<div class="top-pagination-content clearfix">
-            {include file="./product-compare.tpl"}
-            {if !isset($instant_search) || (isset($instant_search) && !$instant_search)}
-                {include file="$tpl_dir./pagination.tpl" no_follow=1}
-            {/if}
-        </div>
-	</div>
+    <div id="content">
 	{include file="$tpl_dir./product-list.tpl" products=$search_products}
-    <div class="content_sortPagiBar">
-    	<div class="bottom-pagination-content clearfix">
-        	{include file="./product-compare.tpl"}
-        	{if !isset($instant_search) || (isset($instant_search) && !$instant_search)}
+        <div class="pagination-wrap">
+            {if !isset($instant_search) || (isset($instant_search) && !$instant_search)}
                 {include file="$tpl_dir./pagination.tpl" paginationId='bottom' no_follow=1}
             {/if}
         </div>
     </div>
+
 {/if}

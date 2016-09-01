@@ -2,7 +2,7 @@
 <module>
 	<name>blockcms</name>
 	<displayName><![CDATA[Блок CMS (контент)]]></displayName>
-	<version><![CDATA[2.1.1]]></version>
+	<version><![CDATA[2.1.2]]></version>
 	<description><![CDATA[Добавляет блок со ссылками на страницы.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>

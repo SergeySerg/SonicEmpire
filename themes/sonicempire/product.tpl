@@ -59,7 +59,7 @@
 				{if $have_image}
 					<span id="view_full_size">
 						{if $jqZoomEnabled && $have_image && !$content_only}
-							<a class="jqzoom" title="{if !empty($cover.legend)}{$cover.legend|escape:'html':'UTF-8'}{else}{$product->name|escape:'html':'UTF-8'}{/if}" rel="gal1" href="{$link->getImageLink($product->link_rewrite, $cover.id_image, 'thickbox_default')|escape:'html':'UTF-8'}">
+							<a class="no-loader jqzoom" title="{if !empty($cover.legend)}{$cover.legend|escape:'html':'UTF-8'}{else}{$product->name|escape:'html':'UTF-8'}{/if}" rel="gal1" href="{$link->getImageLink($product->link_rewrite, $cover.id_image, 'thickbox_default')|escape:'html':'UTF-8'}">
 								<img itemprop="image" src="{$link->getImageLink($product->link_rewrite, $cover.id_image, 'large_default')|escape:'html':'UTF-8'}" title="{if !empty($cover.legend)}{$cover.legend|escape:'html':'UTF-8'}{else}{$product->name|escape:'html':'UTF-8'}{/if}" alt="{if !empty($cover.legend)}{$cover.legend|escape:'html':'UTF-8'}{else}{$product->name|escape:'html':'UTF-8'}{/if}"/>
 							</a>
 						{else}
@@ -85,7 +85,7 @@
 				<div id="views_block" class="clearfix {if isset($images) && count($images) < 2}hidden{/if}">
 					{if isset($images) && count($images) > 2}
 						<span class="view_scroll_spacer">
-							<a id="view_scroll_left" class="" title="{l s='Other views'}" href="javascript:{ldelim}{rdelim}">
+							<a id="view_scroll_left" class="no-loader" title="{l s='Other views'}" href="javascript:{ldelim}{rdelim}">
 								{l s='Previous'}
 							</a>
 						</span>
@@ -101,7 +101,7 @@
 									{assign var=imageTitle value=$product->name|escape:'html':'UTF-8'}
 								{/if}
 								<li id="thumbnail_{$image.id_image}"{if $smarty.foreach.thumbnails.last} class="last"{/if}>
-									<a{if $jqZoomEnabled && $have_image && !$content_only} href="javascript:void(0);" rel="{literal}{{/literal}gallery: 'gal1', smallimage: '{$link->getImageLink($product->link_rewrite, $imageIds, 'large_default')|escape:'html':'UTF-8'}',largeimage: '{$link->getImageLink($product->link_rewrite, $imageIds, 'thickbox_default')|escape:'html':'UTF-8'}'{literal}}{/literal}"{else} href="{$link->getImageLink($product->link_rewrite, $imageIds, 'thickbox_default')|escape:'html':'UTF-8'}"	data-fancybox-group="other-views" class="fancybox{if $image.id_image == $cover.id_image} shown{/if}"{/if} title="{$imageTitle}">
+									<a{if $jqZoomEnabled && $have_image && !$content_only} href="javascript:void(0);" rel="{literal}{{/literal}gallery: 'gal1', smallimage: '{$link->getImageLink($product->link_rewrite, $imageIds, 'large_default')|escape:'html':'UTF-8'}',largeimage: '{$link->getImageLink($product->link_rewrite, $imageIds, 'thickbox_default')|escape:'html':'UTF-8'}'{literal}}{/literal}"{else} href="{$link->getImageLink($product->link_rewrite, $imageIds, 'thickbox_default')|escape:'html':'UTF-8'}"	data-fancybox-group="other-views" class="no-loader fancybox{if $image.id_image == $cover.id_image} shown{/if}"{/if} title="{$imageTitle}">
 										<img class="img-responsive" id="thumb_{$image.id_image}" src="{$link->getImageLink($product->link_rewrite, $imageIds, 'cart_default')|escape:'html':'UTF-8'}" alt="{$imageTitle}" title="{$imageTitle}"{if isset($cartSize)} height="{$cartSize.height}" width="{$cartSize.width}"{/if} itemprop="image" />
 									</a>
 								</li>
@@ -110,7 +110,7 @@
 						</ul>
 					</div> <!-- end thumbs_list -->
 					{if isset($images) && count($images) > 2}
-						<a id="view_scroll_right" title="{l s='Other views'}" href="javascript:{ldelim}{rdelim}">
+						<a id="view_scroll_right" class="no-loader" title="{l s='Other views'}" href="javascript:{ldelim}{rdelim}">
 							{l s='Next'}
 						</a>
 					{/if}
@@ -120,7 +120,7 @@
 			{if isset($images) && count($images) > 1}
 				<p class="resetimg clear no-print">
 					<span id="wrapResetImages" style="display: none;">
-						<a href="{$link->getProductLink($product)|escape:'html':'UTF-8'}" data-id="resetImages">
+						<a href="{$link->getProductLink($product)|escape:'html':'UTF-8'}" class="no-loader" data-id="resetImages">
 							<i class="icon-repeat"></i>
 							{l s='Display all pictures'}
 						</a>
@@ -163,7 +163,7 @@
                                                      {foreach from=$group.attributes key=id_attribute item=group_attribute}
                                                          {assign var='img_color_exists' value=file_exists($col_img_dir|cat:$id_attribute|cat:'.jpg')}
                                                          <li{if $group.default == $id_attribute} class="selected"{/if}>
-                                                             <a href="{$link->getProductLink($product)|escape:'html':'UTF-8'}" id="color_{$id_attribute|intval}" name="{$colors.$id_attribute.name|escape:'html':'UTF-8'}" class="color_pick{if ($group.default == $id_attribute)} selected{/if}"{if !$img_color_exists && isset($colors.$id_attribute.value) && $colors.$id_attribute.value} style="background:{$colors.$id_attribute.value|escape:'html':'UTF-8'};"{/if} title="{$colors.$id_attribute.name|escape:'html':'UTF-8'}">
+                                                             <a href="{$link->getProductLink($product)|escape:'html':'UTF-8'}" id="color_{$id_attribute|intval}" name="{$colors.$id_attribute.name|escape:'html':'UTF-8'}" class="no-loader color_pick{if ($group.default == $id_attribute)} selected{/if}"{if !$img_color_exists && isset($colors.$id_attribute.value) && $colors.$id_attribute.value} style="background:{$colors.$id_attribute.value|escape:'html':'UTF-8'};"{/if} title="{$colors.$id_attribute.name|escape:'html':'UTF-8'}">
                                                                  {if $img_color_exists}
                                                                      <img src="{$img_col_dir}{$id_attribute|intval}.jpg" alt="{$colors.$id_attribute.name|escape:'html':'UTF-8'}" title="{$colors.$id_attribute.name|escape:'html':'UTF-8'}" width="20" height="20" />
                                                                  {/if}
@@ -197,7 +197,7 @@
                              <div class="quantity">
                                  <p id="quantity_wanted_p"{if (!$allow_oosp && $product->quantity <= 0) || !$product->available_for_order || $PS_CATALOG_MODE} style="display: none;"{/if}>
                                     <!-- <label for="quantity_wanted">{l s='Quantity'}</label>-->
-                                     <span> <input type="number" min="1" name="qty" id="quantity_wanted"  value="{if isset($quantityBackup)}{$quantityBackup|intval}{else}{if $product->minimal_quantity > 1}{$product->minimal_quantity}{else}1{/if}{/if}" /></span>
+                                     <span> <input <!--type="number"--> min="1" name="qty" id="quantity_wanted"  value="{if isset($quantityBackup)}{$quantityBackup|intval}{else}{if $product->minimal_quantity > 1}{$product->minimal_quantity}{else}1{/if}{/if}" /></span>
                              </div>
                              <ul class="updown-quantity">
                                  <li class="quantity-up"><a href="#" data-field-qty="qty" class="product_quantity_up"> </a></li>
@@ -494,11 +494,11 @@
 			<!--Accessories -->
 
 				<h1>{l s='Accessories'}</h1>
-						<ul class="accompaying-goods">
+						<ul id="owl-demo" class="accompaying-goods">
 							{foreach from=$accessories item=accessory name=accessories_list}
 								{if ($accessory.allow_oosp || $accessory.quantity_all_versions > 0 || $accessory.quantity > 0) && $accessory.available_for_order && !isset($restricted_country_mode)}
 									{assign var='accessoryLink' value=$link->getProductLink($accessory.id_product, $accessory.link_rewrite, $accessory.category)}
-									<li class=" product-item item product-box ajax_block_product{if $smarty.foreach.accessories_list.first} first_item{elseif $smarty.foreach.accessories_list.last} last_item{else} item{/if} product_accessories_description">
+									<li class=" product-item-assosiate item product-box ajax_block_product{if $smarty.foreach.accessories_list.first} first_item{elseif $smarty.foreach.accessories_list.last} last_item{else} item{/if} product_accessories_description">
                                       <a href="{$accessoryLink|escape:'html':'UTF-8'}">
                                         <div class="product-item-img">
 											<a href="{$accessoryLink|escape:'html':'UTF-8'}" title="{$accessory.legend|escape:'html':'UTF-8'}">
@@ -546,10 +546,49 @@
 							{/foreach}
 						</ul>
 
+<script>
+    $(document).ready(function() {
 
+        var owl = $("#owl-demo");
 
+        owl.owlCarousel({
+            items : 3, //10 items above 1000px browser width
+            itemsDesktop : [1000,5], //5 items between 1000px and 901px
+            itemsDesktopSmall : [900,3], // betweem 900px and 601px
+            itemsTablet: [600,2], //2 items between 600 and 0
+            itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+        });
 
-			<!--end Accessories -->
+        // Custom Navigation Events
+        $(".next").click(function(){
+            owl.trigger('owl.next');
+        })
+        $(".prev").click(function(){
+            owl.trigger('owl.prev');
+        })
+        $(".play").click(function(){
+            owl.trigger('owl.play',1000); //owl.play event accept autoPlay speed as second parameter
+        })
+        $(".stop").click(function(){
+            owl.trigger('owl.stop');
+        })
+
+    });
+</script>
+         <!--   <div id="owl-demo">
+
+                <div class="item"><img src="assets/owl1.jpg" alt="Owl Image"></div>
+                <div class="item"><img src="assets/owl2.jpg" alt="Owl Image"></div>
+                <div class="item"><img src="assets/owl3.jpg" alt="Owl Image"></div>
+                <div class="item"><img src="assets/owl4.jpg" alt="Owl Image"></div>
+                <div class="item"><img src="assets/owl5.jpg" alt="Owl Image"></div>
+                <div class="item"><img src="assets/owl6.jpg" alt="Owl Image"></div>
+                <div class="item"><img src="assets/owl7.jpg" alt="Owl Image"></div>
+                <div class="item"><img src="assets/owl8.jpg" alt="Owl Image"></div>
+
+            </div>-->
+
+            <!--end Accessories -->
 		{/if}
 
     <!--<div class="accompaying-goods">

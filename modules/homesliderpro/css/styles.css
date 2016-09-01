@@ -151,8 +151,8 @@
 .se-controls {
   color: #666666;
   font-size: 11px;
-  left: 0;
-  text-align: left;
+  right: 0;
+  text-align: center;
 }
 
 .se-controls-auto {
@@ -168,7 +168,7 @@
 
 .se-pager {
   bottom: 15%;
-  left: 0;
+  right: 0;
   padding: 0 0 0 5%;
   position: absolute;
   z-index: 100;
@@ -259,7 +259,7 @@
 
 
 /*pager links hover and active states*/
-.se-pager-link.active {
+.se-pager-link.active, .se-pager-link:hover {
 	background-color:#FFA500;
 	height: 16px;
 	width: 16px;
@@ -296,7 +296,8 @@
 
 .slidetitle {
 	position:absolute;
-	top:5%;
+	top:14%;/* було 5% */
+  right: 10%;/* добавив сам */
 	padding:5px 10px;
 	color:#fff;
 	background:rgba(0,0,0,0.5);
@@ -315,9 +316,9 @@
 	left:0;
 }
 
-.SEslider:hover .slide_description{
+/*.SEslider:hover .slide_description{
 	height:auto;
-	/*padding: 10px 2%;*/
+	padding: 10px 2%;
 }
 
 .slide_description {
@@ -327,18 +328,18 @@
   display: block;
   height: 0;
   overflow: hidden;
-  padding: 0 2%;
+  padding: 0 60px;
   position: absolute;
   transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
-  width: 96%;
+ width: 96%; 
 -moz-box-sizing: content-box;
 -webkit-box-sizing: content-box;
 -ms-box-sizing: content-box;
 -o-box-sizing: content-box;
 box-sizing: content-box;
 }
-
+*/
 .slider_title_block.bgcolor {
     color: #FFFFFF;
     font-weight: bold;
@@ -669,15 +670,92 @@ box-sizing: content-box;
 #header .banner .SEslider {
 	margin-bottom:0;
 }
+/* 
 span.slide_description{
     position: absolute;
-    width: 50.2%;
-    height: 98.9%;
+    width: 50%;
     top: 0;
     left: 50%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.75);
     color: #FFF;
     padding-top: 70px;
+    height: 100%;
+}
+ */
 
+.SEslider.sample .slide_description{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;  
+  background: rgba(0, 0, 0, 0.75) !important;
+  padding: 140px 60px 20px 60px;
+  text-align: center;
+}
+
+.SEslider.sample .slide_description h2{
+  position: absolute;
+  height: 45px;
+  margin: 0 auto;
+  top: 80px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-family: "PT Serif", serif;
+  font-size: 36px;
+  background: none;
+}
+
+.SEslider.sample .slide_description hr{
+  width: 110%;
+  margin-left: -5%;
+  color: #000;
+  opacity: .5;
+}
+
+#content p.p-slider{
+  color: rgba(255,255,255, 1.0); /* text color */
+  font-family: "OpenSansRegular", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.slide_description a{
+  display: block;
+  width: 200px;
+  height: 40px;
+  background-color: rgba(0,0,0,0);
+  border: 1px solid #fff;
+  color: #FFF;
+  font-size: 20px;
+  font-family: "PTSerifRegular";
+  margin: 0 auto;
+  margin-top: 40px;
+  padding-top: 5px;
+  z-index: 999999;
+}
+.slide_description a:hover{
+  background-color: #FFF;
+  color: #000;
+  cursor: pointer;
+}
+
+.se-pager-item {
+  float: none;
+}
+
+.se-pager {
+  width: 50%;
+  bottom: 10%;
+  padding: 0;
+  zoom: .55;
+  margin: 0 5px;
+}
+
+.se-pager-link.active, .se-pager-link:hover {
+    height: 12px;
+    width: 12px;
+    margin: 4px;
 }

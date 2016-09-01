@@ -1180,7 +1180,7 @@ class ShopCore extends ObjectModel
         // build query
         $query = new DbQuery();
         if ($only_id) {
-            $query->select('cs.`id_category`');
+            $query->select('cs.`id_category`, cs.`expand`');
         } else {
             $query->select('DISTINCT cs.`id_category`, cl.`name`, cl.`link_rewrite`');
         }

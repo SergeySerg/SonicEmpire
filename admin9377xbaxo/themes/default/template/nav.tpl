@@ -30,6 +30,12 @@
 				</li>
 				{/if}
 			{/foreach}
+            <li class="maintab">
+                <a href='{$base_dir}/admin9377xbaxo/index.php?controller=AdminModules&token=96546ed585126989fb2231c0986937cc&configure=blocksocial&tab_module=front_office_features&module_name=blocksocial' class="title" >
+                    <i class="icon-AdminParentCustomer"></i>
+                    <span>Редактор Соц. сетей</span>
+                </a>
+            </li>
 		</ul>
 		<span class="menu-collapse">
 			<i class="icon-align-justify icon-rotate-90"></i>

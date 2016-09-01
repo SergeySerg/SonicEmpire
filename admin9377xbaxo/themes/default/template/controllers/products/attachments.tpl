@@ -24,7 +24,7 @@
 *}
 
 {if isset($obj->id)}
-<div id="product-attachements" class="panel product-tab">
+<div id="product-attachements" class="panel product-tab" style="display: none">
 	<input type="hidden" name="submitted_tabs[]" value="Attachments" />
 	<h3>{l s='Attachment'}</h3>
 
@@ -112,7 +112,7 @@
 		<button type="submit" name="submitAddproductAndStay" class="btn btn-default pull-right" disabled="disabled"><i class="process-icon-loading"></i> {l s='Save and stay'}</button>
 	</div>
 
-	<input type="hidden" name="arrayAttachments" id="arrayAttachments" value="{foreach $attach1 as $attach}{$attach.id_attachment},{/foreach}" />
+	//<input type="hidden" name="arrayAttachments" id="arrayAttachments" value="{foreach $attach1 as $attach}{$attach.id_attachment},{/foreach}" />
 
 	<script type="text/javascript">
 		var iso = '{$iso_tiny_mce}';

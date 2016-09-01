@@ -482,7 +482,7 @@ function reloadContent(params_plus)
 	{
 		type: 'GET',
 		url: baseDir + 'modules/blocklayered/blocklayered-ajax.php',
-		data: data+params_plus+n,
+		data: data+ '&' + params_plus+n,
 		dataType: 'json',
 		cache: false, // @todo see a way to use cache and to add a timestamps parameter to refresh cache each 10 minutes for example
 		success: function(result)
@@ -503,6 +503,18 @@ function reloadContent(params_plus)
 				$('h1.page-heading .cat-name').html(result.heading);
 
 			$('#layered_block_left').replaceWith(utf8_decode(result.filtersBlock));
+
+            $('#layered_block_left .filter_check').each(function(){
+                var $input = $(this).find('input');
+                var $label = $(this).find('label');
+                console.info('>>>>>>', $input, $label);
+
+                if($input.attr("checked") == 'checked'){
+                    $label.addClass('checked');
+                }
+            });
+
+
 			$('.category-product-count, .heading-counter').html(result.categoryCount);
 
 			if (result.nbRenderedProducts == result.nbAskedProducts)
@@ -604,7 +616,7 @@ function reloadContent(params_plus)
 			lockLocationChecking = true;
 
 			if (slideUp)
-				$.scrollTo('.product_list', 400);
+				$.scrollTo('.breadcrumb', 400);
 			updateProductUrl();
 
 			$('.hide-action').each(function() {

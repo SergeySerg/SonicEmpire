@@ -272,7 +272,7 @@ class ManufacturerCore extends ObjectModel
     }
 
     public static function getProducts($id_manufacturer, $id_lang, $p, $n, $order_by = null, $order_way = null,
-        $get_total = false, $active = true, $active_category = true, Context $context = null)
+        $get_total = false, $active = true, $active_category = true, Context $context = null, $categories_filter = array())
     {
         if (!$context) {
             $context = Context::getContext();
@@ -318,6 +318,11 @@ class ManufacturerCore extends ObjectModel
                     ($active_category ? ' INNER JOIN `'._DB_PREFIX_.'category` ca ON cp.`id_category` = ca.`id_category` AND ca.`active` = 1' : '').'
 					WHERE p.`id_product` = cp.`id_product` AND cg.`id_group` '.$sql_groups.'
 				)';
+            if (count($categories_filter) > 0){
+                $sql = $sql.' AND p.`id_category_default` IN (';
+                $num = implode ( ',' ,$categories_filter);
+                $sql .= $num.')';
+            }
 
             $result = Db::getInstance(_PS_USE_SQL_SLAVE_)->executeS($sql);
             return (int)count($result);
@@ -378,10 +383,28 @@ class ManufacturerCore extends ObjectModel
         $sql .= '
 				WHERE p.`id_manufacturer` = '.(int)$id_manufacturer.'
 				'.($active ? ' AND product_shop.`active` = 1' : '').'
-				'.($front ? ' AND product_shop.`visibility` IN ("both", "catalog")' : '').'
-				GROUP BY p.id_product
+				'.($front ? ' AND product_shop.`visibility` IN ("both", "catalog")' : '');
+
+
+				//Запрос друга запроса GROUP BY p.id_product
+				//ORDER BY '.$alias.'`'.bqSQL($order_by).'` '.pSQL($order_way).'
+				//LIMIT '.(((int)$p - 1) * (int)$n).','.(int)$n;
+
+        //AND p.`id_category_default` IN (11, 14)
+
+       // echo $sql; exit;
+        if (count($categories_filter) > 0){
+            $sql = $sql.' AND p.`id_category_default` IN (';
+                $num = implode ( ',' ,$categories_filter);
+                $sql .= $num.')';
+        }
+        $sql .= '
+                GROUP BY p.id_product
 				ORDER BY '.$alias.'`'.bqSQL($order_by).'` '.pSQL($order_way).'
 				LIMIT '.(((int)$p - 1) * (int)$n).','.(int)$n;
+        //echo $sql; exit;
+
+
 
         $result = Db::getInstance(_PS_USE_SQL_SLAVE_)->executeS($sql);
 

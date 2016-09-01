@@ -2,7 +2,7 @@
 <module>
 	<name>blocktopmenu</name>
 	<displayName><![CDATA[Главное горизонтальное меню]]></displayName>
-	<version><![CDATA[2.2.3]]></version>
+	<version><![CDATA[2.2.4]]></version>
 	<description><![CDATA[Добавляет горизонтальное меню в верхней части магазина.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>

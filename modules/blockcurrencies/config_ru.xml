@@ -2,7 +2,7 @@
 <module>
 	<name>blockcurrencies</name>
 	<displayName><![CDATA[Блок валют]]></displayName>
-	<version><![CDATA[0.4.0]]></version>
+	<version><![CDATA[0.4.1]]></version>
 	<description><![CDATA[Добавляет блок, позволяющий клиентам выбирать удобную для них валюту.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>

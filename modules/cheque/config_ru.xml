@@ -2,7 +2,7 @@
 <module>
 	<name>cheque</name>
 	<displayName><![CDATA[Оплата чеком]]></displayName>
-	<version><![CDATA[2.7.1]]></version>
+	<version><![CDATA[2.7.2]]></version>
 	<description><![CDATA[Этот модуль позволяет вам принимать платежи чеком.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[payments_gateways]]></tab>

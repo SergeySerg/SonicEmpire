@@ -89,6 +89,15 @@ class AdminCategoriesControllerCore extends AdminController
                 'align' => 'center',
                 'ajax' => true,
                 'orderby' => false
+            ),
+            'active' => array(
+                'title' => $this->l('Expand'),
+                'active' => 'status',
+                'type' => 'bool',
+                'class' => 'fixed-width-xs',
+                'align' => 'center',
+                'ajax' => true,
+                'orderby' => false
             )
         );
 
@@ -511,6 +520,25 @@ class AdminCategoriesControllerCore extends AdminController
                     )
                 ),
                 array(
+                    'type' => 'switch',
+                    'label' => $this->l('Отображение подкатегорий'),
+                    'name' => 'expand',
+                    'required' => false,
+                    'is_bool' => true,
+                    'values' => array(
+                        array(
+                            'id' => 'expand_on',
+                            'value' => 1,
+                            'label' => $this->l('Enabled')
+                        ),
+                        array(
+                            'id' => 'expand_off',
+                            'value' => 0,
+                            'label' => $this->l('Disabled')
+                        )
+                    )
+                ),
+                array(
                     'type'  => 'categories',
                     'label' => $this->l('Parent category'),
                     'name'  => 'id_parent',
@@ -521,7 +549,7 @@ class AdminCategoriesControllerCore extends AdminController
                         'root_category'       => $context->shop->getCategory()
                     )
                 ),
-                array(
+                /*array(
                     'type' => 'textarea',
                     'label' => $this->l('Description'),
                     'name' => 'description',
@@ -558,7 +586,7 @@ class AdminCategoriesControllerCore extends AdminController
                     'rows' => 5,
                     'cols' => 100,
                     'hint' => $this->l('Forbidden characters:').' <>;=#{}'
-                ),
+                ),*/
                 array(
                     'type' => 'textarea',
                     'label' => $this->l('Meta description'),
@@ -584,7 +612,7 @@ class AdminCategoriesControllerCore extends AdminController
                     'required' => true,
                     'hint' => $this->l('Only letters, numbers, underscore (_) and the minus (-) character are allowed.')
                 ),
-                array(
+                /*array(
                     'type' => 'group',
                     'label' => $this->l('Group access'),
                     'name' => 'groupBox',
@@ -594,7 +622,7 @@ class AdminCategoriesControllerCore extends AdminController
                     'guest' => $guest_group_information,
                     'customer' => $default_group_information,
                     'hint' => $this->l('Mark all of the customer groups which you would like to have access to this category.')
-                )
+                )*/
             ),
             'submit' => array(
                 'title' => $this->l('Save'),

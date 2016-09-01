@@ -545,7 +545,7 @@ class CartCore extends ObjectModel
 
         // Build ORDER BY
         $sql->orderBy('cp.`date_add`, cp.`id_product`, cp.`id_product_attribute` ASC');
-
+        $sql->select('m.`name` as manufacturer_name');
         if (Customization::isFeatureActive()) {
             $sql->select('cu.`id_customization`, cu.`quantity` AS customization_quantity');
             $sql->leftJoin('customization', 'cu',
@@ -578,7 +578,7 @@ class CartCore extends ObjectModel
         $sql->select('image_shop.`id_image` id_image, il.`legend`');
         $sql->leftJoin('image_shop', 'image_shop', 'image_shop.`id_product` = p.`id_product` AND image_shop.cover=1 AND image_shop.id_shop='.(int)$this->id_shop);
         $sql->leftJoin('image_lang', 'il', 'il.`id_image` = image_shop.`id_image` AND il.`id_lang` = '.(int)$this->id_lang);
-
+        $sql->leftJoin('manufacturer','m',' m.`id_manufacturer` = p.`id_manufacturer`');
         $result = Db::getInstance()->executeS($sql);
 
         // Reset the cache before the following return, or else an empty cart will add dozens of queries

@@ -139,7 +139,7 @@ $(document).ready(function () {
 			</div>
 		</div>
 	</div>
-	<div class="form-group">
+	<div class="form-group" style="display: none;">
 		<div class="col-lg-1"><span class="pull-right">{include file="controllers/products/multishop/checkbox.tpl" field="id_tax_rules_group" type="default"}</span></div>
 		<label class="control-label col-lg-2" for="id_tax_rules_group">
 			{l s='Tax rule:'}

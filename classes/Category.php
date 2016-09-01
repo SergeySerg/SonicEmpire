@@ -37,6 +37,9 @@ class CategoryCore extends ObjectModel
     /** @var bool Status for display */
     public $active = 1;
 
+    /** @var bool Status for display */
+    public $expand = 0;
+
     /** @var  int category position */
     public $position;
 
@@ -99,6 +102,7 @@ class CategoryCore extends ObjectModel
             'nright' =>            array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'),
             'level_depth' =>        array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'),
             'active' =>            array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true),
+            'expand' =>            array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true),
             'id_parent' =>            array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'),
             'id_shop_default' =>    array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'),
             'is_root_category' =>    array('type' => self::TYPE_BOOL, 'validate' => 'isBool'),

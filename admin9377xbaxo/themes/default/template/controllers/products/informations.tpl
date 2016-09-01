@@ -100,7 +100,7 @@
 
 	{include file="controllers/products/multishop/check_fields.tpl" product_tab="Informations"}
 
-	<div class="form-group">
+	<!--<div class="form-group">
 		<label class="control-label col-lg-3" for="simple_product">
 			{$bullet_common_field} {l s='Type'}
 		</label>
@@ -124,7 +124,7 @@
 				<div id="warn_pack_combinations" class="alert alert-warning" style="display:none">{l s='You cannot use combinations with a pack.'}</div>
 			</div>
 		</div>
-	</div>
+	</div>-->
 
 	<div id="product-pack-container" {if $product_type != Product::PTYPE_PACK}style="display:none"{/if}></div>
 
@@ -160,7 +160,7 @@
 		</div>
 	</div>
 
-	<div class="form-group">
+	<!--<div class="form-group">
 		<label class="control-label col-lg-3" for="ean13">
 			<span class="label-tooltip" data-toggle="tooltip"
 				title="{l s='This type of product code is specific to Europe and Japan, but is widely used internationally. It is a superset of the UPC code: all products marked with an EAN will be accepted in North America.'}">
@@ -182,7 +182,7 @@
 		<div class="col-lg-3">
 			<input maxlength="12" type="text" id="upc" name="upc" value="{$product->upc|escape:'html':'UTF-8'}" />
 		</div>
-	</div>
+	</div>-->
 
 	<hr/>
 
@@ -207,7 +207,7 @@
 		</div>
 	</div>
 
-	<div class="form-group redirect_product_options" style="display:none">
+    <!--<div class="form-group redirect_product_options" style="display:none">
 		<div class="col-lg-1"><span class="pull-right">{include file="controllers/products/multishop/checkbox.tpl" field="redirect_type" type="radio" onclick=""}</span></div>
 		<label class="control-label col-lg-2" for="redirect_type">
 			{l s='Redirect when disabled'}
@@ -228,7 +228,7 @@
 				{l s='302 Moved Temporarily = Temporarily display another product instead.'}
 			</div>
 		</div>
-	</div>
+	</div>-->
 
 	<div class="form-group redirect_product_options redirect_product_options_product_choise" style="display:none">
 		<div class="col-lg-1"><span class="pull-right">{include file="controllers/products/multishop/checkbox.tpl" field="id_product_redirected" type="radio" onclick=""}</span></div>
@@ -260,7 +260,7 @@
 		</script>
 	</div>
 
-	<div class="form-group">
+	<!--<div class="form-group">
 		<div class="col-lg-1"><span class="pull-right">{include file="controllers/products/multishop/checkbox.tpl" field="visibility" type="default"}</span></div>
 		<label class="control-label col-lg-2" for="visibility">
 			{l s='Visibility'}
@@ -273,9 +273,9 @@
 				<option value="none" {if $product->visibility == 'none'}selected="selected"{/if}>{l s='Nowhere'}</option>
 			</select>
 		</div>
-	</div>
+	</div>-->
 
-	<div id="product_options" class="form-group">
+	<div id="product_options" class="form-group" hidden>
 		<div class="col-lg-12">
 			<div class="form-group">
 				<div class="col-lg-1">
@@ -358,14 +358,14 @@
 		</div>
 	</div>
 	{if $images}
-	<div class="form-group">
+	<!--<div class="form-group">
 		<div class="col-lg-9 col-lg-offset-3">
 			<div class="alert alert-info">
 				{capture}<a class="addImageDescription" href="javascript:void(0);">{l s='Click here'}</a>{/capture}
 				{l s='Would you like to add an image in your description? %s and paste the given tag in the description.' sprintf=$smarty.capture.default}
 			</div>
 		</div>
-	</div>
+	</div>-->
 	<div id="createImageDescription" class="panel" style="display:none">
 		<div class="form-group">
 			<label class="control-label col-lg-3" for="smallImage_0">{l s='Select your image'}</label>
@@ -423,7 +423,7 @@
 	</div>
 	{/if}
 
-	<div class="form-group">
+	<!--<div class="form-group">
 		<label class="control-label col-lg-3" for="tags_{$id_lang}">
 			<span class="label-tooltip" data-toggle="tooltip"
 				title="{l s='Will be displayed in the tags block when enabled. Tags help customers easily find your products.'}">
@@ -477,7 +477,7 @@
 			<div class="help-block">{l s='Each tag has to be followed by a comma. The following characters are forbidden: %s' sprintf='!&lt;;&gt;;?=+#&quot;&deg;{}_$%.'}
 			</div>
 		</div>
-	</div>
+	</div>-->
 	<div class="panel-footer">
 		<a href="{$link->getAdminLink('AdminProducts')|escape:'html':'UTF-8'}{if isset($smarty.request.page) && $smarty.request.page > 1}&amp;submitFilterproduct={$smarty.request.page|intval}{/if}" class="btn btn-default"><i class="process-icon-cancel"></i> {l s='Cancel'}</a>
 		<button type="submit" name="submitAddproduct" class="btn btn-default pull-right" disabled="disabled"><i class="process-icon-loading"></i> {l s='Save'}</button>

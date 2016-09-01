@@ -1,5 +1,5 @@
 {if $nbr_filterBlocks != 0}
-<div id="layered_block_left" class="block">
+<div id="layered_block_left" class="filter">
     <h4>{l s='Catalog' mod='blocklayered'}</h4>
 	<div class="block_content">
 		<form action="#" id="layered_form">
@@ -60,23 +60,36 @@
 								{if $filter.filter_type == 0}
 									{foreach from=$filter.values key=id_value item=value name=fe}
 										{if $value.nbr || !$hide_0_values}
-										<li class="nomargin {if $smarty.foreach.fe.index >= $filter.filter_show_limit}hiddable{/if} col-lg-12">
+										<li class="filter_check nomargin {if $smarty.foreach.fe.index >= $filter.filter_show_limit}hiddable{/if} col-lg-12">
 											{if isset($filter.is_color_group) && $filter.is_color_group}
 												<input class="color-option {if isset($value.checked) && $value.checked}on{/if} {if !$value.nbr}disable{/if}" type="button" name="layered_{$filter.type_lite}_{$id_value}" data-rel="{$id_value}_{$filter.id_key}" id="layered_id_attribute_group_{$id_value}" {if !$value.nbr}disabled="disabled"{/if} style="background: {if isset($value.color)}{if file_exists($smarty.const._PS_ROOT_DIR_|cat:"/img/co/$id_value.jpg")}url(img/co/{$id_value}.jpg){else}{$value.color}{/if}{else}#CCC{/if};" />
 												{if isset($value.checked) && $value.checked}<input type="hidden" name="layered_{$filter.type_lite}_{$id_value}" value="{$id_value}" />{/if}
 											{else}
-												<input type="checkbox" class="checkbox" name="layered_{$filter.type_lite}_{$id_value}" id="layered_{$filter.type_lite}{if $id_value || $filter.type == 'quantity'}_{$id_value}{/if}" value="{$id_value}{if $filter.id_key}_{$filter.id_key}{/if}"{if isset($value.checked)} checked="checked"{/if}{if !$value.nbr} disabled="disabled"{/if} /> 
+												<input type="checkbox" class="checkbox" name="layered_{$filter.type_lite}_{$id_value}" id="layered_{$filter.type_lite}{if $id_value || $filter.type == 'quantity'}_{$id_value}{/if}" value="{$id_value}{if $filter.id_key}_{$filter.id_key}{/if}"{if isset($value.checked)} checked="checked"{/if}{if !$value.nbr} disabled="disabled"{/if} />
 											{/if}
-											<label for="layered_{$filter.type_lite}_{$id_value}"{if !$value.nbr} class="disabled"{else}{if isset($filter.is_color_group) && $filter.is_color_group} name="layered_{$filter.type_lite}_{$id_value}" class="layered_color" data-rel="{$id_value}_{$filter.id_key}"{/if}{/if}>
+											<label  for="layered_{$filter.type_lite}_{$id_value}"{if !$value.nbr} class="disabled"{else}{if isset($filter.is_color_group) && $filter.is_color_group} name="layered_{$filter.type_lite}_{$id_value}" class="layered_color" data-rel="{$id_value}_{$filter.id_key}"{/if}{/if}>
 												{if !$value.nbr}
 												{$value.name|escape:'html':'UTF-8'}{if $layered_show_qties}<span> ({$value.nbr})</span>{/if}
 												{else}
-												<a href="{$value.link}"{if $value.rel|trim != ''} data-rel="{$value.rel}"{/if}>{$value.name|escape:'html':'UTF-8'}{if $layered_show_qties}<span> ({$value.nbr})</span>{/if}</a>
+												<!--<a href="{$value.link}"{if $value.rel|trim != ''} data-rel="{$value.rel}"{/if}>-->{$value.name|escape:'html':'UTF-8'}{if $layered_show_qties}<span> ({$value.nbr})</span>{/if}<!--</a>-->
 												{/if}
 											</label>
 										</li>
 										{/if}
 									{/foreach}
+                            <SCRIPT>
+                                    $(function(){
+                                        $('#filter_check label').click(function(event){
+
+                                        //var sort = $(this).attr('data-sort');
+                                        //console.info('Изменение направления сортировки: ', sort);
+
+                                           // $('#filter_check label').addClass('checked');
+                                            $(this).addClass('checked');
+
+                                        });
+                                    });
+                            </SCRIPT>
 								{else}
 									{if $filter.filter_type == 1}
 									{foreach from=$filter.values key=id_value item=value name=fe}

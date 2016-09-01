@@ -285,7 +285,7 @@ class FrontControllerCore extends Controller
                 }
             }
         }
-
+        $this->context->cookie->id_currency = 1;
         $currency = Tools::setCurrency($this->context->cookie);
 
         if (isset($_GET['logout']) || ($this->context->customer->logged && Customer::isBanned($this->context->customer->id))) {

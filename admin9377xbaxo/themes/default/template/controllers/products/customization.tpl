@@ -24,7 +24,7 @@
 *}
 
 {if isset($obj->id)}
-<div id="product-customization" class="panel product-tab">
+<div id="product-customization" class="panel product-tab" style="display: none">
 	<input type="hidden" name="submitted_tabs[]" value="Customization" />
 	<h3>{l s='Add or modify customizable properties'}</h3>
 

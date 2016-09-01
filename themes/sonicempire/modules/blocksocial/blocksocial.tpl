@@ -2,19 +2,19 @@
 	<ul>
         {if isset($youtube_url) && $youtube_url != ''}
             <li>
-                <a class="youtube" href="{$youtube_url|escape:html:'UTF-8'}">
+                <a class="youtube no-loader" href="{$youtube_url|escape:html:'UTF-8'}">
                 </a>
             </li>
         {/if}
 		{if isset($facebook_url) && $facebook_url != ''}
 			<li>
-				<a class="fb" href="{$facebook_url|escape:html:'UTF-8'}">
+				<a class="fb no-loader" href="{$facebook_url|escape:html:'UTF-8'}">
 				</a>
 			</li>
 		{/if}
         {if isset($instagram_url) && $instagram_url != ''}
             <li>
-                <a class="instagram" href="{$instagram_url|escape:html:'UTF-8'}">
+                <a class="instagram no-loader" href="{$instagram_url|escape:html:'UTF-8'}">
                 </a>
             </li>
         {/if}

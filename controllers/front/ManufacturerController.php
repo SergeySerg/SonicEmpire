@@ -89,17 +89,49 @@ class ManufacturerControllerCore extends FrontController
      * Assign template vars if displaying one manufacturer
      */
     protected function assignOne()
+
     {
+        $categories_filter = array();
+        if (isset($_GET['categories'])){
+            $categories_filter = explode ("-", $_GET['categories']);
+            foreach($categories_filter as $key=>$value){
+                if (!is_numeric($value)){
+                    unset($categories_filter[$key]);
+                }
+            }
+            //print_r ($categories);exit;
+        }
+
         $this->manufacturer->description = Tools::nl2br(trim($this->manufacturer->description));
-        $nbProducts = $this->manufacturer->getProducts($this->manufacturer->id, null, null, null, $this->orderBy, $this->orderWay, true);
+        $nbProducts = $this->manufacturer->getProducts($this->manufacturer->id, null, null, null, $this->orderBy, $this->orderWay, true, true, true, null, $categories_filter);
         $this->pagination((int)$nbProducts);
 
-        $products = $this->manufacturer->getProducts($this->manufacturer->id, $this->context->language->id, (int)$this->p, (int)$this->n, $this->orderBy, $this->orderWay);
+        $products = $this->manufacturer->getProducts($this->manufacturer->id, $this->context->language->id, (int)$this->p, (int)$this->n, $this->orderBy, $this->orderWay, false, true, true, null, $categories_filter);
         $this->addColorsToProductList($products);
+
+        //$products
+       $products_all = $this->manufacturer->getProducts($this->manufacturer->id, $this->context->language->id, 1, (int)$this->n, $this->orderBy, $this->orderWay, false);
+
+        //print_r($products_all); exit;
+        foreach($products_all as $key => $product){
+            $id_category = $product['id_category_default'];
+
+            $category = new Category($id_category, $this->context->language->id);
+
+            $categories[$product['category']] = array(
+                'id' => $id_category,
+                'name' => $category->name
+            );
+        }
+
+        //print_r($categories);exit;
+        //$products
 
         $this->context->smarty->assign(array(
             'nb_products' => $nbProducts,
             'products' => $products,
+            'categories_manufacturer_filter' => $categories,
+            'categories_manufacturer_filter_checked' => $categories_filter,
             'path' => ($this->manufacturer->active ? Tools::safeOutput($this->manufacturer->name) : ''),
             'manufacturer' => $this->manufacturer,
             'comparator_max_item' => Configuration::get('PS_COMPARATOR_MAX_ITEM'),

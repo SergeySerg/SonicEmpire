@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
 	<name>smartblog</name>
-	<displayName><![CDATA[Smart Blog]]></displayName>
+	<displayName><![CDATA[Редактор Главной страницы]]></displayName>
 	<version><![CDATA[2.0.1]]></version>
 	<description><![CDATA[The Most Powerfull Presta shop Blog  Module - by smartdatasoft]]></description>
 	<author><![CDATA[SmartDataSoft]]></author>

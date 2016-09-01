@@ -144,9 +144,9 @@ class mib extends Module {
         $this->smarty->assign(array(
 		  'manufacturers' => $manufacturers
         ));
-        return $this->display(__FILE__, 'mib.tpl');  
+        return $this->display(__FILE__, 'mib.tpl');
     }
-    
+
     public function hookFooter($params){
         $manufacturers = Manufacturer::getManufacturers();
         foreach ($manufacturers as &$manufacturer){
@@ -158,17 +158,17 @@ class mib extends Module {
         $this->smarty->assign(array(
 		  'manufacturers' => $manufacturers
         ));
-        return $this->display(__FILE__, 'mib.tpl');  
-    }    
-    
- 
+        return $this->display(__FILE__, 'mib.tpl');
+    }
+
+
     public function msg_saved(){
         return "<div class=\"conf confirm\">".$this->l('Saved')."</div>";
     }
-    
+
 	public function getContent(){
-	   	$output=""; 
-        
+	   	$output="";
+
         if (Tools::isSubmit('selecttab')){
             Configuration::updateValue('mib_lasttab',"{$_POST['selecttab']}");
         }
@@ -176,11 +176,11 @@ class mib extends Module {
        	$output.="";
         return $output.$this->displayForm();
     }
-        
-        public function displayForm(){            
+
+        public function displayForm(){
 
 	    return '
-        
+
         <style>
             .language_flags {text-align:left;}
             #topmenu-horizontal-module {overflow:hidden; background-color: #F8F8F8; border: 1px solid #CCCCCC; margin-bottom: 10px; padding: 10px 0; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;}
@@ -191,7 +191,7 @@ class mib extends Module {
             #topmenu-horizontal-module .addnew span.img {background:url(\''._MODULE_DIR_.$this->name.'/img/add.png\') no-repeat center;}
             #topmenu-horizontal-module .save span.img {background:url(\''._MODULE_DIR_.$this->name.'/img/on.png\') no-repeat center;}
             #topmenu-horizontal-module .back span.img {background:url(\''._MODULE_DIR_.$this->name.'/img/back.png\') no-repeat center;}
-            
+
                 .slides {margin:0px; padding:0px;}
                 .slides li { font-size:15px!important; list-style: none; margin: 0 0 4px 0; padding: 15px 10px; background-color: #F4E6C9; border: #CCCCCC solid 1px; color:#000;}
                 .slides li:hover {border:1px #000 dashed; cursor:move;}
@@ -202,12 +202,12 @@ class mib extends Module {
                 .activate img {max-width:50px; height:auto;}
                 .remove {opacity:0.3; position:relative; top:-1px; width:24px; height:24px; display:inline-block; float:right; background:url("../modules/'.$this->name.'/img/trash.png") top no-repeat; cursor:pointer;}
                 .edit {margin-right:6px; opacity:0.3; position:relative;  width:24px; height:24px; display:inline-block; float:right; background:url("../modules/'.$this->name.'/img/edit.png") top no-repeat; cursor:pointer;}
-                
+
                 .remove:hover, .edit:hover, .activate:hover { opacity:1.0; }
                 .edit,.remove {margin-right:5px;}
-                
-                
-        </style>   
+
+
+        </style>
         <form name="selectform1" id="selectform1" action="'.$_SERVER['REQUEST_URI'].'" method="post"><input type="hidden" name="selecttab" value="1"></form>
         <form name="selectform2" id="selectform2" action="'.$_SERVER['REQUEST_URI'].'" method="post"><input type="hidden" name="selecttab" value="2"></form>
         <form name="selectform3" id="selectform3" action="'.$_SERVER['REQUEST_URI'].'" method="post"><input type="hidden" name="selecttab" value="3"></form>
@@ -228,7 +228,7 @@ class mib extends Module {
         <input type="hidden" name="hosted_button_id" value="CRTHNBD2U8KPW">
         <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal � The safer, easier way to pay online.">
         <img alt="" border="0" src="https://www.paypalobjects.com/pl_PL/i/scr/pixel.gif" width="1" height="1">
-        </form> 
+        </form>
         </div>
         '.'<div style="float:right; text-align:right; display:inline-block; margin-top:5px; font-size:10px;">
         '.$this->l('Proudly developed by').' <a href="http://mypresta.eu" style="font-weight:bold; color:#B73737">MyPresta<font style="color:black;">.eu</font></a>

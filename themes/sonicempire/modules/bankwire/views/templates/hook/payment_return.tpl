@@ -24,7 +24,7 @@
 *}
 
 {if $status == 'ok'}
-	<p class="alert alert-success">{l s='Your order on %s is complete.' sprintf=$shop_name mod='bankwire'}</p>
+	<!--<p class="alert alert-success">{l s='Your order on %s is complete.' sprintf=$shop_name mod='bankwire'}</p>
 	<div class="box">
 		{l s='Please send us a bank wire with' mod='bankwire'}
 		<br />- {l s='Amount' mod='bankwire'} <span class="price"><strong>{$total_to_pay}</strong></span>
@@ -36,9 +36,9 @@
 		{else}
 			<br />- {l s='Do not forget to insert your order reference %s in the subject of your bank wire.' sprintf=$reference mod='bankwire'}
 		{/if}		<br />{l s='An email has been sent with this information.' mod='bankwire'}
-		<br /> <strong>{l s='Your order will be sent as soon as we receive payment.' mod='bankwire'}</strong>
+		<br />--> <strong>{l s='Your order will be sent as soon as we receive payment.' mod='bankwire'}</strong><!--
 		<br />{l s='If you have questions, comments or concerns, please contact our' mod='bankwire'} <a href="{$link->getPageLink('contact', true)|escape:'html':'UTF-8'}">{l s='expert customer support team' mod='bankwire'}</a>.
-	</div>
+	</div>-->
 {else}
 	<p class="alert alert-warning">
 		{l s='We noticed a problem with your order. If you think this is an error, feel free to contact our' mod='bankwire'}

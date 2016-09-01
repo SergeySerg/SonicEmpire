@@ -10,19 +10,24 @@
 			{$number = $number+1}
 			{if $slide.active && $slide.image != ''}
 				<li {if $number == 1}class="primo active"{/if} style="padding:0;" data-slide-index="{$number}">
-					{if $slide.url != ''}
-						<a class="SElink" href="{$slide.url|escape:'htmlall':'UTF-8'}" {if $slide.new_window == 1}target="_blank"{/if}>
-					{/if}
+					
 						<img class="SEimage" src="{$content_dir}modules/homesliderpro/images/{$slide.image|escape:'htmlall':'UTF-8'}" alt="{$slide.legend|escape:'htmlall':'UTF-8'}" height="{$configuration.height|intval}" width="{$configuration.width|intval}" />
-					{if $slide.url != ''}
+					
+					<div class="slide_description">
+						{if $configuration.show_title == 1 && $slide.title != ''}
+							<h2 class="slidetitle{if $configuration.title_pos == 1} right{else} left{/if}">{$slide.title|escape:'htmlall':'UTF-8'}</h2>
+						{/if}
+						{if $slide.description != ''}
+							<hr>
+							<p class="p-slider">{$slide.description}</p>
+						{/if}
+						{if $slide.url != ''}
+							<a class="SElink" href="{$slide.url|escape:'htmlall':'UTF-8'}" {if $slide.new_window == 1}target="_blank"{/if}>Подробнее
+							</a>
+						{/if}
 						</a>
-					{/if}
-					{if $slide.description != ''}
-						<span class="slide_description">{$slide.description}</span>
-					{/if}
-					{if $configuration.show_title == 1 && $slide.title != ''}
-						<h2 class="slidetitle{if $configuration.title_pos == 1} right{else} left{/if}">{$slide.title|escape:'htmlall':'UTF-8'}</h2>
-					{/if}
+					</div>
+
 					{if $slide.has_area && !empty($slide.areas)}
 						{foreach from=$slide.areas item=area name=area}
 							{if $area->url && ($area->button == '' || (!isset($area->style) || $area->style == 'simple'))}

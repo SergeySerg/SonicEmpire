@@ -40,6 +40,8 @@
 			{/foreach}
 		{/if}
 		{$HOOK_HEADER}
+        {literal}<script type="text/javascript" src="/owl-carousel/owl.carousel.js"></script>{/literal}
+        {literal}<script type="text/javascript" src="/owl-carousel/owl.carousel.min.js"></script>{/literal}
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=latin,latin-ext" type="text/css" media="all" />
 		<!--[if IE 8]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -47,6 +49,22 @@
 		<![endif]-->
 	</head>
 	<body style="background-image: url({$img_dir}/bg.jpg);background-color: #292929;" {if isset($page_name)} id="{$page_name|escape:'html':'UTF-8'}"{/if} class="{if isset($page_name)}{$page_name|escape:'html':'UTF-8'}{/if}{if isset($body_classes) && $body_classes|@count} {implode value=$body_classes separator=' '}{/if}{if $hide_left_column} hide-left-column{else} show-left-column{/if}{if $hide_right_column} hide-right-column{else} show-right-column{/if}{if isset($content_only) && $content_only} content_only{/if} lang_{$lang_iso}">
+	<style type="text/css">
+		#hellopreloader_preload{
+			display: block;
+			position: fixed;
+			z-index: 99999;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			min-width: 1000px;
+			background: #322D29 url('img/puff.svg') center center no-repeat;
+			background-size:41px;}
+	</style>
+	<div id="hellopreloader">
+		<div id="hellopreloader_preload"></div>
+	</div>
 	{if !isset($content_only) || !$content_only}
 		{if isset($restricted_country_mode) && $restricted_country_mode}
 			<div id="restricted-country">

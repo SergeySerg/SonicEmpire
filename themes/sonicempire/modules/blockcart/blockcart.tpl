@@ -2,10 +2,14 @@
 {if isset($blockcart_top) && $blockcart_top}
 <div class="shopping_cart-my  col-xs-6 col-md-1{if $PS_CATALOG_MODE} header_user_catalog{/if}">
 {/if}
-        <span class="ajax_cart_quantity{if $cart_qties == 0} unvisible{/if}">{$cart_qties}</span>
-		<a href="{$link->getPageLink($order_process, true)|escape:'html':'UTF-8'}" title="{l s='View my shopping cart' mod='blockcart'}" rel="nofollow"><i class="cart-my"></i>
-
-
+	  	
+	  	
+		
+		<a href="{$link->getPageLink($order_process, true)|escape:'html':'UTF-8'}" title="{l s='View my shopping cart' mod='blockcart'}" rel="nofollow">
+		<span class="quantity-top-wrap">
+			<span class="ajax_cart_quantity{if $cart_qties == 0} unvisible{/if}">{$cart_qties}</span>
+		</span>
+		<i class="cart-my"></i>
 
 		</a>
 		{if !$PS_CATALOG_MODE}

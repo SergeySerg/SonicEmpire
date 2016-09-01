@@ -2,7 +2,7 @@
 <module>
 	<name>blockcart</name>
 	<displayName><![CDATA[Корзина покупателя]]></displayName>
-	<version><![CDATA[1.6.0]]></version>
+	<version><![CDATA[1.6.1]]></version>
 	<description><![CDATA[Добавляет блок, содержащий корзину покупателя.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>

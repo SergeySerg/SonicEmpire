@@ -46,14 +46,14 @@
 	<ul class="comments_advices">
 		{if $nbComments != 0}
 			<li>
-				<a href="#idTab5" class="reviews">
+				<a href="#idTab5" class="no-loader reviews">
 					{l s='Read reviews' mod='productcomments'} (<span itemprop="reviewCount">{$nbComments}</span>)
 				</a>
 			</li>
 		{/if}
 		{if ($too_early == false AND ($is_logged OR $allow_guests))}
 			<li>
-				<a class="open-comment-form" href="#new_comment_form">
+				<a class="no-loader open-comment-form" href="#new_comment_form">
 					{l s='Write a review' mod='productcomments'}
 				</a>
 			</li>

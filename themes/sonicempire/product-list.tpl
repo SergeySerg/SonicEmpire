@@ -15,7 +15,7 @@
 	{math equation="nbLi/nbItemsPerLine" nbLi=$nbLi nbItemsPerLine=$nbItemsPerLine assign=nbLines}
 	{math equation="nbLi/nbItemsPerLineTablet" nbLi=$nbLi nbItemsPerLineTablet=$nbItemsPerLineTablet assign=nbLinesTablet}
 	<!-- Products list -->
-	<ul{if isset($id) && $id} id="{$id}"{/if} class="clearfix product_list grid row{if isset($class) && $class} {$class}{/if}">
+	<ul{if isset($id) && $id} id="{$id}"{/if} class="product_list grid row clearfix">
 	{foreach from=$products item=product name=products}
 		{math equation="(total%perLine)" total=$smarty.foreach.products.total perLine=$nbItemsPerLine assign=totModulo}
 		{math equation="(total%perLineT)" total=$smarty.foreach.products.total perLineT=$nbItemsPerLineTablet assign=totModuloTablet}
@@ -135,7 +135,119 @@
           </a>
         </li>
 	{/foreach}
+
+
 	</ul>
+    {if isset ($categories_manufacturer_filter)}
+        <div class="filter" id="manufacturer-category-filter" style="display: none;">
+            <h4>Фильтр</h4>
+
+            {foreach from=$categories_manufacturer_filter item=category name=categories}
+                <label data-category-id="{$category.id}"><input type="text" name="sorting" value="price-up">{$category.name|escape:'html':'UTF-8'}</label>
+            {/foreach}
+            <a href="#" style="border: 2px solid #fff; display: none;" id="filter-button" class="product-item-more">Отфильтровать</a>
+        </div>
+        <SCRIPT>
+            $(function(){
+                var $sidebar = $('#sidebar'),
+                    $filter = $('#manufacturer-category-filter'),
+                    $filter_button = $('#filter-button');
+
+                if($sidebar.length > 0 && $filter.length > 0){
+                    $sidebar.append($filter);
+                    $filter.fadeIn(3000);
+
+                    var categories_checked = {};
+                    var categories = {};
+
+                    {if isset ($categories_manufacturer_filter_checked)}
+                        {foreach from=$categories_manufacturer_filter_checked item=category_checked}
+                            categories['{$category_checked}'] = true;
+                            categories_checked['category-{$category_checked}'] = true;
+                            $('#manufacturer-category-filter label[data-category-id="{$category_checked}"]').addClass('checked');
+                        {/foreach}
+                    {/if}
+
+
+
+
+                    $filter_button.on('click', function(event){
+                        var url = window.location.href;
+                        url = url.replace(/\&categories=[0-9\-]*/, '');
+                        var param = '';
+                        url = url
+                                .replace(/\&p=[0-9\-]*/, '&p=1')
+                                .replace(/\?p=[0-9\-]*/, '?p=1');
+                        if(Object.keys(categories).length > 0){
+                            for(var key in categories){
+                                if(param){
+                                    param += '-'+key;
+                                }else{
+                                    param += key.toString();
+                                }
+                            }
+                            if(url.indexOf('?') == -1){
+                                window.location.href = url + '?categories=' + param;
+                            }
+                            else{
+                                window.location.href = url + '&categories=' + param;
+                            }
+
+
+                        }else{
+                            window.location.href = url;
+                        }
+
+                        event.preventDefault();
+                    });
+
+                    $filter.find('label').on('click', function(event){
+                        var category_id = $(this).attr('data-category-id');
+
+                        if(category_id in categories){
+                            delete categories[category_id];
+                            $(this).removeClass('checked');
+                        }else{
+                            categories[category_id] = true;
+                            $(this).addClass('checked');
+                        }
+
+                        /*$categories_checked = $('#manufacturer-category-filter label.checked');
+                        if(Object.keys(categories_checked).length == $categories_checked.length){
+                            $filter_button.hide();
+                            $categories_checked.each(function(){
+                                var current_category_id = $(this).attr('data-category-id');
+                                if(!categories_checked['category-' + current_category_id]){
+                                    $filter_button.show();
+                                }
+                            });
+                        }else{
+                            $filter_button.show();
+                        }*/
+
+
+                        if(Object.keys(categories_checked).length == Object.keys(categories).length){
+                            $filter_button.hide();
+                            for(var key in categories){
+                                if(!categories_checked['category-' + key]){
+                                    $filter_button.show();
+                                }
+                            }
+                        }else{
+                            $filter_button.show();
+                        }
+
+
+                        console.info('Клик по категории: ', category_id);
+                        console.info('Массив категорий для фильтра: ', categories);
+
+                        event.preventDefault();
+                    });
+
+                }
+            });
+        </SCRIPT>
+    {/if}
 {addJsDefL name=min_item}{l s='Please select at least one product' js=1}{/addJsDefL}
 {addJsDefL name=max_item}{l s='You cannot add more than %d product(s) to the product comparison' sprintf=$comparator_max_item js=1}{/addJsDefL}
 {addJsDef comparator_max_item=$comparator_max_item}

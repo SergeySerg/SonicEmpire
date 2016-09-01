@@ -23,9 +23,9 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 
-<input type="hidden" name="supplier_loaded" value="1">
+<input type="hidden" name="supplier_loaded" value="1" style="display: none">
 {if isset($product->id)}
-<div id="product-suppliers" class="panel product-tab">
+<div id="product-suppliers" class="panel product-tab" style="display: none">
 	<input type="hidden" name="submitted_tabs[]" value="Suppliers" />
 	<h3>{l s='Suppliers of the current product'}</h3>
 	<div class="alert alert-info">
@@ -62,7 +62,7 @@
 		<button type="submit" name="submitAddproductAndStay" class="btn btn-default pull-right" disabled="disabled"><i class="process-icon-loading"></i> {l s='Save and stay'}</button>
 	</div>
 </div>
-<div class="panel">
+<div class="panel" style="display: none" >
 	<h3>{l s='Supplier reference(s)'}</h3>
 	<div class="alert alert-info">
 		{if $associated_suppliers|@count == 0}

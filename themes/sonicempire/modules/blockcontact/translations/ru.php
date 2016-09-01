@@ -6,9 +6,7 @@ $_MODULE['<{blockcontact}sonicempire>blockcontact_df8f3e2cd8d1acbb2d1aa46a45045e
 $_MODULE['<{blockcontact}sonicempire>blockcontact_318ed85b9852475f24127167815e85d9'] = 'Позволяет вам добавлять информацию о службе поддержки клиентов.';
 $_MODULE['<{blockcontact}sonicempire>blockcontact_20015706a8cbd457cbb6ea3e7d5dc9b3'] = 'Конфигурация обновлена';
 $_MODULE['<{blockcontact}sonicempire>blockcontact_f4f70727dc34561dfde1a3c529b6205c'] = 'Настройки';
-$_MODULE['<{blockcontact}sonicempire>blockcontact_90a613a116f4bd9390ff7379a114f8d7'] = 'Блок отображает а заголовке ваш телефон (\"Звоните нам сейчас\") и ссылку на страницу \"Связаться с нами\".';
-$_MODULE['<{blockcontact}sonicempire>blockcontact_5f6e75192756d3ad45cff4a1ee0a45ba'] = 'Для редактирования адреса email на странице \"Связаться с нами\" вам следует открыть страницу \"Контакты\" в меню \"Клиент\".';
-$_MODULE['<{blockcontact}sonicempire>blockcontact_ccffe09c1cd18f73ad1f76762fded097'] = 'Для правки информации о контактах в футере откройте настройку модуля \"Блок контактной информации\"';
+$_MODULE['<{blockcontact}sonicempire>blockcontact_1e61a050e43516dc6e4a66141050aed8'] = 'Укажите номер телефона который будет отображаться в шапке и подвале вашего сайта ';
 $_MODULE['<{blockcontact}sonicempire>blockcontact_7551cf1a985728fa2798db32c2ff7887'] = 'Номер телефона';
 $_MODULE['<{blockcontact}sonicempire>blockcontact_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'E-mail';
 $_MODULE['<{blockcontact}sonicempire>blockcontact_52e878b67e9d94d25425231162ef5133'] = 'Здесь задаются контакты службы поддержки клиентов.';

@@ -2,7 +2,7 @@
 <module>
 	<name>blockcategories</name>
 	<displayName><![CDATA[Блок категорий]]></displayName>
-	<version><![CDATA[2.9.3]]></version>
+	<version><![CDATA[2.9.4]]></version>
 	<description><![CDATA[Блок, управляющий категориями товаров.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>
