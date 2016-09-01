@@ -97,7 +97,7 @@
                     </header>
                 </div>
             </div>
-            <!-- Block manufactory-->
+            <!-- Block manufactory in header-->
                {hook h="displayRightColumn"}
             <!-- /Block manufactory -->
             <!--Хлебные крошки-->
