@@ -165,7 +165,7 @@
                 {include file="$opc_templates_path/order-payment.tpl"}
                 <!-- END Payment -->
                     {else}
-                <h2>{l s='Your shopping cart' mod='onepagecheckout'}</h2>
+                <!--<h2>{l s='Your shopping cart' mod='onepagecheckout'}</h2>-->
                 <p class="warning">{l s='Your shopping cart is empty.' mod='onepagecheckout'}</p>
                 {/if}
         </div>

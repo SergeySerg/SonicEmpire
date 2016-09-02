@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:820557c7ea507181d5-34944578%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2019757c7fee5483d38-66862822%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,19 +9,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '820557c7ea507181d5-34944578',
-  'variables' => 
-  array (
-    'colors_list' => 0,
-    'col_img_dir' => 0,
-    'color' => 0,
-    'link' => 0,
-    'img_color_exists' => 0,
-    'img_col_dir' => 0,
-  ),
-  'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57c7ea509f1e41_46722905',
+  'nocache_hash' => '2019757c7fee5483d38-66862822',
   'cache_lifetime' => 31536000,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_57c9388bb20230_41740020',
+  'has_nocache_code' => false,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57c7ea509f1e41_46722905')) {function content_57c7ea509f1e41_46722905($_smarty_tpl) {?><ul class="color_to_pick_list clearfix"><li> <a href="http://sonicempire.loc/akusticheskie-sistemy/17-komplekt-akustiki-jamo-s-426-hcs-3.html#/29-color-temnyj_venge" id="color_87" class="color_pick"> <img src="/img/co/29.jpg" alt="Темный Венге" title="Темный Венге" width="20" height="20" /> </a></li><li> <a href="http://sonicempire.loc/akusticheskie-sistemy/17-komplekt-akustiki-jamo-s-426-hcs-3.html#/30-color-venge_gorizontalnyj" id="color_86" class="color_pick"> <img src="/img/co/30.jpg" alt="Венге горизонтальный" title="Венге горизонтальный" width="20" height="20" /> </a></li></ul><?php }} ?>
+<?php if ($_valid && !is_callable('content_57c9388bb20230_41740020')) {function content_57c9388bb20230_41740020($_smarty_tpl) {?><?php }} ?>

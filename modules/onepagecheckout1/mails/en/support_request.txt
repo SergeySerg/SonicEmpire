@@ -1,6 +1,0 @@
-{message}
-
-
-
-{shop_url} ({shop_name})
-PS / OPC versions: {ps_version} / {opc_version}
