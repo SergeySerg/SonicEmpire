@@ -8569,3 +8569,148 @@ div.star.star_hover:after {
   cursor: pointer; }
 
 /*# sourceMappingURL=global.css.map */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  cursor: default;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  visibility: hidden;
+  z-index: 99999;
+  -webkit-transition: opacity .5s;
+  -moz-transition: opacity .5s;
+  -ms-transition: opacity .5s;
+  -o-transition: opacity .5s;
+  transition: opacity .5s;
+}
+.popup {
+  background-color: #fff;
+  border: 3px solid #fff;
+  display: inline-block;
+  left: 50%;
+  opacity: 0;
+  padding: 25px;
+  width: 700px;
+  height: 235px;
+  position: fixed;
+  text-align: justify;
+  top: 40%;
+  visibility: hidden;
+  z-index: 999999;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: opacity .5s, top .5s;
+  -moz-transition: opacity .5s, top .5s;
+  -ms-transition: opacity .5s, top .5s;
+  -o-transition: opacity .5s, top .5s;
+  transition: opacity .5s, top .5s;
+  border-radius: 11px;
+}
+.popup .close_window {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  /* width: 6px;
+   height: 17px;
+   position: absolute;
+   padding: 1px 9px 4px 9px;
+   top: -15px;
+   right: -15px;
+   cursor: pointer;
+   color: #fff;
+   font-family: 'tahoma', sans-serif;
+   background: -webkit-gradient(linear, left top, right top, from(#3d51c8), to(#051fb8));
+   background: -webkit-linear-gradient(top, #3d51c8, #051fb8);
+   background: -moz-linear-gradient(top, #3d51c8, #051fb8);
+   background: -o-linear-gradient(top, #3d51c8, #051fb8);
+   background: -ms-linear-gradient(top, #3d51c8, #051fb8);
+   background: linear-gradient(top, #3d51c8, #051fb8);
+   background-color: #3d51c8;
+   border: 1px solid #061fb8;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -o-border-radius: 50%;
+   -ms-border-radius: 50%;
+   border-radius: 50%;
+   text-align: center;
+   box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.5);*/
+}
+.popup .fa fa-times-circle fa-2x:hover {
+  /*background: -webkit-gradient(linear, left top, right top, from(#051fb8), to(#3d51c8));
+  background: -webkit-linear-gradient(top, #051fb8, #3d51c8);
+  background: -moz-linear-gradient(top, #ff5f0, #3d51c87);
+  background: -o-linear-gradient(top, #051fb8, #3d51c8);
+  background: -ms-linear-gradient(top, #051fb8, #3d51c8);
+  background: linear-gradient(top, #051fb8, #3d51c8);*/
+  background-color: #cc0033;
+  border: 1px solid #cc0033;
+}
+.popup .close_window:active {
+  background: #8f9be0;
+}
+div.popup>p{
+  line-height: 1.3;
+  font-size: 1.46154em;
+  margin-bottom: 1.4em;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #333;
+  float: left;
+}
+.put_email{
+  font-size: 1.15385em;
+  padding-bottom: 0.46667em;
+  text-align: left;
+  color: #333;
+}
+input#oos_customer_email.mailalerts_oos_email.form-control
+{
+  display: inline-block;
+  height: 1.66667em;
+  line-height: 1.66667em;
+  border: 1px solid #c2c2cc;
+  border-radius: 3px;
+  box-shadow: inset 3px 3px 1px 0 #eeeeef;
+  font-size: 1.15385em;
+  width: 18em;
+  padding: 0.33333em;
+  resize: none;
+  margin-right: 2em;
+}
+input#oos_customer_email.mailalerts_oos_email.form-control:focus{
+  border: 2px solid #c3043a;
+}
+a#mailalert_link
+{
+  height: 40px;
+  padding: 11px 20px;
+  font-size: 1.38462em;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+  background: none;
+  border: 0;
+  color: #333;
+  cursor: pointer;
+  display: inline-block;
+  /* position: relative; */
+  z-index: 1;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  -webkit-appearance: button;
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased;
+  align-items: flex-start;
+  text-rendering: auto;
+  -webkit-writing-mode: horizontal-tb;
+  background: #c3043a;
+  color: #fff;
+}
+/*конец стилей для модуля и всплыв. окна "Сообщить когда появится"*/
