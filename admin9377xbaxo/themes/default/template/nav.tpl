@@ -36,6 +36,30 @@
                     <span>Редактор Соц. сетей</span>
                 </a>
             </li>
+			<li class="maintab">
+				<a href='{$base_dir}/admin9377xbaxo/index.php?controller=AdminModules&token=96546ed585126989fb2231c0986937cc&configure=productcomments&tab_module=front_office_features&module_name=productcomments' class="title" >
+					<i class="icon-AdminSmartBlog"></i>
+					<span>Модератор отзывов</span>
+				</a>
+			</li>
+			<li class="maintab">
+				<a href='{$base_dir}/admin9377xbaxo/index.php?controller=AdminTranslations&lang=ru&type=mails&theme=sonicempire&token=3d4d4508fd20b8e99271c78b1d40e53e' class="title" >
+					<i class="icon-AdminParentOrders"></i>
+					<span>Редактор писем для клиентов</span>
+				</a>
+			</li>
+			<li class="maintab">
+				<a href='{$base_dir}/admin9377xbaxo/index.php?controller=AdminModules&token=96546ed585126989fb2231c0986937cc&configure=bankwire&tab_module=payments_gateways&module_name=bankwire' class="title" >
+					<i class="icon-AdminPriceRule"></i>
+					<span>Реквизиты банковского перевода</span>
+				</a>
+			</li>
+			<li class="maintab">
+				<a href='{$base_dir}/admin9377xbaxo/index.php?controller=AdminModules&token=96546ed585126989fb2231c0986937cc&configure=cheque&tab_module=payments_gateways&module_name=cheque' class="title" >
+					<i class="icon-AdminParentOrders"></i>
+					<span>Реквизиты пластиковой карты</span>
+				</a>
+			</li>
 		</ul>
 		<span class="menu-collapse">
 			<i class="icon-align-justify icon-rotate-90"></i>
