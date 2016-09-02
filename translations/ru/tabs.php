@@ -1,7 +1,7 @@
 <?php
 
 $_TABS = array();
-
+$_TABS['AdminCmsContent'] = 'Редактор страниц Доставка Контакты';
 $_TABS['AdminDashboard'] = 'Пульт';
 $_TABS['AdminCatalog'] = 'Каталог';
 $_TABS['AdminParentOrders'] = 'Заказы';
