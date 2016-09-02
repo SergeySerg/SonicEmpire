@@ -95,6 +95,7 @@
                         <!-- Block search module and TOP Block cart-->
                         {hook h='displayTop'}
                         <!-- /Block search module and TOP Block cart-->
+						<!-- /Block search module and TOP Block cart-->
                     </header>
                 </div>
             </div>
