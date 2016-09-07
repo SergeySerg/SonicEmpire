@@ -9039,7 +9039,8 @@ header .shop_phone {
 #content .item-block .right-block .shopping-block-quantity {
     width: 180px;
     height: 46px;
-    float: right; }
+    float: right;
+    margin-bottom: 30px; }
 #content .item-block .right-block .shopping-block-quantity .in-stock {
     height: 46px;
     text-align: right;
@@ -9049,7 +9050,8 @@ header .shop_phone {
     color: #CCC; }
 #content .item-block .right-block .shopping-block-price {
     float: left;
-    margin-top: 75px; }
+    height: 80px;
+    /*  margin-top: 75px;*/ }
 #content .item-block .right-block .shopping-block button {
     float: right;
     width: 180px;
@@ -9059,13 +9061,14 @@ header .shop_phone {
     color: #FFF;
     font-size: 20px;
     font-family: "PTSerifRegular", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-    margin-top: 30px;
+    /*  margin-top: 30px;*/
     cursor: pointer; }
 #content .item-block .right-block .shopping-block button:hover {
     color: #000;
     background: #FFF; }
 #content .item-block .right-block .properties {
-    padding-top: 145px; }
+    /*  padding-top: 165px;*/
+    float: left; }
 #content .item-block .right-block .properties h4 {
     line-height: 24px; }
 #content .item-block .right-block .properties table {
@@ -9352,10 +9355,12 @@ div#image-block{
     position: relative;
 }
 div#attributes > fieldset{
-    width: 170px;
+    width: 240px;
 }
 div#attributes{
-    height: 0px;
+    float: left;
+    width: 270px;
+    margin-bottom: 30px;
 }
 p#reduction_percent,p#reduction_amount{
     font-size:24px;
@@ -9588,7 +9593,7 @@ ul.r-address {
   margin: 15px 0;
 }
 
-.r-link-block a:focus{
+.r-link-block a:focus, #sds_blog_post a:focus{
   color: #CCC;
 }
 
@@ -9723,3 +9728,7 @@ opacity: 0;
 
 
 /*конец стилей для модуля и всплыв. окна "Сообщить когда появится"*/
+
+#buy_block{
+  margin-top: -10px;
+}

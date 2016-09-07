@@ -3,6 +3,7 @@
     $(document).ready(function(){
         $('.more').click(function(){
             $(this).parent().children('.spoiler-body').slideToggle(700);
+            $('.more i').toggleClass('fa-angle-down').toggleClass('fa-angle-up');
             return false;
         });
     });
@@ -17,8 +18,8 @@
                     <div id="sds_blog_post">
                         <h1>{$post.title}</h1>
                         <section><p>{$post.short_description|escape:'htmlall':'UTF-8'}</p></section>
-                        <a href="#" class="more">Подробнее<i class="fa fa-angle-down"></i></a>
                         <div class="spoiler-body" style="display: none;"><section><p>{$post.content|escape:'htmlall':'UTF-8'}</p></section></div>
+                        <a href="#" class="more">Подробнее<i class="fa fa-angle-down"></i></a>
                     </div>
                 {$i=$i+1}
             {/foreach}
