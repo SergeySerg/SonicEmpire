@@ -9588,7 +9588,7 @@ ul.r-address {
   margin: 15px 0;
 }
 
-.r-link-block a:focus{
+.r-link-block a:focus, #sds_blog_post a:focus{
   color: #CCC;
 }
 
