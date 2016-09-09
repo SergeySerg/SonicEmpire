@@ -66,6 +66,12 @@
 					<span>Фильтр категорий</span>
 				</a>
 			</li>
+			<li class="maintab">
+				<a href='{$base_dir}/admin9377xbaxo/index.php?controller=AdminModules&token=96546ed585126989fb2231c0986937cc&configure=blockcontact&tab_module=front_office_features&module_name=blockcontact' class="title" >
+					<i class="icon-AdminParentCustomer"></i>
+					<span>Изменить конт. телефон</span>
+				</a>
+			</li>
 		</ul>
 		<span class="menu-collapse">
 			<i class="icon-align-justify icon-rotate-90"></i>
