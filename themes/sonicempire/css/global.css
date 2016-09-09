@@ -2928,8 +2928,8 @@ a.thumbnail:focus {
     color: inherit; }
 
 .alert-success {
- /* background-color: #55c65e;
-  border-color: #48b151;*/
+  background-color: #55c65e;
+  border-color: #48b151;
   color: #fff; }
   .alert-success hr {
     border-top-color: #419f49; }
