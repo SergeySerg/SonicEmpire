@@ -9,14 +9,14 @@
 	<p class="alert alert-warning">{l s='Your shopping cart is empty.' mod='cheque'}</p>
 {else}
 
-	<form action="{$link->getModuleLink('cheque', 'validation', [], true)|escape:'html':'UTF-8'}" method="post">
+	<form class='my-order-confirmation' action="{$link->getModuleLink('cheque', 'validation', [], true)|escape:'html':'UTF-8'}" method="post">
 		<div class="box cheque-box">
 			<h3 class="page-subheading">{l s='Check payment' mod='cheque'}</h3>
-			<p class="cheque-indent">
+			<!--<p class="cheque-indent">
 				<strong class="dark">
 					{l s='You have chosen to pay by check.' mod='cheque'} {l s='Here is a short summary of your order:' mod='cheque'}
 				</strong>
-			</p>
+			</p>-->
 			<p>
 				- {l s='The total amount of your order comes to:' mod='cheque'}
 				<span id="amount" class="price">{displayPrice price=$total}</span>
@@ -52,8 +52,8 @@
 			<a href="{$link->getPageLink('order', true, NULL, "step=3")|escape:'html':'UTF-8'}" class="button-exclusive btn btn-default">
 				<i class="icon-chevron-left"></i>{l s='Other payment methods' mod='cheque'}
 			</a>
-			<button type="submit" class="button btn btn-default button-medium">
-				<span>{l s='I confirm my order' mod='cheque'}<i class="icon-chevron-right right"></i></span>
+			<button type="submit" class="button-confirmation">
+				{l s='I confirm my order' mod='cheque'}
 			</button>
 		</p>
 	</form>

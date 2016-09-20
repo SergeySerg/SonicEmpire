@@ -565,7 +565,10 @@ table#cart_summary .cart_delete {
   /* background: none repeat scroll 0 0 #FFF5F5;*/
     border: 1px solid #C20606;
     margin: 10px 10px 15px;
-    padding: 3px 5px;
+    padding: 10px 15px;
+    margin-left: 0;
+    width: 580px;
+    color: #CCC;
 }
 
 
