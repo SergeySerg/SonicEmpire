@@ -131,6 +131,7 @@
 		<module name="gadwords"/>
 		<module name="ganalytics"/>
 		<module name="gapi"/>
+		<module name="googleshopping"/>
 		<module name="heidelpay"/>
 		<module name="hipay"/>
 		<module name="klarnaprestashop"/>
@@ -182,6 +183,7 @@
 		<module name="twengafeed"/>
 		<module name="vtpayment"/>
 		<module name="worldpay"/>
+		<module name="wing"/>
 		<module name="yousticeresolutionsystem"/>
 	</modules>
 </modules_list>

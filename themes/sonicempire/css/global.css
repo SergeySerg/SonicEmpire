@@ -1350,7 +1350,7 @@ input[type="search"] {
 input[type="radio"],
 input[type="checkbox"] {
   margin: 4px 0 0;
-  margin-top: 1px \9;
+  /*margin-top: 1px \9;*/
   /* IE8-9 */
   line-height: normal; }
 
@@ -8899,7 +8899,7 @@ header .shop_phone {
 #content #slider .slider-content h1.in-slider {
     margin: 0;
     font-size: 36px;
-    line-height: auto; }
+    line-height: normal; }
 #content #slider .slider-content hr {
     width: 320px;
     margin-top: 25px;
@@ -9437,7 +9437,6 @@ a#filter-button.product-item-more{
     padding: 5px 0;
     width: 200px;
     text-align: center;
-    margin: top;
     margin-top: 20px;
 }
 /* Правки стилей */ 
