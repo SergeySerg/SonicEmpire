@@ -158,7 +158,7 @@
   font-weight: bold; }
 
 #layered_form div div ul {
-  /*  max-height: 200px;*/
+  max-height: 200px;
   overflow-x: auto; }
 
 .layered_filter {

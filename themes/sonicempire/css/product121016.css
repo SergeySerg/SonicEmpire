@@ -186,7 +186,7 @@ span.view_scroll_spacer {
   width: 27px;
   padding-left: 2px;
   position: absolute;
-  left: 0; }
+  left: -27px; }
   @media (min-width: 992px) and (max-width: 1199px) {
     .show-right-column.hide-left-column span.view_scroll_spacer, .hide-right-column.show-left-column span.view_scroll_spacer {
       width: 44px;
@@ -225,7 +225,7 @@ span.view_scroll_spacer {
 
 #view_scroll_right {
   position: absolute;
-  right: 3px; }
+  right: -27px; }
   #view_scroll_right:before {
     content: "\f138"; }
 
