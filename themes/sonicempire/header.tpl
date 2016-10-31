@@ -42,6 +42,7 @@
 		{$HOOK_HEADER}
         {literal}<script type="text/javascript" src="/owl-carousel/owl.carousel.js"></script>{/literal}
         {literal}<script type="text/javascript" src="/owl-carousel/owl.carousel.min.js"></script>{/literal}
+        {literal}<script type="text/javascript" src="/themes/sonicempire/js/common.js"></script>{/literal}
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=latin,latin-ext" type="text/css" media="all" />
 		<!--[if IE 8]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>

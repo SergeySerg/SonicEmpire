@@ -9,21 +9,29 @@
 		{/if}
 	</h2>-->
 
-		<ul id="menu" class="catalog tree {if $isDhtml}dhtml{/if}">
-			{foreach from=$blockCategTree.children item=child name=blockCategTree}
-				{if $smarty.foreach.blockCategTree.last}
-					{include file="$branche_tpl_path" node=$child last='true'}
-				{else}
-					{include file="$branche_tpl_path" node=$child}
-				{/if}
-			{/foreach}
-		</ul>
-        <SCRIPT>
-    $(function(){
-        setTimeout(function(){
-            $('.cat_expand span').trigger('click');
-        }, 0);  
-    });
+    <ul id="r-catalog-open" class="catalog">
+        <li class="raund-categories">
+            <span class="grower CLOSE"></span>
+            <a href="#">{l s='Categories' mod='blockcategories'}</a>
+        </li>
+    </ul>
+
+    <div id="raund-categories-hide" class="r-categories-hide">
+        <ul id="menu" class="catalog tree {if $isDhtml}dhtml{/if}">
+            {foreach from=$blockCategTree.children item=child name=blockCategTree}
+                {if $smarty.foreach.blockCategTree.last}
+                    {include file="$branche_tpl_path" node=$child last='true'}
+                {else}
+                    {include file="$branche_tpl_path" node=$child}
+                {/if}
+            {/foreach}
+        </ul>
+    </div>
+
+    <SCRIPT>
+        $(function(){
+
+        });
     </SCRIPT>
 
 </div>
