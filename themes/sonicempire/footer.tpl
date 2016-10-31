@@ -12,12 +12,9 @@
 					<footer id="footer">
                         <div class="container">
                             <div class="row">
-                            {$HOOK_FOOTER}
-                            <div class="clearfix">
-                                <div class="bottom-phone">{hook h="displayNav"}</div>
-                             </div>
-                                <section class="bottom-footer col-xs-12">&copy; Sonic Empire, 2016</section>
-
+								{$HOOK_FOOTER}
+								<div class="col-xs-12 col-sm-12 col-md-3 bottom-phone">{hook h="displayNav"}</div>
+								<div class="bottom-footer col-xs-12 col-sm-12 col-md-3">&copy; Sonic Empire, 2016</div>
                             </div>
                         </div>
 					</footer>

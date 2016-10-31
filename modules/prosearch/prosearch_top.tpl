@@ -1,4 +1,4 @@
-<div id="search_block_top" class="search_block_top-my col-xs-6 col-sm-2 col-md-3" >
+<div id="search_block_top" class="search_block_top-my col-xs-12 col-sm-5 col-md-3" >
 	<form id="searchbox" class="searchbox-my" method="get" action="{$link->getPageLink('search')|escape:'html':'UTF-8'}" >
 		<input type="hidden" name="controller" value="search" />
 		<input type="hidden" name="orderby" value="position" />

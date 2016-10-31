@@ -80,15 +80,15 @@
                         <!-- MODULE Block Contact -->
                         {hook h='displayNav'}
                         <!-- /MODULE Block Contact -->
-                        <div id="header_logo-my" class="col-xs-6 col-sm-4 col-md-3">
+                        <div id="header_logo-my" class="col-xs-12 col-sm-12 col-md-3">
                             <a href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}" title="{$shop_name|escape:'html':'UTF-8'}">
                                 <img src="{$logo_url}" alt="{$shop_name|escape:'html':'UTF-8'}"{if isset($logo_image_width) && $logo_image_width} width="{$logo_image_width}"{/if}{if isset($logo_image_height) && $logo_image_height} height="{$logo_image_height}"{/if}/>
                             </a>
                         </div>
-                        <div class="top-nav-my col-xs-6 col-sm-4 col-md-5">
+                        <div class="top-nav-my col-xs-12 col-sm-5 col-md-5">
                             <ul>
                                 <li><a href="{$base_dir}content/1-delivery">Доставка и оплата</a></li>
-                                    <li><a href="{$base_dir}content/6-contact">Контакты</a></li>
+								<li><a href="{$base_dir}content/6-contact">Контакты</a></li>
                             </ul>
                         </div>
                         <!-- Block search module and TOP Block cart-->
@@ -110,13 +110,13 @@
 					<div class="row">
                         <!--левый сайдбар-->
 						{if isset($left_column_size) && !empty($left_column_size)}
-						<div id="left_column">
+						<div id="left_column" class="col-sm-12 col-md-3">
                             <div id="sidebar">{$HOOK_LEFT_COLUMN}</div>
                         </div>
 						{/if}
                         <!--/левый сайдбар-->
 						{if isset($left_column_size) && isset($right_column_size)}{assign var='cols' value=(12 - $left_column_size - $right_column_size)}{else}{assign var='cols' value=12}{/if}
-						<div id="center_column"><!-- class="center_column col-xs-12 col-sm-{$cols|intval}">-->
+						<div id="center_column" class="col-sm-12 col-md-9"><!-- class="center_column col-xs-12 col-sm-{$cols|intval}">-->
 
 
 	{/if}

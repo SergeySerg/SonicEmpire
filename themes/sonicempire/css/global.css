@@ -8662,8 +8662,6 @@ header {
     position: relative;
     padding-top: 30px;
     padding-bottom: 20px; }
-header #header_logo-my {
-    padding: 0; }
 header .top-nav-my {
     padding-top: 35px; }
 header .top-nav-my ul {
@@ -8796,14 +8794,12 @@ header .shop_phone {
     color: #bf6d3b; }
 
 #sidebar {
-    width: 25%;
-    float: left;
     padding-bottom: 50px; }
 #sidebar .catalog li {
     margin-top: 20px;
     position: relative; }
 #sidebar .catalog li a{
-    width: 75%;}
+    padding-right: 30px;}
 #sidebar .catalog li a, #sidebar .catalog li span {
     display: inline-block;
     position: relative;
@@ -8878,10 +8874,7 @@ header .shop_phone {
     display: none; }
 
 #content {
-    width: 75%;
-    /*max-width: 880px;*/
     margin: 0 auto;
-    float: left;
     padding: 20px 0 50px 0; }
 #content #slider {
     position: relative;
@@ -9285,15 +9278,14 @@ span.star_se {
     background: url("../img/down-hover.png") no-repeat 50% 50%; }
 
 footer {
-    height: 100px;
+    min-height: 100px;
     background: #1c1c1c;
     -webkit-box-shadow: 0px 15px 30px -20px #000000 inset;
     box-shadow: 0px 15px 30px -20px #000000 inset; }
 footer .social {
-    margin-top: 20px;
-    padding: 0; }
-footer .social li {
-    float: left;
+    margin-top: 20px; }
+footer .social li{
+    display: inline-block;
     margin-right: 10px; }
 footer .social .youtube, footer .social .fb, footer .social .instagram {
     display: inline-block;
@@ -9312,14 +9304,14 @@ footer .social .instagram {
 footer .social .instagram:hover {
     background: url("../img/instagram-hover.png"); }
 footer .bottom-footer {
+    position: absolute;
+    bottom: 20px;
     font-size: 12px;
     line-height: 24px;
     color: #666;
-    font-family: "OpenSansRegular", sans-serif;
-    padding: 0; }
+    font-family: "OpenSansRegular", sans-serif; }
 footer .bottom-menu {
-    margin-top: 35px;
-    float: left; }
+    margin-top: 35px;}
 footer .bottom-menu li {
     display: inline-block;
     margin-right: 20px; }
@@ -9333,8 +9325,8 @@ footer .bottom-menu li a:hover {
 footer .bottom-phone {
     font-size: 18px;
     color: #999;
-    float: right;
-    margin-top: 35px; }
+    margin-top: 35px;
+    text-align: right;}
 
 /*Добавленные стили*/
 span.navigation_page{
@@ -9756,3 +9748,112 @@ opacity: 0;
   background-color: #FFF;
   color: #000;
 }
+
+/*raund adaptive*/
+
+@media (max-width: 991px){
+  header{
+    padding-top: 5px;
+  }
+  header .top-nav-my ul{
+    text-align: left;
+  }
+  header .top-nav-my ul li:last-child{
+    margin-right: 0;
+  }
+  header .shop_phone{
+    position: relative;
+    top: 45px;
+    margin-bottom: 0;
+  }
+  footer{
+    min-height:230px;
+  }
+  footer .social,
+  footer .bottom-footer,
+  footer .bottom-menu,
+  footer .bottom-phone{
+    text-align: center;
+  }
+  footer .social{
+    top: 120px;
+  }
+  footer .social li{
+    margin-right: 5%;
+  }
+  footer .social li:last-child{
+    margin-right: 0;
+  }
+  footer .bottom-menu{
+    margin-top: 25px;
+  }
+  footer .bottom-menu li{
+    margin-right:10%;
+  }
+  footer .bottom-menu li:last-child{
+    margin-right: 0;
+  }
+  footer .bottom-phone{
+    bottom: 110px;
+  }
+  footer .bottom-footer{
+    left: 0;
+  }
+}
+
+@media (max-width: 767px){
+  header{
+    padding-top: 5px;
+  }
+  header #header_logo-my,
+  header .shopping_cart-my,
+  header .top-nav-my,
+  header .shop_phone{
+    text-align: center;
+  }
+  header .shop_phone{
+    position: relative;
+    top: 110px;
+    margin-bottom: 0;
+  }
+  header .top-nav-my{
+    padding-top: 70px;
+  }
+  header .top-nav-my ul{
+    text-align: center;
+  }
+  header .top-nav-my ul li{
+    display: block;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  header .search_block_top-my{
+    padding-top: 10px;
+  }
+  header .search_block_top-my .searchbox-my{
+    width: 260px;
+  }
+  header .shopping_cart-my{
+    padding-top: 25px;
+  }
+  footer{
+    min-height:295px;
+  }
+  footer .bottom-menu li{
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+  footer .bottom-phone{
+    bottom: 165px;
+    margin-top: 0;
+  }
+  footer .social{
+    top: 180px;
+  }
+}
+
+@media (max-width: 550px) {
+
+}
+/*END raund adaptive*/

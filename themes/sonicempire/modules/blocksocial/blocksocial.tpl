@@ -1,4 +1,4 @@
-<div id="social_block" class="social col-md-3 clearfix">
+<div id="social_block" class="social col-xs-12 col-sm-12 col-md-3">
 	<ul>
         {if isset($youtube_url) && $youtube_url != ''}
             <li>
@@ -59,13 +59,13 @@
    <!-- <h4>{l s='Follow us' mod='blocksocial'}</h4>-->
 </div>
 <!--Страницы контента-->
-        <div class="bottom-menu">
+    <div class="col-xs-12 col-sm-12 col-md-6 bottom-menu">
 
-            <ul>
-                <li><a href="{$base_dir}content/6-contact">Контакты</a></li>
-                <li><a href="{$base_dir}content/4-about-us">О компании</a></li>
-                <li><a href="{$base_dir}content/2-legal-notice">Политика безопасности</a></li>
-            </ul>
+        <ul>
+            <li><a href="{$base_dir}content/6-contact">Контакты</a></li>
+            <li><a href="{$base_dir}content/4-about-us">О компании</a></li>
+            <li><a href="{$base_dir}content/2-legal-notice">Политика безопасности</a></li>
+        </ul>
 
-        </div>
+    </div>
 <!--/Страницы контента-->
