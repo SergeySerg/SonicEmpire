@@ -41,6 +41,7 @@
 		{/if}
 		{$HOOK_HEADER}
         {literal}<script type="text/javascript" src="/owl-carousel/owl.carousel.js"></script>{/literal}
+        {literal}<script type="text/javascript" src="/themes/sonicempire/js/common.js"></script>{/literal}
         {literal}<script type="text/javascript" src="/owl-carousel/owl.carousel.min.js"></script>{/literal}
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=latin,latin-ext" type="text/css" media="all" />
 		<!--[if IE 8]>
@@ -61,10 +62,19 @@
 			min-width: 1000px;
 			background: #322D29 url('img/puff.svg') center center no-repeat;
 			background-size:41px;}
+		.manuf-light img {
+			display: none;
+		}
+
 	</style>
 	<div id="hellopreloader">
 		<div id="hellopreloader_preload"></div>
 	</div>
+	<script>
+		if(window.location.hash == '#noloader'){
+			document.getElementById('hellopreloader').style.display = 'none';
+		}
+	</script>
 	{if !isset($content_only) || !$content_only}
 		{if isset($restricted_country_mode) && $restricted_country_mode}
 			<div id="restricted-country">

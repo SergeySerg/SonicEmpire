@@ -5727,6 +5727,7 @@ textarea {
 */
 #columns {
   position: relative;
+  opacity: 0;
   padding-bottom: 50px;
   padding-top: 15px; }
 
@@ -9756,3 +9757,4 @@ opacity: 0;
   background-color: #FFF;
   color: #000;
 }
+
