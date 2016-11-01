@@ -58,7 +58,7 @@
     display: block;
     /*background: #f6f6f6;*/
     position: absolute;
-    right: 50px;
+    right: 0;
     top: 0;
     cursor: pointer;
     font-family: "FontAwesome";
@@ -90,3 +90,13 @@
       padding-right: 8px; }
 
 /*# sourceMappingURL=blockcategories.css.map */
+
+/* raund adaptive*/
+@media (max-width: 991px) {
+  #categories_block_left li span.grower {
+    top: 14px;
+    right: 10px;
+    font-size: 30px;
+  }
+}
+/* END raund adaptive*/

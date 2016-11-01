@@ -16,6 +16,15 @@ $(function(){
 	$('#columns').animate({opacity: 1}, 5500);
 	$('.manuf-light img').fadeIn(2000);
 
+	setTimeout(function(){
+		$('.cat_expand span').trigger('click');
+	}, 0);
+
+	$('#r-catalog-open').click(function () {
+		$('#raund-categories-hide').toggleClass('r-categories-show');
+	});
+
+
 	$('.manuf-light').css("height", "auto");
 
 	console.info('>>>>>>>>>>>', location.pathname);
