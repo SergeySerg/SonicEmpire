@@ -10,7 +10,7 @@ SetEnv HTTP_MOD_REWRITE On
 RewriteEngine on
 
 
-#Domain: 824585.mixoftip.web.hosting-test.net
+#Domain: sonicempire.loc
 RewriteRule . - [E=REWRITEBASE:/]
 RewriteRule ^api$ api/ [L]
 
@@ -52,4 +52,5 @@ AddType application/x-font-woff .woff
 ErrorDocument 404 /index.php?controller=404
 
 # ~~end~~ Do not remove this comment, Prestashop will keep automatically the code outside this comment when .htaccess will be generated again
+
 #php_value max_input_vars 10000

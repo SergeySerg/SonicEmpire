@@ -8,8 +8,9 @@ $(function(){
 		}, 1500);
 		$('.manuf ul').fadeOut(500);
 		setTimeout(function () {
-			window.location = $a.attr('href') + '#noloader';
-		}, 2000);
+			//window.location = $a.attr('href') + '#noloader';
+			window.location = $a.attr('href');
+		}, 1500);
 		e.preventDefault();
 	});
 
@@ -18,8 +19,9 @@ $(function(){
 
 	$('.manuf-light').css("height", "auto");
 
-	console.info('>>>>>>>>>>>', location.pathname);
-	var current_manufacturer_id = location.pathname.split('_')[0].substr(1);
+	console.info('current pathname: ', location.pathname);
+	//var current_manufacturer_id = location.pathname.split('_')[0].substr(1);
+	var current_manufacturer_id = parseInt(location.pathname.split('/')[1]);
 	if(current_manufacturer_id){
 		console.info('current manufacturer id: ', current_manufacturer_id);
 		setTimeout(function () {
