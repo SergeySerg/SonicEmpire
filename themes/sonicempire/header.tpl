@@ -65,7 +65,14 @@
 		.manuf-light img {
 			display: none;
 		}
-
+		.manuf-light {
+			height: 100px;
+		}
+		{if $page_name =='manufacturer'}
+		#hellopreloader_preload{
+			display: none;
+		}
+		{/if}
 	</style>
 	<div id="hellopreloader">
 		<div id="hellopreloader_preload"></div>

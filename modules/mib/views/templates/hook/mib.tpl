@@ -49,7 +49,7 @@
                     {foreach from=$manufacturers item=manufacturer name=manufacturer_list}
                         {if $manufacturer.image}
                             <li class="{if $smarty.foreach.manufacturer_list.last}last_item{elseif $smarty.foreach.manufacturer_list.first}first_item{else}item{/if}">
-                                <a href="#" data-tab="#manufacturer-descrition-{$manufacturer.id_manufacturer}" title="{l s='Подробнее о %s' sprintf=[$manufacturer.name] mod='mib'}" class="r-tab no-loader manufacturer-tab">
+                                <a href="#" data-id="{$manufacturer.id_manufacturer}" data-tab="#manufacturer-descrition-{$manufacturer.id_manufacturer}" title="{l s='Подробнее о %s' sprintf=[$manufacturer.name] mod='mib'}" class="r-tab no-loader manufacturer-tab">
                                     <img src="{$content_dir}img/m/{$manufacturer.image_url}" alt="{$manufacturer.name|escape:'html':'UTF-8'}"/>
                                 </a>
                             </li>
@@ -80,7 +80,6 @@
             </div>
         </div>
     </div>
-
     {else}
     <div class="manuf" id="mypresta_mib">
         <div class="container">
