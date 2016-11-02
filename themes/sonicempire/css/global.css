@@ -9011,9 +9011,11 @@ header .shop_phone {
     margin: 0 0 5px 0; }
 #content .item-block-model-name {
     margin-bottom: 35px; }
+/*
 #content .item-block-images {
     float: left;
     margin-right: 20px; }
+*/
 #content .item-block .small-images {
     margin-top: 20px; }
 #content .item-block .small-images li {
@@ -9354,12 +9356,16 @@ div#views_block.clearfix{
 div#image-block{
     position: relative;
 }
+/*
 div#attributes > fieldset{
     width: 240px;
 }
+*/
 div#attributes{
+    /*
     float: left;
     width: 270px;
+    */
     margin-bottom: 30px;
 }
 p#reduction_percent,p#reduction_amount{
@@ -9729,9 +9735,11 @@ opacity: 0;
 
 /*конец стилей для модуля и всплыв. окна "Сообщить когда появится"*/
 
+/*
 #buy_block{
   margin-top: -10px;
 }
+*/
 
 /* стили для подтверждения заказа */
 .my-order-confirmation{
