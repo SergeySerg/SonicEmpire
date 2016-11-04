@@ -63,7 +63,7 @@
 
         <ul>
             <li><a href="{$base_dir}content/6-contact">Контакты</a></li>
-            <li><a href="{$base_dir}content/4-about-us">О компании</a></li>
+            <li><a href="{$base_dir}content/7-about-company">О компании</a></li>
             <li><a href="{$base_dir}content/2-legal-notice">Политика безопасности</a></li>
         </ul>
 

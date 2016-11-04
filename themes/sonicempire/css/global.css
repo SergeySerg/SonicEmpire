@@ -9913,6 +9913,27 @@ opacity: 0;
     padding-top: 25px;
   }
 
+  .manuf-light .manuf-dropdown .manuf-logo-dropdown,
+  .manuf-light .manuf-dropdown .manuf-description-dropdown{
+    width: 100%;
+    float: none;
+  }
+  .manuf-light, .manuf-light-main{
+    padding: 0 30px 10px 30px;
+  }
+  .manuf-light .manuf-dropdown .manuf-description-dropdown p{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+  }
+  .manuf-light .manuf-dropdown .manuf-description-dropdown{
+    padding-top: 0;
+  }
+  .manuf-light .manuf-dropdown .manuf-logo-dropdown{
+    margin-top: 30px;
+    line-height: 100px;
+  }
+
   #content h1{
     font-size: 28px;
   }
@@ -9924,9 +9945,13 @@ opacity: 0;
   div#attributes{
     float: none;
   }
+  #content .item-block .right-block .shopping-block-price{
+    height: 55px;
+  }
   #content .item-block .right-block .shopping-block-quantity{
     float: left;
     width: auto;
+    margin-right: 20px;
     margin-bottom: 60px;
   }
   #content .item-block .right-block .shopping-block button{
@@ -9986,6 +10011,14 @@ opacity: 0;
   }
   #content .item-block .right-block .shopping-block button{
     width: 160px;
+  }
+  #content .item-block .right-block .shopping-block-quantity .in-stock{
+    margin-right: 0;
+  }
+  #mypresta_mib a.products-of-manufacturer{
+    display: block;
+    margin-left: 0;
+    text-align: left;
   }
 }
 /*END raund adaptive*/
