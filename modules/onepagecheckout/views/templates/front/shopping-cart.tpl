@@ -375,7 +375,7 @@
     <td colspan="3"></td>
 
     <td class="my-text-price">{l s='Total:' mod='onepagecheckout'}</td>
-        <td class="my-price" id="total_price_container">
+        <td colspan="2" class="my-price" id="total_price_container">
             {if $use_taxes}
             <span id="total_price">{displayPrice price=$total_price}</span>
             {else}

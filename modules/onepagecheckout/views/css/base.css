@@ -898,3 +898,17 @@ td#cart_voucher {
    /* padding-left: 20px;*/
     font-weight: normal;
 }
+
+/*raund adaptive*/
+
+@media (max-width: 767px) {
+    #opc_account_errors,
+    #opc_account_errors_invoice,
+    #opc_login_errors,
+    #opc_payment_errors,
+    #opc_tos_errors {
+        width: 100%;
+    }
+}
+
+/*END raund adaptive*/

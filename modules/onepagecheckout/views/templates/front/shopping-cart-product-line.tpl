@@ -85,7 +85,7 @@
 		</span>
 	</td>
 
-	<td class="my-cart_product-remove">
+	<td class="my-cart_product-remove r-cart-remove">
         {if !isset($noDeleteButton) || !$noDeleteButton}
             {if (!isset($customizedDatas.$productId.$productAttributeId) OR $quantityDisplayed) > 0 && empty($product.gift)}
                 <a rel="nofollow" class="no-loader my-rmv cart_quantity_delete" id="{$product.id_product}_{$product.id_product_attribute}_0_{$product.id_address_delivery|intval}" href="{$link->getPageLink('cart', true, NULL, "delete=1&amp;id_product={$product.id_product|intval}&amp;ipa={$product.id_product_attribute|intval}&amp;id_address_delivery={$product.id_address_delivery|intval}&amp;token={$token_cart}")}"></a><br />
