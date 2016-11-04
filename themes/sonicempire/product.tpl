@@ -143,7 +143,7 @@
 								 <input type="hidden" name="add" value="1" />
 								 <input type="hidden" name="id_product_attribute" id="idCombination" value="" />
 							 </p>
-							 <div class="col-xs-12 col-sm-6 col-md-6" style="padding: 0;">
+							 <div class="col-xs-12 col-sm-6 col-md-6 clearfix" style="padding: 0;">
 								 {if isset($groups)}
 									 <!-- attributes -->
 									 <div id="attributes">
@@ -310,7 +310,7 @@
 					 {/if}
 				 </div>
 				 <!--Характеристики товара-->
-					 <div class="properties">
+					 <div class="col-xs-12 col-sm-12 col-md-12 properties">
 						 {if isset($features) && $features}
 							 <!-- Data sheet -->
 								 <h4>{l s='Data sheet'}</h4>

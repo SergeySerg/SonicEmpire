@@ -1,3 +1,8 @@
 .socialsharing_product button {
 	margin-bottom: 3px;
 }
+@media (max-width: 480px) {
+	.socialsharing_product button{
+		width: 30%;
+	}
+}

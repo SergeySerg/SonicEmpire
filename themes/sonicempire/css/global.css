@@ -8736,6 +8736,7 @@ header .shop_phone {
 .manuf li:nth-child(7n) {
     margin-right: 0; }
 .manuf li img {
+      max-width: 100%;
       vertical-align: middle;
       -webkit-filter: grayscale(100%) brightness(168%);
               filter: grayscale(100%) brightness(168%); }
@@ -9071,11 +9072,13 @@ header .shop_phone {
     background: #FFF; }
 #content .item-block .right-block .properties {
     /*  padding-top: 165px;*/
+    padding-left: 0;
+    padding-right: 0;
     float: left; }
 #content .item-block .right-block .properties h4 {
     line-height: 24px; }
 #content .item-block .right-block .properties table {
-   	width: 480px;
+   	width: 100%;
    	margin-top: 25px;
     color: #CCC;
     font-size: 16px;
@@ -9083,9 +9086,11 @@ header .shop_phone {
 #content .item-block .right-block .properties table tr {
     height: 30px; }
 #content .item-block .right-block .properties table tr td {
-    padding: 0; }
-#content .item-block .right-block .properties table tr td:first-child {
-    width: 45%; }
+  width: 50%;
+  padding: 0; }
+#content .item-block .right-block .properties table tr td:nth-child(2){
+  padding-left: 5%;
+}
 #content .item-block .more-describe {
     margin-top: 35px; }
 #content .item-block .more-describe p {
@@ -9916,6 +9921,25 @@ opacity: 0;
     width: 49.5%;
     margin-right: 0;
   }
+  div#attributes{
+    float: none;
+  }
+  #content .item-block .right-block .shopping-block-quantity{
+    float: left;
+    width: auto;
+    margin-bottom: 60px;
+  }
+  #content .item-block .right-block .shopping-block button{
+    float: none;
+  }
+  #content .item-block .right-block .shopping-block-quantity .in-stock{
+    margin-right: 20px;
+  }
+  #product_comments_block_tab a{
+    width: 60%;
+    text-align: center;
+  }
+
   ul.r-address{
     margin-bottom: 0;
   }
@@ -9959,6 +9983,9 @@ opacity: 0;
   }
   #content .product-item a.product-item-more{
     margin-top: 15px;
+  }
+  #content .item-block .right-block .shopping-block button{
+    width: 160px;
   }
 }
 /*END raund adaptive*/
