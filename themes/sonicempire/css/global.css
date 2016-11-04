@@ -6292,7 +6292,7 @@ table.table_block td {
 
   .new-box,
   .sale-box {
-   /* position: absolute;*/
+    position: absolute;
   top: -4px;
   overflow: hidden;
   height: 85px;
@@ -9183,12 +9183,14 @@ header .shop_phone {
 #content .my-cart-wrap .accompaying-goods-in-cart {
     margin-top: 70px; }
 #content .my-cart-wrap .accompaying-goods-in-cart .product-item {
-    margin-right: 2.75%; }
+    margin-right: 1.75%;
+  position: relative;}
 #content .my-cart-wrap .accompaying-goods-in-cart .product-item:nth-child(4n) {
     margin-right: 0; }
 #content .my-cart-wrap .accompaying-goods-in-cart h4 {
     margin-bottom: 25px; }
 #content .my-cart-wrap .accompaying-goods-in-cart img {
+  width: 100px;
     float: left;
     margin-right: 20px; }
 #content .my-cart-wrap .accompaying-goods-in-cart .product-item-manufactory_in-cart {
@@ -9770,6 +9772,7 @@ opacity: 0;
 }
 
 /*raund adaptive*/
+
 #r-catalog-open{
   display: none;
 }
@@ -9779,6 +9782,29 @@ opacity: 0;
 .manuf-light-main{
   display: none;
 }
+.product-item-img_in-cart{
+  float: left;
+  width: 40%;
+}
+.product-assosiate-describe{
+  float: left;
+  width: 60%;
+}
+@media (min-width:991px) and (max-width: 1200px) {
+  #content .my-cart-wrap .accompaying-goods-in-cart .product-item{
+    width: 47.5%;
+  }
+  #content .accompaying-goods .product-item{
+    width: 38%;
+    margin-right: 8%;
+  }
+}
+@media (min-width:768px) and (max-width: 990px) {
+  #content .my-cart-wrap .accompaying-goods-in-cart .product-item{
+    width: 47.5%;
+  }
+}
+
 
 @media (max-width: 991px){
   header{
@@ -9965,18 +9991,6 @@ opacity: 0;
     text-align: center;
   }
 
-  /*#content .my-cart-wrap .my-cart td.my-cart_product-remove{
-    width: 110px;
-  }
-  .my-cart_product-available{
-    float: none;
-  }
-  #content .my-cart-wrap .my-cart td.my-cart_product-quantity{
-    width: 115px;
-  }
-  .my-cart_product-total{
-    padding-top: 15px;
-  }*/
   #order-detail-content #cart_summary td{
     float: none;
   }
@@ -10067,6 +10081,11 @@ opacity: 0;
   footer .social{
     top: 180px;
   }
+  #content .accompaying-goods .product-item{
+    width: 250px;
+    margin-right: 35px;
+  }
+
 }
 
 @media (max-width: 480px) {

@@ -497,11 +497,11 @@
 			<!--Accessories -->
 			<div class="col-md-12">
 				<h1>{l s='Accessories'}</h1>
-				<ul id="owl-demo" class="accompaying-goods">
+				<ul {*id="owl-demo"*} class="accompaying-goods">
 							{foreach from=$accessories item=accessory name=accessories_list}
 								{if ($accessory.allow_oosp || $accessory.quantity_all_versions > 0 || $accessory.quantity > 0) && $accessory.available_for_order && !isset($restricted_country_mode)}
 									{assign var='accessoryLink' value=$link->getProductLink($accessory.id_product, $accessory.link_rewrite, $accessory.category)}
-									<li class=" product-item-assosiate item product-box ajax_block_product{if $smarty.foreach.accessories_list.first} first_item{elseif $smarty.foreach.accessories_list.last} last_item{else} item{/if} product_accessories_description">
+									<li class=" product-item item product-box ajax_block_product{if $smarty.foreach.accessories_list.first} first_item{elseif $smarty.foreach.accessories_list.last} last_item{else} item{/if} product_accessories_description">
 									  <a href="{$accessoryLink|escape:'html':'UTF-8'}">
 										<div class="product-item-img">
 											<a href="{$accessoryLink|escape:'html':'UTF-8'}" title="{$accessory.legend|escape:'html':'UTF-8'}">
