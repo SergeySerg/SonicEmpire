@@ -29,8 +29,40 @@ $(function(){
 		}, 1000)
 	}
 
-	$('#r-catalog-open').click(function () {
-		$('#raund-categories-hide').toggleClass('r-categories-show');
+/* catalog open adaptive*/
+
+	$('#r-catalog-open').on('click', function (e) {
+		if($('#raund-categories-hide').hasClass('show')) {
+			$('#raund-categories-hide').fadeOut();
+			/*toggleClass('r-categories-show')*/
+			$('#raund-categories-hide').toggleClass('show');
+		}
+		else {
+			$('#raund-categories-hide').fadeIn();
+			/*toggleClass('r-categories-show')*/
+			$('#raund-categories-hide').toggleClass('show');
+		}
+		$('#r-catalog-open .grower').toggleClass('r-rotate');
+		e.preventDefault();
 	});
-	
+
+/* END catalog open adaptive*/
+
+/* filters open adaptive*/
+
+	$('#r-filters-open').on('click', function (e) {
+		$('.r-filter-adaptive').animate({right:0}, 1500);
+		e.preventDefault();
+	});
+	$('#filter-close').on('click', function () {
+		$('.r-filter-adaptive').animate({right:-330}, 1500);
+	});
+
+	/* парсим списки и таблицу в описании номера */
+	$('#manufacturer-category-filter').appendTo('r-filter-adaptive');
+	/* END парсим списки и таблицу в описании номера */
+
+/* END filters open adaptive*/
+
+
 });

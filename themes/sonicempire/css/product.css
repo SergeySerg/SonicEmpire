@@ -425,8 +425,8 @@ span.view_scroll_spacer {
         cursor: pointer; }
         #attributes .attribute_list #color_to_pick_list li a.color_pick img {
           display: block;
-          height: 42px;
-          width: 42px; }
+          height: 41px;
+          width: 41px; }
       #attributes .attribute_list #color_to_pick_list li.selected {
         border: 1px solid #bf6d3b; }
 

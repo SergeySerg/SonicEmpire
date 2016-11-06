@@ -25,11 +25,11 @@
 				{if $css_uri == 'lteIE9'}
 					<!--[if lte IE 9]>
 					{foreach from=$css_files[$css_uri] key=css_uriie9 item=mediaie9}
-					<link rel="stylesheet" href="{$css_uriie9|escape:'html':'UTF-8'}?ver0.3" type="text/css" media="{$mediaie9|escape:'html':'UTF-8'}" />
+					<link rel="stylesheet" href="{$css_uriie9|escape:'html':'UTF-8'}?ver0.7" type="text/css" media="{$mediaie9|escape:'html':'UTF-8'}" />
 					{/foreach}
 					<![endif]-->
 				{else}
-					<link rel="stylesheet" href="{$css_uri|escape:'html':'UTF-8'}?ver0.3" type="text/css" media="{$media|escape:'html':'UTF-8'}" />
+					<link rel="stylesheet" href="{$css_uri|escape:'html':'UTF-8'}?ver0.7" type="text/css" media="{$media|escape:'html':'UTF-8'}" />
 				{/if}
 			{/foreach}
 		{/if}
@@ -41,7 +41,7 @@
 		{/if}
 		{$HOOK_HEADER}
         {literal}<script type="text/javascript" src="/owl-carousel/owl.carousel.js"></script>{/literal}
-        {literal}<script type="text/javascript" src="/themes/sonicempire/js/common.js?ver5"></script>{/literal}
+        {literal}<script type="text/javascript" src="/themes/sonicempire/js/common.js?ver0.7"></script>{/literal}
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=latin,latin-ext" type="text/css" media="all" />
 		<!--[if IE 8]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -124,14 +124,21 @@
             <!--Контейнер страницы-->
 				<div id="columns" class="container">
 					<div class="row">
+						{*проверяем страницу*}
+						<div class="page" style="display: none;">{$page_name}</div>
+						{* /проверяем страницу*}
                         <!--левый сайдбар-->
 						{if isset($left_column_size) && !empty($left_column_size)}
-						<div id="left_column" class="col-sm-12 col-md-3">
+						<div id="left_column" class="col-sm-12 col-md-3 clearfix">
                             <div id="sidebar">{$HOOK_LEFT_COLUMN}</div>
                         </div>
 						{/if}
+						{if {$page_name} == 'manufacturer' }
+							</div>
+						{/if}
                         <!--/левый сайдбар-->
 						{if isset($left_column_size) && isset($right_column_size)}{assign var='cols' value=(12 - $left_column_size - $right_column_size)}{else}{assign var='cols' value=12}{/if}
+
 						<div id="center_column" class="col-sm-12 col-md-9"><!-- class="center_column col-xs-12 col-sm-{$cols|intval}">-->
 
 

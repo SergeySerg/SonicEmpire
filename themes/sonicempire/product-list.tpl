@@ -135,18 +135,19 @@
           </a>
         </li>
 	{/foreach}
-
-
 	</ul>
-    {if isset ($categories_manufacturer_filter)}
-        <div class="filter" id="manufacturer-category-filter" style="display: none;">
-            <h4>Фильтр</h4>
 
-            {foreach from=$categories_manufacturer_filter item=category name=categories}
-                <label data-category-id="{$category.id}"><input type="text" name="sorting" value="price-up">{$category.name|escape:'html':'UTF-8'}</label>
-            {/foreach}
-            <a href="#" style="border: 2px solid #fff; display: none;" id="filter-button" class="product-item-more">Отфильтровать</a>
-        </div>
+
+
+    {if isset ($categories_manufacturer_filter)}
+            <div class="filter" id="manufacturer-category-filter" style="display: none;">
+                <h4>Фильтр</h4>
+
+                {foreach from=$categories_manufacturer_filter item=category name=categories}
+                    <label data-category-id="{$category.id}"><input type="text" name="sorting" value="price-up">{$category.name|escape:'html':'UTF-8'}</label>
+                {/foreach}
+                <a href="#" style="border: 2px solid #fff; display: none;" id="filter-button" class="product-item-more">Отфильтровать</a>
+            </div>
         <SCRIPT>
             $(function(){
                 var $sidebar = $('#sidebar'),
