@@ -58,10 +58,6 @@ $(function(){
 		$('.r-filter-adaptive').animate({right:-330}, 1500);
 	});
 
-	/* парсим списки и таблицу в описании номера */
-	$('#manufacturer-category-filter').appendTo('r-filter-adaptive');
-	/* END парсим списки и таблицу в описании номера */
-
 /* END filters open adaptive*/
 
 
