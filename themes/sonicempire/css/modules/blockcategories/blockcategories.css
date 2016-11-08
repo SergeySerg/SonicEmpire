@@ -62,7 +62,8 @@
     top: 0;
     cursor: pointer;
     font-family: "FontAwesome";
-    font-size: 20px; }
+    font-size: 20px;
+    z-index: 5;}
     #categories_block_left li span.grower.OPEN:before, #categories_block_left li span.grower.CLOSE:before {
       content: "\f106";
       display: block;
