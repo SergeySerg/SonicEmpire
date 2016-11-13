@@ -9087,7 +9087,8 @@ header .shop_phone {
     height: 30px; }
 #content .item-block .right-block .properties table tr td {
   width: 50%;
-  padding: 0; }
+  padding: 0;
+  vertical-align: top;}
 #content .item-block .right-block .properties table tr td:nth-child(2){
   padding-left: 5%;
 }
