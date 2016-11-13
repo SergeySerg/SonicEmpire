@@ -195,7 +195,6 @@
 			</p>
 		</div>
 	</div>
-		</div>
 	{else}
 	<div id="layered_block_left" class="block">
 		<div class="block_content">
@@ -210,9 +209,7 @@
 			</p>
 		</div>
 	</div>
-		</div>
 	{/if}
-
 {*END raund agaptive block filters*}
 
 {if $nbr_filterBlocks != 0}

@@ -129,12 +129,12 @@
 						{* /проверяем страницу*}
                         <!--левый сайдбар-->
 						{if isset($left_column_size) && !empty($left_column_size)}
-						<div id="left_column" class="col-sm-12 col-md-3 clearfix">
-                            <div id="sidebar">{$HOOK_LEFT_COLUMN}</div>
-                        </div>
-						{/if}
-						{if {$page_name} == 'manufacturer' }
+							<div id="left_column" class="col-sm-12 col-md-3 clearfix">
+								<div id="sidebar">{$HOOK_LEFT_COLUMN}</div>
 							</div>
+							{if {$page_name} == 'manufacturer' || {$page_name} == 'category' }
+								</div>
+							{/if}
 						{/if}
                         <!--/левый сайдбар-->
 						{if isset($left_column_size) && isset($right_column_size)}{assign var='cols' value=(12 - $left_column_size - $right_column_size)}{else}{assign var='cols' value=12}{/if}
