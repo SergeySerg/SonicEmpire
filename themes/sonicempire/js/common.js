@@ -1,7 +1,7 @@
 $(function(){
 	$('.manuf li a').on('click', function (e) {
 		var $a = $(this);
-		$('#columns').animate({opacity: 0}, 1500);
+		$('#columns').animate({opacity: 0}, 500);
 		$('.manuf').animate({
 			height: '100px',
 			'min-height': '100px'
@@ -14,7 +14,7 @@ $(function(){
 		e.preventDefault();
 	});
 
-	$('#columns').animate({opacity: 1}, 5500);
+	$('#columns').animate({opacity: 1}, 2000);
 	$('.manuf-light img').fadeIn(2000);
 
 	$('.manuf-light').css("height", "auto");
