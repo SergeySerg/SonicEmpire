@@ -8,6 +8,7 @@
                 return false;
             });
 
+/*
             $('.r-tab').on('click', function(e){
                 if($(this).hasClass('active')){
                     $('.r-tab-data').slideUp('1000');
@@ -15,6 +16,11 @@
                     e.preventDefault();
                     return false;
                 };
+
+/!*
+                var dataId = $(this).attr('data-id');
+                $('a[data-id=' + dataId + ']').parent().hide();
+*!/
 
                 var idTab = $(this).attr('data-tab');
                 $('.r-tab').removeClass('active');
@@ -25,6 +31,7 @@
                 e.preventDefault();
                 return false;
             });
+*/
 
             $("#r-owl-demo").owlCarousel({
               autoPlay: 3000, //Set AutoPlay to 3 seconds
@@ -50,7 +57,7 @@
                     {foreach from=$manufacturers item=manufacturer name=manufacturer_list}
                         {if $manufacturer.image}
                             <li class="{if $smarty.foreach.manufacturer_list.last}last_item{elseif $smarty.foreach.manufacturer_list.first}first_item{else}item{/if}">
-                                <a href="#" data-id="{$manufacturer.id_manufacturer}" data-tab="#manufacturer-descrition-{$manufacturer.id_manufacturer}" title="{l s='Подробнее о %s' sprintf=[$manufacturer.name] mod='mib'}" class="r-tab no-loader manufacturer-tab">
+                                <a href="{$link->getmanufacturerLink($manufacturer.id_manufacturer, $manufacturer.link_rewrite)|escape:'html'}" data-id="{$manufacturer.id_manufacturer}" data-tab="#manufacturer-descrition-{$manufacturer.id_manufacturer}" title="{l s='Подробнее о %s' sprintf=[$manufacturer.name] mod='mib'}" class="r-tab no-loader manufacturer-tab">
                                     <img src="{$content_dir}img/m/{$manufacturer.image_url}" alt="{$manufacturer.name|escape:'html':'UTF-8'}"/>
                                 </a>
                             </li>
@@ -71,7 +78,9 @@
                                 <div class="spoiler-body" style="display: none;"><section><p>{$manufacturer.description}</p></section></div>
                                 <div class="r-link-block">
                                     <a href="#" class="more">Подробнее<i class="fa fa-angle-down"></i></a>
+{*
                                     <a href="{$link->getmanufacturerLink($manufacturer.id_manufacturer, $manufacturer.link_rewrite)|escape:'html'}" class="products-of-manufacturer">Товары этого производителя<i class="fa fa-angle-right"></i></a>
+*}
                                 </div>
                             </div>
 

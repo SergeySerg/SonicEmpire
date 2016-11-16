@@ -25,10 +25,36 @@ $(function(){
 	if(current_manufacturer_id){
 		console.info('current manufacturer id: ', current_manufacturer_id);
 		setTimeout(function () {
-			$('.owl-item a[data-id=' + current_manufacturer_id + ']').trigger('click');
+			$manufacturerElement = $('.owl-item a[data-id=' + current_manufacturer_id + ']');
+			if($manufacturerElement.hasClass('active')){
+				$('.r-tab-data').slideUp('1000');
+				$manufacturerElement.removeClass('active');
+				e.preventDefault();
+				return false;
+			};
+
+			/*
+			 var dataId = $(this).attr('data-id');
+			 $('a[data-id=' + dataId + ']').parent().hide();
+			 */
+			$manufacturerElement.parent().hide();
+
+			var idTab = $manufacturerElement.attr('data-tab');
+			$('.r-tab').removeClass('active');
+			$manufacturerElement.addClass('active');
+
+			$('.r-tab-data').slideUp('1000');
+			$(idTab).delay('500').slideDown('1000');
 		}, 1000)
 	}
 
+/*
+	$('.manuf-light li a').on('click', function (e) {
+		var $a = $(this);
+		$('.manuf-light ul.dropdown-manuf-list').fadeOut(500);
+		e.preventDefault();
+	});
+*/
 /* catalog open adaptive*/
 
 	$('#r-catalog-open').on('click', function (e) {
