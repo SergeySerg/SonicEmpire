@@ -8761,7 +8761,7 @@ header .shop_phone {
     overflow: hidden;
     background-size: cover;
     background-position: top;
-    background: #000 url("../img/manuf-bg-big1.jpg") repeat-x;
+    background: #000 url("../img/manuf-bg-big3.jpg") repeat;
     -webkit-box-shadow: 0px 0px 33px 0px #000000 inset;
     box-shadow: 0px 0px 33px 0px #000000 inset; }
 .manuf-light li,
