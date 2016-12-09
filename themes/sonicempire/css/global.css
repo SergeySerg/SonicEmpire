@@ -8728,15 +8728,18 @@ header .shop_phone {
     margin-bottom: 30px; }
 .manuf li {
     display: block;
-    width: 16%;
+    width: 16.6%;
+    height: 100px;
     text-align: center;
     line-height: 100px;
     float: left;
-    margin-bottom: 35px; }
+    margin-bottom: 35px;
+    padding: 0 10px;}
 .manuf li:nth-child(7n) {
     margin-right: 0; }
 .manuf li img {
       max-width: 100%;
+      max-height:100%;
       vertical-align: middle;
       -webkit-filter: grayscale(100%) brightness(168%);
               filter: grayscale(100%) brightness(168%); }
@@ -8774,7 +8777,8 @@ header .shop_phone {
     line-height: 100px; }
 .manuf-light li img,
 .manuf-light-main li img{
-    width: 90%;
+    max-width: 90%;
+    max-height: 70px;
     vertical-align: middle;
     -webkit-filter: grayscale(100%) brightness(168%);
               filter: grayscale(100%) brightness(168%); }
@@ -9054,8 +9058,10 @@ header .shop_phone {
     color: #CCC; }
 #content .item-block .right-block .shopping-block-price {
     float: left;
-    height: 80px;
+    max-height: 125px;
     /*  margin-top: 75px;*/ }
+#old_price {
+  text-decoration: line-through;}
 #content .item-block .right-block .shopping-block button {
     float: right;
     width: 180px;
@@ -9558,7 +9564,8 @@ ul.r-address {
     line-height: 220px; }
 .manuf-light .manuf-dropdown .manuf-logo-dropdown img {
     vertical-align: middle;
-    width: 80%; }
+    max-width: 80%;
+    max-height: 200px;}
 .manuf-light .manuf-dropdown .manuf-description-dropdown {
     width: 75%;
     float: right;
@@ -9587,7 +9594,7 @@ ul.r-address {
 .manuf-light hr,
 .manuf-light-main hr{
   position: absolute;
-  top: 80px;
+  top: 95px;
   left: 0;
   width: 1920px;
   border: 0;

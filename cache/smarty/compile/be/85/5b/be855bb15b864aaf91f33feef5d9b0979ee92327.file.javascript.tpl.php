@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-11-18 21:28:17
+<?php /* Smarty version Smarty-3.1.19, created on 2016-12-07 13:24:55
          compiled from "D:\OpenServer\domains\sonicempire.loc\themes\javascript.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1087582f5651b3e650-47081874%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:201425847f18755c949-27256482%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1087582f5651b3e650-47081874',
+  'nocache_hash' => '201425847f18755c949-27256482',
   'function' => 
   array (
   ),
@@ -27,9 +27,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_582f5651bc8e37_26272415',
+  'unifunc' => 'content_5847f18767c4f8_90029337',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_582f5651bc8e37_26272415')) {function content_582f5651bc8e37_26272415($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'D:\\OpenServer\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\modifier.replace.php';
+<?php if ($_valid && !is_callable('content_5847f18767c4f8_90029337')) {function content_5847f18767c4f8_90029337($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'D:\\OpenServer\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\modifier.replace.php';
 ?>
 <?php if (isset($_smarty_tpl->tpl_vars['js_def']->value)&&is_array($_smarty_tpl->tpl_vars['js_def']->value)&&count($_smarty_tpl->tpl_vars['js_def']->value)) {?>
 <script type="text/javascript">

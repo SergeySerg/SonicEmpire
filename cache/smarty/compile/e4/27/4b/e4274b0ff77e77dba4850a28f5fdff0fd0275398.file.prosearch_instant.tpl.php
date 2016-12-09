@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-11-18 21:28:16
+<?php /* Smarty version Smarty-3.1.19, created on 2016-12-07 13:27:49
          compiled from "D:\OpenServer\domains\sonicempire.loc\modules\prosearch\prosearch_instant.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:22748582f56505b34e4-35474674%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:199955847f2350ac5d4-16111885%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '22748582f56505b34e4-35474674',
+  'nocache_hash' => '199955847f2350ac5d4-16111885',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_582f56505d0582_84040011',
+  'unifunc' => 'content_5847f2350cdc97_72942764',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_582f56505d0582_84040011')) {function content_582f56505d0582_84040011($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['instantsearch']->value) {?>
+<?php if ($_valid && !is_callable('content_5847f2350cdc97_72942764')) {function content_5847f2350cdc97_72942764($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['instantsearch']->value) {?>
 	<script type="text/javascript">
 		$('document').ready( function() {
 			$("#search_query_top")

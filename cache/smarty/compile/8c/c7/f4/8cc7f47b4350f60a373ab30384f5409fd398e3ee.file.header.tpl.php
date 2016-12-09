@@ -1,20 +1,22 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-11-18 21:28:17
+<?php /* Smarty version Smarty-3.1.19, created on 2016-12-09 22:13:31
          compiled from "D:\OpenServer\domains\sonicempire.loc\themes\sonicempire\header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:19730582f56514e5153-94018806%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:278545847f2378c2968-96789651%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '8cc7f47b4350f60a373ab30384f5409fd398e3ee' => 
     array (
       0 => 'D:\\OpenServer\\domains\\sonicempire.loc\\themes\\sonicempire\\header.tpl',
-      1 => 1479480068,
+      1 => 1481128244,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '19730582f56514e5153-94018806',
+  'nocache_hash' => '278545847f2378c2968-96789651',
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5847f237a53265_43258569',
   'variables' => 
   array (
     'language_code' => 0,
@@ -57,10 +59,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'cols' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_582f56516e85e7_12912471',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_582f56516e85e7_12912471')) {function content_582f56516e85e7_12912471($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'D:\\OpenServer\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\function.implode.php';
+<?php if ($_valid && !is_callable('content_5847f237a53265_43258569')) {function content_5847f237a53265_43258569($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'D:\\OpenServer\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\function.implode.php';
 ?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"<?php if (isset($_smarty_tpl->tpl_vars['language_code']->value)&&$_smarty_tpl->tpl_vars['language_code']->value) {?> lang="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language_code']->value, ENT_QUOTES, 'UTF-8', true);?>
@@ -113,13 +113,13 @@ $_smarty_tpl->tpl_vars['mediaie9']->_loop = true;
  $_smarty_tpl->tpl_vars['css_uriie9']->value = $_smarty_tpl->tpl_vars['mediaie9']->key;
 ?>
 					<link rel="stylesheet" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['css_uriie9']->value, ENT_QUOTES, 'UTF-8', true);?>
-?ver1.2" type="text/css" media="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['mediaie9']->value, ENT_QUOTES, 'UTF-8', true);?>
+?ver1.9" type="text/css" media="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['mediaie9']->value, ENT_QUOTES, 'UTF-8', true);?>
 " />
 					<?php } ?>
 					<![endif]-->
 				<?php } else { ?>
 					<link rel="stylesheet" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['css_uri']->value, ENT_QUOTES, 'UTF-8', true);?>
-?ver1.2" type="text/css" media="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['media']->value, ENT_QUOTES, 'UTF-8', true);?>
+?ver1.9" type="text/css" media="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['media']->value, ENT_QUOTES, 'UTF-8', true);?>
 " />
 				<?php }?>
 			<?php } ?>
@@ -139,7 +139,7 @@ $_smarty_tpl->tpl_vars['js_uri']->_loop = true;
 		<?php echo $_smarty_tpl->tpl_vars['HOOK_HEADER']->value;?>
 
         <script type="text/javascript" src="/owl-carousel/owl.carousel.js"></script>
-        <script type="text/javascript" src="/themes/sonicempire/js/common.js?ver1.2"></script>
+        <script type="text/javascript" src="/themes/sonicempire/js/common.js?ver1.9"></script>
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=latin,latin-ext" type="text/css" media="all" />
 		<!--[if IE 8]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -162,7 +162,7 @@ $_smarty_tpl->tpl_vars['js_uri']->_loop = true;
 			width: 100%;
 			height: 100%;
 			min-width: 1000px;
-			background: #322D29 url('img/puff.svg') center center no-repeat;
+			background: #322D29 url('/img/puff.svg') center center no-repeat;
 			background-size:41px;}
 		.manuf-light img {
 			display: none;
@@ -253,8 +253,8 @@ content/6-contact">Контакты</a></li>
 </div>
 							</div>
 							<?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['page_name']->value;?>
-<?php $_tmp9=ob_get_clean();?><?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['page_name']->value;?>
-<?php $_tmp10=ob_get_clean();?><?php if ($_tmp9=='manufacturer'||$_tmp10=='category') {?>
+<?php $_tmp1=ob_get_clean();?><?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['page_name']->value;?>
+<?php $_tmp2=ob_get_clean();?><?php if ($_tmp1=='manufacturer'||$_tmp2=='category') {?>
 								</div>
 							<?php }?>
 						<?php }?>

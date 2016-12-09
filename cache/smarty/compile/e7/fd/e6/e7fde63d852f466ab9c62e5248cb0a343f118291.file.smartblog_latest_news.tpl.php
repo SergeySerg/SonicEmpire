@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-11-18 21:28:17
+<?php /* Smarty version Smarty-3.1.19, created on 2016-12-07 13:27:49
          compiled from "D:\OpenServer\domains\sonicempire.loc\modules\smartbloghomelatestnews\views\templates\front\smartblog_latest_news.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:9057582f56511b1538-30123702%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:193005847f235dfb7c2-76388328%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '9057582f56511b1538-30123702',
+  'nocache_hash' => '193005847f235dfb7c2-76388328',
   'function' => 
   array (
   ),
@@ -23,9 +23,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_582f56511ec350_20756453',
+  'unifunc' => 'content_5847f235e8bda7_76113577',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_582f56511ec350_20756453')) {function content_582f56511ec350_20756453($_smarty_tpl) {?><!--Скрипт выпидающего текста-->
+<?php if ($_valid && !is_callable('content_5847f235e8bda7_76113577')) {function content_5847f235e8bda7_76113577($_smarty_tpl) {?><!--Скрипт выпидающего текста-->
 <script type="text/javascript">
     $(document).ready(function(){
         $('.more').click(function(){
