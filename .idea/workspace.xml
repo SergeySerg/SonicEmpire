@@ -2,55 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="211ec9f5-0f63-43d3-86e1-692c964afc4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate_update.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/smarty/compile/11/d8/48/11d8486c5d70e5723881bc5f0896c6477cd4462b.file.404.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/smarty/compile/a6/71/47/a671479e9440bede8e26fd1161ca183c31e51d10.file.manufacturer.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/xml/modules_list.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/sonicempire/cache/v_169_10570b19240f74e713b5644c1225aaf1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/sonicempire/cache/v_169_1bb2fdaab153aeaf4c80666ab67d568b.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/sonicempire/cache/v_169_29d07864387d22a4d765ab0111ede746.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/sonicempire/cache/v_169_4eaf829d1487b18d36258188e862b034.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/sonicempire/cache/v_169_9626d5052122743a8e83157c6e70a8e8.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/sonicempire/cache/v_169_a5baabe071076eb514bb58e9f0bb1291.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/sonicempire/cache/v_170_1bb2fdaab153aeaf4c80666ab67d568b.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/sonicempire/cache/v_170_4eaf829d1487b18d36258188e862b034.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/sonicempire/cache/v_170_9626d5052122743a8e83157c6e70a8e8.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/20/5a/7c/205a7c95c470916f0942e35137b36e348f585b47.file.product-list.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/20/5a/7c/205a7c95c470916f0942e35137b36e348f585b47.file.product-list.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/54/15/49/5415494985b9079739c5455047d77e5590992d07.file.mib.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/54/15/49/5415494985b9079739c5455047d77e5590992d07.file.mib.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/6e/6e/8b/6e6e8bd1d4096ab9037ddaa04c4e06fa7939e2de.file.layout.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/6e/6e/8b/6e6e8bd1d4096ab9037ddaa04c4e06fa7939e2de.file.layout.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/83/c0/00/83c0000138da43f5ee7cfbffea60003777ac2375.file.breadcrumb.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/83/c0/00/83c0000138da43f5ee7cfbffea60003777ac2375.file.breadcrumb.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/89/9f/2e/899f2e722b3560e6e44c141f7b98c009f294afc8.file.productcomments_reviews.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/89/9f/2e/899f2e722b3560e6e44c141f7b98c009f294afc8.file.productcomments_reviews.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/8c/c7/f4/8cc7f47b4350f60a373ab30384f5409fd398e3ee.file.header.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/8c/c7/f4/8cc7f47b4350f60a373ab30384f5409fd398e3ee.file.header.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/8e/2c/c1/8e2cc1a7b8a69c3fad4ab1ad1d67b1df4075ada4.file.category.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/8e/2c/c1/8e2cc1a7b8a69c3fad4ab1ad1d67b1df4075ada4.file.category.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/98/16/c3/9816c305e15d19aa8da4d9e456689b5fae9b1a19.file.index.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/98/16/c3/9816c305e15d19aa8da4d9e456689b5fae9b1a19.file.index.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/9c/c3/ba/9cc3bac5713ce03e98e8fdf12c26f4221bea33d8.file.pagination.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/9c/c3/ba/9cc3bac5713ce03e98e8fdf12c26f4221bea33d8.file.pagination.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/a1/38/ef/a138ef9f47de5058eddba8f3fc06da736c4ba814.file.blockcart.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/a1/38/ef/a138ef9f47de5058eddba8f3fc06da736c4ba814.file.blockcart.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/a3/1e/07/a31e07cc2185266ed40837a1938dec5403f3cc3f.file.global.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/a3/1e/07/a31e07cc2185266ed40837a1938dec5403f3cc3f.file.global.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/a8/99/23/a89923100967f61c8058fc529a0518554d6d9b5d.file.errors.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/a8/99/23/a89923100967f61c8058fc529a0518554d6d9b5d.file.errors.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/ad/4d/86/ad4d867042803fdbcaf702f88ab1f0deb8665d9d.file.prosearch_top.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/ad/4d/86/ad4d867042803fdbcaf702f88ab1f0deb8665d9d.file.prosearch_top.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/be/85/5b/be855bb15b864aaf91f33feef5d9b0979ee92327.file.javascript.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/be/85/5b/be855bb15b864aaf91f33feef5d9b0979ee92327.file.javascript.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/c5/e2/f7/c5e2f7c666a6fe6b3dbef1a85e3811c8d4ab9146.file.footer.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/c5/e2/f7/c5e2f7c666a6fe6b3dbef1a85e3811c8d4ab9146.file.footer.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/c8/fb/a0/c8fba01fca72abf31b36e3063afa6e656e01bc18.file.blocklayered.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/c8/fb/a0/c8fba01fca72abf31b36e3063afa6e656e01bc18.file.blocklayered.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/cf/20/af/cf20af2c3042ce5efd08c34162f03355797fc0ec.file.product-sort.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/cf/20/af/cf20af2c3042ce5efd08c34162f03355797fc0ec.file.product-sort.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/d5/a8/01/d5a8018b154945137769d6c5638d99e633090af1.file.category-tree-branch.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/d5/a8/01/d5a8018b154945137769d6c5638d99e633090af1.file.category-tree-branch.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/db/1c/11/db1c119cb7bedb03bce7fd82c42bd5646be2d23e.file.blocksocial.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/db/1c/11/db1c119cb7bedb03bce7fd82c42bd5646be2d23e.file.blocksocial.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/df/c2/2d/dfc22dee2ca6f2810de4473bb8a75f981eecc676.file.homesliderpro.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/df/c2/2d/dfc22dee2ca6f2810de4473bb8a75f981eecc676.file.homesliderpro.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/e4/27/4b/e4274b0ff77e77dba4850a28f5fdff0fd0275398.file.prosearch_instant.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/e4/27/4b/e4274b0ff77e77dba4850a28f5fdff0fd0275398.file.prosearch_instant.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/e7/fd/e6/e7fde63d852f466ab9c62e5248cb0a343f118291.file.smartblog_latest_news.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/e7/fd/e6/e7fde63d852f466ab9c62e5248cb0a343f118291.file.smartblog_latest_news.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/f1/40/1c/f1401cc05491e6bc95a5298513d864d47fc393e3.file.blockcategories.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/f1/40/1c/f1401cc05491e6bc95a5298513d864d47fc393e3.file.blockcategories.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/f7/ac/6b/f7ac6b0d938f3c9a2ea4fcd4ff49085c20b35563.file.header.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/f7/ac/6b/f7ac6b0d938f3c9a2ea4fcd4ff49085c20b35563.file.header.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/f7/df/5d/f7df5dd8a3b2c7b5a9322e3213b7ff708b353027.file.hook.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/f7/df/5d/f7df5dd8a3b2c7b5a9322e3213b7ff708b353027.file.hook.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/f9/90/24/f9902411fe1ef656e704d5d0ec1b7fbe91adc935.file.product-list-colors.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/f9/90/24/f9902411fe1ef656e704d5d0ec1b7fbe91adc935.file.product-list-colors.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/fb/0e/e3/fb0ee3341a78a8d2ac8ca9a7c39373d9dc0d83ce.file.nav.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/fb/0e/e3/fb0ee3341a78a8d2ac8ca9a7c39373d9dc0d83ce.file.nav.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/default_country_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/default_country_modules_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/modules_native_addons.xml" afterPath="$PROJECT_DIR$/config/xml/modules_native_addons.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/must_have_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/must_have_modules_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/tab_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/tab_modules_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sonicempire/css/global.css" afterPath="$PROJECT_DIR$/themes/sonicempire/css/global.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sonicempire/css/product.css" afterPath="$PROJECT_DIR$/themes/sonicempire/css/product.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sonicempire/header.tpl" afterPath="$PROJECT_DIR$/themes/sonicempire/header.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sonicempire/js/common.js" afterPath="$PROJECT_DIR$/themes/sonicempire/js/common.js" />
     </list>
     <ignored path="sonicempire.my.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,8 +39,8 @@
       <file leaf-file-name="product.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/sonicempire/css/product.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14059">
-              <caret line="827" column="32" selection-start-line="824" selection-start-column="0" selection-end-line="827" selection-end-column="32" />
+            <state relative-caret-position="223">
+              <caret line="159" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -95,8 +49,8 @@
       <file leaf-file-name="header.tpl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/sonicempire/header.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+            <state relative-caret-position="17">
+              <caret line="27" column="91" selection-start-line="27" selection-start-column="91" selection-end-line="27" selection-end-column="91" />
               <folding />
             </state>
           </provider>
@@ -147,6 +101,7 @@
         <option value="$PROJECT_DIR$/rate_update.php" />
         <option value="$USER_HOME$/Desktop/rate_update.php" />
         <option value="$PROJECT_DIR$/themes/sonicempire/css/global.css" />
+        <option value="$PROJECT_DIR$/themes/sonicempire/css/product.css" />
         <option value="$PROJECT_DIR$/themes/sonicempire/header.tpl" />
       </list>
     </option>
@@ -164,8 +119,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -192,7 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ColorIdeProjectViewPane">
         <subPane>
           <PATH>
@@ -267,12 +221,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../premiumclub.loc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="SearchEverywhereHistoryKey" value="local&#9;ACTION&#9;LocalHistory" />
@@ -338,17 +293,18 @@
       <workItem from="1481190677860" duration="582000" />
       <workItem from="1481195990000" duration="96000" />
       <workItem from="1481197595835" duration="413000" />
+      <workItem from="1481314590741" duration="680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29839000" />
+    <option name="totallyTimeSpent" value="30519000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13177083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13103953" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -754,14 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sonicempire/css/product.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14059">
-          <caret line="827" column="32" selection-start-line="824" selection-start-column="0" selection-end-line="827" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/sonicempire/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154054">
@@ -770,10 +718,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sonicempire/css/product.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="159" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/sonicempire/header.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        <state relative-caret-position="17">
+          <caret line="27" column="91" selection-start-line="27" selection-start-column="91" selection-end-line="27" selection-end-column="91" />
           <folding />
         </state>
       </provider>
