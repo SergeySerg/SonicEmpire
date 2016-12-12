@@ -3,6 +3,29 @@
   <component name="ChangeListManager">
     <list default="true" id="211ec9f5-0f63-43d3-86e1-692c964afc4d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/8c/c7/f4/8cc7f47b4350f60a373ab30384f5409fd398e3ee.file.header.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/8c/c7/f4/8cc7f47b4350f60a373ab30384f5409fd398e3ee.file.header.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/e7/fd/e6/e7fde63d852f466ab9c62e5248cb0a343f118291.file.smartblog_latest_news.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/e7/fd/e6/e7fde63d852f466ab9c62e5248cb0a343f118291.file.smartblog_latest_news.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/default_country_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/default_country_modules_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/modules_native_addons.xml" afterPath="$PROJECT_DIR$/config/xml/modules_native_addons.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/must_have_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/must_have_modules_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockadvertising/config_ru.xml" afterPath="$PROJECT_DIR$/modules/blockadvertising/config_ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockcart/config_ru.xml" afterPath="$PROJECT_DIR$/modules/blockcart/config_ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blocklink/config_ru.xml" afterPath="$PROJECT_DIR$/modules/blocklink/config_ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blocknewsletter/config_ru.xml" afterPath="$PROJECT_DIR$/modules/blocknewsletter/config_ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockpermanentlinks/config_ru.xml" afterPath="$PROJECT_DIR$/modules/blockpermanentlinks/config_ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockstore/config_ru.xml" afterPath="$PROJECT_DIR$/modules/blockstore/config_ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blocktags/config_ru.xml" afterPath="$PROJECT_DIR$/modules/blocktags/config_ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockuserinfo/config_ru.xml" afterPath="$PROJECT_DIR$/modules/blockuserinfo/config_ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cheque/config_ru.xml" afterPath="$PROJECT_DIR$/modules/cheque/config_ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashactivity/config_ru.xml" afterPath="$PROJECT_DIR$/modules/dashactivity/config_ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashgoals/config_ru.xml" afterPath="$PROJECT_DIR$/modules/dashgoals/config_ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/config_ru.xml" afterPath="$PROJECT_DIR$/modules/onepagecheckout/config_ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/smartbloghomelatestnews/views/templates/front/smartblog_latest_news.tpl" afterPath="$PROJECT_DIR$/modules/smartbloghomelatestnews/views/templates/front/smartblog_latest_news.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statsbestcategories/config_ru.xml" afterPath="$PROJECT_DIR$/modules/statsbestcategories/config_ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statsbestcustomers/config_ru.xml" afterPath="$PROJECT_DIR$/modules/statsbestcustomers/config_ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statscatalog/config_ru.xml" afterPath="$PROJECT_DIR$/modules/statscatalog/config_ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statsregistrations/config_ru.xml" afterPath="$PROJECT_DIR$/modules/statsregistrations/config_ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/themeconfigurator/config_ru.xml" afterPath="$PROJECT_DIR$/modules/themeconfigurator/config_ru.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sonicempire/css/global.css" afterPath="$PROJECT_DIR$/themes/sonicempire/css/global.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sonicempire/header.tpl" afterPath="$PROJECT_DIR$/themes/sonicempire/header.tpl" />
     </list>
@@ -29,8 +52,8 @@
       <file leaf-file-name="global.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/sonicempire/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="8971" column="17" selection-start-line="8971" selection-start-column="17" selection-end-line="8971" selection-end-column="17" />
+            <state relative-caret-position="226">
+              <caret line="9756" column="2" selection-start-line="9756" selection-start-column="2" selection-end-line="9756" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -49,8 +72,18 @@
       <file leaf-file-name="header.tpl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/sonicempire/header.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="27" column="91" selection-start-line="27" selection-start-column="91" selection-end-line="27" selection-end-column="91" />
+            <state relative-caret-position="238">
+              <caret line="31" column="87" selection-start-line="31" selection-start-column="87" selection-end-line="31" selection-end-column="87" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smartblog_latest_news.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/smartbloghomelatestnews/views/templates/front/smartblog_latest_news.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="42" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -101,6 +134,7 @@
         <option value="$PROJECT_DIR$/rate_update.php" />
         <option value="$USER_HOME$/Desktop/rate_update.php" />
         <option value="$PROJECT_DIR$/themes/sonicempire/css/product.css" />
+        <option value="$PROJECT_DIR$/modules/smartbloghomelatestnews/views/templates/front/smartblog_latest_news.tpl" />
         <option value="$PROJECT_DIR$/themes/sonicempire/css/global.css" />
         <option value="$PROJECT_DIR$/themes/sonicempire/header.tpl" />
       </list>
@@ -117,8 +151,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1374" />
-    <option name="y" value="414" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -294,21 +328,23 @@
       <workItem from="1481195990000" duration="96000" />
       <workItem from="1481197595835" duration="413000" />
       <workItem from="1481314590741" duration="894000" />
-      <workItem from="1481536537796" duration="70000" />
+      <workItem from="1481536537796" duration="213000" />
+      <workItem from="1481572822927" duration="3353000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30803000" />
+    <option name="totallyTimeSpent" value="34299000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1374" y="414" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18374817" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -319,7 +355,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -610,13 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/smartbloghomelatestnews/views/templates/front/smartblog_latest_news.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="11" selection-start-line="3" selection-start-column="8" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/sonicempire/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -697,13 +725,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/rate_update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/rate_update.php" />
     <entry file="file://$PROJECT_DIR$/rate_update.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -719,18 +741,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/smartbloghomelatestnews/views/templates/front/smartblog_latest_news.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/sonicempire/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="8971" column="17" selection-start-line="8971" selection-start-column="17" selection-end-line="8971" selection-end-column="17" />
+        <state relative-caret-position="226">
+          <caret line="9756" column="2" selection-start-line="9756" selection-start-column="2" selection-end-line="9756" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/sonicempire/header.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="27" column="91" selection-start-line="27" selection-start-column="91" selection-end-line="27" selection-end-column="91" />
+        <state relative-caret-position="238">
+          <caret line="31" column="87" selection-start-line="31" selection-start-column="87" selection-end-line="31" selection-end-column="87" />
           <folding />
         </state>
       </provider>

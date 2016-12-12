@@ -9755,7 +9755,12 @@ opacity: 0;
   margin-top: -10px;
 }
 */
-
+/*стили для описания компании на главной*/
+#sds_blog_post{
+  text-align: justify;
+  margin-bottom: 30px;
+}
+/* END стили для описания компании на главной*/
 /* стили для подтверждения заказа */
 .my-order-confirmation{
   width: 75%;

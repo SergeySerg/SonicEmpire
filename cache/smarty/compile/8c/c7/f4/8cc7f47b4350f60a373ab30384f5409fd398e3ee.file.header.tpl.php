@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-12-09 22:13:31
+<?php /* Smarty version Smarty-3.1.19, created on 2016-12-12 22:55:09
          compiled from "D:\OpenServer\domains\sonicempire.loc\themes\sonicempire\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:278545847f2378c2968-96789651%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8cc7f47b4350f60a373ab30384f5409fd398e3ee' => 
     array (
       0 => 'D:\\OpenServer\\domains\\sonicempire.loc\\themes\\sonicempire\\header.tpl',
-      1 => 1481128244,
+      1 => 1481575757,
       2 => 'file',
     ),
   ),
@@ -113,13 +113,13 @@ $_smarty_tpl->tpl_vars['mediaie9']->_loop = true;
  $_smarty_tpl->tpl_vars['css_uriie9']->value = $_smarty_tpl->tpl_vars['mediaie9']->key;
 ?>
 					<link rel="stylesheet" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['css_uriie9']->value, ENT_QUOTES, 'UTF-8', true);?>
-?ver1.9" type="text/css" media="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['mediaie9']->value, ENT_QUOTES, 'UTF-8', true);?>
+?ver2.2" type="text/css" media="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['mediaie9']->value, ENT_QUOTES, 'UTF-8', true);?>
 " />
 					<?php } ?>
 					<![endif]-->
 				<?php } else { ?>
 					<link rel="stylesheet" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['css_uri']->value, ENT_QUOTES, 'UTF-8', true);?>
-?ver1.9" type="text/css" media="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['media']->value, ENT_QUOTES, 'UTF-8', true);?>
+?ver2.2" type="text/css" media="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['media']->value, ENT_QUOTES, 'UTF-8', true);?>
 " />
 				<?php }?>
 			<?php } ?>
@@ -139,7 +139,7 @@ $_smarty_tpl->tpl_vars['js_uri']->_loop = true;
 		<?php echo $_smarty_tpl->tpl_vars['HOOK_HEADER']->value;?>
 
         <script type="text/javascript" src="/owl-carousel/owl.carousel.js"></script>
-        <script type="text/javascript" src="/themes/sonicempire/js/common.js?ver1.9"></script>
+        <script type="text/javascript" src="/themes/sonicempire/js/common.js?ver2.2"></script>
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=latin,latin-ext" type="text/css" media="all" />
 		<!--[if IE 8]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
