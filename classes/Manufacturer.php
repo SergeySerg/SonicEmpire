@@ -64,6 +64,11 @@ class ManufacturerCore extends ObjectModel
     /** @var bool active */
     public $active;
 
+    /** @var bool active */
+    public $priority;
+
+
+
     /**
      * @see ObjectModel::$definition
      */
@@ -76,7 +81,7 @@ class ManufacturerCore extends ObjectModel
             'active' =>            array('type' => self::TYPE_BOOL),
             'date_add' =>            array('type' => self::TYPE_DATE),
             'date_upd' =>            array('type' => self::TYPE_DATE),
-
+            'priority' =>                array('type' => self::TYPE_STRING),
             /* Lang fields */
             'description' =>        array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml'),
             'short_description' =>    array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml'),
@@ -177,7 +182,7 @@ class ManufacturerCore extends ObjectModel
 		INNER JOIN `'._DB_PREFIX_.'manufacturer_lang` ml ON (m.`id_manufacturer` = ml.`id_manufacturer` AND ml.`id_lang` = '.(int)$id_lang.')
 		'.($active ? 'WHERE m.`active` = 1' : '')
         .($group_by ? ' GROUP BY m.`id_manufacturer`' : '').'
-		ORDER BY m.`name` ASC
+		ORDER BY m.`priority` DESC
 		'.($p ? ' LIMIT '.(((int)$p - 1) * (int)$n).','.(int)$n : ''));
         if ($manufacturers === false) {
             return false;
