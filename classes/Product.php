@@ -239,6 +239,9 @@ class ProductCore extends ObjectModel
      */
     public $pack_stock_type = 3;
 
+    /** @var int Priority */
+    public $priority;
+
     public static $_taxCalculationMethod = null;
     protected static $_prices = array();
     protected static $_pricesLevel2 = array();
@@ -282,6 +285,7 @@ class ProductCore extends ObjectModel
             'cache_has_attachments' =>        array('type' => self::TYPE_BOOL, 'validate' => 'isBool'),
             'is_virtual' =>                array('type' => self::TYPE_BOOL, 'validate' => 'isBool'),
 
+
             /* Shop fields */
             'id_category_default' =>        array('type' => self::TYPE_INT, 'shop' => true, 'validate' => 'isUnsignedId'),
             'id_tax_rules_group' =>        array('type' => self::TYPE_INT, 'shop' => true, 'validate' => 'isUnsignedId'),
@@ -311,6 +315,7 @@ class ProductCore extends ObjectModel
             'date_add' =>                    array('type' => self::TYPE_DATE, 'shop' => true, 'validate' => 'isDate'),
             'date_upd' =>                    array('type' => self::TYPE_DATE, 'shop' => true, 'validate' => 'isDate'),
             'pack_stock_type' =>            array('type' => self::TYPE_INT, 'shop' => true, 'validate' => 'isUnsignedInt'),
+            'priority' =>                array('type' => self::TYPE_INT),
 
             /* Lang fields */
             'meta_description' =>            array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255),
@@ -1228,6 +1233,7 @@ class ProductCore extends ObjectModel
                     ($only_active ? ' AND product_shop.`active` = 1' : '').'
 				ORDER BY '.(isset($order_by_prefix) ? pSQL($order_by_prefix).'.' : '').'`'.pSQL($order_by).'` '.pSQL($order_way).
                 ($limit > 0 ? ' LIMIT '.(int)$start.','.(int)$limit : '');
+
         $rq = Db::getInstance(_PS_USE_SQL_SLAVE_)->executeS($sql);
         if ($order_by == 'price') {
             Tools::orderbyPrice($rq, $order_way);

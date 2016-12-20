@@ -1595,12 +1595,6 @@
     'type' => 'class',
     'override' => false,
   ),
-  'CategoryCore' => 
-  array (
-    'path' => 'classes/Category.php',
-    'type' => 'class',
-    'override' => false,
-  ),
   'ChangeCurrencyController' => 
   array (
     'path' => '',

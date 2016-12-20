@@ -497,7 +497,7 @@ class CategoryCore extends ObjectModel
 			'.($sql_sort != '' ? $sql_sort : 'ORDER BY c.`level_depth` ASC, category_shop.`position` ASC').'
 			'.($sql_limit != '' ? $sql_limit : '')
         );
-
+//die($result);
         if (!$order) {
             return $result;
         }

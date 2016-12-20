@@ -76,11 +76,14 @@ class AdminProductsControllerCore extends AdminController
         if (!Tools::getValue('id_product')) {
             $this->multishop_context_group = false;
         }
+       // $this->_defaultOrderBy = 'priority';
+       // $this->_defaultOrderWay = 'DESC';
 
         parent::__construct();
 
         $this->imageType = 'jpg';
         $this->_defaultOrderBy = 'position';
+       // $this->_defaultOrderWay = 'DESC';
         $this->max_file_size = (int)(Configuration::get('PS_LIMIT_UPLOAD_FILE_VALUE') * 1000000);
         $this->max_image_size = (int)Configuration::get('PS_PRODUCT_PICTURE_MAX_SIZE');
         $this->allow_export = true;
@@ -254,7 +257,10 @@ class AdminProductsControllerCore extends AdminController
                 //'hint' => $this->l('This is the quantity available in the current shop/group.'),
             );
         }
-
+        $this->fields_list['priority'] = array(
+            'title' => $this->l('Приоритет'),
+            'align' => 'text-center',
+        );
         $this->fields_list['active'] = array(
             'title' => $this->l('Status'),
             'active' => 'status',

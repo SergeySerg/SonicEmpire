@@ -64,7 +64,7 @@ class ManufacturerCore extends ObjectModel
     /** @var bool active */
     public $active;
 
-    /** @var bool active */
+    /** @var int Priority */
     public $priority;
 
 
@@ -81,7 +81,7 @@ class ManufacturerCore extends ObjectModel
             'active' =>            array('type' => self::TYPE_BOOL),
             'date_add' =>            array('type' => self::TYPE_DATE),
             'date_upd' =>            array('type' => self::TYPE_DATE),
-            'priority' =>                array('type' => self::TYPE_STRING),
+            'priority' =>                array('type' => self::TYPE_INT),
             /* Lang fields */
             'description' =>        array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml'),
             'short_description' =>    array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml'),
