@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-12-12 22:55:09
+<?php /* Smarty version Smarty-3.1.19, created on 2016-12-21 19:38:48
          compiled from "D:\OpenServer\domains\sonicempire.loc\themes\sonicempire\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:278545847f2378c2968-96789651%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8cc7f47b4350f60a373ab30384f5409fd398e3ee' => 
     array (
       0 => 'D:\\OpenServer\\domains\\sonicempire.loc\\themes\\sonicempire\\header.tpl',
-      1 => 1481575757,
+      1 => 1482341588,
       2 => 'file',
     ),
   ),
@@ -202,7 +202,7 @@ $_smarty_tpl->tpl_vars['js_uri']->_loop = true;
                         <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->smartyHook(array('h'=>'displayNav'),$_smarty_tpl);?>
 
                         <!-- /MODULE Block Contact -->
-                        <div id="header_logo-my" class="col-xs-12 col-sm-12 col-md-3">
+                        <div id="header_logo-my" class="col-xs-12 col-sm-12 col-md-12 col-lg-5">
                             <a href="<?php if (isset($_smarty_tpl->tpl_vars['force_ssl']->value)&&$_smarty_tpl->tpl_vars['force_ssl']->value) {?><?php echo $_smarty_tpl->tpl_vars['base_dir_ssl']->value;?>
 <?php } else { ?><?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
 <?php }?>" title="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['shop_name']->value, ENT_QUOTES, 'UTF-8', true);?>
@@ -214,7 +214,7 @@ $_smarty_tpl->tpl_vars['js_uri']->_loop = true;
 "<?php }?>/>
                             </a>
                         </div>
-                        <div class="top-nav-my col-xs-12 col-sm-5 col-md-5">
+                        <div class="top-nav-my col-xs-12 col-sm-5 col-md-5 col-lg-4">
                             <ul>
                                 <li><a href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
 content/1-delivery">Доставка и оплата</a></li>

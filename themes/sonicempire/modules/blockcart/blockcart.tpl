@@ -1,6 +1,6 @@
 
 {if isset($blockcart_top) && $blockcart_top}
-<div class="shopping_cart-my col-xs-12 col-sm-2 col-md-1{if $PS_CATALOG_MODE} header_user_catalog{/if}">
+<div class="shopping_cart-my col-xs-12 col-sm-2 col-md-2 col-lg-1{if $PS_CATALOG_MODE} header_user_catalog{/if}">
 {/if}
 	  	
 	  	

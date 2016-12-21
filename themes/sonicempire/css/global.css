@@ -8661,8 +8661,9 @@ b, strong {
 
 header {
     position: relative;
-    padding-top: 30px;
-    padding-bottom: 20px; }
+    padding-top: 0;
+    padding-bottom: 20px;
+    margin-top: -15px;}
 header .top-nav-my {
     padding-top: 35px; }
 header .top-nav-my ul {
@@ -8716,7 +8717,13 @@ header .shop_phone {
     text-align: right;
     color: #787878;
     font-size: 18px; }
-
+header .shop_phone_img{
+  position: relative;
+  top: 50px;
+  padding-left: 230px;}
+.shop_phone_img img{
+  height: 45px;
+}
 .manuf {
     min-height: 330px;
     position: relative;
@@ -9348,7 +9355,7 @@ footer .bottom-menu li a:hover {
 footer .bottom-phone {
     font-size: 18px;
     color: #999;
-    margin-top: 35px;
+    margin-top: 23px;
     text-align: right;}
 
 /*Добавленные стили*/
@@ -9824,6 +9831,9 @@ opacity: 0;
   width: 60%;
 }
 @media (min-width:991px) and (max-width: 1200px) {
+  header .top-nav-my ul{
+    text-align: left;
+  }
   #content .my-cart-wrap .accompaying-goods-in-cart .product-item{
     width: 47.5%;
   }
@@ -9985,8 +9995,14 @@ opacity: 0;
     top: 110px;
     margin-bottom: 0;
   }
+  header .shop_phone_img {
+    position: relative;
+    top: 130px;
+    padding-left: 0;
+    text-align: center;
+  }
   header .top-nav-my{
-    padding-top: 70px;
+    padding-top: 95px;
   }
   header .top-nav-my ul{
     text-align: center;

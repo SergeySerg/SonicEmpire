@@ -25,11 +25,11 @@
 				{if $css_uri == 'lteIE9'}
 					<!--[if lte IE 9]>
 					{foreach from=$css_files[$css_uri] key=css_uriie9 item=mediaie9}
-					<link rel="stylesheet" href="{$css_uriie9|escape:'html':'UTF-8'}?ver2.2" type="text/css" media="{$mediaie9|escape:'html':'UTF-8'}" />
+					<link rel="stylesheet" href="{$css_uriie9|escape:'html':'UTF-8'}?ver2.3" type="text/css" media="{$mediaie9|escape:'html':'UTF-8'}" />
 					{/foreach}
 					<![endif]-->
 				{else}
-					<link rel="stylesheet" href="{$css_uri|escape:'html':'UTF-8'}?ver2.2" type="text/css" media="{$media|escape:'html':'UTF-8'}" />
+					<link rel="stylesheet" href="{$css_uri|escape:'html':'UTF-8'}?ver2.3" type="text/css" media="{$media|escape:'html':'UTF-8'}" />
 				{/if}
 			{/foreach}
 		{/if}
@@ -41,7 +41,7 @@
 		{/if}
 		{$HOOK_HEADER}
         {literal}<script type="text/javascript" src="/owl-carousel/owl.carousel.js"></script>{/literal}
-        {literal}<script type="text/javascript" src="/themes/sonicempire/js/common.js?ver2.2"></script>{/literal}
+        {literal}<script type="text/javascript" src="/themes/sonicempire/js/common.js?ver2.3"></script>{/literal}
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=latin,latin-ext" type="text/css" media="all" />
 		<!--[if IE 8]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -96,12 +96,12 @@
                         <!-- MODULE Block Contact -->
                         {hook h='displayNav'}
                         <!-- /MODULE Block Contact -->
-                        <div id="header_logo-my" class="col-xs-12 col-sm-12 col-md-3">
+                        <div id="header_logo-my" class="col-xs-12 col-sm-12 col-md-12 col-lg-5">
                             <a href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}" title="{$shop_name|escape:'html':'UTF-8'}">
                                 <img src="{$logo_url}" alt="{$shop_name|escape:'html':'UTF-8'}"{if isset($logo_image_width) && $logo_image_width} width="{$logo_image_width}"{/if}{if isset($logo_image_height) && $logo_image_height} height="{$logo_image_height}"{/if}/>
                             </a>
                         </div>
-                        <div class="top-nav-my col-xs-12 col-sm-5 col-md-5">
+                        <div class="top-nav-my col-xs-12 col-sm-5 col-md-5 col-lg-4">
                             <ul>
                                 <li><a href="{$base_dir}content/1-delivery">Доставка и оплата</a></li>
 								<li><a href="{$base_dir}content/6-contact">Контакты</a></li>
