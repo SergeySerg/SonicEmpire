@@ -42,8 +42,8 @@ class AdminManufacturersControllerCore extends AdminController
         $this->allow_export = true;
         $this->list_id = 'manufacturer';
         $this->identifier = 'id_manufacturer';
-        $this->_defaultOrderBy = 'name';
-        $this->_defaultOrderWay = 'ASC';
+        $this->_defaultOrderBy = 'priority';
+        $this->_defaultOrderWay = 'DESC';
 
         $this->bulk_actions = array(
             'delete' => array(
@@ -94,6 +94,11 @@ class AdminManufacturersControllerCore extends AdminController
                 'align' => 'center',
                 'class' => 'fixed-width-xs',
                 'orderby' => false
+            ),
+            'priority' => array(
+                'title' => $this->l('Приоритет'),
+                //'active' => 'status',
+                'align' => 'center',
             )
         );
 
@@ -399,7 +404,15 @@ class AdminManufacturersControllerCore extends AdminController
                             'label' => $this->l('Disabled')
                         )
                     )
-                )
+                ),
+                array(
+                    'type' => 'text',
+                    'label' => $this->l('Приоритет'),
+                    'name' => 'priority',
+                   // 'lang' => true,
+                    'col' => 1,
+                   // 'hint' => $this->l('Forbidden characters:').' &lt;&gt;;=#{}'
+                ),
             )
         );
 
