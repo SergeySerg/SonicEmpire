@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-12-26 13:15:30
+<?php /* Smarty version Smarty-3.1.19, created on 2016-12-26 14:59:30
          compiled from "D:\OpenServer\domains\sonicempire.loc\themes\sonicempire\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:129595860fbd29700a5-09757366%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8cc7f47b4350f60a373ab30384f5409fd398e3ee' => 
     array (
       0 => 'D:\\OpenServer\\domains\\sonicempire.loc\\themes\\sonicempire\\header.tpl',
-      1 => 1482747698,
+      1 => 1482757156,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5860fbd2e86cd5_19849758',
   'variables' => 
   array (
     'language_code' => 0,
@@ -57,8 +59,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'cols' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5860fbd2e86cd5_19849758',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5860fbd2e86cd5_19849758')) {function content_5860fbd2e86cd5_19849758($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'D:\\OpenServer\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\function.implode.php';
 ?>
@@ -253,8 +253,8 @@ content/6-contact">Контакты</a></li>
 </div>
 							</div>
 							<?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['page_name']->value;?>
-<?php $_tmp11=ob_get_clean();?><?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['page_name']->value;?>
-<?php $_tmp12=ob_get_clean();?><?php if ($_tmp11=='manufacturer'||$_tmp12=='category') {?>
+<?php $_tmp10=ob_get_clean();?><?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['page_name']->value;?>
+<?php $_tmp11=ob_get_clean();?><?php if ($_tmp10=='manufacturer'||$_tmp11=='category') {?>
 								</div>
 							<?php }?>
 						<?php }?>

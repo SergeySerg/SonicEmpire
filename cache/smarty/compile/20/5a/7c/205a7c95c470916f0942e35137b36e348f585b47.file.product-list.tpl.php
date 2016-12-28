@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-12-26 13:15:29
+<?php /* Smarty version Smarty-3.1.19, created on 2016-12-26 15:00:25
          compiled from "D:\OpenServer\domains\sonicempire.loc\themes\sonicempire\product-list.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:51825860fbd1dbb672-41653801%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '205a7c95c470916f0942e35137b36e348f585b47' => 
     array (
       0 => 'D:\\OpenServer\\domains\\sonicempire.loc\\themes\\sonicempire\\product-list.tpl',
-      1 => 1482747698,
+      1 => 1482757157,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5860fbd27d0c67_15557220',
   'variables' => 
   array (
     'products' => 0,
@@ -43,8 +45,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'compared_products' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5860fbd27d0c67_15557220',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5860fbd27d0c67_15557220')) {function content_5860fbd27d0c67_15557220($_smarty_tpl) {?><?php if (!is_callable('smarty_function_math')) include 'D:\\OpenServer\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\function.math.php';
 ?>

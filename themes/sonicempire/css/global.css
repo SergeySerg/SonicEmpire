@@ -9791,6 +9791,20 @@ opacity: 0;
   color: #000;
 }
 
+.cat_desc{
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+.cat_desc .fa{
+  margin-left: 5px;
+}
+.cat_desc a{
+  font-size: 18px;
+  color: #cccccc;
+}
+.cat_desc a:hover{
+  color: #bf6d3b;
+}
 /*raund adaptive*/
 
 #r-catalog-open,

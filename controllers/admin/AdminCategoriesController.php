@@ -549,14 +549,14 @@ class AdminCategoriesControllerCore extends AdminController
                         'root_category'       => $context->shop->getCategory()
                     )
                 ),
-                /*array(
+                array(
                     'type' => 'textarea',
                     'label' => $this->l('Description'),
                     'name' => 'description',
                     'autoload_rte' => true,
                     'lang' => true,
                     'hint' => $this->l('Invalid characters:').' <>;=#{}'
-                ),
+                ),/*
                 array(
                     'type' => 'file',
                     'label' => $this->l('Category Cover Image'),

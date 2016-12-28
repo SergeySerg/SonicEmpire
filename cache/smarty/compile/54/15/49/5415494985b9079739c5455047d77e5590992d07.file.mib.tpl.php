@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-12-26 13:15:31
+<?php /* Smarty version Smarty-3.1.19, created on 2016-12-26 14:59:30
          compiled from "D:\OpenServer\domains\sonicempire.loc\modules\mib\views\templates\hook\mib.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:326935860fbd30ca942-27501298%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '5415494985b9079739c5455047d77e5590992d07' => 
     array (
       0 => 'D:\\OpenServer\\domains\\sonicempire.loc\\modules\\mib\\views\\templates\\hook\\mib.tpl',
-      1 => 1482747698,
+      1 => 1482757156,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5860fbd34748e6_23734482',
   'variables' => 
   array (
     'page_name' => 0,
@@ -25,8 +27,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'i' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5860fbd34748e6_23734482',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5860fbd34748e6_23734482')) {function content_5860fbd34748e6_23734482($_smarty_tpl) {?><?php if (($_smarty_tpl->tpl_vars['page_name']->value!='index')) {?>
     <!--Скрипт выпидающего текста-->

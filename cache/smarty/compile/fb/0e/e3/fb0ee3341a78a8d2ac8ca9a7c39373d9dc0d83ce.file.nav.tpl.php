@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-12-26 13:15:30
+<?php /* Smarty version Smarty-3.1.19, created on 2016-12-26 14:59:30
          compiled from "D:\OpenServer\domains\sonicempire.loc\themes\sonicempire\modules\blockcontact\nav.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:122685860fbd2ec2e87-83874362%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'fb0ee3341a78a8d2ac8ca9a7c39373d9dc0d83ce' => 
     array (
       0 => 'D:\\OpenServer\\domains\\sonicempire.loc\\themes\\sonicempire\\modules\\blockcontact\\nav.tpl',
-      1 => 1482747698,
+      1 => 1482757157,
       2 => 'file',
     ),
   ),
@@ -15,14 +15,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5860fbd2eeb966_21493752',
   'variables' => 
   array (
     'is_logged' => 0,
     'telnumber' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5860fbd2eeb966_21493752',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5860fbd2eeb966_21493752')) {function content_5860fbd2eeb966_21493752($_smarty_tpl) {?><div id="contact-link" <?php if (isset($_smarty_tpl->tpl_vars['is_logged']->value)&&$_smarty_tpl->tpl_vars['is_logged']->value) {?> class="is_logged"<?php }?>></div>
 <?php if ($_smarty_tpl->tpl_vars['telnumber']->value) {?>
