@@ -99,20 +99,20 @@ class ManufacturerControllerCore extends FrontController
                     unset($categories_filter[$key]);
                 }
             }
-            //print_r ($categories);exit;
+           // print_r ($categories_filter);exit;
         }
 
         $this->manufacturer->description = Tools::nl2br(trim($this->manufacturer->description));
         $nbProducts = $this->manufacturer->getProducts($this->manufacturer->id, null, null, null, $this->orderBy, $this->orderWay, true, true, true, null, $categories_filter);
         $this->pagination((int)$nbProducts);
-
+        //print_r($nbProducts);
         $products = $this->manufacturer->getProducts($this->manufacturer->id, $this->context->language->id, (int)$this->p, (int)$this->n, $this->orderBy, $this->orderWay, false, true, true, null, $categories_filter);
         $this->addColorsToProductList($products);
 
         //$products
-       $products_all = $this->manufacturer->getProducts($this->manufacturer->id, $this->context->language->id, 1, (int)$this->n, $this->orderBy, $this->orderWay, false);
-
-        //print_r($products_all); exit;
+       $products_all = $this->manufacturer->getProducts($this->manufacturer->id, $this->context->language->id, 1, 9999, $this->orderBy, $this->orderWay, false);
+        //print_r($products);
+        // print_r($products_all); exit;
         foreach($products_all as $key => $product){
             $id_category = $product['id_category_default'];
 
@@ -125,7 +125,7 @@ class ManufacturerControllerCore extends FrontController
         }
 
         //print_r($categories);exit;
-        //$products
+       // print_r($products);
 
         $this->context->smarty->assign(array(
             'nb_products' => $nbProducts,

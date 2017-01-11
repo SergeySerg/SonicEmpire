@@ -407,7 +407,7 @@ class ManufacturerCore extends ObjectModel
                 GROUP BY p.id_product
 				ORDER BY '.$alias.'`'.bqSQL($order_by).'` '.pSQL($order_way).'
 				LIMIT '.(((int)$p - 1) * (int)$n).','.(int)$n;
-        //echo $sql; exit;
+         //die($sql); exit;
 
 
 
