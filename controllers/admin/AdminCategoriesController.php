@@ -549,7 +549,7 @@ class AdminCategoriesControllerCore extends AdminController
                         'root_category'       => $context->shop->getCategory()
                     )
                 ),
-                /*array(
+                array(
                     'type' => 'textarea',
                     'label' => $this->l('Description'),
                     'name' => 'description',
@@ -557,7 +557,7 @@ class AdminCategoriesControllerCore extends AdminController
                     'lang' => true,
                     'hint' => $this->l('Invalid characters:').' <>;=#{}'
                 ),
-                array(
+                /*array(
                     'type' => 'file',
                     'label' => $this->l('Category Cover Image'),
                     'name' => 'image',
