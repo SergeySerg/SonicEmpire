@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-01-11 17:30:03
+<?php /* Smarty version Smarty-3.1.19, created on 2017-01-11 17:42:17
          compiled from "E:\Webserver\domains\sonicempire.loc\themes\sonicempire\product.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:31485587638e747dd39-02653770%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1159958765259566e34-51595827%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,12 +11,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '31485587638e747dd39-02653770',
+  'nocache_hash' => '1159958765259566e34-51595827',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_587638e83f5609_21033025',
   'variables' => 
   array (
     'errors' => 0,
@@ -110,8 +108,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'tax_rate' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5876525b92ec41_85971484',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_587638e83f5609_21033025')) {function content_587638e83f5609_21033025($_smarty_tpl) {?><?php if (!is_callable('smarty_function_math')) include 'E:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\function.math.php';
+<?php if ($_valid && !is_callable('content_5876525b92ec41_85971484')) {function content_5876525b92ec41_85971484($_smarty_tpl) {?><?php if (!is_callable('smarty_function_math')) include 'E:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\function.math.php';
 if (!is_callable('smarty_modifier_date_format')) include 'E:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\modifier.date_format.php';
 if (!is_callable('smarty_function_cycle')) include 'E:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\function.cycle.php';
 if (!is_callable('smarty_function_counter')) include 'E:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\function.counter.php';

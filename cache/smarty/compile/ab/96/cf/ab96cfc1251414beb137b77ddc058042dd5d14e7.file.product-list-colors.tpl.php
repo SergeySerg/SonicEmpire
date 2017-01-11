@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-01-11 15:53:26
+<?php /* Smarty version Smarty-3.1.19, created on 2017-01-11 17:41:42
          compiled from "E:\Webserver\domains\sonicempire.loc\themes\sonicempire\product-list-colors.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:25856587638d641d790-75636265%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:8948587652360cea11-21563390%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '25856587638d641d790-75636265',
+  'nocache_hash' => '8948587652360cea11-21563390',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_587638d64bd785_65844599',
+  'unifunc' => 'content_5876523620c920_16077897',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_587638d64bd785_65844599')) {function content_587638d64bd785_65844599($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5876523620c920_16077897')) {function content_5876523620c920_16077897($_smarty_tpl) {?>
 <?php if (isset($_smarty_tpl->tpl_vars['colors_list']->value)) {?>
 <ul class="color_to_pick_list clearfix">
 	<?php  $_smarty_tpl->tpl_vars['color'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['color']->_loop = false;
