@@ -1,13 +1,24 @@
+<<<<<<< HEAD:cache/smarty/compile/81/1d/a2/811da227f8b0e8bae47be7ac12ff2c4ebcd4e29b.file.header.tpl.php
 <?php /* Smarty version Smarty-3.1.19, created on 2017-01-11 15:48:28
          compiled from "E:\Webserver\domains\sonicempire.loc\themes\sonicempire\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:9583587637ac58e814-96422560%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+=======
+<?php /* Smarty version Smarty-3.1.19, created on 2016-12-26 14:59:30
+         compiled from "D:\OpenServer\domains\sonicempire.loc\themes\sonicempire\header.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:129595860fbd29700a5-09757366%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+>>>>>>> 743f2adcdb250ced04b4907b68a862aeae971369:cache/smarty/compile/8c/c7/f4/8cc7f47b4350f60a373ab30384f5409fd398e3ee.file.header.tpl.php
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '811da227f8b0e8bae47be7ac12ff2c4ebcd4e29b' => 
     array (
+<<<<<<< HEAD:cache/smarty/compile/81/1d/a2/811da227f8b0e8bae47be7ac12ff2c4ebcd4e29b.file.header.tpl.php
       0 => 'E:\\Webserver\\domains\\sonicempire.loc\\themes\\sonicempire\\header.tpl',
       1 => 1484142064,
+=======
+      0 => 'D:\\OpenServer\\domains\\sonicempire.loc\\themes\\sonicempire\\header.tpl',
+      1 => 1482757156,
+>>>>>>> 743f2adcdb250ced04b4907b68a862aeae971369:cache/smarty/compile/8c/c7/f4/8cc7f47b4350f60a373ab30384f5409fd398e3ee.file.header.tpl.php
       2 => 'file',
     ),
   ),
@@ -15,6 +26,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5860fbd2e86cd5_19849758',
   'variables' => 
   array (
     'language_code' => 0,
@@ -57,8 +70,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'cols' => 0,
   ),
   'has_nocache_code' => false,
+<<<<<<< HEAD:cache/smarty/compile/81/1d/a2/811da227f8b0e8bae47be7ac12ff2c4ebcd4e29b.file.header.tpl.php
   'version' => 'Smarty-3.1.19',
   'unifunc' => 'content_587637ac7ce1c7_14909491',
+=======
+>>>>>>> 743f2adcdb250ced04b4907b68a862aeae971369:cache/smarty/compile/8c/c7/f4/8cc7f47b4350f60a373ab30384f5409fd398e3ee.file.header.tpl.php
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_587637ac7ce1c7_14909491')) {function content_587637ac7ce1c7_14909491($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'E:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\function.implode.php';
 ?>
@@ -254,8 +270,13 @@ content/6-contact">Контакты</a></li>
 </div>
 							</div>
 							<?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['page_name']->value;?>
+<<<<<<< HEAD:cache/smarty/compile/81/1d/a2/811da227f8b0e8bae47be7ac12ff2c4ebcd4e29b.file.header.tpl.php
 <?php $_tmp9=ob_get_clean();?><?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['page_name']->value;?>
 <?php $_tmp10=ob_get_clean();?><?php if ($_tmp9=='manufacturer'||$_tmp10=='category') {?>
+=======
+<?php $_tmp10=ob_get_clean();?><?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['page_name']->value;?>
+<?php $_tmp11=ob_get_clean();?><?php if ($_tmp10=='manufacturer'||$_tmp11=='category') {?>
+>>>>>>> 743f2adcdb250ced04b4907b68a862aeae971369:cache/smarty/compile/8c/c7/f4/8cc7f47b4350f60a373ab30384f5409fd398e3ee.file.header.tpl.php
 								</div>
 							<?php }?>
 						<?php }?>

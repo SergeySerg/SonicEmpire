@@ -1,13 +1,24 @@
+<<<<<<< HEAD:cache/smarty/compile/af/66/58/af66580531718d9f9b70c0b3fabd5e452eeadcab.file.blocksocial.tpl.php
 <?php /* Smarty version Smarty-3.1.19, created on 2017-01-11 15:48:26
          compiled from "E:\Webserver\domains\sonicempire.loc\themes\sonicempire\modules\blocksocial\blocksocial.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:22018587637aad47113-03457489%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+=======
+<?php /* Smarty version Smarty-3.1.19, created on 2016-12-26 14:59:29
+         compiled from "D:\OpenServer\domains\sonicempire.loc\themes\sonicempire\modules\blocksocial\blocksocial.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:33215860fbd1c48fa7-47050841%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+>>>>>>> 743f2adcdb250ced04b4907b68a862aeae971369:cache/smarty/compile/db/1c/11/db1c119cb7bedb03bce7fd82c42bd5646be2d23e.file.blocksocial.tpl.php
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'af66580531718d9f9b70c0b3fabd5e452eeadcab' => 
     array (
+<<<<<<< HEAD:cache/smarty/compile/af/66/58/af66580531718d9f9b70c0b3fabd5e452eeadcab.file.blocksocial.tpl.php
       0 => 'E:\\Webserver\\domains\\sonicempire.loc\\themes\\sonicempire\\modules\\blocksocial\\blocksocial.tpl',
       1 => 1482757512,
+=======
+      0 => 'D:\\OpenServer\\domains\\sonicempire.loc\\themes\\sonicempire\\modules\\blocksocial\\blocksocial.tpl',
+      1 => 1482757157,
+>>>>>>> 743f2adcdb250ced04b4907b68a862aeae971369:cache/smarty/compile/db/1c/11/db1c119cb7bedb03bce7fd82c42bd5646be2d23e.file.blocksocial.tpl.php
       2 => 'file',
     ),
   ),
@@ -15,6 +26,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5860fbd1d07ca2_73082829',
   'variables' => 
   array (
     'youtube_url' => 0,
@@ -28,8 +41,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'base_dir' => 0,
   ),
   'has_nocache_code' => false,
+<<<<<<< HEAD:cache/smarty/compile/af/66/58/af66580531718d9f9b70c0b3fabd5e452eeadcab.file.blocksocial.tpl.php
   'version' => 'Smarty-3.1.19',
   'unifunc' => 'content_587637aae0ea74_74023739',
+=======
+>>>>>>> 743f2adcdb250ced04b4907b68a862aeae971369:cache/smarty/compile/db/1c/11/db1c119cb7bedb03bce7fd82c42bd5646be2d23e.file.blocksocial.tpl.php
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_587637aae0ea74_74023739')) {function content_587637aae0ea74_74023739($_smarty_tpl) {?><div id="social_block" class="social col-xs-12 col-sm-12 col-md-3">
 	<ul>
