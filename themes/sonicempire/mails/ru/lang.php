@@ -22,5 +22,11 @@ $_LANGMAIL['Password query confirmation'] = 'Подтверждение смен
 $_LANGMAIL['An answer to your message is available #ct%1$s #tc%2$s'] = 'Ответ на Ваше сообщение доступен #ct%1$s #tc%2$s ';
 $_LANGMAIL['New voucher for your order #%s'] = 'Новый купон для вашего заказа №%s';
 $_LANGMAIL['New voucher for your order %s'] = 'Новый купон для вашего заказ %s';
+$_LANGMAIL['Product available'] = '';
+$_LANGMAIL['New order : #%d - %s'] = '';
+$_LANGMAIL['Stock coverage'] = '';
+$_LANGMAIL['Product out of stock'] = '';
+$_LANGMAIL['Your order has been changed'] = '';
+$_LANGMAIL['New return from order #%d - %s'] = '';
 
 ?>

@@ -72,6 +72,12 @@
 					<span>Изменить конт. телефон</span>
 				</a>
 			</li>
+			<li class="maintab">
+				<a href='{$base_dir}/admin9377xbaxo/index.php?controller=AdminModules&configure=mailalerts&tab_module=administration&module_name=mailalerts&token=96546ed585126989fb2231c0986937cc' class="title" >
+					<i class="icon-AdminSmartBlog"></i>
+					<span>Почта для получения уведомл. о заказах</span>
+				</a>
+			</li>
 		</ul>
 		<span class="menu-collapse">
 			<i class="icon-align-justify icon-rotate-90"></i>

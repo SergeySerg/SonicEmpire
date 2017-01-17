@@ -159,7 +159,7 @@ class AuthControllerCore extends FrontController
                 ));
 
             $return = array(
-                'hasError' => !empty($this->errors),
+                'hasError1' => !empty($this->errors),
                 'errors' => $this->errors,
                 'page' => $this->context->smarty->fetch($this->template),
                 'token' => Tools::getToken(false)
@@ -340,7 +340,7 @@ class AuthControllerCore extends FrontController
         }
         if ($this->ajax) {
             $return = array(
-                'hasError' => !empty($this->errors),
+                'hasError2' => !empty($this->errors),
                 'errors' => $this->errors,
                 'token' => Tools::getToken(false)
             );
@@ -471,7 +471,7 @@ class AuthControllerCore extends FrontController
                             ));
                         if ($this->ajax) {
                             $return = array(
-                                'hasError' => !empty($this->errors),
+                                'hasError4' => !empty($this->errors),
                                 'errors' => $this->errors,
                                 'isSaved' => true,
                                 'id_customer' => (int)$this->context->cookie->id_customer,
@@ -644,7 +644,7 @@ class AuthControllerCore extends FrontController
                             ));
                         if ($this->ajax) {
                             $return = array(
-                                'hasError' => !empty($this->errors),
+                                'hasError5' => !empty($this->errors),
                                 'errors' => $this->errors,
                                 'isSaved' => true,
                                 'id_customer' => (int)$this->context->cookie->id_customer,
@@ -687,7 +687,7 @@ class AuthControllerCore extends FrontController
             }
             if ($this->ajax) {
                 $return = array(
-                    'hasError' => !empty($this->errors),
+                    'hasError6' => !empty($this->errors),
                     'errors' => $this->errors,
                     'isSaved' => false,
                     'id_customer' => 0

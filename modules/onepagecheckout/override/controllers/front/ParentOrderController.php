@@ -21,7 +21,7 @@ class ParentOrderController extends ParentOrderControllerCore
     }
 
     public function origInitContent()
-    {
+    {   die('1234556');
         parent::initContent();
     }
 

@@ -204,7 +204,7 @@
               <input type="text"
                      {if isset($guestInformations) && $guestInformations.id_customer && !$isGuest}readonly="readonly"{/if}
                      class="ttp text{if isset($guestInformations) && $guestInformations.id_customer && !$isGuest} readonly{/if}"
-                     id="email" name="email" placeholder="Введите Ваш e-mail" required
+                     id="email" name="email" placeholder="Введите Ваш e-mail"
                      value="{if isset($guestInformations) && $guestInformations.email}{$guestInformations.email}{/if}"/><!--<sup>*</sup>-->{*<span class="hint"><img class="callout" src="{$modules_dir|escape:'html':'UTF-8'}onepagecheckout/views/img/callout.gif" />We do not send out tons of emails.</span>*}{if isset($opc_config.validation_checkboxes) && $opc_config.validation_checkboxes}
                   <span class="validity valid_blank"></span>{/if}{if isset($opc_config.sample_values) && $opc_config.sample_values}
                   <span class="sample_text ex_blur">({l s='e.g.' mod='onepagecheckout'} {l s='jack@gmail.com' mod='onepagecheckout'})</span>{/if}

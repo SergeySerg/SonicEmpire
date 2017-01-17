@@ -294,6 +294,7 @@ class AddressController extends AddressControllerCore
                 $allow_eu_vat = 0;
 
             if (Tools::isSubmit('ajax')) {
+                die('AddreddController');
                 $return = array(
                     'hasError'            => !empty($this->errors),
                     'errors'              => $this->errors,
@@ -456,7 +457,7 @@ class AddressController extends AddressControllerCore
 
             if ($this->ajax) {
                 $return = array(
-                    'hasError'            => (bool)$this->errors,
+                    'hasError10'            => (bool)$this->errors,
                     'errors'              => $this->errors,
                     'id_address_delivery' => $this->context->cart->id_address_delivery,
                     'id_address_invoice'  => $this->context->cart->id_address_invoice

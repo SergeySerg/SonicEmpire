@@ -80,7 +80,7 @@ class OrderOpcController extends OrderOpcControllerCore
 
 
     public function init()
-    {
+    {die('123');
         if (!$this->isOpcModuleActive())
             return parent::init();
 
@@ -132,6 +132,7 @@ class OrderOpcController extends OrderOpcControllerCore
         if ($this->context->cart->nbProducts()) {
             if (Tools::isSubmit('ajax')) {
                 if (Tools::isSubmit('method')) {
+
                     switch (Tools::getValue('method')) {
                         case 'updateMessage':
                             if (Tools::isSubmit('message')) {

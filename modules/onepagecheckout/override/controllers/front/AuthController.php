@@ -143,7 +143,7 @@ class AuthController extends AuthControllerCore
                         if ($this->ajax)
                         {
                             $return = array(
-                                'hasError' => !empty($this->errors),
+                                'hasError6' => !empty($this->errors),
                                 'errors' => $this->errors,
                                 'isSaved' => true,
                                 'id_customer' => (int)$this->context->cookie->id_customer,
@@ -296,8 +296,9 @@ class AuthController extends AuthControllerCore
                             ));
                             if ($this->ajax)
                             {
+                                die('AuthController');
                                 $return = array(
-                                    'hasError' => !empty($this->errors),
+                                    'hasError7' => !empty($this->errors),
                                     'errors' => $this->errors,
                                     'isSaved' => true,
                                     'id_customer' => (int)$this->context->cookie->id_customer,
@@ -336,7 +337,7 @@ class AuthController extends AuthControllerCore
             if ($this->ajax)
             {
                 $return = array(
-                    'hasError' => !empty($this->errors),
+                    'hasError8' => !empty($this->errors),
                     'errors' => $this->errors,
                     'isSaved' => false,
                     'id_customer' => 0
