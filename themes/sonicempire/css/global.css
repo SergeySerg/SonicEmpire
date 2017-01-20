@@ -10252,6 +10252,14 @@ body.stop-scrolling {
   overflow: hidden;
   display: none;
   z-index: 99999; }
+
+.sweet-alert {
+  background: url("../img/add_to_cart.jpg") center no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  width: 550px;
+  box-shadow: 0 0 10px rgba(255,255,255,.8);
+}
 @media all and (max-width: 540px) {
   .sweet-alert {
     width: auto;
@@ -10270,6 +10278,13 @@ body.stop-scrolling {
   padding: 0;
   line-height: 40px;
   display: block; }
+.sweet-alert h2 {
+  color: #ffffff;
+  margin: 20px 0;
+  position: relative;
+  bottom: 20px;
+  font-size: 40px;
+}
 .sweet-alert p {
   color: #797979;
   font-size: 16px;
@@ -10402,11 +10417,24 @@ body.stop-scrolling {
   padding: 10px 32px;
   margin: 26px 5px 0 5px;
   cursor: pointer; }
+.sweet-alert button {
+  width: 135px;
+  height: 56px;
+  background: url("../img/btn.jpg") center no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 40px;
+  font-weight: bold;
+  opacity: .7;}
 .sweet-alert button:focus {
   outline: none;
   box-shadow: 0 0 2px rgba(128, 179, 235, 0.5), inset 0 0 0 1px rgba(0, 0, 0, 0.05); }
 .sweet-alert button:hover {
-  background-color: #7ecff4; }
+  background-color: #7ecff4;
+  opacity: 1;}
 .sweet-alert button:active {
   background-color: #5dc2f1; }
 .sweet-alert button.cancel {
@@ -10509,6 +10537,8 @@ body.stop-scrolling {
   background-color: #C9DAE1; }
 .sweet-alert .sa-icon.sa-success {
   border-color: #A5DC86; }
+.sweet-alert .sa-icon.sa-success {
+  visibility: hidden; }
 .sweet-alert .sa-icon.sa-success::before, .sweet-alert .sa-icon.sa-success::after {
   content: '';
   -webkit-border-radius: 40px;
