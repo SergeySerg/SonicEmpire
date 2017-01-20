@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-12-26 14:59:30
+<?php /* Smarty version Smarty-3.1.19, created on 2017-01-16 22:33:19
          compiled from "D:\OpenServer\domains\sonicempire.loc\themes\sonicempire\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:129595860fbd29700a5-09757366%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8cc7f47b4350f60a373ab30384f5409fd398e3ee' => 
     array (
       0 => 'D:\\OpenServer\\domains\\sonicempire.loc\\themes\\sonicempire\\header.tpl',
-      1 => 1482757156,
+      1 => 1482849456,
       2 => 'file',
     ),
   ),
@@ -113,13 +113,13 @@ $_smarty_tpl->tpl_vars['mediaie9']->_loop = true;
  $_smarty_tpl->tpl_vars['css_uriie9']->value = $_smarty_tpl->tpl_vars['mediaie9']->key;
 ?>
 					<link rel="stylesheet" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['css_uriie9']->value, ENT_QUOTES, 'UTF-8', true);?>
-?ver2.3" type="text/css" media="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['mediaie9']->value, ENT_QUOTES, 'UTF-8', true);?>
+?ver2.4" type="text/css" media="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['mediaie9']->value, ENT_QUOTES, 'UTF-8', true);?>
 " />
 					<?php } ?>
 					<![endif]-->
 				<?php } else { ?>
 					<link rel="stylesheet" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['css_uri']->value, ENT_QUOTES, 'UTF-8', true);?>
-?ver2.3" type="text/css" media="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['media']->value, ENT_QUOTES, 'UTF-8', true);?>
+?ver2.4" type="text/css" media="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['media']->value, ENT_QUOTES, 'UTF-8', true);?>
 " />
 				<?php }?>
 			<?php } ?>
@@ -253,8 +253,8 @@ content/6-contact">Контакты</a></li>
 </div>
 							</div>
 							<?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['page_name']->value;?>
-<?php $_tmp10=ob_get_clean();?><?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['page_name']->value;?>
-<?php $_tmp11=ob_get_clean();?><?php if ($_tmp10=='manufacturer'||$_tmp11=='category') {?>
+<?php $_tmp1=ob_get_clean();?><?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['page_name']->value;?>
+<?php $_tmp2=ob_get_clean();?><?php if ($_tmp1=='manufacturer'||$_tmp2=='category') {?>
 								</div>
 							<?php }?>
 						<?php }?>
