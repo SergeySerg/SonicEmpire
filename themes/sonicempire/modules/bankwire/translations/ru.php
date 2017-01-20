@@ -38,8 +38,6 @@ $_MODULE['<{bankwire}sonicempire>payment_execution_569fd05bdafa1712c4f6be5b153b8
 $_MODULE['<{bankwire}sonicempire>infos_c1be305030739396775edaca9813f77d'] = 'Этот модуль позволяет принимать платежи банковским переводом.';
 $_MODULE['<{bankwire}sonicempire>infos_60742d06006fde3043c77e6549d71a99'] = 'Если клиент выбирает оплату банковским переводом, статус заказа изменится на \"В ожидании оплаты.\"';
 $_MODULE['<{bankwire}sonicempire>infos_5fb4bbf993c23848433caf58e6b2816d'] = 'Вы должны вручную подтвердить заказ по факту зачисления перевода.';
-$_MODULE['<{bankwire}sonicempire>payment_5e1695822fc5af98f6b749ea3cbc9b4c'] = 'Оплата банковским переводом';
-$_MODULE['<{bankwire}sonicempire>payment_4e1fb9f4b46556d64db55d50629ee301'] = ' ';
 $_MODULE['<{bankwire}sonicempire>payment_return_88526efe38fd18179a127024aba8c1d7'] = 'Ваш заказ на %s оформлен.';
 $_MODULE['<{bankwire}sonicempire>payment_return_1f8cdc30326f1f930b0c87b25fdac965'] = 'Реквизиты для банковского перевода:';
 $_MODULE['<{bankwire}sonicempire>payment_return_b2f40690858b404ed10e62bdf422c704'] = 'Итого';
@@ -53,4 +51,6 @@ $_MODULE['<{bankwire}sonicempire>payment_return_b9a1cae09e5754424e33764777cfcaa0
 $_MODULE['<{bankwire}sonicempire>payment_return_ca7e41a658753c87973936d7ce2429a8'] = 'По вопросам и за дополнительной информацией, пожалуйста, обращайтесь в';
 $_MODULE['<{bankwire}sonicempire>payment_return_66fcf4c223bbf4c7c886d4784e1f62e4'] = 'службу поддержки клиентов';
 $_MODULE['<{bankwire}sonicempire>payment_return_d15feee53d81ea16269e54d4784fa123'] = 'Мы обнаружили проблемы с вашим заказом. Если вы считаете, что это ошибка, свяжитесь с нашей';
+$_MODULE['<{bankwire}sonicempire>payment_5e1695822fc5af98f6b749ea3cbc9b4c'] = 'Оплата банковским переводом';
+$_MODULE['<{bankwire}sonicempire>payment_4e1fb9f4b46556d64db55d50629ee301'] = ' ';
 $_MODULE['<{bankwire}sonicempire>payment_return_decce112a9e64363c997b04aa71b7cb8'] = 'клиентской службой.';

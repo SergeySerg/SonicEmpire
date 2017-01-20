@@ -16,9 +16,9 @@ $_MODULE['<{blocknewproducts}sonicempire>blocknewproducts_d68e7b860a7dba819fa1c7
 $_MODULE['<{blocknewproducts}sonicempire>blocknewproducts_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Включено';
 $_MODULE['<{blocknewproducts}sonicempire>blocknewproducts_b9f5c797ebbf55adccdd8539a65a0241'] = 'Отключено';
 $_MODULE['<{blocknewproducts}sonicempire>blocknewproducts_c9cc8cce247e49bae79f15173ce97354'] = 'Сохранить';
+$_MODULE['<{blocknewproducts}sonicempire>blocknewproducts_home_0af0aac2e9f6bd1d5283eed39fe265cc'] = 'Пока новинок нет.';
 $_MODULE['<{blocknewproducts}sonicempire>blocknewproducts_9ff0635f5737513b1a6f559ac2bff745'] = 'Новые товары';
 $_MODULE['<{blocknewproducts}sonicempire>blocknewproducts_43340e6cc4e88197d57f8d6d5ea50a46'] = 'Подробнее';
 $_MODULE['<{blocknewproducts}sonicempire>blocknewproducts_60efcc704ef1456678f77eb9ee20847b'] = 'Все новые товары';
 $_MODULE['<{blocknewproducts}sonicempire>blocknewproducts_18cc24fb12f89c839ab890f8188febe8'] = 'Не показывать новинки.';
-$_MODULE['<{blocknewproducts}sonicempire>blocknewproducts_home_0af0aac2e9f6bd1d5283eed39fe265cc'] = 'Пока новинок нет.';
 $_MODULE['<{blocknewproducts}sonicempire>tab_a0d0ebc37673b9ea77dd7c1a02160e2d'] = 'Новые поступления';

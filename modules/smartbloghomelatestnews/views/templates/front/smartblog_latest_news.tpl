@@ -17,8 +17,8 @@
                     {$options.slug = $post.link_rewrite}
                     <div id="sds_blog_post">
                         <h1>{$post.title}</h1>
-                        <section><p>{$post.short_description}</p></section>
-                        <div class="spoiler-body" style="display: none;"><section><p>{$post.content}</p></section></div>
+                        <section><p>{$post.short_description|escape:'htmlall':'UTF-8'}</p></section>
+                        <div class="spoiler-body" style="display: none;"><section><p>{$post.content|escape:'htmlall':'UTF-8'}</p></section></div>
                         <a href="#" class="more">Подробнее<i class="fa fa-angle-down"></i></a>
                     </div>
                 {$i=$i+1}

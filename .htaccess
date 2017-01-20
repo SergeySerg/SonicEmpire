@@ -10,7 +10,7 @@ SetEnv HTTP_MOD_REWRITE On
 RewriteEngine on
 
 
-#Domain: sonicempire.loc
+#Domain: sonicempire.com.ua
 RewriteRule . - [E=REWRITEBASE:/]
 RewriteRule ^api$ api/ [L]
 

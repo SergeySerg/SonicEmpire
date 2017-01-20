@@ -20,6 +20,7 @@ $(function(){
 	$('.manuf-light').css("height", "auto");
 
 	console.info('current pathname: ', location.pathname);
+	//var current_manufacturer_id = location.pathname.split('_')[0].substr(1);
 	var current_manufacturer_id = parseInt(location.pathname.split('/')[1]);
 	if(current_manufacturer_id){
 		console.info('current manufacturer id: ', current_manufacturer_id);
@@ -32,6 +33,10 @@ $(function(){
 				return false;
 			};
 
+			/*
+			 var dataId = $(this).attr('data-id');
+			 $('a[data-id=' + dataId + ']').parent().hide();
+			 */
 			$manufacturerElement.parent().hide();
 
 			var idTab = $manufacturerElement.attr('data-tab');
@@ -43,6 +48,13 @@ $(function(){
 		}, 1000)
 	}
 
+/*
+	$('.manuf-light li a').on('click', function (e) {
+		var $a = $(this);
+		$('.manuf-light ul.dropdown-manuf-list').fadeOut(500);
+		e.preventDefault();
+	});
+*/
 /* catalog open adaptive*/
 
 	$('#r-catalog-open').on('click', function (e) {

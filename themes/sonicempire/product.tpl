@@ -300,12 +300,11 @@
 												 <span>{if $content_only && (isset($product->customization_required) && $product->customization_required)}{l s='Customize'}{else}{l s='Add to cart'}{/if}</span>
 											 </button>
 										 </p>
-										 <script type="text/javascript">
+										<script type="text/javascript">
 											$('.buy').on('click',function(){
 												swal("Товар успешно добавлен в корзину", "", "success")
 											})
 										 </script>
-
 									 </div>
 									 {if isset($HOOK_PRODUCT_ACTIONS) && $HOOK_PRODUCT_ACTIONS}{$HOOK_PRODUCT_ACTIONS}{/if}
 									<!-- end box-cart-bottom -->

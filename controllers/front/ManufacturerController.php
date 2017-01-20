@@ -110,7 +110,7 @@ class ManufacturerControllerCore extends FrontController
         $this->addColorsToProductList($products);
 
         //$products
-       $products_all = $this->manufacturer->getProducts($this->manufacturer->id, $this->context->language->id, 1, (int)$this->n, $this->orderBy, $this->orderWay, false);
+       $products_all = $this->manufacturer->getProducts($this->manufacturer->id, $this->context->language->id, 1, 9999, $this->orderBy, $this->orderWay, false);
 
         //print_r($products_all); exit;
         foreach($products_all as $key => $product){

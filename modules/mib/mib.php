@@ -121,7 +121,6 @@ class mib extends Module {
 
     public function hookrightColumn($params){
         $manufacturers = Manufacturer::getManufacturers();
-       // print_r($manufacturers);
         foreach ($manufacturers as &$manufacturer){
             $manufacturer['image'] = $this->context->language->iso_code.'-default';
             if (file_exists(_PS_MANU_IMG_DIR_.$manufacturer['id_manufacturer'].'-'.ImageType::getFormatedName('medium').'.jpg'))

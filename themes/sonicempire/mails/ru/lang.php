@@ -4,9 +4,9 @@ global $_LANGMAIL;
 $_LANGMAIL = array();
 $_LANGMAIL['Welcome!'] = 'Добро пожаловать!';
 $_LANGMAIL['Process the payment of your order'] = 'Произвести оплату вашего заказа';
-$_LANGMAIL['Message from contact form'] = 'Сообщение из формы обратной связи';
 $_LANGMAIL['Your message has been correctly sent #ct%1$s #tc%2$s'] = 'Ваше сообщение отправлено #ct%1$s #tc%2$s';
 $_LANGMAIL['Your message has been correctly sent'] = 'Ваше сообщение успешно отправлено';
+$_LANGMAIL['Message from contact form'] = 'Сообщение из формы обратной связи';
 $_LANGMAIL['New credit slip regarding your order'] = 'Новая платёжная квитанция к Вашему заказу';
 $_LANGMAIL['The virtual product that you bought is available for download'] = 'Купленный вами виртуальный товар доступен для скачивания';
 $_LANGMAIL['Your new password'] = 'Ваш новый пароль';
@@ -22,5 +22,9 @@ $_LANGMAIL['Password query confirmation'] = 'Подтверждение смен
 $_LANGMAIL['An answer to your message is available #ct%1$s #tc%2$s'] = 'Ответ на Ваше сообщение доступен #ct%1$s #tc%2$s ';
 $_LANGMAIL['New voucher for your order #%s'] = 'Новый купон для вашего заказа №%s';
 $_LANGMAIL['New voucher for your order %s'] = 'Новый купон для вашего заказ %s';
+$_LANGMAIL['Product available'] = '';
+$_LANGMAIL['New order : #%d - %s'] = '';
+$_LANGMAIL['Stock coverage'] = '';
+$_LANGMAIL['Product out of stock'] = '';
 
 ?>

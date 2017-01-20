@@ -4046,1657 +4046,1657 @@ td.visible-print {
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
 .icon-glass:before {
-  content: ""; }
+  content: ""; }
 
 .icon-music:before {
-  content: ""; }
+  content: ""; }
 
 .icon-search:before {
-  content: ""; }
+  content: ""; }
 
 .icon-envelope-o:before, .icon-envelope-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-heart:before {
-  content: ""; }
+  content: ""; }
 
 .icon-star:before {
-  content: ""; }
+  content: ""; }
 
 .icon-star-o:before, .icon-star-empty:before {
-  content: ""; }
+  content: ""; }
 
 .icon-user:before {
-  content: ""; }
+  content: ""; }
 
 .icon-film:before {
-  content: ""; }
+  content: ""; }
 
 .icon-th-large:before {
-  content: ""; }
+  content: ""; }
 
 .icon-th:before {
-  content: ""; }
+  content: ""; }
 
 .icon-th-list:before {
-  content: ""; }
+  content: ""; }
 
 .icon-check:before {
-  content: ""; }
+  content: ""; }
 
 .icon-remove:before,
 .icon-close:before,
 .icon-times:before,
 .icon-remove:before {
-  content: ""; }
+  content: ""; }
 
 .icon-search-plus:before, .icon-zoom-in:before {
-  content: ""; }
+  content: ""; }
 
 .icon-search-minus:before, .icon-zoom-out:before {
-  content: ""; }
+  content: ""; }
 
 .icon-power-off:before, .icon-off:before {
-  content: ""; }
+  content: ""; }
 
 .icon-signal:before {
-  content: ""; }
+  content: ""; }
 
 .icon-gear:before,
 .icon-cog:before {
-  content: ""; }
+  content: ""; }
 
 .icon-trash-o:before, .icon-trash:before {
-  content: ""; }
+  content: ""; }
 
 .icon-home:before {
-  content: ""; }
+  content: ""; }
 
 .icon-file-o:before, .icon-file-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-clock-o:before, .icon-time:before {
-  content: ""; }
+  content: ""; }
 
 .icon-road:before {
-  content: ""; }
+  content: ""; }
 
 .icon-download:before, .icon-download-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-arrow-circle-o-down:before, .icon-download:before, .icon-download-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-arrow-circle-o-up:before, .icon-upload:before, .icon-upload-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-inbox:before {
-  content: ""; }
+  content: ""; }
 
 .icon-play-circle-o:before, .icon-play-circle:before, .icon-play-sign:before {
-  content: ""; }
+  content: ""; }
 
 .icon-rotate-right:before,
 .icon-repeat:before {
-  content: ""; }
+  content: ""; }
 
 .icon-refresh:before {
-  content: ""; }
+  content: ""; }
 
 .icon-list-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-lock:before {
-  content: ""; }
+  content: ""; }
 
 .icon-flag:before {
-  content: ""; }
+  content: ""; }
 
 .icon-headphones:before {
-  content: ""; }
+  content: ""; }
 
 .icon-volume-off:before {
-  content: ""; }
+  content: ""; }
 
 .icon-volume-down:before {
-  content: ""; }
+  content: ""; }
 
 .icon-volume-up:before {
-  content: ""; }
+  content: ""; }
 
 .icon-qrcode:before {
-  content: ""; }
+  content: ""; }
 
 .icon-barcode:before {
-  content: ""; }
+  content: ""; }
 
 .icon-tag:before {
-  content: ""; }
+  content: ""; }
 
 .icon-tags:before {
-  content: ""; }
+  content: ""; }
 
 .icon-book:before {
-  content: ""; }
+  content: ""; }
 
 .icon-bookmark:before {
-  content: ""; }
+  content: ""; }
 
 .icon-print:before {
-  content: ""; }
+  content: ""; }
 
 .icon-camera:before {
-  content: ""; }
+  content: ""; }
 
 .icon-font:before {
-  content: ""; }
+  content: ""; }
 
 .icon-bold:before {
-  content: ""; }
+  content: ""; }
 
 .icon-italic:before {
-  content: ""; }
+  content: ""; }
 
 .icon-text-height:before {
-  content: ""; }
+  content: ""; }
 
 .icon-text-width:before {
-  content: ""; }
+  content: ""; }
 
 .icon-align-left:before {
-  content: ""; }
+  content: ""; }
 
 .icon-align-center:before {
-  content: ""; }
+  content: ""; }
 
 .icon-align-right:before {
-  content: ""; }
+  content: ""; }
 
 .icon-align-justify:before {
-  content: ""; }
+  content: ""; }
 
 .icon-list:before {
-  content: ""; }
+  content: ""; }
 
 .icon-dedent:before,
 .icon-outdent:before,
 .icon-indent-left:before {
-  content: ""; }
+  content: ""; }
 
 .icon-indent:before, .icon-indent-right:before {
-  content: ""; }
+  content: ""; }
 
 .icon-video-camera:before, .icon-facetime-video:before {
-  content: ""; }
+  content: ""; }
 
 .icon-photo:before,
 .icon-image:before,
 .icon-picture-o:before,
 .icon-picture:before {
-  content: ""; }
+  content: ""; }
 
 .icon-pencil:before {
-  content: ""; }
+  content: ""; }
 
 .icon-map-marker:before {
-  content: ""; }
+  content: ""; }
 
 .icon-adjust:before {
-  content: ""; }
+  content: ""; }
 
 .icon-tint:before {
-  content: ""; }
+  content: ""; }
 
 .icon-edit:before,
 .icon-pencil-square-o:before,
 .icon-edit:before {
-  content: ""; }
+  content: ""; }
 
 .icon-share-square-o:before, .icon-share:before, .icon-share-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-check-square-o:before {
-  content: ""; }
+  content: ""; }
 
 .icon-arrows:before, .icon-move:before {
-  content: ""; }
+  content: ""; }
 
 .icon-step-backward:before {
-  content: ""; }
+  content: ""; }
 
 .icon-fast-backward:before {
-  content: ""; }
+  content: ""; }
 
 .icon-backward:before {
-  content: ""; }
+  content: ""; }
 
 .icon-play:before {
-  content: ""; }
+  content: ""; }
 
 .icon-pause:before {
-  content: ""; }
+  content: ""; }
 
 .icon-stop:before {
-  content: ""; }
+  content: ""; }
 
 .icon-forward:before {
-  content: ""; }
+  content: ""; }
 
 .icon-fast-forward:before {
-  content: ""; }
+  content: ""; }
 
 .icon-step-forward:before {
-  content: ""; }
+  content: ""; }
 
 .icon-eject:before {
-  content: ""; }
+  content: ""; }
 
 .icon-chevron-left:before {
-  content: ""; }
+  content: ""; }
 
 .icon-chevron-right:before {
-  content: ""; }
+  content: ""; }
 
 .icon-plus-circle:before, .icon-plus-sign:before {
-  content: ""; }
+  content: ""; }
 
 .icon-minus-circle:before, .icon-minus-sign:before {
-  content: ""; }
+  content: ""; }
 
 .icon-times-circle:before, .icon-remove-sign:before {
-  content: ""; }
+  content: ""; }
 
 .icon-check-circle:before, .icon-ok-sign:before {
-  content: ""; }
+  content: ""; }
 
 .icon-question-circle:before, .icon-question-sign:before {
-  content: ""; }
+  content: ""; }
 
 .icon-info-circle:before, .icon-info-sign:before {
-  content: ""; }
+  content: ""; }
 
 .icon-crosshairs:before, .icon-screenshot:before {
-  content: ""; }
+  content: ""; }
 
 .icon-times-circle-o:before, .icon-remove-circle:before {
-  content: ""; }
+  content: ""; }
 
 .icon-check-circle-o:before, .icon-ok-circle:before {
-  content: ""; }
+  content: ""; }
 
 .icon-ban:before {
-  content: ""; }
+  content: ""; }
 
 .icon-arrow-left:before {
-  content: ""; }
+  content: ""; }
 
 .icon-arrow-right:before {
-  content: ""; }
+  content: ""; }
 
 .icon-arrow-up:before {
-  content: ""; }
+  content: ""; }
 
 .icon-arrow-down:before {
-  content: ""; }
+  content: ""; }
 
 .icon-mail-forward:before,
 .icon-share:before,
 .icon-share-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-expand:before, .icon-resize-full:before {
-  content: ""; }
+  content: ""; }
 
 .icon-compress:before, .icon-resize-small:before {
-  content: ""; }
+  content: ""; }
 
 .icon-plus:before {
-  content: ""; }
+  content: ""; }
 
 .icon-minus:before {
-  content: ""; }
+  content: ""; }
 
 .icon-asterisk:before {
-  content: ""; }
+  content: ""; }
 
 .icon-exclamation-circle:before, .icon-exclamation-sign:before {
-  content: ""; }
+  content: ""; }
 
 .icon-gift:before {
-  content: ""; }
+  content: ""; }
 
 .icon-leaf:before {
-  content: ""; }
+  content: ""; }
 
 .icon-fire:before {
-  content: ""; }
+  content: ""; }
 
 .icon-eye:before, .icon-eye-open:before {
-  content: ""; }
+  content: ""; }
 
 .icon-eye-slash:before, .icon-eye-close:before {
-  content: ""; }
+  content: ""; }
 
 .icon-warning:before,
 .icon-exclamation-triangle:before,
 .icon-warning-sign:before {
-  content: ""; }
+  content: ""; }
 
 .icon-plane:before {
-  content: ""; }
+  content: ""; }
 
 .icon-calendar:before {
-  content: ""; }
+  content: ""; }
 
 .icon-random:before {
-  content: ""; }
+  content: ""; }
 
 .icon-comment:before {
-  content: ""; }
+  content: ""; }
 
 .icon-magnet:before {
-  content: ""; }
+  content: ""; }
 
 .icon-chevron-up:before {
-  content: ""; }
+  content: ""; }
 
 .icon-chevron-down:before {
-  content: ""; }
+  content: ""; }
 
 .icon-retweet:before {
-  content: ""; }
+  content: ""; }
 
 .icon-shopping-cart:before {
-  content: ""; }
+  content: ""; }
 
 .icon-folder:before, .icon-folder-close:before {
-  content: ""; }
+  content: ""; }
 
 .icon-folder-open:before {
-  content: ""; }
+  content: ""; }
 
 .icon-arrows-v:before, .icon-resize-vertical:before {
-  content: ""; }
+  content: ""; }
 
 .icon-arrows-h:before, .icon-resize-horizontal:before {
-  content: ""; }
+  content: ""; }
 
 .icon-bar-chart-o:before, .icon-bar-chart:before,
 .icon-bar-chart:before {
-  content: ""; }
+  content: ""; }
 
 .icon-twitter-square:before, .icon-twitter-sign:before {
-  content: ""; }
+  content: ""; }
 
 .icon-facebook-square:before, .icon-facebook-sign:before {
-  content: ""; }
+  content: ""; }
 
 .icon-camera-retro:before {
-  content: ""; }
+  content: ""; }
 
 .icon-key:before {
-  content: ""; }
+  content: ""; }
 
 .icon-gears:before,
 .icon-cogs:before {
-  content: ""; }
+  content: ""; }
 
 .icon-comments:before {
-  content: ""; }
+  content: ""; }
 
 .icon-thumbs-o-up:before, .icon-thumbs-up-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-thumbs-o-down:before, .icon-thumbs-down-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-star-half:before {
-  content: ""; }
+  content: ""; }
 
 .icon-heart-o:before, .icon-heart-empty:before {
-  content: ""; }
+  content: ""; }
 
 .icon-sign-out:before, .icon-signout:before {
-  content: ""; }
+  content: ""; }
 
 .icon-linkedin-square:before, .icon-linkedin-sign:before {
-  content: ""; }
+  content: ""; }
 
 .icon-thumb-tack:before, .icon-pushpin:before {
-  content: ""; }
+  content: ""; }
 
 .icon-external-link:before {
-  content: ""; }
+  content: ""; }
 
 .icon-sign-in:before, .icon-signin:before {
-  content: ""; }
+  content: ""; }
 
 .icon-trophy:before {
-  content: ""; }
+  content: ""; }
 
 .icon-github-square:before, .icon-github-sign:before {
-  content: ""; }
+  content: ""; }
 
 .icon-upload:before, .icon-upload-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-lemon-o:before, .icon-lemon:before {
-  content: ""; }
+  content: ""; }
 
 .icon-phone:before {
-  content: ""; }
+  content: ""; }
 
 .icon-square-o:before, .icon-check-empty:before {
-  content: ""; }
+  content: ""; }
 
 .icon-bookmark-o:before, .icon-bookmark-empty:before {
-  content: ""; }
+  content: ""; }
 
 .icon-phone-square:before, .icon-phone-sign:before {
-  content: ""; }
+  content: ""; }
 
 .icon-twitter:before {
-  content: ""; }
+  content: ""; }
 
 .icon-facebook-f:before,
 .icon-facebook:before {
-  content: ""; }
+  content: ""; }
 
 .icon-github:before {
-  content: ""; }
+  content: ""; }
 
 .icon-unlock:before {
-  content: ""; }
+  content: ""; }
 
 .icon-credit-card:before {
-  content: ""; }
+  content: ""; }
 
 .icon-rss:before {
-  content: ""; }
+  content: ""; }
 
 .icon-hdd-o:before, .icon-hdd:before {
-  content: ""; }
+  content: ""; }
 
 .icon-bullhorn:before {
-  content: ""; }
+  content: ""; }
 
 .icon-bell:before, .icon-bell-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-certificate:before {
-  content: ""; }
+  content: ""; }
 
 .icon-hand-o-right:before, .icon-hand-right:before {
-  content: ""; }
+  content: ""; }
 
 .icon-hand-o-left:before, .icon-hand-left:before {
-  content: ""; }
+  content: ""; }
 
 .icon-hand-o-up:before, .icon-hand-up:before {
-  content: ""; }
+  content: ""; }
 
 .icon-hand-o-down:before, .icon-hand-down:before {
-  content: ""; }
+  content: ""; }
 
 .icon-arrow-circle-left:before, .icon-circle-arrow-left:before {
-  content: ""; }
+  content: ""; }
 
 .icon-arrow-circle-right:before, .icon-circle-arrow-right:before {
-  content: ""; }
+  content: ""; }
 
 .icon-arrow-circle-up:before, .icon-circle-arrow-up:before {
-  content: ""; }
+  content: ""; }
 
 .icon-arrow-circle-down:before, .icon-circle-arrow-down:before {
-  content: ""; }
+  content: ""; }
 
 .icon-globe:before {
-  content: ""; }
+  content: ""; }
 
 .icon-wrench:before {
-  content: ""; }
+  content: ""; }
 
 .icon-tasks:before {
-  content: ""; }
+  content: ""; }
 
 .icon-filter:before {
-  content: ""; }
+  content: ""; }
 
 .icon-briefcase:before {
-  content: ""; }
+  content: ""; }
 
 .icon-arrows-alt:before, .icon-fullscreen:before {
-  content: ""; }
+  content: ""; }
 
 .icon-group:before,
 .icon-users:before,
 .icon-group:before {
-  content: ""; }
+  content: ""; }
 
 .icon-chain:before,
 .icon-link:before {
-  content: ""; }
+  content: ""; }
 
 .icon-cloud:before {
-  content: ""; }
+  content: ""; }
 
 .icon-flask:before, .icon-beaker:before {
-  content: ""; }
+  content: ""; }
 
 .icon-cut:before,
 .icon-scissors:before,
 .icon-cut:before {
-  content: ""; }
+  content: ""; }
 
 .icon-copy:before,
 .icon-files-o:before,
 .icon-copy:before {
-  content: ""; }
+  content: ""; }
 
 .icon-paperclip:before, .icon-paper-clip:before {
-  content: ""; }
+  content: ""; }
 
 .icon-save:before,
 .icon-floppy-o:before,
 .icon-save:before {
-  content: ""; }
+  content: ""; }
 
 .icon-square:before, .icon-sign-blank:before {
-  content: ""; }
+  content: ""; }
 
 .icon-navicon:before,
 .icon-reorder:before,
 .icon-bars:before,
 .icon-reorder:before {
-  content: ""; }
+  content: ""; }
 
 .icon-list-ul:before {
-  content: ""; }
+  content: ""; }
 
 .icon-list-ol:before {
-  content: ""; }
+  content: ""; }
 
 .icon-strikethrough:before {
-  content: ""; }
+  content: ""; }
 
 .icon-underline:before {
-  content: ""; }
+  content: ""; }
 
 .icon-table:before {
-  content: ""; }
+  content: ""; }
 
 .icon-magic:before {
-  content: ""; }
+  content: ""; }
 
 .icon-truck:before {
-  content: ""; }
+  content: ""; }
 
 .icon-pinterest:before {
-  content: ""; }
+  content: ""; }
 
 .icon-pinterest-square:before, .icon-pinterest-sign:before {
-  content: ""; }
+  content: ""; }
 
 .icon-google-plus-square:before, .icon-google-plus-sign:before {
-  content: ""; }
+  content: ""; }
 
 .icon-google-plus:before {
-  content: ""; }
+  content: ""; }
 
 .icon-money:before {
-  content: ""; }
+  content: ""; }
 
 .icon-caret-down:before {
-  content: ""; }
+  content: ""; }
 
 .icon-caret-up:before {
-  content: ""; }
+  content: ""; }
 
 .icon-caret-left:before {
-  content: ""; }
+  content: ""; }
 
 .icon-caret-right:before {
-  content: ""; }
+  content: ""; }
 
 .icon-columns:before {
-  content: ""; }
+  content: ""; }
 
 .icon-unsorted:before,
 .icon-sort:before {
-  content: ""; }
+  content: ""; }
 
 .icon-sort-down:before,
 .icon-sort-desc:before,
 .icon-sort-up:before {
-  content: ""; }
+  content: ""; }
 
 .icon-sort-up:before,
 .icon-sort-asc:before,
 .icon-sort-down:before {
-  content: ""; }
+  content: ""; }
 
 .icon-envelope:before {
-  content: ""; }
+  content: ""; }
 
 .icon-linkedin:before {
-  content: ""; }
+  content: ""; }
 
 .icon-rotate-left:before,
 .icon-undo:before {
-  content: ""; }
+  content: ""; }
 
 .icon-legal:before,
 .icon-gavel:before,
 .icon-legal:before {
-  content: ""; }
+  content: ""; }
 
 .icon-dashboard:before,
 .icon-tachometer:before,
 .icon-dashboard:before {
-  content: ""; }
+  content: ""; }
 
 .icon-comment-o:before, .icon-comment-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-comments-o:before, .icon-comments-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-flash:before,
 .icon-bolt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-sitemap:before {
-  content: ""; }
+  content: ""; }
 
 .icon-umbrella:before {
-  content: ""; }
+  content: ""; }
 
 .icon-paste:before,
 .icon-clipboard:before,
 .icon-paste:before {
-  content: ""; }
+  content: ""; }
 
 .icon-lightbulb-o:before, .icon-lightbulb:before {
-  content: ""; }
+  content: ""; }
 
 .icon-exchange:before {
-  content: ""; }
+  content: ""; }
 
 .icon-cloud-download:before {
-  content: ""; }
+  content: ""; }
 
 .icon-cloud-upload:before {
-  content: ""; }
+  content: ""; }
 
 .icon-user-md:before {
-  content: ""; }
+  content: ""; }
 
 .icon-stethoscope:before {
-  content: ""; }
+  content: ""; }
 
 .icon-suitcase:before {
-  content: ""; }
+  content: ""; }
 
 .icon-bell-o:before, .icon-bell:before, .icon-bell-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-coffee:before {
-  content: ""; }
+  content: ""; }
 
 .icon-cutlery:before, .icon-food:before {
-  content: ""; }
+  content: ""; }
 
 .icon-file-text-o:before, .icon-file-text-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-building-o:before, .icon-building:before {
-  content: ""; }
+  content: ""; }
 
 .icon-hospital-o:before, .icon-hospital:before {
-  content: ""; }
+  content: ""; }
 
 .icon-ambulance:before {
-  content: ""; }
+  content: ""; }
 
 .icon-medkit:before {
-  content: ""; }
+  content: ""; }
 
 .icon-fighter-jet:before {
-  content: ""; }
+  content: ""; }
 
 .icon-beer:before {
-  content: ""; }
+  content: ""; }
 
 .icon-h-square:before, .icon-h-sign:before {
-  content: ""; }
+  content: ""; }
 
 .icon-plus-square:before, .icon-plus-sign-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-angle-double-left:before, .icon-double-angle-left:before {
-  content: ""; }
+  content: ""; }
 
 .icon-angle-double-right:before, .icon-double-angle-right:before {
-  content: ""; }
+  content: ""; }
 
 .icon-angle-double-up:before, .icon-double-angle-up:before {
-  content: ""; }
+  content: ""; }
 
 .icon-angle-double-down:before, .icon-double-angle-down:before {
-  content: ""; }
+  content: ""; }
 
 .icon-angle-left:before {
-  content: ""; }
+  content: ""; }
 
 .icon-angle-right:before {
-  content: ""; }
+  content: ""; }
 
 .icon-angle-up:before {
-  content: ""; }
+  content: ""; }
 
 .icon-angle-down:before {
-  content: ""; }
+  content: ""; }
 
 .icon-desktop:before {
-  content: ""; }
+  content: ""; }
 
 .icon-laptop:before {
-  content: ""; }
+  content: ""; }
 
 .icon-tablet:before {
-  content: ""; }
+  content: ""; }
 
 .icon-mobile-phone:before,
 .icon-mobile:before,
 .icon-mobile-phone:before {
-  content: ""; }
+  content: ""; }
 
 .icon-circle-o:before, .icon-circle-blank:before {
-  content: ""; }
+  content: ""; }
 
 .icon-quote-left:before {
-  content: ""; }
+  content: ""; }
 
 .icon-quote-right:before {
-  content: ""; }
+  content: ""; }
 
 .icon-spinner:before {
-  content: ""; }
+  content: ""; }
 
 .icon-circle:before {
-  content: ""; }
+  content: ""; }
 
 .icon-mail-reply:before,
 .icon-reply:before {
-  content: ""; }
+  content: ""; }
 
 .icon-github-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-folder-o:before, .icon-folder-close-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-folder-open-o:before, .icon-folder-open-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-smile-o:before, .icon-smile:before {
-  content: ""; }
+  content: ""; }
 
 .icon-frown-o:before, .icon-frown:before {
-  content: ""; }
+  content: ""; }
 
 .icon-meh-o:before, .icon-meh:before {
-  content: ""; }
+  content: ""; }
 
 .icon-gamepad:before {
-  content: ""; }
+  content: ""; }
 
 .icon-keyboard-o:before, .icon-keyboard:before {
-  content: ""; }
+  content: ""; }
 
 .icon-flag-o:before, .icon-flag-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-flag-checkered:before {
-  content: ""; }
+  content: ""; }
 
 .icon-terminal:before {
-  content: ""; }
+  content: ""; }
 
 .icon-code:before {
-  content: ""; }
+  content: ""; }
 
 .icon-mail-reply-all:before,
 .icon-reply-all:before {
-  content: ""; }
+  content: ""; }
 
 .icon-star-half-empty:before,
 .icon-star-half-full:before,
 .icon-star-half-o:before,
 .icon-star-half-empty:before {
-  content: ""; }
+  content: ""; }
 
 .icon-location-arrow:before {
-  content: ""; }
+  content: ""; }
 
 .icon-crop:before {
-  content: ""; }
+  content: ""; }
 
 .icon-code-fork:before {
-  content: ""; }
+  content: ""; }
 
 .icon-unlink:before,
 .icon-chain-broken:before,
 .icon-unlink:before {
-  content: ""; }
+  content: ""; }
 
 .icon-question:before {
-  content: ""; }
+  content: ""; }
 
 .icon-info:before {
-  content: ""; }
+  content: ""; }
 
 .icon-exclamation:before {
-  content: ""; }
+  content: ""; }
 
 .icon-superscript:before {
-  content: ""; }
+  content: ""; }
 
 .icon-subscript:before {
-  content: ""; }
+  content: ""; }
 
 .icon-eraser:before {
-  content: ""; }
+  content: ""; }
 
 .icon-puzzle-piece:before {
-  content: ""; }
+  content: ""; }
 
 .icon-microphone:before {
-  content: ""; }
+  content: ""; }
 
 .icon-microphone-slash:before, .icon-microphone-off:before {
-  content: ""; }
+  content: ""; }
 
 .icon-shield:before {
-  content: ""; }
+  content: ""; }
 
 .icon-calendar-o:before, .icon-calendar-empty:before {
-  content: ""; }
+  content: ""; }
 
 .icon-fire-extinguisher:before {
-  content: ""; }
+  content: ""; }
 
 .icon-rocket:before {
-  content: ""; }
+  content: ""; }
 
 .icon-maxcdn:before {
-  content: ""; }
+  content: ""; }
 
 .icon-chevron-circle-left:before, .icon-chevron-sign-left:before {
-  content: ""; }
+  content: ""; }
 
 .icon-chevron-circle-right:before, .icon-chevron-sign-right:before {
-  content: ""; }
+  content: ""; }
 
 .icon-chevron-circle-up:before, .icon-chevron-sign-up:before {
-  content: ""; }
+  content: ""; }
 
 .icon-chevron-circle-down:before, .icon-chevron-sign-down:before {
-  content: ""; }
+  content: ""; }
 
 .icon-html5:before {
-  content: ""; }
+  content: ""; }
 
 .icon-css3:before {
-  content: ""; }
+  content: ""; }
 
 .icon-anchor:before {
-  content: ""; }
+  content: ""; }
 
 .icon-unlock-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-bullseye:before {
-  content: ""; }
+  content: ""; }
 
 .icon-ellipsis-h:before, .icon-ellipsis-horizontal:before {
-  content: ""; }
+  content: ""; }
 
 .icon-ellipsis-v:before, .icon-ellipsis-vertical:before {
-  content: ""; }
+  content: ""; }
 
 .icon-rss-square:before, .icon-rss-sign:before {
-  content: ""; }
+  content: ""; }
 
 .icon-play-circle:before, .icon-play-sign:before {
-  content: ""; }
+  content: ""; }
 
 .icon-ticket:before {
-  content: ""; }
+  content: ""; }
 
 .icon-minus-square:before, .icon-minus-sign-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-minus-square-o:before, .icon-check-minus:before, .icon-collapse-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-level-up:before {
-  content: ""; }
+  content: ""; }
 
 .icon-level-down:before {
-  content: ""; }
+  content: ""; }
 
 .icon-check-square:before, .icon-check-sign:before {
-  content: ""; }
+  content: ""; }
 
 .icon-pencil-square:before, .icon-edit-sign:before {
-  content: ""; }
+  content: ""; }
 
 .icon-external-link-square:before, .icon-external-link-sign:before {
-  content: ""; }
+  content: ""; }
 
 .icon-share-square:before, .icon-share-sign:before {
-  content: ""; }
+  content: ""; }
 
 .icon-compass:before {
-  content: ""; }
+  content: ""; }
 
 .icon-toggle-down:before,
 .icon-caret-square-o-down:before,
 .icon-collapse:before {
-  content: ""; }
+  content: ""; }
 
 .icon-toggle-up:before,
 .icon-caret-square-o-up:before,
 .icon-collapse-top:before {
-  content: ""; }
+  content: ""; }
 
 .icon-toggle-right:before,
 .icon-caret-square-o-right:before {
-  content: ""; }
+  content: ""; }
 
 .icon-euro:before,
 .icon-eur:before {
-  content: ""; }
+  content: ""; }
 
 .icon-gbp:before {
-  content: ""; }
+  content: ""; }
 
 .icon-dollar:before,
 .icon-usd:before {
-  content: ""; }
+  content: ""; }
 
 .icon-rupee:before,
 .icon-inr:before {
-  content: ""; }
+  content: ""; }
 
 .icon-cny:before,
 .icon-rmb:before,
 .icon-yen:before,
 .icon-jpy:before {
-  content: ""; }
+  content: ""; }
 
 .icon-ruble:before,
 .icon-rouble:before,
 .icon-rub:before,
 .icon-cny:before {
-  content: ""; }
+  content: ""; }
 
 .icon-won:before,
 .icon-krw:before {
-  content: ""; }
+  content: ""; }
 
 .icon-bitcoin:before,
 .icon-btc:before {
-  content: ""; }
+  content: ""; }
 
 .icon-file:before {
-  content: ""; }
+  content: ""; }
 
 .icon-file-text:before {
-  content: ""; }
+  content: ""; }
 
 .icon-sort-alpha-asc:before, .icon-sort-by-alphabet:before {
-  content: ""; }
+  content: ""; }
 
 .icon-sort-alpha-desc:before, .icon-sort-by-alphabet-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-sort-amount-asc:before, .icon-sort-by-attributes:before {
-  content: ""; }
+  content: ""; }
 
 .icon-sort-amount-desc:before, .icon-sort-by-attributes-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-sort-numeric-asc:before, .icon-sort-by-order:before {
-  content: ""; }
+  content: ""; }
 
 .icon-sort-numeric-desc:before, .icon-sort-by-order-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-thumbs-up:before {
-  content: ""; }
+  content: ""; }
 
 .icon-thumbs-down:before {
-  content: ""; }
+  content: ""; }
 
 .icon-youtube-square:before, .icon-youtube-sign:before {
-  content: ""; }
+  content: ""; }
 
 .icon-youtube:before {
-  content: ""; }
+  content: ""; }
 
 .icon-xing:before {
-  content: ""; }
+  content: ""; }
 
 .icon-xing-square:before, .icon-xing-sign:before {
-  content: ""; }
+  content: ""; }
 
 .icon-youtube-play:before {
-  content: ""; }
+  content: ""; }
 
 .icon-dropbox:before {
-  content: ""; }
+  content: ""; }
 
 .icon-stack-overflow:before, .icon-stackexchange:before {
-  content: ""; }
+  content: ""; }
 
 .icon-instagram:before {
-  content: ""; }
+  content: ""; }
 
 .icon-flickr:before {
-  content: ""; }
+  content: ""; }
 
 .icon-adn:before {
-  content: ""; }
+  content: ""; }
 
 .icon-bitbucket:before {
-  content: ""; }
+  content: ""; }
 
 .icon-bitbucket-square:before, .icon-bitbucket-sign:before {
-  content: ""; }
+  content: ""; }
 
 .icon-tumblr:before {
-  content: ""; }
+  content: ""; }
 
 .icon-tumblr-square:before, .icon-tumblr-sign:before {
-  content: ""; }
+  content: ""; }
 
 .icon-long-arrow-down:before {
-  content: ""; }
+  content: ""; }
 
 .icon-long-arrow-up:before {
-  content: ""; }
+  content: ""; }
 
 .icon-long-arrow-left:before {
-  content: ""; }
+  content: ""; }
 
 .icon-long-arrow-right:before {
-  content: ""; }
+  content: ""; }
 
 .icon-apple:before {
-  content: ""; }
+  content: ""; }
 
 .icon-windows:before {
-  content: ""; }
+  content: ""; }
 
 .icon-android:before {
-  content: ""; }
+  content: ""; }
 
 .icon-linux:before {
-  content: ""; }
+  content: ""; }
 
 .icon-dribbble:before {
-  content: ""; }
+  content: ""; }
 
 .icon-skype:before {
-  content: ""; }
+  content: ""; }
 
 .icon-foursquare:before {
-  content: ""; }
+  content: ""; }
 
 .icon-trello:before {
-  content: ""; }
+  content: ""; }
 
 .icon-female:before {
-  content: ""; }
+  content: ""; }
 
 .icon-male:before {
-  content: ""; }
+  content: ""; }
 
 .icon-gittip:before,
 .icon-gratipay:before {
-  content: ""; }
+  content: ""; }
 
 .icon-sun-o:before, .icon-sun:before {
-  content: ""; }
+  content: ""; }
 
 .icon-moon-o:before, .icon-moon:before {
-  content: ""; }
+  content: ""; }
 
 .icon-archive:before {
-  content: ""; }
+  content: ""; }
 
 .icon-bug:before {
-  content: ""; }
+  content: ""; }
 
 .icon-vk:before {
-  content: ""; }
+  content: ""; }
 
 .icon-weibo:before {
-  content: ""; }
+  content: ""; }
 
 .icon-renren:before {
-  content: ""; }
+  content: ""; }
 
 .icon-pagelines:before {
-  content: ""; }
+  content: ""; }
 
 .icon-stack-exchange:before {
-  content: ""; }
+  content: ""; }
 
 .icon-arrow-circle-o-right:before {
-  content: ""; }
+  content: ""; }
 
 .icon-arrow-circle-o-left:before {
-  content: ""; }
+  content: ""; }
 
 .icon-toggle-left:before,
 .icon-caret-square-o-left:before {
-  content: ""; }
+  content: ""; }
 
 .icon-dot-circle-o:before {
-  content: ""; }
+  content: ""; }
 
 .icon-wheelchair:before {
-  content: ""; }
+  content: ""; }
 
 .icon-vimeo-square:before {
-  content: ""; }
+  content: ""; }
 
 .icon-turkish-lira:before,
 .icon-try:before {
-  content: ""; }
+  content: ""; }
 
 .icon-plus-square-o:before, .icon-expand-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-space-shuttle:before {
-  content: ""; }
+  content: ""; }
 
 .icon-slack:before {
-  content: ""; }
+  content: ""; }
 
 .icon-envelope-square:before {
-  content: ""; }
+  content: ""; }
 
 .icon-wordpress:before {
-  content: ""; }
+  content: ""; }
 
 .icon-openid:before {
-  content: ""; }
+  content: ""; }
 
 .icon-institution:before,
 .icon-bank:before,
 .icon-university:before {
-  content: ""; }
+  content: ""; }
 
 .icon-mortar-board:before,
 .icon-graduation-cap:before {
-  content: ""; }
+  content: ""; }
 
 .icon-yahoo:before {
-  content: ""; }
+  content: ""; }
 
 .icon-google:before {
-  content: ""; }
+  content: ""; }
 
 .icon-reddit:before {
-  content: ""; }
+  content: ""; }
 
 .icon-reddit-square:before {
-  content: ""; }
+  content: ""; }
 
 .icon-stumbleupon-circle:before {
-  content: ""; }
+  content: ""; }
 
 .icon-stumbleupon:before {
-  content: ""; }
+  content: ""; }
 
 .icon-delicious:before {
-  content: ""; }
+  content: ""; }
 
 .icon-digg:before {
-  content: ""; }
+  content: ""; }
 
 .icon-pied-piper:before {
-  content: ""; }
+  content: ""; }
 
 .icon-pied-piper-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-drupal:before {
-  content: ""; }
+  content: ""; }
 
 .icon-joomla:before {
-  content: ""; }
+  content: ""; }
 
 .icon-language:before {
-  content: ""; }
+  content: ""; }
 
 .icon-fax:before {
-  content: ""; }
+  content: ""; }
 
 .icon-building:before {
-  content: ""; }
+  content: ""; }
 
 .icon-child:before {
-  content: ""; }
+  content: ""; }
 
 .icon-paw:before {
-  content: ""; }
+  content: ""; }
 
 .icon-spoon:before {
-  content: ""; }
+  content: ""; }
 
 .icon-cube:before {
-  content: ""; }
+  content: ""; }
 
 .icon-cubes:before {
-  content: ""; }
+  content: ""; }
 
 .icon-behance:before {
-  content: ""; }
+  content: ""; }
 
 .icon-behance-square:before {
-  content: ""; }
+  content: ""; }
 
 .icon-steam:before {
-  content: ""; }
+  content: ""; }
 
 .icon-steam-square:before {
-  content: ""; }
+  content: ""; }
 
 .icon-recycle:before {
-  content: ""; }
+  content: ""; }
 
 .icon-automobile:before,
 .icon-car:before {
-  content: ""; }
+  content: ""; }
 
 .icon-cab:before,
 .icon-taxi:before {
-  content: ""; }
+  content: ""; }
 
 .icon-tree:before {
-  content: ""; }
+  content: ""; }
 
 .icon-spotify:before {
-  content: ""; }
+  content: ""; }
 
 .icon-deviantart:before {
-  content: ""; }
+  content: ""; }
 
 .icon-soundcloud:before {
-  content: ""; }
+  content: ""; }
 
 .icon-database:before {
-  content: ""; }
+  content: ""; }
 
 .icon-file-pdf-o:before {
-  content: ""; }
+  content: ""; }
 
 .icon-file-word-o:before {
-  content: ""; }
+  content: ""; }
 
 .icon-file-excel-o:before {
-  content: ""; }
+  content: ""; }
 
 .icon-file-powerpoint-o:before {
-  content: ""; }
+  content: ""; }
 
 .icon-file-photo-o:before,
 .icon-file-picture-o:before,
 .icon-file-image-o:before {
-  content: ""; }
+  content: ""; }
 
 .icon-file-zip-o:before,
 .icon-file-archive-o:before {
-  content: ""; }
+  content: ""; }
 
 .icon-file-sound-o:before,
 .icon-file-audio-o:before {
-  content: ""; }
+  content: ""; }
 
 .icon-file-movie-o:before,
 .icon-file-video-o:before {
-  content: ""; }
+  content: ""; }
 
 .icon-file-code-o:before {
-  content: ""; }
+  content: ""; }
 
 .icon-vine:before {
-  content: ""; }
+  content: ""; }
 
 .icon-codepen:before {
-  content: ""; }
+  content: ""; }
 
 .icon-jsfiddle:before {
-  content: ""; }
+  content: ""; }
 
 .icon-life-bouy:before,
 .icon-life-buoy:before,
 .icon-life-saver:before,
 .icon-support:before,
 .icon-life-ring:before {
-  content: ""; }
+  content: ""; }
 
 .icon-circle-o-notch:before {
-  content: ""; }
+  content: ""; }
 
 .icon-ra:before,
 .icon-rebel:before {
-  content: ""; }
+  content: ""; }
 
 .icon-ge:before,
 .icon-empire:before {
-  content: ""; }
+  content: ""; }
 
 .icon-git-square:before {
-  content: ""; }
+  content: ""; }
 
 .icon-git:before {
-  content: ""; }
+  content: ""; }
 
 .icon-hacker-news:before {
-  content: ""; }
+  content: ""; }
 
 .icon-tencent-weibo:before {
-  content: ""; }
+  content: ""; }
 
 .icon-qq:before {
-  content: ""; }
+  content: ""; }
 
 .icon-wechat:before,
 .icon-weixin:before {
-  content: ""; }
+  content: ""; }
 
 .icon-send:before,
 .icon-paper-plane:before {
-  content: ""; }
+  content: ""; }
 
 .icon-send-o:before,
 .icon-paper-plane-o:before {
-  content: ""; }
+  content: ""; }
 
 .icon-history:before {
-  content: ""; }
+  content: ""; }
 
 .icon-genderless:before,
 .icon-circle-thin:before {
-  content: ""; }
+  content: ""; }
 
 .icon-header:before {
-  content: ""; }
+  content: ""; }
 
 .icon-paragraph:before {
-  content: ""; }
+  content: ""; }
 
 .icon-sliders:before {
-  content: ""; }
+  content: ""; }
 
 .icon-share-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-share-alt-square:before {
-  content: ""; }
+  content: ""; }
 
 .icon-bomb:before {
-  content: ""; }
+  content: ""; }
 
 .icon-soccer-ball-o:before,
 .icon-futbol-o:before {
-  content: ""; }
+  content: ""; }
 
 .icon-tty:before {
-  content: ""; }
+  content: ""; }
 
 .icon-binoculars:before {
-  content: ""; }
+  content: ""; }
 
 .icon-plug:before {
-  content: ""; }
+  content: ""; }
 
 .icon-slideshare:before {
-  content: ""; }
+  content: ""; }
 
 .icon-twitch:before {
-  content: ""; }
+  content: ""; }
 
 .icon-yelp:before {
-  content: ""; }
+  content: ""; }
 
 .icon-newspaper-o:before {
-  content: ""; }
+  content: ""; }
 
 .icon-wifi:before {
-  content: ""; }
+  content: ""; }
 
 .icon-calculator:before {
-  content: ""; }
+  content: ""; }
 
 .icon-paypal:before {
-  content: ""; }
+  content: ""; }
 
 .icon-google-wallet:before {
-  content: ""; }
+  content: ""; }
 
 .icon-cc-visa:before {
-  content: ""; }
+  content: ""; }
 
 .icon-cc-mastercard:before {
-  content: ""; }
+  content: ""; }
 
 .icon-cc-discover:before {
-  content: ""; }
+  content: ""; }
 
 .icon-cc-amex:before {
-  content: ""; }
+  content: ""; }
 
 .icon-cc-paypal:before {
-  content: ""; }
+  content: ""; }
 
 .icon-cc-stripe:before {
-  content: ""; }
+  content: ""; }
 
 .icon-bell-slash:before {
-  content: ""; }
+  content: ""; }
 
 .icon-bell-slash-o:before {
-  content: ""; }
+  content: ""; }
 
 .icon-trash:before {
-  content: ""; }
+  content: ""; }
 
 .icon-copyright:before {
-  content: ""; }
+  content: ""; }
 
 .icon-at:before {
-  content: ""; }
+  content: ""; }
 
 .icon-eyedropper:before {
-  content: ""; }
+  content: ""; }
 
 .icon-paint-brush:before {
-  content: ""; }
+  content: ""; }
 
 .icon-birthday-cake:before {
-  content: ""; }
+  content: ""; }
 
 .icon-area-chart:before {
-  content: ""; }
+  content: ""; }
 
 .icon-pie-chart:before {
-  content: ""; }
+  content: ""; }
 
 .icon-line-chart:before {
-  content: ""; }
+  content: ""; }
 
 .icon-lastfm:before {
-  content: ""; }
+  content: ""; }
 
 .icon-lastfm-square:before {
-  content: ""; }
+  content: ""; }
 
 .icon-toggle-off:before {
-  content: ""; }
+  content: ""; }
 
 .icon-toggle-on:before {
-  content: ""; }
+  content: ""; }
 
 .icon-bicycle:before {
-  content: ""; }
+  content: ""; }
 
 .icon-bus:before {
-  content: ""; }
+  content: ""; }
 
 .icon-ioxhost:before {
-  content: ""; }
+  content: ""; }
 
 .icon-angellist:before {
-  content: ""; }
+  content: ""; }
 
 .icon-cc:before {
-  content: ""; }
+  content: ""; }
 
 .icon-shekel:before,
 .icon-sheqel:before,
 .icon-ils:before {
-  content: ""; }
+  content: ""; }
 
 .icon-meanpath:before {
-  content: ""; }
+  content: ""; }
 
 .icon-buysellads:before {
-  content: ""; }
+  content: ""; }
 
 .icon-connectdevelop:before {
-  content: ""; }
+  content: ""; }
 
 .icon-dashcube:before {
-  content: ""; }
+  content: ""; }
 
 .icon-forumbee:before {
-  content: ""; }
+  content: ""; }
 
 .icon-leanpub:before {
-  content: ""; }
+  content: ""; }
 
 .icon-sellsy:before {
-  content: ""; }
+  content: ""; }
 
 .icon-shirtsinbulk:before {
-  content: ""; }
+  content: ""; }
 
 .icon-simplybuilt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-skyatlas:before {
-  content: ""; }
+  content: ""; }
 
 .icon-cart-plus:before {
-  content: ""; }
+  content: ""; }
 
 .icon-cart-arrow-down:before {
-  content: ""; }
+  content: ""; }
 
 .icon-diamond:before {
-  content: ""; }
+  content: ""; }
 
 .icon-ship:before {
-  content: ""; }
+  content: ""; }
 
 .icon-user-secret:before {
-  content: ""; }
+  content: ""; }
 
 .icon-motorcycle:before {
-  content: ""; }
+  content: ""; }
 
 .icon-street-view:before {
-  content: ""; }
+  content: ""; }
 
 .icon-heartbeat:before {
-  content: ""; }
+  content: ""; }
 
 .icon-venus:before {
-  content: ""; }
+  content: ""; }
 
 .icon-mars:before {
-  content: ""; }
+  content: ""; }
 
 .icon-mercury:before {
-  content: ""; }
+  content: ""; }
 
 .icon-transgender:before {
-  content: ""; }
+  content: ""; }
 
 .icon-transgender-alt:before {
-  content: ""; }
+  content: ""; }
 
 .icon-venus-double:before {
-  content: ""; }
+  content: ""; }
 
 .icon-mars-double:before {
-  content: ""; }
+  content: ""; }
 
 .icon-venus-mars:before {
-  content: ""; }
+  content: ""; }
 
 .icon-mars-stroke:before {
-  content: ""; }
+  content: ""; }
 
 .icon-mars-stroke-v:before {
-  content: ""; }
+  content: ""; }
 
 .icon-mars-stroke-h:before {
-  content: ""; }
+  content: ""; }
 
 .icon-neuter:before {
-  content: ""; }
+  content: ""; }
 
 .icon-facebook-official:before {
-  content: ""; }
+  content: ""; }
 
 .icon-pinterest-p:before {
-  content: ""; }
+  content: ""; }
 
 .icon-whatsapp:before {
-  content: ""; }
+  content: ""; }
 
 .icon-server:before {
-  content: ""; }
+  content: ""; }
 
 .icon-user-plus:before {
-  content: ""; }
+  content: ""; }
 
 .icon-user-times:before {
-  content: ""; }
+  content: ""; }
 
 .icon-hotel:before,
 .icon-bed:before {
-  content: ""; }
+  content: ""; }
 
 .icon-viacoin:before {
-  content: ""; }
+  content: ""; }
 
 .icon-train:before {
-  content: ""; }
+  content: ""; }
 
 .icon-subway:before {
-  content: ""; }
+  content: ""; }
 
 .icon-medium:before {
-  content: ""; }
+  content: ""; }
 
 a:hover {
   text-decoration: none; }
@@ -6537,7 +6537,7 @@ table.table_block td {
      .block h4:after {
        display: block;
        font-family: "FontAwesome";
-       content: "";
+       content: "";
        position: absolute;
        right: 0;
        top: 15px;
@@ -6547,7 +6547,7 @@ table.table_block td {
        font-weight: normal; }
      .block .title_block.active:after,
      .block h4.active:after {
-       content: ""; } }
+       content: ""; } }
  .block .title_block a,
  .block h4 a {
    color: #555454; }
@@ -6617,7 +6617,7 @@ table.table_block td {
 .page-heading {
  font-size: 34px;
  line-height: 24px;
- font-family: "PTSerifRegular", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; 
+ font-family: "PTSerifRegular", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
  padding: 20px 0px 17px 0px;
  margin-bottom: 30px;
  overflow: hidden; }
@@ -8968,7 +8968,7 @@ header .shop_phone_img{
     margin-top: 25px; }
 #content .product-item-name {
     line-height: 26px;
-    font-size: 18px; 
+    font-size: 18px;
     height: 50px;
     overflow: hidden;}
 #content .product-item-description {
@@ -9467,7 +9467,7 @@ a#filter-button.product-item-more{
     margin: top;
     margin-top: 20px;
 }
-/* Правки стилей */ 
+/* Правки стилей */
 .quantity-top-wrap{
   line-height: 23px;
   display: inline-block;
@@ -9501,20 +9501,20 @@ a#filter-button.product-item-more{
 
 h1#choose_delivery,
 #payments_section h1{
-  font-family: "PTSerifRegular", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;   
+  font-family: "PTSerifRegular", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   margin-top: 80px;
 }
 
 #payments_section h1{
-  font-family: "PTSerifRegular", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;   
+  font-family: "PTSerifRegular", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   margin-top: 30px;
 }
 
 table#carrierTable td label{
   font-family: "OpenSansRegular", sans-serif;
   font-size: 16px;
-  line-height: 24px; 
-  font-weight: normal; 
+  line-height: 24px;
+  font-weight: normal;
   display: block;
     cursor: pointer;
    /* background: url("../img/radio.png") no-repeat 0 50%;*/
@@ -9804,6 +9804,14 @@ opacity: 0;
 }
 .cat_desc a:hover{
   color: #bf6d3b;
+}
+#cms #center_column p{
+	line-height: 24px !important;
+}
+.manuf-light li p img, .manuf-light-main li p img{
+	max-width: 100%;
+	max-height: 100%;
+	filter: none;
 }
 /*raund adaptive*/
 

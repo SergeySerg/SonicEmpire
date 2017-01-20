@@ -556,13 +556,8 @@ class AdminCategoriesControllerCore extends AdminController
                     'autoload_rte' => true,
                     'lang' => true,
                     'hint' => $this->l('Invalid characters:').' <>;=#{}'
-<<<<<<< HEAD
-                ),
-                /*array(
-=======
                 ),/*
                 array(
->>>>>>> 743f2adcdb250ced04b4907b68a862aeae971369
                     'type' => 'file',
                     'label' => $this->l('Category Cover Image'),
                     'name' => 'image',
