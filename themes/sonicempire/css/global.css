@@ -7874,12 +7874,16 @@ p.cheque-indent {
     width: 269px; }
 
 .order-confirmation.box {
-  line-height: 29px; }
+  line-height: 29px;}
   .order-confirmation.box a {
     text-decoration: underline; }
     .order-confirmation.box a:hover {
       text-decoration: none; }
 
+.order-img{
+  width: 60%;
+  margin-left: 20%;
+}
 .delivery_option_carrier td {
   width: 200px; }
 
@@ -9966,6 +9970,10 @@ opacity: 0;
 
   #content{
     padding-bottom: 20px;
+  }
+  .order-img{
+    width: 100%;
+    margin-left: 0;
   }
   footer{
     min-height:230px;

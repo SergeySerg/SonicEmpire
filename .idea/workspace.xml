@@ -3,118 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="211ec9f5-0f63-43d3-86e1-692c964afc4d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/CHANGELOG.txt" afterPath="$PROJECT_DIR$/modules/onepagecheckout/CHANGELOG.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/LICENSE.txt" afterPath="$PROJECT_DIR$/modules/onepagecheckout/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/config.xml" afterPath="$PROJECT_DIR$/modules/onepagecheckout/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/config_.xml" afterPath="$PROJECT_DIR$/modules/onepagecheckout/config_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/config_ru.xml" afterPath="$PROJECT_DIR$/modules/onepagecheckout/config_ru.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/mails/en/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/mails/en/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/mails/en/support_request.html" afterPath="$PROJECT_DIR$/modules/onepagecheckout/mails/en/support_request.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/mails/en/support_request.txt" afterPath="$PROJECT_DIR$/modules/onepagecheckout/mails/en/support_request.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/mails/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/mails/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/onepagecheckout.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/onepagecheckout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/override/classes/Address.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/override/classes/Address.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/override/classes/Cart.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/override/classes/Cart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/override/classes/Customer.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/override/classes/Customer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/override/classes/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/override/classes/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/override/controllers/front/AddressController.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/override/controllers/front/AddressController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/override/controllers/front/AuthController.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/override/controllers/front/AuthController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/override/controllers/front/OrderOpcController.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/override/controllers/front/OrderOpcController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/override/controllers/front/ParentOrderController.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/override/controllers/front/ParentOrderController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/override/controllers/front/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/override/controllers/front/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/override/controllers/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/override/controllers/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/override/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/override/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/translations/cs.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/translations/cs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/translations/da.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/translations/da.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/translations/de.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/translations/de.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/translations/el.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/translations/el.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/translations/en-orig.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/translations/en-orig.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/translations/es.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/translations/es.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/translations/fi.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/translations/fi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/translations/fr.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/translations/fr.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/translations/he.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/translations/he.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/translations/hu.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/translations/hu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/translations/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/translations/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/translations/it.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/translations/it.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/translations/lt.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/translations/lt.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/translations/nl.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/translations/nl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/translations/no.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/translations/no.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/translations/pl.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/translations/pl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/translations/pt.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/translations/pt.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/translations/ro.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/translations/ro.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/translations/ru.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/translations/ru.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/translations/sk.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/translations/sk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/translations/sv.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/translations/sv.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/README-STYLING.txt" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/README-STYLING.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/base-custom.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/base-custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/base.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/bo.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/bo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/responsive-alt.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/responsive-alt.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/responsive.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/single-column-custom.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/single-column-custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/single-column.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/single-column.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/MegaShop/base.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/MegaShop/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/MegaShop/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/MegaShop/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/alysum_2.0/base.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/alysum_2.0/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/alysum_2.0/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/alysum_2.0/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/autumn/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/autumn/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/autumn/two-column.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/autumn/two-column.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/default-bootstrap/base-custom.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/default-bootstrap/base-custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/default-bootstrap/base.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/default-bootstrap/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/default-bootstrap/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/default-bootstrap/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/default-bootstrap/three-column-custom.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/default-bootstrap/three-column-custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/default-bootstrap/three-column.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/default-bootstrap/three-column.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/default/base.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/default/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/default/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/default/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/leobuy/base.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/leobuy/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/leobuy/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/leobuy/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/leocity/base.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/leocity/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/leocity/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/leocity/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/leometr/base.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/leometr/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/leometr/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/leometr/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/liteblue/base.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/liteblue/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/liteblue/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/liteblue/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/matrice/base.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/matrice/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/matrice/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/matrice/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/prestashop/base.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/prestashop/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/prestashop/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/prestashop/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/pt_marris/base.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/pt_marris/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/pt_marris/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/pt_marris/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/theme485/base.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/theme485/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/theme485/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/theme485/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/transformer/base.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/transformer/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/transformer/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/transformer/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/warehouse/base.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/warehouse/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/warehouse/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/themes/warehouse/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/three-column-custom.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/three-column-custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/three-column.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/three-column.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/two-column-custom.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/two-column-custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/two-column.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/two-column.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/img/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/img/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/js/bo.js" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/js/bo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/js/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/js/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/js/jquery_cookie.js" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/js/jquery_cookie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/js/order-opc.js" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/js/order-opc.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/js/statesManagement.js" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/js/statesManagement.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/README-OVERRIDE.txt" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/README-OVERRIDE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/free-order-payment.tpl" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/free-order-payment.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/info-block-content.tpl" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/info-block-content.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-carrier-def.tpl" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-carrier-def.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-carrier.tpl" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-carrier.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-opc-new-account.tpl" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-opc-new-account.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-opc.tpl" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-opc.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-payment.tpl" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-payment.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/payment-methods.tpl" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/payment-methods.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/shopping-cart-product-line.tpl" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/shopping-cart-product-line.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/shopping-cart.tpl" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/shopping-cart.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/index.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sonicempire/css/global.css" afterPath="$PROJECT_DIR$/themes/sonicempire/css/global.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sonicempire/header.tpl" afterPath="$PROJECT_DIR$/themes/sonicempire/header.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sonicempire/modules/cashondelivery/views/templates/hook/confirmation.tpl" afterPath="$PROJECT_DIR$/themes/sonicempire/modules/cashondelivery/views/templates/hook/confirmation.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sonicempire/modules/cheque/views/templates/hook/payment_return.tpl" afterPath="$PROJECT_DIR$/themes/sonicempire/modules/cheque/views/templates/hook/payment_return.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sonicempire/order-confirmation.tpl" afterPath="$PROJECT_DIR$/themes/sonicempire/order-confirmation.tpl" />
     </list>
     <ignored path="sonicempire.my.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -139,71 +32,49 @@
       <file leaf-file-name="global.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/sonicempire/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="10429" column="20" selection-start-line="10429" selection-start-column="20" selection-end-line="10429" selection-end-column="20" />
+            <state relative-caret-position="419">
+              <caret line="9976" column="3" selection-start-line="9976" selection-start-column="3" selection-end-line="9976" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="order-opc-new-account.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-opc-new-account.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1133">
-              <caret line="227" column="16" selection-start-line="227" selection-start-column="16" selection-end-line="227" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.tpl" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.tpl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/sonicempire/header.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="20" column="76" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
+            <state relative-caret-position="425">
+              <caret line="43" column="92" selection-start-line="43" selection-start-column="92" selection-end-line="43" selection-end-column="92" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="info-block-content.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/info-block-content.tpl">
+      <file leaf-file-name="payment_return.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/sonicempire/modules/cheque/views/templates/hook/payment_return.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-131">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="145">
+              <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="confirmation.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/sonicempire/modules/cashondelivery/views/templates/hook/confirmation.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            <state relative-caret-position="430">
+              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="free-order-payment.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/free-order-payment.tpl">
+      <file leaf-file-name="order-confirmation.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/sonicempire/order-confirmation.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="243">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order-payment.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-payment.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-510">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1484924573681" expanded="true" signature="5745:5764" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -230,9 +101,12 @@
         <option value="$PROJECT_DIR$/themes/sonicempire/category.tpl" />
         <option value="$PROJECT_DIR$/modules/onepagecheckout/views/js/order-opc.js" />
         <option value="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-opc-new-account.tpl" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/themes/sonicempire/order-confirmation.tpl" />
+        <option value="$PROJECT_DIR$/themes/sonicempire/modules/cashondelivery/views/templates/hook/confirmation.tpl" />
+        <option value="$PROJECT_DIR$/themes/sonicempire/modules/cheque/views/templates/hook/payment_return.tpl" />
         <option value="$PROJECT_DIR$/themes/sonicempire/css/global.css" />
         <option value="$PROJECT_DIR$/themes/sonicempire/header.tpl" />
-        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -277,6 +151,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ColorIdeProjectViewPane">
         <subPane>
           <PATH>
@@ -295,9 +170,40 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sonicempire.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sonicempire.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sonicempire.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sonicempire.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sonicempire" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -386,12 +292,13 @@
       <workItem from="1484660685574" duration="799000" />
       <workItem from="1484900096995" duration="854000" />
       <workItem from="1484917542158" duration="57000" />
-      <workItem from="1484918875832" duration="6912000" />
+      <workItem from="1484918875832" duration="7543000" />
+      <workItem from="1485176234090" duration="5209000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57478000" />
+    <option name="totallyTimeSpent" value="63318000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="414" width="1382" height="744" extended-state="6" />
@@ -401,6 +308,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -411,7 +319,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -434,83 +341,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/sonicempire/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163047">
-          <caret line="9591" column="9" selection-start-line="9591" selection-start-column="9" selection-end-line="9591" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sonicempire/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sonicempire/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149022">
-          <caret line="8766" column="16" selection-start-line="8766" selection-start-column="16" selection-end-line="8766" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sonicempire/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sonicempire/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148835">
-          <caret line="8755" column="13" selection-start-line="8755" selection-start-column="13" selection-end-line="8755" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sonicempire/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sonicempire/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148835">
-          <caret line="8755" column="13" selection-start-line="8755" selection-start-column="13" selection-end-line="8755" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sonicempire/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sonicempire/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="32" column="43" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../test.loc/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -663,14 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="61" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-opc.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="59" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -685,7 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -734,7 +555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="42" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,30 +562,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sonicempire/css/global.css">
+    <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="10429" column="20" selection-start-line="10429" selection-start-column="20" selection-end-line="10429" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sonicempire/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="20" column="76" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/info-block-content.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-131">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-carrier.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/translations/ru.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/translations/en-orig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-opc.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2137">
+          <caret line="10" column="59" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-opc-new-account.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="227" column="16" selection-start-line="227" selection-start-column="16" selection-end-line="227" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -780,7 +631,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-payment.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510">
+        <state relative-caret-position="-2805">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1484924573681" expanded="true" signature="5745:5764" ph="..." />
@@ -788,18 +639,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-opc-new-account.tpl">
+    <entry file="file://$PROJECT_DIR$/themes/sonicempire/modules/cashondelivery/views/templates/hook/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1133">
-          <caret line="227" column="16" selection-start-line="227" selection-start-column="16" selection-end-line="227" selection-end-column="16" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/info-block-content.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        <state relative-caret-position="221">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sonicempire/modules/cashondelivery/views/templates/front/validation.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-352">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sonicempire/order-detail.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sonicempire/modules/cashondelivery/views/templates/hook/payment.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sonicempire/order-confirmation.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sonicempire/modules/cashondelivery/views/templates/hook/confirmation.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sonicempire/modules/cheque/views/templates/hook/payment_return.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sonicempire/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="9976" column="3" selection-start-line="9976" selection-start-column="3" selection-end-line="9976" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sonicempire/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="43" column="92" selection-start-line="43" selection-start-column="92" selection-end-line="43" selection-end-column="92" />
           <folding />
         </state>
       </provider>
