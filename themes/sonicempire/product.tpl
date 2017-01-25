@@ -72,7 +72,7 @@
 							</span>
 						{else}
 							<span id="view_full_size">
-								<img itemprop="image" src="{$img_prod_dir}{$lang_iso}-default-large_default.jpg" id="bigpic" alt="" title="{$product->name|escape:'html':'UTF-8'}" width="{$largeSize.width}" height="{$largeSize.height}"/>
+								<img itemprop="image" src="{$img_prod_dir}{$lang_iso}-default-large_default.jpg" id="bigpic" alt="" title="{$product->name|escape:'html':'UTF-8'}" width="100%"/>
 								{if !$content_only}
 									<span class="span_link">
 										{l s='View larger'}
@@ -256,7 +256,7 @@
 								 <!-- /Цена -->
 
 							 </div>
-							 <div class="col-xs-12 col-sm-6 col-md-6" style="padding: 0;">
+							 <div class="col-xs-12 col-sm-6 col-md-6 quantity-media" style="padding: 0;">
 							 <!--Блок вибора количества товара-->
 							 <div class="shopping-block-quantity">
 								 {if !$PS_CATALOG_MODE}
