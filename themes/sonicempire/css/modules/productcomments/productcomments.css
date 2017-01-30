@@ -170,7 +170,7 @@
   #new_comment_form #new_comment_form_footer {
     margin-top: 20px;
     font-size: 12px; }
- a{
+#new_comment_form a{
     color: #777777; }
 
 /* TAB COMMENTS ******************************************************************************** */
