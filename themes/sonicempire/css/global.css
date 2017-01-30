@@ -9882,7 +9882,10 @@ opacity: 0;
   }
 }
 @media (min-width:767px) and (max-width: 1200px) {
-
+  .quantity-media{
+    position: relative;
+    left: 40px;
+  }
 }
 
 @media (max-width: 991px){
@@ -10284,7 +10287,8 @@ body.stop-scrolling {
     margin-left: 0;
     margin-right: 0;
     left: 15px;
-    right: 15px; } }
+    right: 15px;
+    background-size: cover;} }
 .sweet-alert h2 {
   color: #575757;
   font-size: 30px;
