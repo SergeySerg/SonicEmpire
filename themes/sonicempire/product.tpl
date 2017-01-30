@@ -344,6 +344,8 @@
              <div class="col-md-12 more-describe">
                  <section>
                     <p> {$product->description}</p>
+					 <div class="share42init" data-url="{$link->getProductLink($product)}" data-title="{$product->name|escape:'html':'UTF-8'}" data-image="{$link->getImageLink($product->link_rewrite, $cover.id_image, 'large_default')|escape:'html':'UTF-8'}"></div>
+					 <script type="text/javascript" src="/share42/share42.js"></script>
                  </section>
              </div>
          <!--/Описание товара-->

@@ -9864,6 +9864,23 @@ opacity: 0;
   float: left;
   width: 60%;
 }
+.share42-item:first-child a:hover,
+.share42-item:nth-child(2) a:hover,
+.share42-item:nth-child(3) a:hover{
+  background-color: #929292 !important;
+}
+.share42-item a{
+  width: 100px !important;
+}
+.share42-item:first-child a{
+  background: #ffffff url("../../../img/soc.png") center 6px no-repeat !important;
+}
+.share42-item:nth-child(2) a{
+  background: #ffffff url("../../../img/soc.png") center -40px no-repeat !important;
+}
+.share42-item:nth-child(3) a{
+  background: #ffffff url("../../../img/soc.png") center -86px no-repeat !important;
+}
 @media (min-width:991px) and (max-width: 1200px) {
   header .top-nav-my ul{
     text-align: left;
@@ -9885,6 +9902,16 @@ opacity: 0;
   .quantity-media{
     position: relative;
     left: 40px;
+  }
+}
+@media (min-width:991px) and (max-width: 1200px) {
+  .quantity-media{
+    position: relative;
+    left: 60px;
+  }
+  #content .item-block .right-block .shopping-block button{
+    width: 160px;
+    margin-right: 20px;
   }
 }
 
@@ -10236,6 +10263,9 @@ opacity: 0;
     display: block;
     margin-left: 0;
     text-align: left;
+  }
+  .share42-item a{
+    width: 80px !important;
   }
 }
 /*END raund adaptive*/
