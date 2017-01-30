@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-01-11 17:41:29
+<?php /* Smarty version Smarty-3.1.19, created on 2017-01-31 00:21:10
          compiled from "E:\Webserver\domains\sonicempire.loc\modules\smartbloghomelatestnews\views\templates\front\smartblog_latest_news.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1455358765229c79f16-94859568%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'db101e7a06e38680071cc791fd6a44f53bba4ff9' => 
     array (
       0 => 'E:\\Webserver\\domains\\sonicempire.loc\\modules\\smartbloghomelatestnews\\views\\templates\\front\\smartblog_latest_news.tpl',
-      1 => 1482757512,
+      1 => 1485814865,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_58765229d01b29_68031418',
   'variables' => 
   array (
     'view_data' => 0,
@@ -22,8 +24,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'i' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58765229d01b29_68031418',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_58765229d01b29_68031418')) {function content_58765229d01b29_68031418($_smarty_tpl) {?><!--Скрипт выпидающего текста-->
 <script type="text/javascript">
@@ -51,9 +51,9 @@ $_smarty_tpl->tpl_vars['options']->value['slug'] = $_smarty_tpl->tpl_vars['post'
                     <div id="sds_blog_post">
                         <h1><?php echo $_smarty_tpl->tpl_vars['post']->value['title'];?>
 </h1>
-                        <section><p><?php echo $_smarty_tpl->tpl_vars['post']->value['short_description'];?>
+                        <section><p><?php echo mb_convert_encoding(htmlspecialchars($_smarty_tpl->tpl_vars['post']->value['short_description'], ENT_QUOTES, 'UTF-8', true), "HTML-ENTITIES", 'UTF-8');?>
 </p></section>
-                        <div class="spoiler-body" style="display: none;"><section><p><?php echo $_smarty_tpl->tpl_vars['post']->value['content'];?>
+                        <div class="spoiler-body" style="display: none;"><section><p><?php echo mb_convert_encoding(htmlspecialchars($_smarty_tpl->tpl_vars['post']->value['content'], ENT_QUOTES, 'UTF-8', true), "HTML-ENTITIES", 'UTF-8');?>
 </p></section></div>
                         <a href="#" class="more">Подробнее<i class="fa fa-angle-down"></i></a>
                     </div>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-01-11 17:41:30
+<?php /* Smarty version Smarty-3.1.19, created on 2017-01-31 00:21:11
          compiled from "E:\Webserver\domains\sonicempire.loc\themes\sonicempire\modules\blocksocial\blocksocial.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:290555876522a19f3c2-38100230%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'af66580531718d9f9b70c0b3fabd5e452eeadcab' => 
     array (
       0 => 'E:\\Webserver\\domains\\sonicempire.loc\\themes\\sonicempire\\modules\\blocksocial\\blocksocial.tpl',
-      1 => 1482757512,
+      1 => 1485814733,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5876522a2ac136_78338257',
   'variables' => 
   array (
     'youtube_url' => 0,
@@ -28,8 +30,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'base_dir' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5876522a2ac136_78338257',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5876522a2ac136_78338257')) {function content_5876522a2ac136_78338257($_smarty_tpl) {?><div id="social_block" class="social col-xs-12 col-sm-12 col-md-3">
 	<ul>
