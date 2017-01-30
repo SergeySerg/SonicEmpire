@@ -58,7 +58,7 @@
 	});
 
 </script>
-<script>
+{*<script>
     $(function(){
         var position = window.localStorage.getItem('currentScrollPos');
         if(position){
@@ -71,7 +71,7 @@
             window.localStorage.setItem('currentScrollPos', currentScrollPos);
         });
     });
-</script>
+</script>*}
 <!-- HelloPreload http://hello-site.ru/preloader/ -->
 	</body>
 </html>
