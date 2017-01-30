@@ -50,9 +50,11 @@
 					</div> <!-- .comment_author -->
 
 					<div class="comment_details col-sm-10">
+{*
 						<p itemprop="name" class="title_block">
 							<strong>{$comment.title}</strong>
 						</p>
+*}
 						<p itemprop="reviewBody">{$comment.content|escape:'html':'UTF-8'|nl2br}</p>
 						<ul>
 							{if $comment.total_advice > 0}
@@ -134,7 +136,7 @@
 						<ul id="criterions_list">
 						{foreach from=$criterions item='criterion'}
 							<li>
-								<label>{$criterion.name|escape:'html':'UTF-8'}:</label>
+								<label>Оценка:</label>
 								<div class="star_content">
 									<input class="star not_uniform" type="radio" name="criterion[{$criterion.id_product_comment_criterion|round}]" value="1" />
 									<input class="star not_uniform" type="radio" name="criterion[{$criterion.id_product_comment_criterion|round}]" value="2" />
@@ -147,10 +149,12 @@
 						{/foreach}
 						</ul>
 					{/if}
-					<label for="comment_title">
-						{l s='Title:' mod='productcomments'} <sup class="required">*</sup>
-					</label>
-					<input id="comment_title" name="title" type="text" value=""/>
+					<div style="display: none;">
+						<label for="comment_title">
+							{l s='Title:' mod='productcomments'} <sup class="required">*</sup>
+						</label>
+						<input id="comment_title" name="title" type="text" value="Отзыв"/>
+					</div>
 					<label for="content">
 						{l s='Comment:' mod='productcomments'} <sup class="required">*</sup>
 					</label>

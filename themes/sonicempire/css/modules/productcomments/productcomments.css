@@ -128,7 +128,7 @@
         color: #000; }
   #new_comment_form .new_comment_form_content {
     padding: 15px 25px 15px 15px;
-    background: #f8f8f8; }
+    background: #fff; }
     @media (max-width: 767px) {
       #new_comment_form .new_comment_form_content {
         padding-left: 25px; } }
@@ -170,6 +170,8 @@
   #new_comment_form #new_comment_form_footer {
     margin-top: 20px;
     font-size: 12px; }
+ a{
+    color: #777777; }
 
 /* TAB COMMENTS ******************************************************************************** */
 #product_comments_block_tab {
@@ -222,7 +224,7 @@
     padding-top: 9px; }
     #product_comments_block_tab .comment_author_infos strong {
       display: block;
-      color: #333; }
+      color: #fff; }
     #product_comments_block_tab .comment_author_infos em {
       color: #adadad; }
   #product_comments_block_tab a {
