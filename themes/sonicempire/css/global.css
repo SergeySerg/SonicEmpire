@@ -8748,6 +8748,14 @@ header .shop_phone_img{
     padding: 0 10px;}
 .manuf li:nth-child(7n) {
     margin-right: 0; }
+.manuf li.r-item-7,
+.manuf li.r-item-8,
+.manuf li.r-item-9,
+.manuf li.r-item-10,
+.manuf li.r-item-11,
+.manuf li.r-item-12,
+.manuf li.r-item-13{
+    width: 14.2%; }
 .manuf li img {
       max-width: 100%;
       max-height:100%;
@@ -9873,7 +9881,9 @@ opacity: 0;
     width: 47.5%;
   }
 }
+@media (min-width:767px) and (max-width: 1200px) {
 
+}
 
 @media (max-width: 991px){
   header{
