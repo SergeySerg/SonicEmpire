@@ -3,23 +3,15 @@ $(function(){
 	/*картинки од лого*/
 	$('.manuf-description-dropdown img').each(function () {
 		var parId = $(this).parents('li').attr('id');
-/*
-		console.info('Parent',parId);
-		console.info('.'+ parId +' .manuf-logo-dropdown .under-logo');
-*/
-
 		var imgDesc = $(this).attr('alt');
-		$(this).appendTo('#'+ parId +' .manuf-logo-dropdown .under-logo');
-		$('#'+ parId +' .manuf-logo-dropdown img[alt="'+ imgDesc +'"]').after(function () {
-			return '<p>' + imgDesc + '</p>';
-		});
+		var imgPath = $(this).attr('src');
+		$("<a class='gallery no-loader' rel="+ parId +" title='"+ imgDesc +"' href='"+ imgPath +"'><img src='"+ imgPath +"' /></a><p>" + imgDesc + "</p>").appendTo('#'+ parId +' .manuf-logo-dropdown .under-logo');
+		$('img[alt="'+ imgDesc +'"]').remove();
 	});
+	$(".gallery").fancybox();
 	$('.manuf-description-dropdown a.more').on("click", function () {
 		$('.under-logo').toggleClass('under-logo-active');
 	});
-/*
-	console.info('Img alt',imgDesc);
-*/
 	/*END картинки од лого*/
 	
 	
