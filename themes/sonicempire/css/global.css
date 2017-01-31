@@ -9825,11 +9825,28 @@ opacity: 0;
 	max-height: 100%;
 	filter: none;
 }
-/*raund adaptive*/
-
-#r-catalog-open,
-#r-filters-open{
+/*img under logo*/
+.under-logo{
   display: none;
+}
+.under-logo-active{
+  display: block;
+}
+.under-logo p{
+  line-height: initial;
+  padding: 10px;
+  color: #cccccc;
+}
+/*END img under logo*/
+
+/*raund adaptive*/
+#r-catalog-open,
+#r-filters-open,
+.under-logo{
+  display: none;
+}
+.under-logo-active{
+  display: block;
 }
 #r-catalog-open{
   padding-left: 0;

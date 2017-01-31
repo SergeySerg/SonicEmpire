@@ -1,4 +1,22 @@
 $(function(){
+	
+	/*картинки од лого*/
+	$('.manuf-description-dropdown img').each(function () {
+		var imgDesc = $(this).attr('alt');
+		$(this).appendTo('.manuf-logo-dropdown .under-logo');
+		$('.manuf-logo-dropdown img[alt="'+ imgDesc +'"]').after(function () {
+			return '<p>' + imgDesc + '</p>';
+		});
+	});
+	$('.manuf-description-dropdown a.more').on("click", function () {
+		$('.under-logo').toggleClass('under-logo-active');
+	});
+/*
+	console.info('Img alt',imgDesc);
+*/
+	/*END картинки од лого*/
+	
+	
 	$('.manuf li a').on('click', function (e) {
 		var $a = $(this);
 		$('#columns').animate({opacity: 0}, 500);

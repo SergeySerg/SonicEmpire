@@ -72,6 +72,7 @@
                                 <a href="{$link->getmanufacturerLink($manufacturer.id_manufacturer, $manufacturer.link_rewrite)|escape:'html'}" title="{l s='Подробнее о %s' sprintf=[$manufacturer.name] mod='mib'}">
                                     <img src="{$content_dir}img/m/{$manufacturer.image_url}" alt="{$manufacturer.name|escape:'html':'UTF-8'}"/>
                                 </a>
+                                <div class="under-logo"></div>
                             </div>
                             <div class="manuf-description-dropdown">
                                 {$manufacturer.short_description}
