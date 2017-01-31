@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-01-11 17:42:52
+<?php /* Smarty version Smarty-3.1.19, created on 2017-01-31 17:01:26
          compiled from "E:\Webserver\domains\sonicempire.loc\admin9377xbaxo\themes\default\template\controllers\products\shipping.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:55595876527c510e68-41854897%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:188075890a6c65ec506-89266741%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '55595876527c510e68-41854897',
+  'nocache_hash' => '188075890a6c65ec506-89266741',
   'function' => 
   array (
   ),
@@ -30,9 +30,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5876527c769500_97101009',
+  'unifunc' => 'content_5890a6c69342b7_45315806',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5876527c769500_97101009')) {function content_5876527c769500_97101009($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5890a6c69342b7_45315806')) {function content_5890a6c69342b7_45315806($_smarty_tpl) {?>
 <div id="product-shipping" class="panel product-tab" style="display: none">
 	<input type="hidden" name="submitted_tabs[]" value="Shipping" />
 	<h3><?php echo smartyTranslate(array('s'=>'Shipping'),$_smarty_tpl);?>

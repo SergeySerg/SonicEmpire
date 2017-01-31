@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-01-11 17:41:20
+<?php /* Smarty version Smarty-3.1.19, created on 2017-01-31 17:01:06
          compiled from "E:\Webserver\domains\sonicempire.loc\admin9377xbaxo\themes\default\template\nav.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:3834587652207f6366-37940877%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:209775890a6b2efdd33-25769731%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '335266fe3f3a11489c84036f01cfc71aa871a9c6' => 
     array (
       0 => 'E:\\Webserver\\domains\\sonicempire.loc\\admin9377xbaxo\\themes\\default\\template\\nav.tpl',
-      1 => 1482330750,
+      1 => 1485814747,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '3834587652207f6366-37940877',
+  'nocache_hash' => '209775890a6b2efdd33-25769731',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_587652209c9c82_82709886',
+  'unifunc' => 'content_5890a6b3064f42_31658585',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_587652209c9c82_82709886')) {function content_587652209c9c82_82709886($_smarty_tpl) {?><div class="bootstrap">
+<?php if ($_valid && !is_callable('content_5890a6b3064f42_31658585')) {function content_5890a6b3064f42_31658585($_smarty_tpl) {?><div class="bootstrap">
 	<nav id="<?php if ($_smarty_tpl->tpl_vars['employee']->value->bo_menu) {?>nav-sidebar<?php } else { ?>nav-topbar<?php }?>" role="navigation">
 		<?php if (!$_smarty_tpl->tpl_vars['tab']->value) {?>
 			<div class="mainsubtablist" style="display:none;"></div>
@@ -129,6 +129,13 @@ $_smarty_tpl->tpl_vars['t2']->_loop = true;
 					<span>Изменить конт. телефон</span>
 				</a>
 			</li>
+			<li class="maintab">
+				<a href='<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
+/admin9377xbaxo/index.php?controller=AdminModules&token=96546ed585126989fb2231c0986937cc&configure=mailalerts&tab_module=administration&module_name=mailalerts' class="title" >
+					<i class="icon-AdminSmartBlog"></i>
+					<span>Почта для получения уведомл. о заказах</span>
+				</a>
+			</li>
 		</ul>
 		<span class="menu-collapse">
 			<i class="icon-align-justify icon-rotate-90"></i>
@@ -136,5 +143,4 @@ $_smarty_tpl->tpl_vars['t2']->_loop = true;
 		<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->smartyHook(array('h'=>'displayAdminNavBarBeforeEnd'),$_smarty_tpl);?>
 
 	</nav>
-</div>
-<?php }} ?>
+</div><?php }} ?>

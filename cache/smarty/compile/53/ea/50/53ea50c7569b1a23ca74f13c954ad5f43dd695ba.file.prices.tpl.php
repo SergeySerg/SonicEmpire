@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-01-11 17:42:51
+<?php /* Smarty version Smarty-3.1.19, created on 2017-01-31 17:01:21
          compiled from "E:\Webserver\domains\sonicempire.loc\admin9377xbaxo\themes\default\template\controllers\products\prices.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:226945876527bc435a9-88439854%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:218765890a6c1abbff7-21703698%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '53ea50c7569b1a23ca74f13c954ad5f43dd695ba' => 
     array (
       0 => 'E:\\Webserver\\domains\\sonicempire.loc\\admin9377xbaxo\\themes\\default\\template\\controllers\\products\\prices.tpl',
-      1 => 1482143534,
+      1 => 1485874733,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '226945876527bc435a9-88439854',
+  'nocache_hash' => '218765890a6c1abbff7-21703698',
   'function' => 
   array (
   ),
@@ -31,7 +31,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'tax_rules_groups' => 0,
     'tax_rules_group' => 0,
     'ps_use_ecotax' => 0,
-    'unit_price' => 0,
     'ps_tax' => 0,
     'specificPriceModificationForm' => 0,
     'combinations' => 0,
@@ -49,9 +48,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5876527c9f39f8_78251349',
+  'unifunc' => 'content_5890a6c1e38c45_67891257',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5876527c9f39f8_78251349')) {function content_5876527c9f39f8_78251349($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5890a6c1e38c45_67891257')) {function content_5890a6c1e38c45_67891257($_smarty_tpl) {?>
 
 <script type="text/javascript">
 var Customer = new Object();
@@ -315,11 +314,8 @@ $_smarty_tpl->tpl_vars['tax_rules_group']->_loop = true;
 		</label>
 		<div class="col-lg-4">
 			<div class="input-group">
-				<span class="input-group-addon"><?php echo $_smarty_tpl->tpl_vars['currency']->value->prefix;?>
-<?php echo $_smarty_tpl->tpl_vars['currency']->value->suffix;?>
-</span>
-				<input id="unit_price" name="unit_price" type="text" value="<?php echo sprintf('%.6f',$_smarty_tpl->tpl_vars['unit_price']->value);?>
-" maxlength="27" onkeyup="if (isArrowKey(event)) return ;this.value = this.value.replace(/,/g, '.'); unitPriceWithTax('unit');"/>
+
+				<input id="unit_price" name="unit_price" type="hidden" value="" maxlength="27" onkeyup="if (isArrowKey(event)) return ;this.value = this.value.replace(/,/g, '.'); unitPriceWithTax('unit');"/>
 				<span class="input-group-addon"><?php echo smartyTranslate(array('s'=>'per'),$_smarty_tpl);?>
 </span>
 				<input id="unity" name="unity" type="text" value="<?php echo smarty_modifier_htmlentitiesUTF8($_smarty_tpl->tpl_vars['product']->value->unity);?>

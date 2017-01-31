@@ -31,6 +31,7 @@ $_LANG['product_2d0f6b8300be19cf35e89e66f0677f95'] = 'В корзину';
 $_LANG['product_7dcd185f890fd28f69d1ed210292d77f'] = 'Характеристики';
 $_LANG['product_98edb85b00d9527ad5acebe451b3fae6'] = 'Сопутствующие товары';
 $_LANG['product_d3da97e2d9aee5c8fbe03156ad051c99'] = 'Подробнее';
+$_LANG['product_fe3838c7c11aa406dd956566e17360d5'] = '/';
 $_LANG['search_05cf990f79d935b0ea6105855adef686'] = 'Вернуться на предыдущую страницу';
 $_LANG['search_13348442cc6a27032d2b4aa28b75a5d3'] = 'Поиск';
 $_LANG['search_3a93aed43691aed28d2ce3a53d3c63f8'] = '%d товар найден по вашему запросу';

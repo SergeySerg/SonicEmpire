@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-01-11 17:42:17
+<?php /* Smarty version Smarty-3.1.19, created on 2017-01-31 17:01:35
          compiled from "E:\Webserver\domains\sonicempire.loc\themes\sonicempire\product.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1159958765259566e34-51595827%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:38835890a6cfe05f13-36436731%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'e7fa71ffd0ed8ee93a79a86fb8a36f554a2d09a6' => 
     array (
       0 => 'E:\\Webserver\\domains\\sonicempire.loc\\themes\\sonicempire\\product.tpl',
-      1 => 1484145150,
+      1 => 1485871755,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1159958765259566e34-51595827',
+  'nocache_hash' => '38835890a6cfe05f13-36436731',
   'function' => 
   array (
   ),
@@ -56,10 +56,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'tax_enabled' => 0,
     'display_tax_label' => 0,
     'currency' => 0,
+    'unit_price' => 0,
     'packItems' => 0,
     'ecotax_tax_exc' => 0,
     'ecotax_tax_inc' => 0,
-    'unit_price' => 0,
     'allow_oosp' => 0,
     'quantityBackup' => 0,
     'PS_STOCK_MANAGEMENT' => 0,
@@ -109,9 +109,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5876525b92ec41_85971484',
+  'unifunc' => 'content_5890a6d0a8dcf9_15528030',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5876525b92ec41_85971484')) {function content_5876525b92ec41_85971484($_smarty_tpl) {?><?php if (!is_callable('smarty_function_math')) include 'E:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\function.math.php';
+<?php if ($_valid && !is_callable('content_5890a6d0a8dcf9_15528030')) {function content_5890a6d0a8dcf9_15528030($_smarty_tpl) {?><?php if (!is_callable('smarty_function_math')) include 'E:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\function.math.php';
 if (!is_callable('smarty_modifier_date_format')) include 'E:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\modifier.date_format.php';
 if (!is_callable('smarty_function_cycle')) include 'E:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\function.cycle.php';
 if (!is_callable('smarty_function_counter')) include 'E:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\function.counter.php';
@@ -420,14 +420,26 @@ $_smarty_tpl->tpl_vars['group_attribute']->_loop = true;
 								 <?php if ($_smarty_tpl->tpl_vars['product']->value->show_price&&!isset($_smarty_tpl->tpl_vars['restricted_country_mode']->value)&&!$_smarty_tpl->tpl_vars['PS_CATALOG_MODE']->value) {?>
 									 <!-- Цена -->
 									 <div class="shopping-block-price">
-										 <p class="our_price_display" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><?php if ($_smarty_tpl->tpl_vars['product']->value->quantity>0) {?><link itemprop="availability" href="https://schema.org/InStock"/><?php }?><?php if ($_smarty_tpl->tpl_vars['priceDisplay']->value>=0&&$_smarty_tpl->tpl_vars['priceDisplay']->value<=2) {?><span id="our_price_display" class="price" itemprop="price" content="<?php echo $_smarty_tpl->tpl_vars['productPrice']->value;?>
+										 <p class="our_price_display" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><?php if ($_smarty_tpl->tpl_vars['product']->value->quantity>0) {?><link itemprop="availability" href="https://schema.org/InStock"/><?php }?><?php if ($_smarty_tpl->tpl_vars['priceDisplay']->value>=0&&$_smarty_tpl->tpl_vars['priceDisplay']->value<=2) {?><span class="price" id="our_price_display1" itemprop="price" content="<?php echo $_smarty_tpl->tpl_vars['productPrice']->value;?>
 "><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['convertPrice'][0][0]->convertPrice(array('price'=>floatval($_smarty_tpl->tpl_vars['productPrice']->value)),$_smarty_tpl);?>
-</span><?php if ($_smarty_tpl->tpl_vars['tax_enabled']->value&&((isset($_smarty_tpl->tpl_vars['display_tax_label']->value)&&$_smarty_tpl->tpl_vars['display_tax_label']->value==1)||!isset($_smarty_tpl->tpl_vars['display_tax_label']->value))) {?><!--<?php if ($_smarty_tpl->tpl_vars['priceDisplay']->value==1) {?> <?php echo smartyTranslate(array('s'=>'tax excl.'),$_smarty_tpl);?>
+<?php if (!empty($_smarty_tpl->tpl_vars['product']->value->unity)) {?><?php echo smartyTranslate(array('s'=>'per'),$_smarty_tpl);?>
+<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['product']->value->unity, ENT_QUOTES, 'UTF-8', true);?>
+<?php }?></span><?php if ($_smarty_tpl->tpl_vars['tax_enabled']->value&&((isset($_smarty_tpl->tpl_vars['display_tax_label']->value)&&$_smarty_tpl->tpl_vars['display_tax_label']->value==1)||!isset($_smarty_tpl->tpl_vars['display_tax_label']->value))) {?><!--<?php if ($_smarty_tpl->tpl_vars['priceDisplay']->value==1) {?> <?php echo smartyTranslate(array('s'=>'tax excl.'),$_smarty_tpl);?>
 <?php } else { ?> <?php echo smartyTranslate(array('s'=>'tax incl.'),$_smarty_tpl);?>
 <?php }?>--><?php }?><meta itemprop="priceCurrency" content="<?php echo $_smarty_tpl->tpl_vars['currency']->value->iso_code;?>
 " /><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->smartyHook(array('h'=>"displayProductPriceBlock",'product'=>$_smarty_tpl->tpl_vars['product']->value,'type'=>"price"),$_smarty_tpl);?>
 <?php }?>
 										 </p>
+										 <!--<?php if (!empty($_smarty_tpl->tpl_vars['product']->value->unity)&&$_smarty_tpl->tpl_vars['product']->value->unit_price_ratio>0.000000) {?>
+											 <?php echo smarty_function_math(array('equation'=>"pprice / punit_price",'pprice'=>$_smarty_tpl->tpl_vars['productPrice']->value,'punit_price'=>$_smarty_tpl->tpl_vars['product']->value->unit_price_ratio,'assign'=>'unit_price'),$_smarty_tpl);?>
+
+											 <p class="our_price_display"><span id="unit_price_display" class="price"><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['convertPrice'][0][0]->convertPrice(array('price'=>$_smarty_tpl->tpl_vars['unit_price']->value),$_smarty_tpl);?>
+ <?php echo smartyTranslate(array('s'=>'per'),$_smarty_tpl);?>
+ <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['product']->value->unity, ENT_QUOTES, 'UTF-8', true);?>
+</span></p>
+											 <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->smartyHook(array('h'=>"displayProductPriceBlock",'product'=>$_smarty_tpl->tpl_vars['product']->value,'type'=>"unit_price"),$_smarty_tpl);?>
+
+										 <?php }?>-->
 										 <p id="reduction_percent" <?php if ($_smarty_tpl->tpl_vars['productPriceWithoutReduction']->value<=0||!$_smarty_tpl->tpl_vars['product']->value->specificPrice||$_smarty_tpl->tpl_vars['product']->value->specificPrice['reduction_type']!='percentage') {?> style="display:none;"<?php }?>><span id="reduction_percent_display"><?php if ($_smarty_tpl->tpl_vars['product']->value->specificPrice&&$_smarty_tpl->tpl_vars['product']->value->specificPrice['reduction_type']=='percentage') {?>-<?php echo $_smarty_tpl->tpl_vars['product']->value->specificPrice['reduction']*100;?>
 %<?php }?></span></p>
 										 <p id="reduction_amount" <?php if ($_smarty_tpl->tpl_vars['productPriceWithoutReduction']->value<=0||!$_smarty_tpl->tpl_vars['product']->value->specificPrice||$_smarty_tpl->tpl_vars['product']->value->specificPrice['reduction_type']!='amount'||floatval($_smarty_tpl->tpl_vars['product']->value->specificPrice['reduction'])==0) {?> style="display:none"<?php }?>><span id="reduction_amount_display"><?php if ($_smarty_tpl->tpl_vars['product']->value->specificPrice&&$_smarty_tpl->tpl_vars['product']->value->specificPrice['reduction_type']=='amount'&&floatval($_smarty_tpl->tpl_vars['product']->value->specificPrice['reduction'])!=0) {?>-<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['convertPrice'][0][0]->convertPrice(array('price'=>floatval($_smarty_tpl->tpl_vars['productPriceWithoutReduction']->value)-floatval($_smarty_tpl->tpl_vars['productPrice']->value)),$_smarty_tpl);?>
@@ -461,16 +473,7 @@ $_smarty_tpl->tpl_vars['group_attribute']->_loop = true;
 											 <?php }?>
 										 </p>
 									 <?php }?>
-									 <?php if (!empty($_smarty_tpl->tpl_vars['product']->value->unity)&&$_smarty_tpl->tpl_vars['product']->value->unit_price_ratio>0.000000) {?>
-										 <?php echo smarty_function_math(array('equation'=>"pprice / punit_price",'pprice'=>$_smarty_tpl->tpl_vars['productPrice']->value,'punit_price'=>$_smarty_tpl->tpl_vars['product']->value->unit_price_ratio,'assign'=>'unit_price'),$_smarty_tpl);?>
 
-										 <p class="unit-price"><span id="unit_price_display"><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['convertPrice'][0][0]->convertPrice(array('price'=>$_smarty_tpl->tpl_vars['unit_price']->value),$_smarty_tpl);?>
-</span> <?php echo smartyTranslate(array('s'=>'per'),$_smarty_tpl);?>
- <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['product']->value->unity, ENT_QUOTES, 'UTF-8', true);?>
-</p>
-										 <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->smartyHook(array('h'=>"displayProductPriceBlock",'product'=>$_smarty_tpl->tpl_vars['product']->value,'type'=>"unit_price"),$_smarty_tpl);?>
-
-									 <?php }?>
 								 <?php }?> 
 								 <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->smartyHook(array('h'=>"displayProductPriceBlock",'product'=>$_smarty_tpl->tpl_vars['product']->value,'type'=>"weight",'hook_origin'=>'product_sheet'),$_smarty_tpl);?>
 
@@ -536,12 +539,11 @@ $_smarty_tpl->tpl_vars['group_attribute']->_loop = true;
 <?php }?></span>
 											 </button>
 										 </p>
-										 <script type="text/javascript">
+										<script type="text/javascript">
 											$('.buy').on('click',function(){
 												swal("Товар успешно добавлен в корзину", "", "success")
 											})
 										 </script>
-
 									 </div>
 									 <?php if (isset($_smarty_tpl->tpl_vars['HOOK_PRODUCT_ACTIONS']->value)&&$_smarty_tpl->tpl_vars['HOOK_PRODUCT_ACTIONS']->value) {?><?php echo $_smarty_tpl->tpl_vars['HOOK_PRODUCT_ACTIONS']->value;?>
 <?php }?>
@@ -1198,5 +1200,4 @@ loader.gif" alt="loader" />
 <?php echo smartyTranslate(array('s'=>'Choose File','js'=>1),$_smarty_tpl);?>
 <?php $_block_content = ob_get_clean(); $_block_repeat=false; echo $_smarty_tpl->smarty->registered_plugins['block']['addJsDefL'][0][0]->addJsDefL(array('name'=>'product_fileButtonHtml'), $_block_content, $_smarty_tpl, $_block_repeat); } array_pop($_smarty_tpl->smarty->_tag_stack);?>
 
-<?php }?>
-<?php }} ?>
+<?php }?><?php }} ?>

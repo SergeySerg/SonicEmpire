@@ -199,16 +199,23 @@
 									 <div class="shopping-block-price">
 										 <p class="our_price_display" itemprop="offers" itemscope itemtype="https://schema.org/Offer">{strip}
 												 {if $product->quantity > 0}<link itemprop="availability" href="https://schema.org/InStock"/>{/if}
+
 												 {if $priceDisplay >= 0 && $priceDisplay <= 2}
-													 <span id="our_price_display" class="price" itemprop="price" content="{$productPrice}">{convertPrice price=$productPrice|floatval}</span>
-													 {if $tax_enabled  && ((isset($display_tax_label) && $display_tax_label == 1) || !isset($display_tax_label))}
-														 <!--{if $priceDisplay == 1} {l s='tax excl.'}{else} {l s='tax incl.'}{/if}-->
-													 {/if}
+													 <span class="price" id="our_price_display1" itemprop="price" content="{$productPrice}">{convertPrice price=$productPrice|floatval}{if !empty($product->unity)}{l s='per'}{$product->unity|escape:'html':'UTF-8'}{/if}</span>
+														 {if $tax_enabled  && ((isset($display_tax_label) && $display_tax_label == 1) || !isset($display_tax_label))}
+															 <!--{if $priceDisplay == 1} {l s='tax excl.'}{else} {l s='tax incl.'}{/if}-->
+														 {/if}
 													 <meta itemprop="priceCurrency" content="{$currency->iso_code}" />
 													 {hook h="displayProductPriceBlock" product=$product type="price"}
 												 {/if}
+
 											 {/strip}
 										 </p>
+										 <!--{if !empty($product->unity) && $product->unit_price_ratio > 0.000000}
+											 {math equation="pprice / punit_price" pprice=$productPrice  punit_price=$product->unit_price_ratio assign=unit_price}
+											 <p class="our_price_display"><span id="unit_price_display" class="price">{convertPrice price=$unit_price} {l s='per'} {$product->unity|escape:'html':'UTF-8'}</span></p>
+											 {hook h="displayProductPriceBlock" product=$product type="unit_price"}
+										 {/if}-->
 										 <p id="reduction_percent" {if $productPriceWithoutReduction <= 0 || !$product->specificPrice || $product->specificPrice.reduction_type != 'percentage'} style="display:none;"{/if}>{strip}
 												 <span id="reduction_percent_display">
 												{if $product->specificPrice && $product->specificPrice.reduction_type == 'percentage'}-{$product->specificPrice.reduction*100}%{/if}
@@ -244,11 +251,7 @@
 											 {/if}
 										 </p>
 									 {/if}
-									 {if !empty($product->unity) && $product->unit_price_ratio > 0.000000}
-										 {math equation="pprice / punit_price" pprice=$productPrice  punit_price=$product->unit_price_ratio assign=unit_price}
-										 <p class="unit-price"><span id="unit_price_display">{convertPrice price=$unit_price}</span> {l s='per'} {$product->unity|escape:'html':'UTF-8'}</p>
-										 {hook h="displayProductPriceBlock" product=$product type="unit_price"}
-									 {/if}
+
 								 {/if} {*close if for show price*}
 								 {hook h="displayProductPriceBlock" product=$product type="weight" hook_origin='product_sheet'}
 								 {hook h="displayProductPriceBlock" product=$product type="after_price"}
