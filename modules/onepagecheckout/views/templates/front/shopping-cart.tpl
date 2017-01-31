@@ -104,7 +104,7 @@
     <th class="my-cart_product">{l s='Product' mod='onepagecheckout'}</th>
     <th class="my-cart_product-description"></th>
     <!--<th class="cart_ref item">{l s='Ref.' mod='onepagecheckout'}</th>-->
-    <th class="my-cart_product-available">{l s='In stock' mod='onepagecheckout'}</th>
+    <th class="my-cart_product-available">{*{l s='In stock' mod='onepagecheckout'}*}</th>
     <th class="my-cart_product-quantity">{l s='Qty' mod='onepagecheckout'}</th>
     <th class="my-cart_product-total">{l s='Unit price' mod='onepagecheckout'}</th>
     <th class="my-cart_product-remove"></th>
