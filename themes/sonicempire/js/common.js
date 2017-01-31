@@ -2,9 +2,15 @@ $(function(){
 	
 	/*картинки од лого*/
 	$('.manuf-description-dropdown img').each(function () {
+		var parId = $(this).parents('li').attr('id');
+/*
+		console.info('Parent',parId);
+		console.info('.'+ parId +' .manuf-logo-dropdown .under-logo');
+*/
+
 		var imgDesc = $(this).attr('alt');
-		$(this).appendTo('.manuf-logo-dropdown .under-logo');
-		$('.manuf-logo-dropdown img[alt="'+ imgDesc +'"]').after(function () {
+		$(this).appendTo('#'+ parId +' .manuf-logo-dropdown .under-logo');
+		$('#'+ parId +' .manuf-logo-dropdown img[alt="'+ imgDesc +'"]').after(function () {
 			return '<p>' + imgDesc + '</p>';
 		});
 	});
