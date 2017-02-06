@@ -10270,6 +10270,9 @@ opacity: 0;
 }
 
 @media (max-width: 480px) {
+  .under-logo-active {
+    display: none;
+  }
   #content .product-item{
     width: 100%;
     margin-right: 0;
