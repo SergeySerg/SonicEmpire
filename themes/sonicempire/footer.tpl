@@ -14,7 +14,7 @@
                             <div class="row">
 								{$HOOK_FOOTER}
 								<div class="col-xs-12 col-sm-12 col-md-3 bottom-phone">{hook h="displayNav"}</div>
-								<div class="bottom-footer col-xs-12 col-sm-12 col-md-3">&copy; Sonic Empire, 2016</div>
+								<div class="bottom-footer col-xs-12 col-sm-12 col-md-3">&copy; Sonic Empire, {$smarty.now|date_format:"%Y"}</div>
                             </div>
                         </div>
 					</footer>

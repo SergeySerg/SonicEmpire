@@ -1,3 +1,10 @@
 /cache/
 /.idea/
 /img/tmp/
+payment/answer.html
+payment/callback.php
+payment/callback_robot.php
+paymenthold/answer.html
+paymenthold/api.php
+paymenthold/callback.php
+paymenthold/makeform.php

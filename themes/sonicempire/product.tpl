@@ -151,7 +151,7 @@
 												 {if $product->quantity > 0}<link itemprop="availability" href="https://schema.org/InStock"/>{/if}
 
 												 {if $priceDisplay >= 0 && $priceDisplay <= 2}
-													 <span class="price" id="our_price_display1" itemprop="price" content="{$productPrice}">{convertPrice price=$productPrice|floatval}{if !empty($product->unity)}{l s='per'}{$product->unity|escape:'html':'UTF-8'}{/if}</span>
+													 <span class="price" id="our_price_display1" itemprop="price" content="{$productPrice}">{convertPrice price=$productPrice|floatval}{if !empty($product->unity)} {l s='per'} {$product->unity|escape:'html':'UTF-8'}{/if}</span>
 													 {if $tax_enabled  && ((isset($display_tax_label) && $display_tax_label == 1) || !isset($display_tax_label))}
 														 <!--{if $priceDisplay == 1} {l s='tax excl.'}{else} {l s='tax incl.'}{/if}-->
 													 {/if}
@@ -163,7 +163,7 @@
 										 </p>
 										 <!--{if !empty($product->unity) && $product->unit_price_ratio > 0.000000}
 											 {math equation="pprice / punit_price" pprice=$productPrice  punit_price=$product->unit_price_ratio assign=unit_price}
-											 <p class="our_price_display"><span id="unit_price_display" class="price">{convertPrice price=$unit_price} {l s='per'} {$product->unity|escape:'html':'UTF-8'}</span></p>
+											 <p class="our_price_display"><span id="unit_price_display" class="price">{convertPrice price=$unit_price} {l s=' per '} {$product->unity|escape:'html':'UTF-8'}</span></p>
 											 {hook h="displayProductPriceBlock" product=$product type="unit_price"}
 										 {/if}-->
 										 <p id="reduction_percent" {if $productPriceWithoutReduction <= 0 || !$product->specificPrice || $product->specificPrice.reduction_type != 'percentage'} style="display:none;"{/if}>{strip}
