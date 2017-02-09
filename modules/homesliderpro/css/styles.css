@@ -760,6 +760,17 @@ span.slide_description{
     margin: 4px;
 }
 /* raund adaptive */
+@media (min-width:768px) and (max-width: 1200px) {
+    .SEslider.sample .slide_description {
+        padding: 80px 20px 20px 20px;
+    }
+    .SEslider.sample .slide_description h2{
+        top: 30px;
+    }
+    .se-pager{
+        bottom: 5%;
+    }
+}
 @media (max-width: 991px) {
     .SEslider{
         margin-bottom: 35px !important;
