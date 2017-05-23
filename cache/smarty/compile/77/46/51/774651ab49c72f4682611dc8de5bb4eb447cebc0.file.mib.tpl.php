@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-01-31 17:01:11
+<?php /* Smarty version Smarty-3.1.19, created on 2017-05-23 18:48:40
          compiled from "E:\Webserver\domains\sonicempire.loc\modules\mib\views\templates\hook\mib.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:64975890a6b70c46f1-74626050%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '774651ab49c72f4682611dc8de5bb4eb447cebc0' => 
     array (
       0 => 'E:\\Webserver\\domains\\sonicempire.loc\\modules\\mib\\views\\templates\\hook\\mib.tpl',
-      1 => 1485814732,
+      1 => 1495553834,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5890a6b71cbfe7_55441044',
   'variables' => 
   array (
     'page_name' => 0,
@@ -25,8 +27,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'i' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5890a6b71cbfe7_55441044',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5890a6b71cbfe7_55441044')) {function content_5890a6b71cbfe7_55441044($_smarty_tpl) {?><?php if (($_smarty_tpl->tpl_vars['page_name']->value!='index')) {?>
     <!--Скрипт выпидающего текста-->
@@ -141,6 +141,7 @@ img/m/<?php echo $_smarty_tpl->tpl_vars['manufacturer']->value['image_url'];?>
 " alt="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['manufacturer']->value['name'], ENT_QUOTES, 'UTF-8', true);?>
 "/>
                                 </a>
+                                <div class="under-logo"></div>
                             </div>
                             <div class="manuf-description-dropdown">
                                 <?php echo $_smarty_tpl->tpl_vars['manufacturer']->value['short_description'];?>
@@ -178,8 +179,9 @@ $_smarty_tpl->tpl_vars['manufacturer']->_loop = true;
  $_smarty_tpl->tpl_vars['smarty']->value['foreach']['manufacturer_list']['first'] = $_smarty_tpl->tpl_vars['manufacturer']->first;
  $_smarty_tpl->tpl_vars['smarty']->value['foreach']['manufacturer_list']['last'] = $_smarty_tpl->tpl_vars['manufacturer']->last;
 ?>
-                        <?php if ($_smarty_tpl->tpl_vars['manufacturer']->value['image']&&$_smarty_tpl->tpl_vars['i']->value<=12) {?>
-                            <li class="<?php if ($_smarty_tpl->getVariable('smarty')->value['foreach']['manufacturer_list']['last']) {?>last_item<?php } elseif ($_smarty_tpl->getVariable('smarty')->value['foreach']['manufacturer_list']['first']) {?>first_item<?php } else { ?>item<?php }?>">
+                        <?php if ($_smarty_tpl->tpl_vars['manufacturer']->value['image']&&$_smarty_tpl->tpl_vars['i']->value<=13) {?>
+                            <li class="r-item-<?php echo $_smarty_tpl->tpl_vars['i']->value;?>
+ <?php if ($_smarty_tpl->getVariable('smarty')->value['foreach']['manufacturer_list']['last']) {?>last_item<?php } elseif ($_smarty_tpl->getVariable('smarty')->value['foreach']['manufacturer_list']['first']) {?>first_item<?php } else { ?>item<?php }?>">
                                 <a class="no-loader" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getmanufacturerLink($_smarty_tpl->tpl_vars['manufacturer']->value['id_manufacturer'],$_smarty_tpl->tpl_vars['manufacturer']->value['link_rewrite']), ENT_QUOTES, 'UTF-8', true);?>
 " title="<?php echo smartyTranslate(array('s'=>'Подробнее о %s','sprintf'=>array($_smarty_tpl->tpl_vars['manufacturer']->value['name']),'mod'=>'mib'),$_smarty_tpl);?>
 ">

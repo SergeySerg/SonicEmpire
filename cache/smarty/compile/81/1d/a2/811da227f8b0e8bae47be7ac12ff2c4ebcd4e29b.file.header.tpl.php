@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-01-31 17:01:10
+<?php /* Smarty version Smarty-3.1.19, created on 2017-05-23 18:48:40
          compiled from "E:\Webserver\domains\sonicempire.loc\themes\sonicempire\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:44595890a6b6db0239-80353862%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '811da227f8b0e8bae47be7ac12ff2c4ebcd4e29b' => 
     array (
       0 => 'E:\\Webserver\\domains\\sonicempire.loc\\themes\\sonicempire\\header.tpl',
-      1 => 1485815241,
+      1 => 1495553834,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5890a6b701bc36_96554220',
   'variables' => 
   array (
     'language_code' => 0,
@@ -57,8 +59,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'cols' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5890a6b701bc36_96554220',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5890a6b701bc36_96554220')) {function content_5890a6b701bc36_96554220($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'E:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\function.implode.php';
 ?><!DOCTYPE HTML>
@@ -112,13 +112,13 @@ $_smarty_tpl->tpl_vars['mediaie9']->_loop = true;
  $_smarty_tpl->tpl_vars['css_uriie9']->value = $_smarty_tpl->tpl_vars['mediaie9']->key;
 ?>
 					<link rel="stylesheet" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['css_uriie9']->value, ENT_QUOTES, 'UTF-8', true);?>
-?ver2.6" type="text/css" media="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['mediaie9']->value, ENT_QUOTES, 'UTF-8', true);?>
+?ver1.0.1" type="text/css" media="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['mediaie9']->value, ENT_QUOTES, 'UTF-8', true);?>
 " />
 					<?php } ?>
 					<![endif]-->
 				<?php } else { ?>
 					<link rel="stylesheet" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['css_uri']->value, ENT_QUOTES, 'UTF-8', true);?>
-?ver2.6" type="text/css" media="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['media']->value, ENT_QUOTES, 'UTF-8', true);?>
+?ver1.0.1" type="text/css" media="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['media']->value, ENT_QUOTES, 'UTF-8', true);?>
 " />
 				<?php }?>
 			<?php } ?>
@@ -139,7 +139,7 @@ $_smarty_tpl->tpl_vars['js_uri']->_loop = true;
 
         <script type="text/javascript" src="/owl-carousel/owl.carousel.js"></script>
 		<script type="text/javascript" src="/sweetalert/sweetalert.min.js"></script>
-        <script type="text/javascript" src="/themes/sonicempire/js/common.js?ver2.6"></script>
+        <script type="text/javascript" src="/themes/sonicempire/js/common.js?ver1.0.1"></script>
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=latin,latin-ext" type="text/css" media="all" />
 		<!--[if IE 8]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
