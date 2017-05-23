@@ -3,8 +3,8 @@
 
 
 {if !isset($opc_config.compact_form) || !$opc_config.compact_form}
-{include file="$tpl_dir./breadcrumb.tpl"}
-<h1 id="cart_title">{l s='Shopping cart summary' mod='onepagecheckout'}</h1>
+    {include file="$tpl_dir./breadcrumb.tpl"}
+    <h1 id="cart_title">{l s='Shopping cart summary' mod='onepagecheckout'}</h1>
 {/if}
 
 
@@ -14,25 +14,25 @@
 
 
 {if !$productNumber}
-<p class="warning">{l s='Your shopping cart is empty.' mod='onepagecheckout'}</p>
-    {elseif $PS_CATALOG_MODE}
-<p class="warning">{l s='This store has not accepted your new order.' mod='onepagecheckout'}</p>
-    {else}
-<script type="text/javascript">
-    // <![CDATA[
-    var baseDir = '{$base_dir_ssl}';
-    var currencySign = '{$currencySign|html_entity_decode:2:"UTF-8"}';
-    var currencyRate = '{$currencyRate|floatval}';
-    var currencyFormat = '{$currencyFormat|intval}';
-    var currencyBlank = '{$currencyBlank|intval}';
-    var txtProduct = "{l s='product' mod='onepagecheckout'}";
-    var txtProducts = "{l s='products' mod='onepagecheckout'}";
-    var txtFreePrice = "{l s='Free!' mod='onepagecheckout'}";
-    var deliveryAddress = {$cart->id_address_delivery|intval};
-	if (typeof countriesNeedIDNumber == "undefined")
-      var countriesNeedIDNumber = new Array();
-    if (typeof countriesNeedZipCode == "undefined")
-	  var countriesNeedZipCode = new Array();
+    <p class="warning">{l s='Your shopping cart is empty.' mod='onepagecheckout'}</p>
+{elseif $PS_CATALOG_MODE}
+    <p class="warning">{l s='This store has not accepted your new order.' mod='onepagecheckout'}</p>
+{else}
+    <script type="text/javascript">
+        // <![CDATA[
+        var baseDir = '{$base_dir_ssl}';
+        var currencySign = '{$currencySign|html_entity_decode:2:"UTF-8"}';
+        var currencyRate = '{$currencyRate|floatval}';
+        var currencyFormat = '{$currencyFormat|intval}';
+        var currencyBlank = '{$currencyBlank|intval}';
+        var txtProduct = "{l s='product' mod='onepagecheckout'}";
+        var txtProducts = "{l s='products' mod='onepagecheckout'}";
+        var txtFreePrice = "{l s='Free!' mod='onepagecheckout'}";
+        var deliveryAddress = {$cart->id_address_delivery|intval};
+        if (typeof countriesNeedIDNumber == "undefined")
+            var countriesNeedIDNumber = new Array();
+        if (typeof countriesNeedZipCode == "undefined")
+            var countriesNeedZipCode = new Array();
 
 
 
@@ -45,197 +45,197 @@
         var txtWithoutTax = "{l s='(tax excl.)' mod='onepagecheckout'}";
         var opc_hide_carrier = '{$opc_config.hide_carrier}';
         var onlyCartSummary = '1';
-            {else}
+        {else}
         var onlyCartSummary = '0';
         {/if}
 
-    // ]]>
-</script>
+        // ]]>
+    </script>
     {if !isset($opc_config.remove_ref) || !$opc_config.remove_ref}
         {assign var="colspan" value="5"}
-		{assign var="colspan2" value="3"}
-        {else}
-        {literal}
+        {assign var="colspan2" value="3"}
+    {else}
+    {literal}
         <style type="text/css">
             #cart_summary .cart_ref {
                 display: none;
             }
         </style>
-        {/literal}
+    {/literal}
         {assign var="colspan" value="4"}
-		{assign var="colspan2" value="2"}
+        {assign var="colspan2" value="2"}
     {/if}
 
-<p style="display:none" id="emptyCartWarning"
-   class="warning">{l s='Your shopping cart is empty.' mod='onepagecheckout'}</p>
+    <p style="display:none" id="emptyCartWarning"
+       class="warning">{l s='Your shopping cart is empty.' mod='onepagecheckout'}</p>
     {if isset($lastProductAdded) AND $lastProductAdded}
         {foreach from=$products item=product}
             {if $product.id_product == $lastProductAdded.id_product AND (!$product.id_product_attribute OR ($product.id_product_attribute == $lastProductAdded.id_product_attribute))}
-            <div class="cart_last_product">
-                <div class="cart_last_product_header">
-                    <div class="left">{l s='Last added product' mod='onepagecheckout'}</div>
-                </div>
-                <a class="cart_last_product_img"
-                   href="{$link->getProductLink($product.id_product, $product.link_rewrite, $product.category)|escape:'htmlall':'UTF-8'}"><img
-                        src="{$link->getImageLink($product.link_rewrite, $product.id_image, 'small_default')|escape:'htmlall':'UTF-8'}"
-                        alt="{$product.name|escape:'htmlall':'UTF-8'}"/></a>
+                <div class="cart_last_product">
+                    <div class="cart_last_product_header">
+                        <div class="left">{l s='Last added product' mod='onepagecheckout'}</div>
+                    </div>
+                    <a class="cart_last_product_img"
+                       href="{$link->getProductLink($product.id_product, $product.link_rewrite, $product.category)|escape:'htmlall':'UTF-8'}"><img
+                                src="{$link->getImageLink($product.link_rewrite, $product.id_image, 'small_default')|escape:'htmlall':'UTF-8'}"
+                                alt="{$product.name|escape:'htmlall':'UTF-8'}"/></a>
 
-                <div class="cart_last_product_content">
-                    <h5>
-                        <a href="{$link->getProductLink($product.id_product, $product.link_rewrite, $product.category)|escape:'htmlall':'UTF-8'}">{$product.name|escape:'htmlall':'UTF-8'}</a>
-                    </h5>
-                    {if isset($product.attributes) && $product.attributes}<a
+                    <div class="cart_last_product_content">
+                        <h5>
+                            <a href="{$link->getProductLink($product.id_product, $product.link_rewrite, $product.category)|escape:'htmlall':'UTF-8'}">{$product.name|escape:'htmlall':'UTF-8'}</a>
+                        </h5>
+                        {if isset($product.attributes) && $product.attributes}<a
                             href="{$link->getProductLink($product.id_product, $product.link_rewrite, $product.category)|escape:'htmlall':'UTF-8'}">{$product.attributes|escape:'htmlall':'UTF-8'}</a>{/if}
+                    </div>
+                    <br class="clear"/>
                 </div>
-                <br class="clear"/>
-            </div>
             {/if}
         {/foreach}
     {/if}
     {if !isset($opc_config.compact_form) || !$opc_config.compact_form}
-    <p>{l s='Your shopping cart contains' mod='onepagecheckout'} <span
-            id="summary_products_quantity">{$productNumber} {if $productNumber == 1}{l s='product' mod='onepagecheckout'}{else}{l s='products' mod='onepagecheckout'}{/if}</span>
-    </p>
+        <p>{l s='Your shopping cart contains' mod='onepagecheckout'} <span
+                    id="summary_products_quantity">{$productNumber} {if $productNumber == 1}{l s='product' mod='onepagecheckout'}{else}{l s='products' mod='onepagecheckout'}{/if}</span>
+        </p>
     {/if}
-<div id="order-detail-content" class="table_block{if isset($addClass)}{$addClass}{/if}">
-<table id="cart_summary" class="my-cart">
-<thead>
-<tr>
-    <th class="my-cart_product">{l s='Product' mod='onepagecheckout'}</th>
-    <th class="my-cart_product-description"></th>
-    <!--<th class="cart_ref item">{l s='Ref.' mod='onepagecheckout'}</th>-->
-    <th class="my-cart_product-available">{*{l s='In stock' mod='onepagecheckout'}*}</th>
-    <th class="my-cart_product-quantity">{l s='Qty' mod='onepagecheckout'}</th>
-    <th class="my-cart_product-total">{l s='Unit price' mod='onepagecheckout'}</th>
-    <th class="my-cart_product-remove"></th>
-    {*<th class="cart_delete last_item">&nbsp;</th>*}
-</tr>
-</thead>
-<tbody>
-    {foreach $products as $product}
-        {assign var='productId' value=$product.id_product}
-        {assign var='productAttributeId' value=$product.id_product_attribute}
-        {assign var='quantityDisplayed' value=0}
-        {assign var='odd' value=$product@iteration%2}
-        {assign var='ignoreProductLast' value=isset($customizedDatas.$productId.$productAttributeId) || count($gift_products)}
-    {* Display the product line *}
-    {include file="$opc_templates_path/shopping-cart-product-line.tpl"}
-    {* Then the customized datas ones*}
-        {if isset($customizedDatas.$productId.$productAttributeId)}
-            {foreach $customizedDatas.$productId.$productAttributeId[$product.id_address_delivery] as $id_customization=>$customization}
-            <tr id="product_{$product.id_product}_{$product.id_product_attribute}_{$id_customization}_{$product.id_address_delivery|intval}"
-                class="product_customization_for_{$product.id_product}_{$product.id_product_attribute}_{$product.id_address_delivery|intval} {if $odd}odd{else}even{/if} customization alternate_item {if $product@last && $customization@last && !count($gift_products)}last_item{/if}">
-                <td></td>
-                <td colspan="{$colspan2|intval}">
-                    {foreach $customization.datas as $type => $custom_data}
-                        {if $type == $CUSTOMIZE_FILE}
-                            <div class="customizationUploaded">
-                                <ul class="customizationUploaded">
-                                    {foreach $custom_data as $picture}
-                                        <li><img src="{$pic_dir}{$picture.value}_small" alt=""
-                                                 class="customizationUploaded"/></li>
-                                    {/foreach}
-                                </ul>
-                            </div>
-                            {elseif $type == $CUSTOMIZE_TEXTFIELD}
-                            <ul class="typedText">
-                                {foreach $custom_data as $textField}
-                                    <li>
-                                        {if $textField.name}
-                                            {$textField.name}
-                                            {else}
-                                            {l s='Text #' mod='onepagecheckout'}{$textField@index+1}
-                                        {/if}
-												{l s=':' mod='onepagecheckout'} {$textField.value}
-                                    </li>
-                                {/foreach}
-
-                            </ul>
-                        {/if}
-
-                    {/foreach}
-                </td>
-                <td class="cart_quantity" colspan="1">
-                    {if isset($cannotModify) AND $cannotModify == 1}
-                        <span style="float:left">{if $quantityDisplayed == 0 AND isset($customizedDatas.$productId.$productAttributeId)}{$customizedDatas.$productId.$productAttributeId|@count}{else}{$product.cart_quantity-$quantityDisplayed}{/if}</span>
-                        {else}
-                        <div id="cart_quantity_button" class="cart_quantity_button" style="float:left">
-                            <a rel="nofollow" class="cart_quantity_up"
-                               id="cart_quantity_up_{$product.id_product}_{$product.id_product_attribute}_{$id_customization}_{$product.id_address_delivery|intval}"
-                               href="{$link->getPageLink('cart', true, NULL, "add&amp;id_product={$product.id_product|intval}&amp;ipa={$product.id_product_attribute|intval}&amp;id_address_delivery={$product.id_address_delivery}&amp;id_customization={$id_customization}&amp;token={$token_cart}")|escape:'htmlall':'UTF-8'}"
-                               title="{l s='Add' mod='onepagecheckout'}"></a>
-                             <input size="2" type="text" value="{$customization.quantity}" class="cart_quantity_input"
-                               name="quantity_{$product.id_product}_{$product.id_product_attribute}_{$id_customization}_{$product.id_address_delivery|intval}"/>                           
-                            {if $product.minimal_quantity < ($customization.quantity -$quantityDisplayed) OR $product.minimal_quantity <= 1}
-                                <a rel="nofollow" class="cart_quantity_down"
-                                   id="cart_quantity_down_{$product.id_product}_{$product.id_product_attribute}_{$id_customization}_{$product.id_address_delivery|intval}"
-                                   href="{$link->getPageLink('cart', true, NULL, "add&amp;id_product={$product.id_product|intval}&amp;ipa={$product.id_product_attribute|intval}&amp;id_address_delivery={$product.id_address_delivery}&amp;id_customization={$id_customization}&amp;op=down&amp;token={$token_cart}")|escape:'htmlall':'UTF-8'}"
-                                   title="{l s='Subtract' mod='onepagecheckout'}">
-                                </a>
-                                {else}
-                                <a class="cart_quantity_down" style="opacity: 0.3;"
-                                   id="cart_quantity_down_{$product.id_product}_{$product.id_product_attribute}_{$id_customization}"
-                                   href="#" title="{l s='Subtract' mod='onepagecheckout'}">
-                                </a>
-                            {/if}
-                        </div>
-                        <input type="hidden" value="{$customization.quantity}"
-                               name="quantity_{$product.id_product}_{$product.id_product_attribute}_{$id_customization}_hidden"/>
-                        
-                    {/if}
-                </td>
-                <td class="cart_delete">
-                    {if isset($cannotModify) AND $cannotModify == 1}
-                        {else}
-                        <div>
-                            <a rel="nofollow" class="cart_quantity_delete"
-                               id="{$product.id_product}_{$product.id_product_attribute}_{$id_customization}_{$product.id_address_delivery|intval}"
-                               href="{$link->getPageLink('cart', true, NULL, "delete&amp;id_product={$product.id_product|intval}&amp;ipa={$product.id_product_attribute|intval}&amp;id_customization={$id_customization}&amp;id_address_delivery={$product.id_address_delivery}&amp;token={$token_cart}")|escape:'htmlall':'UTF-8'}">&nbsp;</a>
-                        </div>
-                    {/if}
-                </td>
+    <div id="order-detail-content" class="table_block{if isset($addClass)}{$addClass}{/if}">
+        <table id="cart_summary" class="my-cart">
+            <thead>
+            <tr>
+                <th class="my-cart_product">{l s='Product' mod='onepagecheckout'}</th>
+                <th class="my-cart_product-description"></th>
+                <!--<th class="cart_ref item">{l s='Ref.' mod='onepagecheckout'}</th>-->
+                <th class="my-cart_product-available">{*{l s='In stock' mod='onepagecheckout'}*}</th>
+                <th class="my-cart_product-quantity">{l s='Qty' mod='onepagecheckout'}</th>
+                <th class="my-cart_product-total">{l s='Unit price' mod='onepagecheckout'}</th>
+                <th class="my-cart_product-remove"></th>
+                {*<th class="cart_delete last_item">&nbsp;</th>*}
             </tr>
-                {assign var='quantityDisplayed' value=$quantityDisplayed+$customization.quantity}
+            </thead>
+            <tbody>
+            {foreach $products as $product}
+                {assign var='productId' value=$product.id_product}
+                {assign var='productAttributeId' value=$product.id_product_attribute}
+                {assign var='quantityDisplayed' value=0}
+                {assign var='odd' value=$product@iteration%2}
+                {assign var='ignoreProductLast' value=isset($customizedDatas.$productId.$productAttributeId) || count($gift_products)}
+                {* Display the product line *}
+                {include file="$opc_templates_path/shopping-cart-product-line.tpl"}
+                {* Then the customized datas ones*}
+                {if isset($customizedDatas.$productId.$productAttributeId)}
+                    {foreach $customizedDatas.$productId.$productAttributeId[$product.id_address_delivery] as $id_customization=>$customization}
+                        <tr id="product_{$product.id_product}_{$product.id_product_attribute}_{$id_customization}_{$product.id_address_delivery|intval}"
+                            class="product_customization_for_{$product.id_product}_{$product.id_product_attribute}_{$product.id_address_delivery|intval} {if $odd}odd{else}even{/if} customization alternate_item {if $product@last && $customization@last && !count($gift_products)}last_item{/if}">
+                            <td></td>
+                            <td colspan="{$colspan2|intval}">
+                                {foreach $customization.datas as $type => $custom_data}
+                                    {if $type == $CUSTOMIZE_FILE}
+                                        <div class="customizationUploaded">
+                                            <ul class="customizationUploaded">
+                                                {foreach $custom_data as $picture}
+                                                    <li><img src="{$pic_dir}{$picture.value}_small" alt=""
+                                                             class="customizationUploaded"/></li>
+                                                {/foreach}
+                                            </ul>
+                                        </div>
+                                    {elseif $type == $CUSTOMIZE_TEXTFIELD}
+                                        <ul class="typedText">
+                                            {foreach $custom_data as $textField}
+                                                <li>
+                                                    {if $textField.name}
+                                                        {$textField.name}
+                                                    {else}
+                                                        {l s='Text #' mod='onepagecheckout'}{$textField@index+1}
+                                                    {/if}
+                                                    {l s=':' mod='onepagecheckout'} {$textField.value}
+                                                </li>
+                                            {/foreach}
+
+                                        </ul>
+                                    {/if}
+
+                                {/foreach}
+                            </td>
+                            <td class="cart_quantity" colspan="1">
+                                {if isset($cannotModify) AND $cannotModify == 1}
+                                    <span style="float:left">{if $quantityDisplayed == 0 AND isset($customizedDatas.$productId.$productAttributeId)}{$customizedDatas.$productId.$productAttributeId|@count}{else}{$product.cart_quantity-$quantityDisplayed}{/if}</span>
+                                {else}
+                                    <div id="cart_quantity_button" class="cart_quantity_button" style="float:left">
+                                        <a rel="nofollow" class="cart_quantity_up"
+                                           id="cart_quantity_up_{$product.id_product}_{$product.id_product_attribute}_{$id_customization}_{$product.id_address_delivery|intval}"
+                                           href="{$link->getPageLink('cart', true, NULL, "add&amp;id_product={$product.id_product|intval}&amp;ipa={$product.id_product_attribute|intval}&amp;id_address_delivery={$product.id_address_delivery}&amp;id_customization={$id_customization}&amp;token={$token_cart}")|escape:'htmlall':'UTF-8'}"
+                                           title="{l s='Add' mod='onepagecheckout'}"></a>
+                                        <input size="2" type="text" value="{$customization.quantity}" class="cart_quantity_input"
+                                               name="quantity_{$product.id_product}_{$product.id_product_attribute}_{$id_customization}_{$product.id_address_delivery|intval}"/>
+                                        {if $product.minimal_quantity < ($customization.quantity -$quantityDisplayed) OR $product.minimal_quantity <= 1}
+                                            <a rel="nofollow" class="cart_quantity_down"
+                                               id="cart_quantity_down_{$product.id_product}_{$product.id_product_attribute}_{$id_customization}_{$product.id_address_delivery|intval}"
+                                               href="{$link->getPageLink('cart', true, NULL, "add&amp;id_product={$product.id_product|intval}&amp;ipa={$product.id_product_attribute|intval}&amp;id_address_delivery={$product.id_address_delivery}&amp;id_customization={$id_customization}&amp;op=down&amp;token={$token_cart}")|escape:'htmlall':'UTF-8'}"
+                                               title="{l s='Subtract' mod='onepagecheckout'}">
+                                            </a>
+                                        {else}
+                                            <a class="cart_quantity_down" style="opacity: 0.3;"
+                                               id="cart_quantity_down_{$product.id_product}_{$product.id_product_attribute}_{$id_customization}"
+                                               href="#" title="{l s='Subtract' mod='onepagecheckout'}">
+                                            </a>
+                                        {/if}
+                                    </div>
+                                    <input type="hidden" value="{$customization.quantity}"
+                                           name="quantity_{$product.id_product}_{$product.id_product_attribute}_{$id_customization}_hidden"/>
+
+                                {/if}
+                            </td>
+                            <td class="cart_delete">
+                                {if isset($cannotModify) AND $cannotModify == 1}
+                                {else}
+                                    <div>
+                                        <a rel="nofollow" class="cart_quantity_delete"
+                                           id="{$product.id_product}_{$product.id_product_attribute}_{$id_customization}_{$product.id_address_delivery|intval}"
+                                           href="{$link->getPageLink('cart', true, NULL, "delete&amp;id_product={$product.id_product|intval}&amp;ipa={$product.id_product_attribute|intval}&amp;id_customization={$id_customization}&amp;id_address_delivery={$product.id_address_delivery}&amp;token={$token_cart}")|escape:'htmlall':'UTF-8'}">&nbsp;</a>
+                                    </div>
+                                {/if}
+                            </td>
+                        </tr>
+                        {assign var='quantityDisplayed' value=$quantityDisplayed+$customization.quantity}
+                    {/foreach}
+                    {* If it exists also some uncustomized products *}
+                    {if $product.quantity-$quantityDisplayed > 0}{include file="$opc_templates_path/shopping-cart-product-line.tpl" productLast=$product@last productFirst=$product@first}{/if}
+                {/if}
             {/foreach}
-        {* If it exists also some uncustomized products *}
-            {if $product.quantity-$quantityDisplayed > 0}{include file="$opc_templates_path/shopping-cart-product-line.tpl" productLast=$product@last productFirst=$product@first}{/if}
-        {/if}
-    {/foreach}
-    {assign var='last_was_odd' value=$product@iteration%2}
-    {foreach $gift_products as $product}
-        {assign var='productId' value=$product.id_product}
-        {assign var='productAttributeId' value=$product.id_product_attribute}
-        {assign var='quantityDisplayed' value=0}
-        {assign var='odd' value=($product@iteration+$last_was_odd)%2}
-        {assign var='ignoreProductLast' value=isset($customizedDatas.$productId.$productAttributeId)}
-        {assign var='cannotModify' value=1}
-    {* Display the gift product line *}
-    {include file="$opc_templates_path/shopping-cart-product-line.tpl" productLast=$product@last productFirst=$product@first}
-    {/foreach}
-</tbody>
-    {if sizeof($discounts)}
-    <tbody>
-        {foreach $discounts as $discount}
-        <tr class="cart_discount {if $discount@last}last_item{elseif $discount@first}first_item{else}item{/if}"
-            id="cart_discount_{$discount.id_discount}">
-            <td class="cart_discount_name" colspan="{$colspan2|intval}">{$discount.name}</td>
-            <td class="cart_discount_price"><span class="price-discount">
+            {assign var='last_was_odd' value=$product@iteration%2}
+            {foreach $gift_products as $product}
+                {assign var='productId' value=$product.id_product}
+                {assign var='productAttributeId' value=$product.id_product_attribute}
+                {assign var='quantityDisplayed' value=0}
+                {assign var='odd' value=($product@iteration+$last_was_odd)%2}
+                {assign var='ignoreProductLast' value=isset($customizedDatas.$productId.$productAttributeId)}
+                {assign var='cannotModify' value=1}
+                {* Display the gift product line *}
+                {include file="$opc_templates_path/shopping-cart-product-line.tpl" productLast=$product@last productFirst=$product@first}
+            {/foreach}
+            </tbody>
+            {if sizeof($discounts)}
+                <tbody>
+                {foreach $discounts as $discount}
+                    <tr class="cart_discount {if $discount@last}last_item{elseif $discount@first}first_item{else}item{/if}"
+                        id="cart_discount_{$discount.id_discount}">
+                        <td class="cart_discount_name" colspan="{$colspan2|intval}">{$discount.name}</td>
+                        <td class="cart_discount_price"><span class="price-discount">
                 {if !$priceDisplay}{displayPrice price=$discount.value_real*-1}{else}{displayPrice price=$discount.value_tax_exc*-1}{/if}
             </span></td>
-            <td class="cart_discount_delete">1</td>
-            <td class="cart_discount_price">
-                {if strlen($discount.code)}<a
-                    href="{if $opc}{$link->getPageLink('order-opc', true)|escape:'htmlall':'UTF-8'}{else}{$link->getPageLink('order', true)|escape:'htmlall':'UTF-8'}{/if}?deleteDiscount={$discount.id_discount}"
-                    class="cart_quantity_delete_discount" title="{l s='Delete' mod='onepagecheckout'}"></a>{/if}<br />
-                <span class="price-discount price">{if !$priceDisplay}{displayPrice price=$discount.value_real*-1}{else}{displayPrice price=$discount.value_tax_exc*-1}{/if}</span>
-            </td>
-        </tr>
-        {/foreach}
-    </tbody>
-    {/if}
-<div id="tfoot_static_underlay" class="sticky_underlay"></div>
-<tfoot id="tfoot_static">
-<!--<tr class="cart_voucher_block">
+                        <td class="cart_discount_delete">1</td>
+                        <td class="cart_discount_price">
+                            {if strlen($discount.code)}<a
+                            href="{if $opc}{$link->getPageLink('order-opc', true)|escape:'htmlall':'UTF-8'}{else}{$link->getPageLink('order', true)|escape:'htmlall':'UTF-8'}{/if}?deleteDiscount={$discount.id_discount}"
+                            class="cart_quantity_delete_discount" title="{l s='Delete' mod='onepagecheckout'}"></a>{/if}<br />
+                            <span class="price-discount price">{if !$priceDisplay}{displayPrice price=$discount.value_real*-1}{else}{displayPrice price=$discount.value_tax_exc*-1}{/if}</span>
+                        </td>
+                    </tr>
+                {/foreach}
+                </tbody>
+            {/if}
+            <div id="tfoot_static_underlay" class="sticky_underlay"></div>
+            <tfoot id="tfoot_static">
+            <!--<tr class="cart_voucher_block">
     <td colspan="{$colspan+1}" id="cart_voucher" class="cart_voucher">
         {if $voucherAllowed}
             {if isset($errors_discount) && $errors_discount}
@@ -281,7 +281,7 @@
         {/if}
     </td>
 </tr>-->
-<!--{if $use_taxes}
+            <!--{if $use_taxes}
     {if $priceDisplay}
         <tr class="cart_total_products summary-line">
             <td colspan="{$colspan|intval}">{if $display_tax_label}{l s='Total products (tax excl.):' mod='onepagecheckout'}{else}{l s='Total products:' mod='onepagecheckout'}{/if}</td>
@@ -371,133 +371,136 @@
         <td class="price" id="total_tax">{displayPrice price=$total_tax}</td>
     </tr>
 {/if}-->
-<tr>
-    <td colspan="3"></td>
+            <tr>
+                <td colspan="3"></td>
 
-    <td class="my-text-price">{l s='Total:' mod='onepagecheckout'}</td>
-        <td colspan="2" class="my-price" id="total_price_container">
-            {if $use_taxes}
-            <span id="total_price">{displayPrice price=$total_price}</span>
-            {else}
-                <span id="total_price">{displayPrice price=$total_price_without_tax}</span>
-            {/if}
-        </td>
-</tr>
-</tfoot>
-</table>
-</div>
+                <td class="my-text-price">{l s='Total:' mod='onepagecheckout'}</td>
+                <td colspan="2" class="my-price" id="total_price_container">
+                    {if $use_taxes}
+                        <span id="total_price">{displayPrice price=$total_price}</span>
+                    {else}
+                        <span id="total_price">{displayPrice price=$total_price_without_tax}</span>
+                    {/if}
+                </td>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
 
 
 
-<div id="HOOK_SHOPPING_CART">{$HOOK_SHOPPING_CART}</div>
+    <div id="HOOK_SHOPPING_CART">{$HOOK_SHOPPING_CART}</div>
 
     {if !$opc_config.two_column_opc && (!$opc_config.cart_summary_bottom || ($order_process_type==0 && (!$smarty.get.step || $smarty.get.step != '1')))}
-            <div class="order-button-block order-button-block-top clearfix">
+        <div class="order-button-block order-button-block-top clearfix">
 
-                {if isset($onlyCartSummary)}<a href="{$link->getPageLink('order.php', true)|escape:'htmlall':'UTF-8'}?step=1{if $back}&amp;back={$back}{/if}"
-                        class="exclusive" title="{l s='Next' mod='onepagecheckout'}">{l s='Next' mod='onepagecheckout'} &raquo;</a>{/if}
-                <a class="button-in-cart back-to-shopping" href="{if (isset($smarty.server.HTTP_REFERER) && strstr($smarty.server.HTTP_REFERER, '{$opckt_script_name}')) || !isset($smarty.server.HTTP_REFERER)}{$link->getPageLink('index.php')|escape:'htmlall':'UTF-8'}{else}{$smarty.server.HTTP_REFERER|escape:'htmlall':'UTF-8'|secureReferrer}{/if}"
-                   title="{l s='Continue shopping' mod='onepagecheckout'}">
-                {l s='Continue shopping' mod='onepagecheckout'}</a>{if !isset($onlyCartSummary)}<a href="#" class="button-in-cart my-checkout" id="pay">Оформление заказа</a>{/if}
-<script>
-    function init_np(){
-        var params = {
-            "modelName": "Address",
-            "calledMethod": "getCities",
-            "apiKey": "00027d5266127c44b3bf1ad408d59bf0"
-        };
-        $.ajax({
-            url: 'https://api.novaposhta.ua/v2.0/json/?' + $.param(params),
-            method: "POST",
-            data : params,
-            contentType:"application/json",
-            dataType : "jsonp",
-            success: function(data) {
-                var content = data.data;
-                content.forEach(function(item){
-                    console.log(item)
-                    $('#new_post_city').append('<option data-ref="' + item.Ref +'">' + item.DescriptionRu +'</option>')
+            {if isset($onlyCartSummary)}<a href="{$link->getPageLink('order.php', true)|escape:'htmlall':'UTF-8'}?step=1{if $back}&amp;back={$back}{/if}"
+                                           class="exclusive" title="{l s='Next' mod='onepagecheckout'}">{l s='Next' mod='onepagecheckout'} &raquo;</a>{/if}
+            <a class="button-in-cart back-to-shopping" href="{if (isset($smarty.server.HTTP_REFERER) && strstr($smarty.server.HTTP_REFERER, '{$opckt_script_name}')) || !isset($smarty.server.HTTP_REFERER)}{$link->getPageLink('index.php')|escape:'htmlall':'UTF-8'}{else}{$smarty.server.HTTP_REFERER|escape:'htmlall':'UTF-8'|secureReferrer}{/if}"
+               title="{l s='Continue shopping' mod='onepagecheckout'}">
+                {l s='Continue shopping' mod='onepagecheckout'}</a>{if !isset($onlyCartSummary)}<a href="#" id="pay" class="button-in-cart my-checkout">Оформление заказа</a>{/if}
+            <script>
+
+                function init_np(){
+                    var params = {
+                        "modelName": "Address",
+                        "calledMethod": "getCities",
+                        "apiKey": "00027d5266127c44b3bf1ad408d59bf0"
+                    };
+                    $.ajax({
+                        url: 'https://api.novaposhta.ua/v2.0/json/?' + $.param(params),
+                        method: "POST",
+                        data : params,
+                        contentType:"application/json",
+                        dataType : "jsonp",
+                        success: function(data) {
+                            var content = data.data;
+                            content.forEach(function(item){
+                                console.log(item)
+                                $('#new_post_city').append('<option data-ref="' + item.Ref +'">' + item.DescriptionRu +'</option>')
+                            });
+
+                        },
+                        error: function(respons) {
+                            console.log(respons.success);
+                        }
+                    },'json');
+
+                };
+
+                $(function(){
+                    /*Init NP when click on link*/
+                    $('div.inner-table').on('click','label[for="id_carrier211000"]', function(){
+                        init_np();
+                    });
+                    /*Init NP when click on button Order*/
+                    $('#pay').on('click',function(){
+                        init_np();
+                    });
+                    /*Department*/
+                    $('div.inner-table').on('change','#new_post_city', function(){
+                        var ref = $("#new_post_city option:selected").attr('data-ref');
+                        var city = $("#new_post_city option:selected").text;
+                        $("#new_post_department").find('option').remove();
+                        var data = {
+                            "modelName": "AddressGeneral",
+                            "calledMethod": "getWarehouses",
+                            "methodProperties": {
+                                "CityName": city,
+                                "CityRef": ref
+                            },
+                            "apiKey": "00027d5266127c44b3bf1ad408d59bf0"
+                        };
+                        $.ajax({
+                            url: 'https://api.novaposhta.ua/v2.0/json/?' + $.param(data),
+                            method: "POST",
+                            data : data,
+                            contentType:"application/json",
+                            dataType : "jsonp",
+                            success: function(data) {
+                                var department = data.data;
+                                department.forEach(function(item){
+                                    console.log(item)
+                                    $('#new_post_department').append('<option data-ref="' + item.Ref +'">' + item.DescriptionRu +'</option>')
+                                });
+
+                            },
+                            error: function(respons) {
+                                console.log(respons.success);
+                            }
+                        },'json');
+                    });
+
+                    /*Send info about city and department post*/
+                    $('table#paymentMethodsTable').on('click',function(){
+                        var city = $('#select2-new_post_city-container').text();
+                        var department = $('#select2-new_post_department-container').text();
+                        var message = $('textarea#message').val('Город доставки - ' + city + "</br>" + "Отделение доставки - " + department);
+                    });
+                    $('.my-checkout').on('click', function(e){
+                        $('.order-button-block-top').fadeOut('100');
+                        $('.buy-block-cart').fadeIn('1000');
+                        $.scrollTo('.order-button-block-top', 1000);
+                        e.preventDefault();
+                    });
+
+                    $('.back-to-cart').on('click', function(e){
+                        $('.buy-block-cart').fadeOut('500');
+                        $.scrollTo('#content', 500);
+                        $('.order-button-block-top').fadeIn('1000');
+                        e.preventDefault();
+                    });
+
                 });
 
-            },
-            error: function(respons) {
-                console.log(respons.success);
-            }
-        },'json');
-
-    };
-
-    $(function(){
-        /*Init NP when click on link*/
-        $('div.inner-table').on('click','label[for="id_carrier211000"]', function(){
-            init_np();
-        });
-        /*Init NP when click on button Order*/
-        $('#pay').on('click',function(){
-            init_np();
-        });
-        /*Department*/
-        $('div.inner-table').on('change','#new_post_city', function(){
-            var ref = $("#new_post_city option:selected").attr('data-ref');
-            var city = $("#new_post_city option:selected").text;
-            $("#new_post_department").find('option').remove();
-            var data = {
-                "modelName": "AddressGeneral",
-                "calledMethod": "getWarehouses",
-                "methodProperties": {
-                    "CityName": city,
-                    "CityRef": ref
-                },
-                "apiKey": "00027d5266127c44b3bf1ad408d59bf0"
-            };
-            $.ajax({
-                url: 'https://api.novaposhta.ua/v2.0/json/?' + $.param(data),
-                data : data,
-                contentType:"application/json",
-                dataType : "jsonp",
-                success: function(data) {
-                    var department = data.data;
-                    department.forEach(function(item){
-                        $('#new_post_department').append('<option data-ref="' + item.Ref +'">' + item.DescriptionRu +'</option>')
-                    });
-                },
-                error: function(respons) {
-                    console.log(respons.success);
-                }
-            },'json');
-        });
-        /*Send info about city and department post*/
-        $('table#paymentMethodsTable').on('click',function(){
-            var city = $('#select2-new_post_city-container').text();
-            var department = $('#select2-new_post_department-container').text();
-            var message = $('textarea#message').val('Город доставки - ' + city + "</br>" + "Отделение доставки - " + department);
-        });
-
-
-        $('.my-checkout').on('click', function(e){
-            $('.order-button-block-top').fadeOut('100');
-            $('.buy-block-cart').fadeIn('1000');
-            $.scrollTo('.order-button-block-top', 1000);
-            e.preventDefault();
-        });
-
-        $('.back-to-cart').on('click', function(e){
-            $('.buy-block-cart').fadeOut('500');
-            $.scrollTo('#content', 500);
-            $('.order-button-block-top').fadeIn('1000');
-            e.preventDefault();
-        });
-
-});
-
-</script>
-            </div>
+            </script>
+        </div>
 
 
 
 
 
-    <p class="clear"></p>
+        <p class="clear"></p>
     {/if}
     <p class="cart_navigation_extra">
         <span id="HOOK_SHOPPING_CART_EXTRA">{$HOOK_SHOPPING_CART_EXTRA}</span>
@@ -505,51 +508,51 @@
 
 
     {if isset($onlyCartSummary)}
-    <script type="text/javascript">
-        // <![CDATA[
-        var countries = new Array();
-        idSelectedCountry = {if isset($guestInformations) && $guestInformations.id_state}{$guestInformations.id_state|intval}{else}{if ($def_state>0)}{$def_state}{else}false{/if}{/if};
-        idSelectedCountry_invoice = {if isset($guestInformations) && isset($guestInformations.id_state_invoice)}{$guestInformations.id_state_invoice|intval}{else}{if ($def_state_invoice>0)}{$def_state_invoice}{else}false{/if}{/if};
+        <script type="text/javascript">
+            // <![CDATA[
+            var countries = new Array();
+            idSelectedCountry = {if isset($guestInformations) && $guestInformations.id_state}{$guestInformations.id_state|intval}{else}{if ($def_state>0)}{$def_state}{else}false{/if}{/if};
+            idSelectedCountry_invoice = {if isset($guestInformations) && isset($guestInformations.id_state_invoice)}{$guestInformations.id_state_invoice|intval}{else}{if ($def_state_invoice>0)}{$def_state_invoice}{else}false{/if}{/if};
             {if isset($countries)}
-                {foreach from=$countries item='country'}
-                    {if isset($country.states) && $country.contains_states}
-                    countries[{$country.id_country|intval}] = new Array();
-                        {foreach from=$country.states item='state' name='states'}
-                        countries[{$country.id_country|intval}].push({ldelim}'id':'{$state.id_state}', 'name':'{$state.name|escape:'htmlall':'UTF-8'}'{rdelim});
-                        {/foreach}
-                    {/if}
-                {/foreach}
+            {foreach from=$countries item='country'}
+            {if isset($country.states) && $country.contains_states}
+            countries[{$country.id_country|intval}] = new Array();
+            {foreach from=$country.states item='state' name='states'}
+            countries[{$country.id_country|intval}].push({ldelim}'id':'{$state.id_state}', 'name':'{$state.name|escape:'htmlall':'UTF-8'}'{rdelim});
+            {/foreach}
             {/if}
-        //]]>
-    </script>
+            {/foreach}
+            {/if}
+            //]]>
+        </script>
 
         {if $isVirtualCart && $opc_config.virtual_no_delivery}
-        <input type="hidden" name="id_country" id="id_country"
-               value="{if isset($opc_config.online_country_id) && $opc_config.online_country_id > 0}{$opc_config.online_country_id}{else}8{/if}"/> {* 8=France, we choose some non-states country *}
-            {else}
-        <p class="required select"
-           {if !isset($opc_config.country_delivery) || !$opc_config.country_delivery}style="display: none;"{/if}>
-            <label for="id_country">{l s='Country' mod='onepagecheckout'}</label>
-            <select name="id_country" id="id_country">
-                <option value="">-</option>
-                {foreach from=$countries item=v}
-                    <option value="{$v.id_country}" {if (isset($guestInformations) AND $guestInformations.id_country == $v.id_country) OR ($def_country == $v.id_country ) OR (!isset($guestInformations) && ($def_country==0) && $sl_country == $v.id_country)}
+            <input type="hidden" name="id_country" id="id_country"
+                   value="{if isset($opc_config.online_country_id) && $opc_config.online_country_id > 0}{$opc_config.online_country_id}{else}8{/if}"/> {* 8=France, we choose some non-states country *}
+        {else}
+            <p class="required select"
+               {if !isset($opc_config.country_delivery) || !$opc_config.country_delivery}style="display: none;"{/if}>
+                <label for="id_country">{l s='Country' mod='onepagecheckout'}</label>
+                <select name="id_country" id="id_country">
+                    <option value="">-</option>
+                    {foreach from=$countries item=v}
+                        <option value="{$v.id_country}" {if (isset($guestInformations) AND $guestInformations.id_country == $v.id_country) OR ($def_country == $v.id_country ) OR (!isset($guestInformations) && ($def_country==0) && $sl_country == $v.id_country)}
                             selected="selected"{/if}>{$v.name|escape:'htmlall':'UTF-8'}</option>
-                {/foreach}
-            </select>
-        </p>
+                    {/foreach}
+                </select>
+            </p>
 
         {/if}
 
-    <p class="required id_state select">
-        <label for="id_state">{l s='State' mod='onepagecheckout'}</label>
-        <select name="id_state" id="id_state">
-            <option value="">-</option>
-        </select>
-    </p>
+        <p class="required id_state select">
+            <label for="id_state">{l s='State' mod='onepagecheckout'}</label>
+            <select name="id_state" id="id_state">
+                <option value="">-</option>
+            </select>
+        </p>
 
 
-    {include file="$opc_templates_path/order-carrier.tpl"} {*TODO: check this!*}
+        {include file="$opc_templates_path/order-carrier.tpl"} {*TODO: check this!*}
     {/if}
 
 

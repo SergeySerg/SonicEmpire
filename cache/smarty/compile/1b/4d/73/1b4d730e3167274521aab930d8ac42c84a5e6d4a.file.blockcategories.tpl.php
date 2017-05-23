@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-05-24 00:10:02
+<?php /* Smarty version Smarty-3.1.19, created on 2017-05-24 00:22:21
          compiled from "E:\Webserver\domains\sonicempire.loc\themes\sonicempire\modules\blockcategories\blockcategories.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:163315924a52ae368b7-65116477%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '1b4d730e3167274521aab930d8ac42c84a5e6d4a' => 
     array (
       0 => 'E:\\Webserver\\domains\\sonicempire.loc\\themes\\sonicempire\\modules\\blockcategories\\blockcategories.tpl',
-      1 => 1495553835,
+      1 => 1495574519,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5924a52ae871b2_56978427',
   'variables' => 
   array (
     'blockCategTree' => 0,
@@ -24,8 +26,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'page_name' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5924a52ae871b2_56978427',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5924a52ae871b2_56978427')) {function content_5924a52ae871b2_56978427($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['blockCategTree']->value&&count($_smarty_tpl->tpl_vars['blockCategTree']->value['children'])) {?>
 <!-- Block categories module -->
@@ -79,8 +79,8 @@ $_smarty_tpl->tpl_vars['child']->_loop = true;
     <!--Сортировка товара-->
 
     <?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['page_name']->value;?>
-<?php $_tmp7=ob_get_clean();?><?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['page_name']->value;?>
-<?php $_tmp8=ob_get_clean();?><?php if ($_tmp7=='manufacturer'||$_tmp8=='category') {?>
+<?php $_tmp1=ob_get_clean();?><?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['page_name']->value;?>
+<?php $_tmp2=ob_get_clean();?><?php if ($_tmp1=='manufacturer'||$_tmp2=='category') {?>
         <ul id="r-filters-open" class="col-xs-12 catalog">
             <li class="raund-filters">
                 <a href="#">Фильтры</a>

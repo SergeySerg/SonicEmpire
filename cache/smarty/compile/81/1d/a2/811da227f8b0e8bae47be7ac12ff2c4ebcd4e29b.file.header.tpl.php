@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-05-24 00:10:09
+<?php /* Smarty version Smarty-3.1.19, created on 2017-05-24 00:22:24
          compiled from "E:\Webserver\domains\sonicempire.loc\themes\sonicempire\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:127315924a5318d8ab8-03905859%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '811da227f8b0e8bae47be7ac12ff2c4ebcd4e29b' => 
     array (
       0 => 'E:\\Webserver\\domains\\sonicempire.loc\\themes\\sonicempire\\header.tpl',
-      1 => 1495572261,
+      1 => 1495574519,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5924a531a72c27_62334968',
   'variables' => 
   array (
     'language_code' => 0,
@@ -57,8 +59,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'cols' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5924a531a72c27_62334968',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5924a531a72c27_62334968')) {function content_5924a531a72c27_62334968($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'E:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\function.implode.php';
 ?><!DOCTYPE HTML>
@@ -257,8 +257,8 @@ content/6-contact">Контакты</a></li>
 </div>
 							</div>
 							<?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['page_name']->value;?>
-<?php $_tmp38=ob_get_clean();?><?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['page_name']->value;?>
-<?php $_tmp39=ob_get_clean();?><?php if ($_tmp38=='manufacturer'||$_tmp39=='category') {?>
+<?php $_tmp9=ob_get_clean();?><?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['page_name']->value;?>
+<?php $_tmp10=ob_get_clean();?><?php if ($_tmp9=='manufacturer'||$_tmp10=='category') {?>
 								</div>
 							<?php }?>
 						<?php }?>
