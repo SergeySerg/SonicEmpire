@@ -225,7 +225,7 @@
 
     <div class="order-button-block clearfix">
         <a href="#" class="button-in-cart back-to-cart">Назад в корзину</a>
-        <button class="button-in-cart my-checkout-confirmation" title="{l s='I confirm my order' mod='onepagecheckout'}" onclick="paymentModuleConfirm()"; type="submit">{l s='I confirm my order' mod='onepagecheckout'}</button>
+        <button class="button-in-cart my-checkout-confirmation" id='order_button' title="{l s='I confirm my order' mod='onepagecheckout'}" onclick="paymentModuleConfirm()"; type="submit">{l s='I confirm my order' mod='onepagecheckout'}</button>
     </div>
 </div>
 {/if}

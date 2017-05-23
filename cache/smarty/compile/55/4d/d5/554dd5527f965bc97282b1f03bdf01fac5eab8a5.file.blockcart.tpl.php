@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-05-23 18:48:38
+<?php /* Smarty version Smarty-3.1.19, created on 2017-05-24 00:10:02
          compiled from "E:\Webserver\domains\sonicempire.loc\themes\sonicempire\modules\blockcart\blockcart.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:81125890a6b45a7ef6-75716032%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:109065924a52a631881-47673266%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,12 +11,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '81125890a6b45a7ef6-75716032',
+  'nocache_hash' => '109065924a52a631881-47673266',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5890a6b532a4c0_74532629',
   'variables' => 
   array (
     'blockcart_top' => 0,
@@ -55,8 +53,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'img_dir' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5924a52ad533a1_88680231',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5890a6b532a4c0_74532629')) {function content_5890a6b532a4c0_74532629($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'E:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\modifier.replace.php';
+<?php if ($_valid && !is_callable('content_5924a52ad533a1_88680231')) {function content_5924a52ad533a1_88680231($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'E:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\modifier.replace.php';
 if (!is_callable('smarty_function_counter')) include 'E:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\function.counter.php';
 ?>
 <?php if (isset($_smarty_tpl->tpl_vars['blockcart_top']->value)&&$_smarty_tpl->tpl_vars['blockcart_top']->value) {?>

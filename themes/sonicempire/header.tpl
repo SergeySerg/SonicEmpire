@@ -43,6 +43,10 @@
 		{literal}<script type="text/javascript" src="/sweetalert/sweetalert.min.js"></script>{/literal}
         {literal}<script type="text/javascript" src="/themes/sonicempire/js/common.js?ver1.0.1"></script>{/literal}
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=latin,latin-ext" type="text/css" media="all" />
+		<!-- Select-->
+		<link href="/select/select2.min.css" rel="stylesheet" />
+		{literal}<script src="/select/select2.min.js"></script>{/literal}
+
 		<!--[if IE 8]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>

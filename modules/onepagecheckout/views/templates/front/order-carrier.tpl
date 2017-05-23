@@ -77,6 +77,28 @@
                                         </label>
                                     </td>-->
                                 </tr>
+                                {if $carrier.name == 'Новая почта' && $carrier.id_carrier == $checked}
+                                    <tr id="city_selector">
+                                        <select id="new_post_city" class="js-example-basic-single">
+                                            <option selected disabled>Выберите город</option>
+                                        </select>
+                                    </tr>
+                                    <div style="margin-top: 10px">
+                                        <tr id="department_selector">
+                                            <select id="new_post_department" class="js-example-basic-single">
+                                                <option selected disabled>Выберите отделение</option>
+
+                                            </select>
+                                        </tr>
+                                    </div>
+                            <script type="text/javascript">
+                                $(document).ready(function() {
+                                    $(".js-example-basic-single").select2();
+                                });
+                            </script>
+
+                        {/if}
+
                             {/foreach}
                             <tr id="HOOK_EXTRACARRIER">{$HOOK_EXTRACARRIER}</tr>
                         {/if}

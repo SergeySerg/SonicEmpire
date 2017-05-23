@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-05-23 18:48:41
+<?php /* Smarty version Smarty-3.1.19, created on 2017-05-24 00:10:09
          compiled from "E:\Webserver\domains\sonicempire.loc\themes\sonicempire\footer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:32065890a6b72d6b88-58169212%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:119275924a531e47484-44243972%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,12 +11,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '32065890a6b72d6b88-58169212',
+  'nocache_hash' => '119275924a531e47484-44243972',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5890a6b7313a36_61050540',
   'variables' => 
   array (
     'content_only' => 0,
@@ -25,8 +23,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'HOOK_FOOTER' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5924a531ead1f3_98458831',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5890a6b7313a36_61050540')) {function content_5890a6b7313a36_61050540($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'E:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\modifier.date_format.php';
+<?php if ($_valid && !is_callable('content_5924a531ead1f3_98458831')) {function content_5924a531ead1f3_98458831($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'E:\\Webserver\\domains\\sonicempire.loc\\tools\\smarty\\plugins\\modifier.date_format.php';
 ?><?php if (!isset($_smarty_tpl->tpl_vars['content_only']->value)||!$_smarty_tpl->tpl_vars['content_only']->value) {?>
 					</div><!-- #center_column -->
 					<!--<?php if (isset($_smarty_tpl->tpl_vars['right_column_size']->value)&&!empty($_smarty_tpl->tpl_vars['right_column_size']->value)) {?>
