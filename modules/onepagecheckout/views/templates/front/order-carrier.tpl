@@ -44,22 +44,22 @@
                         </thead>*}
                         <tbody>
                         {if isset($carriers)}
-                            {foreach from=$carriers item=carrier name=myLoop}
-                                <tr class="{if $smarty.foreach.myLoop.first}first_item{elseif $smarty.foreach.myLoop.last}last_item{/if} {if $smarty.foreach.myLoop.index % 2}alternate_item{else}item{/if}">
-                                    <td hidden>
-                                       <!-- <label>-->
-                                        <input type="radio" name="id_carrier" value="{$carrier.id_carrier|intval}"
-                                               id="id_carrier{$carrier.id_carrier|intval}"
-                                               onclick="updateCarrierSelectionAndGift();"
-                                               {if $carrier.id_carrier == $checked || $carriers|@count == 1}checked="checked"{/if} />
-                                       <!-- </label>-->
-                                    </td>
-                                    <td class="carierses_names">
-                                        <label for="id_carrier{$carrier.id_carrier|intval}" {if $carrier.id_carrier == $checked || $carriers|@count == 1} class="checked"{/if}>
-                                            {$carrier.name|escape:'htmlall':'UTF-8'}
-                                        </label>
-                                    </td>
-                                    <!--<td class="carrier_infos">
+                        {foreach from=$carriers item=carrier name=myLoop}
+                            <tr class="{if $smarty.foreach.myLoop.first}first_item{elseif $smarty.foreach.myLoop.last}last_item{/if} {if $smarty.foreach.myLoop.index % 2}alternate_item{else}item{/if}">
+                                <td hidden>
+                                    <!-- <label>-->
+                                    <input type="radio" name="id_carrier" value="{$carrier.id_carrier|intval}"
+                                           id="id_carrier{$carrier.id_carrier|intval}"
+                                           onclick="updateCarrierSelectionAndGift();"
+                                           {if $carrier.id_carrier == $checked || $carriers|@count == 1}checked="checked"{/if} />
+                                    <!-- </label>-->
+                                </td>
+                                <td class="carierses_names">
+                                    <label for="id_carrier{$carrier.id_carrier|intval}" {if $carrier.id_carrier == $checked || $carriers|@count == 1} class="checked"{/if}>
+                                        {$carrier.name|escape:'htmlall':'UTF-8'}
+                                    </label>
+                                </td>
+                                <!--<td class="carrier_infos">
                                         <label for="id_carrier{$carrier.id_carrier|intval}">
                                             {$carrier.delay|escape:'htmlall':'UTF-8'}
                                         </label>
@@ -76,34 +76,36 @@
                                             {/if}
                                         </label>
                                     </td>-->
-                                </tr>
-                                {if $carrier.name == 'Новая почта' && $carrier.id_carrier == $checked}
-                                    <tr id="city_selector">
-                                        <select id="new_post_city" class="js-example-basic-single">
-                                            <option selected disabled>Выберите город</option>
-                                        </select>
-                                    </tr>
-                                    <div style="margin-top: 10px">
-                                        <tr id="department_selector">
-                                            <select id="new_post_department" class="js-example-basic-single">
-                                                <option selected disabled>Выберите отделение</option>
+                            </tr>
+                        {if $carrier.name == 'Новая почта' && $carrier.id_carrier == $checked}
+                            <tr id="city_selector">
+                                <select id="new_post_city" class="js-example-basic-single">
+                                    <option selected disabled>Выберите город</option>
 
-                                            </select>
-                                        </tr>
-                                    </div>
+                                </select>
+                            </tr>
+                            <div style="margin-top: 10px">
+                                <tr id="department_selector">
+                                    <select id="new_post_department" class="js-example-basic-single">
+                                        <option selected disabled>Выберите отделение</option>
+
+                                    </select>
+                                </tr>
+                            </div>
+                        {/if}
+
+                        {/foreach}
+                            <tr id="HOOK_EXTRACARRIER">{$HOOK_EXTRACARRIER}</tr>
+
                             <script type="text/javascript">
                                 $(document).ready(function() {
                                     $(".js-example-basic-single").select2();
                                 });
                             </script>
-
-                        {/if}
-
-                            {/foreach}
-                            <tr id="HOOK_EXTRACARRIER">{$HOOK_EXTRACARRIER}</tr>
                         {/if}
                         </tbody>
                     </table>
+
 
                     <div style="display: none;" id="extra_carrier"></div>
                     {if $recyclablePackAllowed && !isset($onlyCartSummary)}
