@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-05-24 00:22:24
+<?php /* Smarty version Smarty-3.1.19, created on 2017-05-24 00:36:40
          compiled from "E:\Webserver\domains\sonicempire.loc\themes\sonicempire\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:127315924a5318d8ab8-03905859%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '811da227f8b0e8bae47be7ac12ff2c4ebcd4e29b' => 
     array (
       0 => 'E:\\Webserver\\domains\\sonicempire.loc\\themes\\sonicempire\\header.tpl',
-      1 => 1495574519,
+      1 => 1495575383,
       2 => 'file',
     ),
   ),
