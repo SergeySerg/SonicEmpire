@@ -150,7 +150,7 @@
                     <p id="order_msg_placeholder_fallback">{l s='If you would like to add a comment about your order, please write it below.' mod='onepagecheckout'}</p>
 
                     <p><div class="textarea-wrapper"><textarea rows="3" name="message" id="message"
-                                 placeholder="{l s='If you would like to add a comment about your order, please write it here.' mod='onepagecheckout'}">{if isset($oldMessage)}{$oldMessage}{/if}</textarea></div>
+                                 placeholder="{l s='If you would like to add a comment about your order, please write it here.' mod='onepagecheckout'}"></textarea></div>
                     </p>
                 </div>
             {/if}

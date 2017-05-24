@@ -399,101 +399,127 @@
             <a class="button-in-cart back-to-shopping" href="{if (isset($smarty.server.HTTP_REFERER) && strstr($smarty.server.HTTP_REFERER, '{$opckt_script_name}')) || !isset($smarty.server.HTTP_REFERER)}{$link->getPageLink('index.php')|escape:'htmlall':'UTF-8'}{else}{$smarty.server.HTTP_REFERER|escape:'htmlall':'UTF-8'|secureReferrer}{/if}"
                title="{l s='Continue shopping' mod='onepagecheckout'}">
                 {l s='Continue shopping' mod='onepagecheckout'}</a>{if !isset($onlyCartSummary)}<a href="#" id="pay" class="button-in-cart my-checkout">Оформление заказа</a>{/if}
-            <script>
+<script>
 
-                function init_np(){
-                    var params = {
-                        "modelName": "Address",
-                        "calledMethod": "getCities",
-                        "apiKey": "00027d5266127c44b3bf1ad408d59bf0"
-                    };
-                    $.ajax({
-                        url: 'https://api.novaposhta.ua/v2.0/json/?' + $.param(params),
-                        method: "POST",
-                        data : params,
-                        contentType:"application/json",
-                        dataType : "jsonp",
-                        success: function(data) {
-                            var content = data.data;
-                            content.forEach(function(item){
-                                console.log(item)
-                                $('#new_post_city').append('<option data-ref="' + item.Ref +'">' + item.DescriptionRu +'</option>')
-                            });
 
-                        },
-                        error: function(respons) {
-                            console.log(respons.success);
-                        }
-                    },'json');
-
-                };
-
-                $(function(){
-                    /*Init NP when click on link*/
-                    $('div.inner-table').on('click','label[for="id_carrier211000"]', function(){
-                        init_np();
-                    });
-                    /*Init NP when click on button Order*/
-                    $('#pay').on('click',function(){
-                        init_np();
-                    });
-                    /*Department*/
-                    $('div.inner-table').on('change','#new_post_city', function(){
-                        var ref = $("#new_post_city option:selected").attr('data-ref');
-                        var city = $("#new_post_city option:selected").text;
-                        $("#new_post_department").find('option').remove();
-                        var data = {
-                            "modelName": "AddressGeneral",
-                            "calledMethod": "getWarehouses",
-                            "methodProperties": {
-                                "CityName": city,
-                                "CityRef": ref
-                            },
-                            "apiKey": "00027d5266127c44b3bf1ad408d59bf0"
-                        };
-                        $.ajax({
-                            url: 'https://api.novaposhta.ua/v2.0/json/?' + $.param(data),
-                            method: "POST",
-                            data : data,
-                            contentType:"application/json",
-                            dataType : "jsonp",
-                            success: function(data) {
-                                var department = data.data;
-                                department.forEach(function(item){
-                                    console.log(item)
-                                    $('#new_post_department').append('<option data-ref="' + item.Ref +'">' + item.DescriptionRu +'</option>')
-                                });
-
-                            },
-                            error: function(respons) {
-                                console.log(respons.success);
-                            }
-                        },'json');
-                    });
-
-                    /*Send info about city and department post*/
-                    $('table#paymentMethodsTable').on('click',function(){
-                        var city = $('#select2-new_post_city-container').text();
-                        var department = $('#select2-new_post_department-container').text();
-                        var message = $('textarea#message').val('Город доставки - ' + city + "</br>" + "Отделение доставки - " + department);
-                    });
-                    $('.my-checkout').on('click', function(e){
-                        $('.order-button-block-top').fadeOut('100');
-                        $('.buy-block-cart').fadeIn('1000');
-                        $.scrollTo('.order-button-block-top', 1000);
-                        e.preventDefault();
-                    });
-
-                    $('.back-to-cart').on('click', function(e){
-                        $('.buy-block-cart').fadeOut('500');
-                        $.scrollTo('#content', 500);
-                        $('.order-button-block-top').fadeIn('1000');
-                        e.preventDefault();
-                    });
-
+$(function(){
+    /*Init NP when click on link*/
+    $('div.inner-table').on('click','label[for="id_carrier211000"]', function(){
+        init_np();
+    });
+    /*Init NP when click on button Order*/
+    $('#pay').on('click',function(){
+        init_np();
+    });
+    /*Department*/
+    $('div.inner-table').on('change','#new_post_city', function(){
+        var ref = $("#new_post_city option:selected").attr('data-ref');
+        var city = $("#new_post_city option:selected").text;
+        $("#new_post_department").find('option').remove();
+        var data = {
+            "modelName": "AddressGeneral",
+            "calledMethod": "getWarehouses",
+            "methodProperties": {
+                "CityName": city,
+                "CityRef": ref
+            },
+            "apiKey": "00027d5266127c44b3bf1ad408d59bf0"
+        };
+        $.ajax({
+            url: 'https://api.novaposhta.ua/v2.0/json/?' + $.param(data),
+            method: "POST",
+            data : data,
+            contentType:"application/json",
+            dataType : "jsonp",
+            success: function(data) {
+                var department = data.data;
+                department.forEach(function(item){
+                    console.log(item);
+                    $('#new_post_department').append('<option data-ref="' + item.Ref +'">' + item.DescriptionRu +'</option>')
                 });
 
-            </script>
+            },
+            error: function(respons) {
+                console.log(respons.success);
+            }
+        },'json');
+    });
+
+    /*Send info about city and department post*/
+    $('table#paymentMethodsTable').on('click',function(){
+        setTimeout(1000);
+        var city = $('#select2-new_post_city-container').text();
+        var department = $('#select2-new_post_department-container').text();
+        var message = $('textarea#message').val('Город доставки - ' + city  + " Отделение доставки - " + department);
+        $('textarea#message').trigger('blur');
+        console.info(message.length);
+    });
+    $('.my-checkout').on('click', function(e){
+        $('.order-button-block-top').fadeOut('100');
+        $('.buy-block-cart').fadeIn('1000');
+        $.scrollTo('.order-button-block-top', 1000);
+        e.preventDefault();
+    });
+
+    $('.back-to-cart').on('click', function(e){
+        $('.buy-block-cart').fadeOut('500');
+        $.scrollTo('#content', 500);
+        $('.order-button-block-top').fadeIn('1000');
+        e.preventDefault();
+    });
+
+});
+function init_np(){
+    var params = {
+        "modelName": "Address",
+        "calledMethod": "getCities",
+        "apiKey": "00027d5266127c44b3bf1ad408d59bf0"
+    };
+
+    var addingNewPostCityIteration = 0;
+
+    var addNewPostCities = function(content){
+        //console.info('FUNC >> addNewPostCities', arguments);
+        //console.info('addingNewPostCityIteration =', addingNewPostCityIteration);
+
+        if(addingNewPostCityIteration > 10){
+            alert('Ошибка получения списка городов Ново Почты. Повторите попытку позже.');
+            return;
+        }
+
+        addingNewPostCityIteration++;
+
+        if($('#new_post_city').length){
+            content.forEach(function(item) {
+                $('#new_post_city').append('<option data-ref="' + item.Ref + '">' + item.DescriptionRu + '</option>');
+            });
+            addingNewPostCityIteration = 0;
+        }else{
+            setTimeout(function(){
+                addNewPostCities(content)
+            }, 1000);
+        }
+    };
+
+    $.ajax({
+        url: 'https://api.novaposhta.ua/v2.0/json/?' + $.param(params),
+        method: "POST",
+        data : params,
+        contentType:"application/json",
+        dataType : "jsonp",
+        success: function(data) {
+            var content = data.data;
+            addNewPostCities(content);
+
+        },
+        error: function(respons) {
+            console.log(respons.success);
+        }
+    },'json');
+}
+
+
+</script>
         </div>
 
 

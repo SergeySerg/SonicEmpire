@@ -2394,6 +2394,7 @@ var invoice_address_on_ready_call = true;
 function bindInputs() {
     // Order message update
     $('#message').unbind('blur').blur(function () {
+        //alert('ewe');
         //$('#opc_delivery_methods-overlay').fadeIn('slow');
         $.ajax({
             type:'POST',
