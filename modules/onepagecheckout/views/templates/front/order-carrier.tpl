@@ -141,7 +141,7 @@
                     {/if}
                 {/if}
             {/if}
-            <div id="message_container">
+            <div id="message_container" style="display: none">
             {if isset($opc_config.order_msg) && $opc_config.order_msg && !isset($onlyCartSummary)}
                 {if !isset($opc_config.compact_form) || !$opc_config.compact_form}
                     <h4>{l s='Leave a message' mod='onepagecheckout'}</h4>
