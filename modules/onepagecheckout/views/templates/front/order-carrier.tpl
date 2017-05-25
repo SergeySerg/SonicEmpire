@@ -93,6 +93,22 @@
                                 </tr>
                             </div>
                         {/if}
+                        {if $carrier.name == 'Интайм' && $carrier.id_carrier == $checked}
+                            <tr >
+                                <select id="intime_post_city"  class="js-example-basic-single">
+                                    <option selected disabled>Выберите город</option>
+
+                                </select>
+                            </tr>
+                            <div style="margin-top: 10px">
+                                <tr id="intime_department_selector">
+                                    <select id="intime_post_department" class="js-example-basic-single">
+                                        <option selected disabled>Адрес отделения</option>
+
+                                    </select>
+                                </tr>
+                            </div>
+                        {/if}
 
                         {/foreach}
                             <tr id="HOOK_EXTRACARRIER">{$HOOK_EXTRACARRIER}</tr>
