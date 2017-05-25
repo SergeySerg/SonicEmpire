@@ -584,6 +584,8 @@ class IntimeApi2 {
 /*Get Intime Cities*/
 switch ($_GET['service']){
 	case 'intime':
+		ini_set('soap.wsdl_cache_enabled',0);
+		ini_set('soap.wsdl_cache_ttl',0);
 		set_time_limit(90);
 		$intimeApi = new IntimeApi2('‎7503756', '7053d30f-411e-11e7-b8c6-0050569f026d');
 		$result = $intimeApi->catalogList('Departments');
