@@ -28,7 +28,7 @@
 					{/foreach}
 					<![endif]-->
 				{else}
-					<link rel="stylesheet" href="{$css_uri|escape:'html':'UTF-8'}?ver1.0.1" type="text/css" media="{$media|escape:'html':'UTF-8'}" />
+					<link rel="stylesheet" href="{$css_uri|escape:'html':'UTF-8'}?ver1.0.2" type="text/css" media="{$media|escape:'html':'UTF-8'}" />
 				{/if}
 			{/foreach}
 		{/if}

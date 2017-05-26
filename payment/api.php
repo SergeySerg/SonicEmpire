@@ -21,7 +21,7 @@
  *
  */
 
-/**
+/** 
  * Payment method liqpay process
  *
  * @author Liqpay <support@liqpay.com>
