@@ -1,5 +1,4 @@
 $(function(){
-	
 	/*картинки од лого*/
 	$('.manuf-description-dropdown img').each(function () {
 		var parId = $(this).parents('li').attr('id');
@@ -13,7 +12,29 @@ $(function(){
 		$('.under-logo').toggleClass('under-logo-active');
 	});
 	/*END картинки од лого*/
-	
+	/*картинки для категорий*/
+	$('#category_description_full img, .small_description img').each(function () {
+		var catId = 'category-gallery';
+		var imgDesc = $(this).attr('alt');
+		var imgPath = $(this).attr('src');
+		$("<a class='cat-gallery no-loader' rel="+ catId +" title='"+ imgDesc +"' href='"+ imgPath +"'><img src='"+ imgPath +"' /><p>" + imgDesc + "</p></a>").appendTo('#'+ catId);
+		$('img[alt="'+ imgDesc +'"]').remove();
+	});
+	$(".cat-gallery").fancybox();
+	/*END картинки  для категорий*/
+	/*картинки од лого*/
+/*
+	$('.small_description img').each(function () {
+		var catId = 'category-gallery';
+		var imgDesc = $(this).attr('alt');
+		var imgPath = $(this).attr('src');
+		$("<a class='cat-gallery no-loader' rel="+ catId +" title='"+ imgDesc +"' href='"+ imgPath +"'><img src='"+ imgPath +"' /><p>" + imgDesc + "</p></a>").appendTo('#'+ catId);
+		$('img[alt="'+ imgDesc +'"]').remove();
+	});
+	$(".cat-gallery").fancybox();
+*/
+	/*END картинки од лого*/
+
 	
 	$('.manuf li a').on('click', function (e) {
 		var $a = $(this);

@@ -9840,6 +9840,35 @@ opacity: 0;
 	filter: none;
 }
 /*img under logo*/
+/*img in category*/
+#category-gallery{
+  float: left;
+  width: 33%;
+  margin-right: 20px;
+}
+#category-gallery img{
+  width: 100%;
+  height: auto;
+  -webkit-filter: grayscale(100%) brightness(168%);
+  filter: grayscale(100%) brightness(168%);
+}
+.small_description #category-gallery{
+  width: 100%;
+  margin-right: 0;
+}
+.small_description #category-gallery a{
+  width: 30%;
+  display: inline-block;
+  margin-right: 3%;
+}
+#category-gallery img:hover{
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+#category-gallery p{
+  text-align: center;
+}
+/*END img in category*/
 .under-logo{
   display: none;
 }
