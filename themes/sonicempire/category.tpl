@@ -11,11 +11,12 @@
 					<div id="category_description_short">{$description_short}</div>
 					<div id="category_description_full" class="unvisible clearfix">
 						<div id="category-gallery"></div>
+						<div id="category-gallery-big"></div>
 						{$category->description}
 					</div>
 					<a href="#" class="lnk_more">Подробнее<i class="fa fa-angle-down"></i></a>
 				{else}
-					<div class="clearfix small_description"><div id="category-gallery"></div>{$category->description}</div>
+					<div class="clearfix small_description"><div id="category-gallery"></div><div id="category-gallery-big"></div>{$category->description}</div>
 				{/if}
 			</div>
 		{/if}

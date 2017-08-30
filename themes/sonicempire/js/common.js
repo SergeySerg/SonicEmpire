@@ -13,29 +13,23 @@ $(function(){
 	});
 	/*END картинки од лого*/
 	/*картинки для категорий*/
-	$('#category_description_full img, .small_description img').each(function () {
+	$('#category_description_full img:not(.normal), .small_description img:not(.normal)').each(function () {
 		var catId = 'category-gallery';
 		var imgDesc = $(this).attr('alt');
 		var imgPath = $(this).attr('src');
 		$("<a class='cat-gallery no-loader' rel="+ catId +" title='"+ imgDesc +"' href='"+ imgPath +"'><img src='"+ imgPath +"' /><p>" + imgDesc + "</p></a>").appendTo('#'+ catId);
+		$('img[alt="'+ imgDesc +'"]').remove();
+	});
+	$('#category_description_full img.normal, .small_description img.normal').each(function () {
+		var catId = 'category-gallery-big';
+		var imgDesc = $(this).attr('alt');
+		var imgPath = $(this).attr('src');
+		$("<a class='cat-gallery normal-img no-loader' rel="+ catId +" title='"+ imgDesc +"' href='"+ imgPath +"'><img class='normal' src='"+ imgPath +"' /><p>" + imgDesc + "</p></a>").appendTo('#'+ catId);
 		$('img[alt="'+ imgDesc +'"]').remove();
 	});
 	$(".cat-gallery").fancybox();
 	/*END картинки  для категорий*/
-	/*картинки од лого*/
-/*
-	$('.small_description img').each(function () {
-		var catId = 'category-gallery';
-		var imgDesc = $(this).attr('alt');
-		var imgPath = $(this).attr('src');
-		$("<a class='cat-gallery no-loader' rel="+ catId +" title='"+ imgDesc +"' href='"+ imgPath +"'><img src='"+ imgPath +"' /><p>" + imgDesc + "</p></a>").appendTo('#'+ catId);
-		$('img[alt="'+ imgDesc +'"]').remove();
-	});
-	$(".cat-gallery").fancybox();
-*/
-	/*END картинки од лого*/
 
-	
 	$('.manuf li a').on('click', function (e) {
 		var $a = $(this);
 		$('#columns').animate({opacity: 0}, 500);

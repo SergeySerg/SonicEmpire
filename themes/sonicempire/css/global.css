@@ -108,6 +108,10 @@ b,
 strong {
   font-weight: bold; }
 
+p b,
+p strong {
+  font-weight: bold; }
+
 dfn {
   font-style: italic; }
 
@@ -9846,7 +9850,7 @@ opacity: 0;
   width: 33%;
   margin-right: 20px;
 }
-#category-gallery img{
+#category-gallery img:not(.normal){
   width: 100%;
   height: auto;
   -webkit-filter: grayscale(100%) brightness(168%);
@@ -9861,12 +9865,21 @@ opacity: 0;
   display: inline-block;
   margin-right: 3%;
 }
+.small_description #category-gallery a.normal-img{
+  width: 100%;
+  display: inline-block;
+  margin-right: 3%;
+}
 #category-gallery img:hover{
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
 }
 #category-gallery p{
   text-align: center;
+}
+img.normal{
+  max-width: 100%;
+  height: auto;
 }
 /*END img in category*/
 .under-logo{
